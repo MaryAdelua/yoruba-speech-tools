@@ -1,0 +1,121 @@
+﻿review_priority,prompt_id,audio_filename,yoruba_expected,english_meaning,contrast_group_ids,voiced_ratio,transcript_matches_audio,all_words_spoken,pronunciation_natural,notes_or_correction,review_status
+0,0122,audio_wav_24k/speaker01_0122.wav,Ṣé o ti jẹun?,Have you eaten?,,0.2356,yes,yes,yes,none,verified_by_speaker
+1,0101,audio_wav_24k/speaker01_0101.wav,Mo rí ọkọ̀ tuntun ní òpópónà.,I saw a new vehicle on the road.,C01,0.5949,yes,yes,yes,none,verified_by_speaker
+1,0102,audio_wav_24k/speaker01_0102.wav,Ọdẹ náà gbé ọ̀kọ̀ rẹ̀.,The hunter carried his spear.,C01,0.4434,yes,yes,yes,none,verified_by_speaker
+1,0103,audio_wav_24k/speaker01_0103.wav,Ọkọ Adé dé láti ibise.,Ade's husband returned from work.,C01,0.4959,yes,yes,yes,none,verified_by_speaker
+1,0104,audio_wav_24k/speaker01_0104.wav,Bàbá mi lọ sí oko ní òwúrọ̀.,My father went to the farm in the morning.,C01,0.5728,yes,yes,yes,none,verified_by_speaker
+1,0105,audio_wav_24k/speaker01_0105.wav,Mo fi owó ra oúnjẹ.,I used money to buy food.,C02,0.5341,yes,yes,yes,none,verified_by_speaker
+1,0106,audio_wav_24k/speaker01_0106.wav,Fọ ọwọ́ rẹ kí o tó jẹun.,Wash your hands before you eat.,C02,0.4485,yes,yes,yes,none,verified_by_speaker
+1,0107,audio_wav_24k/speaker01_0107.wav,Ìgbà wo ni o máa dé?,What time will you arrive?,C03,0.4664,yes,yes,yes,none,verified_by_speaker
+1,0108,audio_wav_24k/speaker01_0108.wav,Ìyá fi omi sínú igbá.,Mother put water in the calabash.,C03,0.44,yes,yes,yes,none,verified_by_speaker
+1,0131,audio_wav_24k/speaker01_0131.wav,Ará Èkó ni Bọ́lá.,Bola is a resident of Lagos.,C04,0.4491,yes,yes,yes,none,verified_by_speaker
+1,0132,audio_wav_24k/speaker01_0132.wav,Ara ọmọ náà gbóná.,The child's body is hot.,C04,0.4868,yes,yes,yes,none,verified_by_speaker
+1,0133,audio_wav_24k/speaker01_0133.wav,Àrá ń sán lókè ọ̀run.,Thunder is rumbling in the sky.,C04,0.5481,yes,yes,yes,none,verified_by_speaker
+1,0137,audio_wav_24k/speaker01_0137.wav,Bàbá mi ń ṣe òwò ní ọjà.,My father trades at the market.,C02,0.5018,yes,yes,yes,none,verified_by_speaker
+1,0138,audio_wav_24k/speaker01_0138.wav,Owó náà wà nínú àpò mi.,The money is in my bag.,C02,0.5901,yes,yes,yes,none,verified_by_speaker
+1,0139,audio_wav_24k/speaker01_0139.wav,Ọwọ́ mi mọ́.,My hand is clean.,C02,0.443,yes,yes,yes,none,verified_by_speaker
+1,0140,audio_wav_24k/speaker01_0140.wav,Mo dé ní ìgbà tó yẹ.,I arrived at the right time.,C03,0.5607,yes,yes,yes,none,verified_by_speaker
+1,0141,audio_wav_24k/speaker01_0141.wav,Ìyá gbé igbá náà kalẹ̀.,Mother put the calabash down.,C03,0.4519,yes,yes,yes,none,verified_by_speaker
+1,0142,audio_wav_24k/speaker01_0142.wav,Mo kọ́ ẹ̀kọ́ tuntun lónìí.,I learned a new lesson today.,C05,0.5305,yes,yes,yes,none,verified_by_speaker
+1,0143,audio_wav_24k/speaker01_0143.wav,Ọmọ náà jẹ ẹ̀kọ ní òwúrọ̀.,The child ate corn pap in the morning.,C05,0.44,yes,yes,yes,none,verified_by_speaker
+1,0144,audio_wav_24k/speaker01_0144.wav,Bọ́lá lọ sí ilé ẹ̀kọ́.,Bola went to school.,C05,0.5845,yes,yes,yes,none,verified_by_speaker
+1,0145,audio_wav_24k/speaker01_0145.wav,Kúnlé lọ sí ọjà.,Kunle went to the market.,C11,0.4665,,,,,pending
+1,0146,audio_wav_24k/speaker01_0146.wav,Kúnlé ò lọ sí ọjà.,Kunle did not go to the market.,C11,0.5015,,,,,pending
+1,0147,audio_wav_24k/speaker01_0147.wav,Ó ti dé ilé.,He or she has arrived home.,C12,0.4678,,,,,pending
+1,0148,audio_wav_24k/speaker01_0148.wav,Kò tíì dé ilé.,He or she has not arrived home yet.,C12,0.4818,,,,,pending
+1,0149,audio_wav_24k/speaker01_0149.wav,Ṣé Bọ́lá ti jí?,Has Bola woken up?,C13,0.4325,,,,,pending
+1,0150,audio_wav_24k/speaker01_0150.wav,Bọ́lá ti jí.,Bola has woken up.,C13,0.4672,,,,,pending
+1,0151,audio_wav_24k/speaker01_0151.wav,Adé ni ó ra ìwé náà.,It was Ade who bought the book.,C14,0.5055,,,,,pending
+1,0152,audio_wav_24k/speaker01_0152.wav,Adé ra ìwé náà.,Ade bought the book.,C14,0.4025,,,,,pending
+1,0161,audio_wav_24k/speaker01_0161.wav,Adé kọ́ ilé tuntun.,Ade built a new house.,C06,0.3154,,,,,pending
+1,0162,audio_wav_24k/speaker01_0162.wav,Adé kọ lẹ́tà sí mi.,Ade wrote a letter to me.,C06,0.418,,,,,pending
+1,0163,audio_wav_24k/speaker01_0163.wav,Adé kọ̀ láti lọ.,Ade refused to go.,C06,0.4073,,,,,pending
+1,0164,audio_wav_24k/speaker01_0164.wav,Yàrá náà mọ́.,The room is clean.,C07,0.3701,,,,,pending
+1,0165,audio_wav_24k/speaker01_0165.wav,"Jọ̀wọ́, yára dé síbí.",Please come here quickly.,C07,0.4361,,,,,pending
+1,0169,audio_wav_24k/speaker01_0169.wav,Ọmọ náà ń fọ aṣọ rẹ̀.,The child is washing his or her clothes.,C08,0.3966,,,,,pending
+1,0170,audio_wav_24k/speaker01_0170.wav,Má fọ́ ife náà.,Do not break the cup.,C08,0.3517,,,,,pending
+1,0191,audio_wav_24k/speaker01_0191.wav,Ìlú náà tóbi.,The town is large.,C09,0.414,,,,,pending
+1,0192,audio_wav_24k/speaker01_0192.wav,Ọmọ náà ń lu ìlù.,The child is beating a drum.,C09,0.427,,,,,pending
+1,0193,audio_wav_24k/speaker01_0193.wav,Ìyá mi wà nílé.,My mother is at home.,C10,0.3514,,,,,pending
+1,0194,audio_wav_24k/speaker01_0194.wav,Ọmọ náà bẹ̀rù ìyà.,The child is afraid of punishment.,C10,0.4303,,,,,pending
+1,0199,audio_wav_24k/speaker01_0199.wav,Tan iná yàrá náà.,Turn on the room light.,C15,0.4591,,,,,pending
+1,0200,audio_wav_24k/speaker01_0200.wav,Pa iná yàrá náà.,Turn off the room light.,C15,0.4386,,,,,pending
+1,0205,audio_wav_24k/speaker01_0205.wav,Mo gbọ́ ọ dáadáa.,I can hear you clearly.,C16,0.6982,,,,,pending
+1,0206,audio_wav_24k/speaker01_0206.wav,Mi ò gbọ́ ohun tí o sọ.,I did not hear what you said.,C16,0.5974,,,,,pending
+1,0211,audio_wav_24k/speaker01_0211.wav,Èmi ni mo ṣe é.,I am the one who did it.,C17,0.5882,,,,,pending
+1,0212,audio_wav_24k/speaker01_0212.wav,Èmi kò ṣe é.,I did not do it.,C17,0.3767,,,,,pending
+2,0109,audio_wav_24k/speaker01_0109.wav,Òjò ń rọ̀ lónìí.,It is raining today.,,0.4781,,,,,pending
+2,0110,audio_wav_24k/speaker01_0110.wav,Ojú n dùn mi,My eye hurts.,,0.4286,,,,,pending
+2,0111,audio_wav_24k/speaker01_0111.wav,Ẹja náà wà nínú omi.,The fish is in the water.,,0.549,,,,,pending
+2,0112,audio_wav_24k/speaker01_0112.wav,Adé ra ewé ní ọjà.,Ade bought leaves at the market.,,0.5243,,,,,pending
+2,0113,audio_wav_24k/speaker01_0113.wav,Ọmọ náà jókòó.,The child sat down.,,0.502,,,,,pending
+2,0114,audio_wav_24k/speaker01_0114.wav,Mo ra ọ̀bẹ tuntun.,I bought a new knife.,,0.6103,,,,,pending
+2,0115,audio_wav_24k/speaker01_0115.wav,Ṣadé ń ṣe oúnjẹ.,Sade is cooking.,,0.516,,,,,pending
+2,0116,audio_wav_24k/speaker01_0116.wav,Ṣẹ́gun sọ òtítọ́.,Segun told the truth.,,0.48,,,,,pending
+2,0117,audio_wav_24k/speaker01_0117.wav,"Ẹ jọ̀wọ́, ẹ ṣí ilẹ̀kùn.",Please open the door.,,0.5309,,,,,pending
+2,0118,audio_wav_24k/speaker01_0118.wav,Omi náà tutù.,The water is cold.,,0.4417,,,,,pending
+2,0119,audio_wav_24k/speaker01_0119.wav,Ọ̀rẹ́ mi fẹ́ ra ẹja.,My friend wants to buy fish.,,0.4106,,,,,pending
+2,0120,audio_wav_24k/speaker01_0120.wav,Ẹ̀gbọ́n mi ń ka ìwé.,My older sibling is reading a book.,,0.4983,,,,,pending
+2,0121,audio_wav_24k/speaker01_0121.wav,"Báwo ni, o ṣe wà?",How are you?,,0.508,,,,,pending
+2,0123,audio_wav_24k/speaker01_0123.wav,Mo fẹ́ lọ sí ilé.,I want to go home.,,0.4305,,,,,pending
+2,0124,audio_wav_24k/speaker01_0124.wav,"Jọ̀wọ́, fún mi ní omi.",Please give me water.,,0.4615,,,,,pending
+2,0125,audio_wav_24k/speaker01_0125.wav,A ó pàdé lọ́la.,We will meet tomorrow.,,0.4393,,,,,pending
+2,0126,audio_wav_24k/speaker01_0126.wav,Ọjọ́ náà dára gan-an.,The day was very good.,,0.5752,,,,,pending
+2,0127,audio_wav_24k/speaker01_0127.wav,Mo gbọ́ ohun tí o sọ.,I heard what you said.,,0.3818,,,,,pending
+2,0128,audio_wav_24k/speaker01_0128.wav,Ṣé o lè ràn mí lọ́wọ́?,Can you help me?,,0.3615,,,,,pending
+2,0129,audio_wav_24k/speaker01_0129.wav,"Jọ̀wọ́, pa ilẹ̀kùn de.",Please close the door.,,0.4133,,,,,pending
+2,0130,audio_wav_24k/speaker01_0130.wav,Inú mi dùn láti rí ẹ!,I am happy to see you!,,0.434,,,,,pending
+2,0134,audio_wav_24k/speaker01_0134.wav,Ogun náà parí ní àná.,The war ended yesterday.,,0.4751,,,,,pending
+2,0135,audio_wav_24k/speaker01_0135.wav,Dókítà fún mi ní oògùn.,The doctor gave me medicine.,,0.4905,,,,,pending
+2,0136,audio_wav_24k/speaker01_0136.wav,Kúnlé jogún ilé bàbá rẹ̀.,Kunle inherited his father's house.,,0.4812,,,,,pending
+2,0153,audio_wav_24k/speaker01_0153.wav,Ẹ má ṣe bẹ̀rù.,Do not be afraid.,,0.4032,,,,,pending
+2,0154,audio_wav_24k/speaker01_0154.wav,"Ẹ jọ̀wọ́, ẹ tún un sọ.",Please say it again.,,0.4343,,,,,pending
+2,0155,audio_wav_24k/speaker01_0155.wav,Mo fẹ́ kí o wá ní báyìí.,I want you to come now.,,0.6179,,,,,pending
+2,0156,audio_wav_24k/speaker01_0156.wav,"Nígbà tí mo dé, wọ́n ti lọ.","By the time I arrived, they had left.",,0.5793,,,,,pending
+2,0157,audio_wav_24k/speaker01_0157.wav,"Bí òjò bá rọ̀, a ó dúró sí ilé.","If it rains, we will stay at home.",,0.5418,,,,,pending
+2,0158,audio_wav_24k/speaker01_0158.wav,Ìpàdé náà bẹ̀rẹ̀ ní aago mẹ́wàá.,The meeting began at ten o'clock.,,0.5045,,,,,pending
+2,0159,audio_wav_24k/speaker01_0159.wav,Mo ra ọ̀gẹ̀dẹ̀ méje ní ọjà.,I bought seven bananas at the market.,,0.5822,,,,,pending
+2,0160,audio_wav_24k/speaker01_0160.wav,Inú mi kò dùn sí ohun tí ó ṣẹlẹ̀.,I am unhappy about what happened.,,0.5683,,,,,pending
+2,0166,audio_wav_24k/speaker01_0166.wav,Agbẹ̀ náà gbin àgbàdo.,The farmer planted maize.,,0.564,,,,,pending
+2,0167,audio_wav_24k/speaker01_0167.wav,Gbádé gbé àpótí náà.,Gbade lifted the box.,,0.4484,,,,,pending
+2,0168,audio_wav_24k/speaker01_0168.wav,Ṣọ́lá ra ṣúgà àti iyọ̀.,Sola bought sugar and salt.,,0.3722,,,,,pending
+2,0171,audio_wav_24k/speaker01_0171.wav,Ta ni ó dé?,Who arrived?,,0.342,,,,,pending
+2,0172,audio_wav_24k/speaker01_0172.wav,Kí ni o fẹ́?,What do you want?,,0.2982,,,,,pending
+2,0173,audio_wav_24k/speaker01_0173.wav,Níbo ni wọ́n ń lọ?,Where are they going?,,0.3355,,,,,pending
+2,0174,audio_wav_24k/speaker01_0174.wav,Èló ni ó jẹ́?,How much is it?,,0.3978,,,,,pending
+2,0175,audio_wav_24k/speaker01_0175.wav,Ìgbà wo ni ìpàdé náà máa parí?,What time will the meeting end?,,0.4891,,,,,pending
+2,0176,audio_wav_24k/speaker01_0176.wav,Má fọwọ́ kan iná.,Do not touch the fire.,,0.461,,,,,pending
+2,0177,audio_wav_24k/speaker01_0177.wav,Ẹ dúró níbí.,Wait here.,,0.3957,,,,,pending
+2,0178,audio_wav_24k/speaker01_0178.wav,Gbé àga yìí sí ẹ̀gbẹ́ tábìlì.,Move this chair beside the table.,,0.5546,,,,,pending
+2,0179,audio_wav_24k/speaker01_0179.wav,Fóònù mi ń dún.,My phone is ringing.,,0.3797,,,,,pending
+2,0180,audio_wav_24k/speaker01_0180.wav,Ẹ̀rọ náà kò ṣiṣẹ́.,The device is not working.,,0.417,,,,,pending
+2,0181,audio_wav_24k/speaker01_0181.wav,Mo pè ọ́ ní ẹ̀ẹ̀mejì.,I called you twice.,,0.4806,,,,,pending
+2,0182,audio_wav_24k/speaker01_0182.wav,A ó pàdé ní ọjọ́ Ajé.,We will meet on Monday.,,0.4092,,,,,pending
+2,0183,audio_wav_24k/speaker01_0183.wav,Ayẹyẹ náà máa wáyé ní ọjọ́ Ẹtì.,The celebration will take place on Friday.,,0.571,,,,,pending
+2,0184,audio_wav_24k/speaker01_0184.wav,Ọkọ̀ ojú irin máa dé ní aago mẹ́ta àbọ̀.,The train will arrive at half past three.,,0.6024,,,,,pending
+2,0185,audio_wav_24k/speaker01_0185.wav,Ó ra ẹyin méjìlá.,He or she bought twelve eggs.,,0.4893,,,,,pending
+2,0186,audio_wav_24k/speaker01_0186.wav,Àwọn ọmọ márùn-ún wà nínú yàrá.,Five children are in the room.,,0.531,,,,,pending
+2,0187,audio_wav_24k/speaker01_0187.wav,"Lẹ́yìn tí mo jẹun, mo lọ sí ibi iṣẹ́.",After I ate I went to work.,,0.5407,,,,,pending
+2,0188,audio_wav_24k/speaker01_0188.wav,"Bó tilẹ̀ jẹ́ pé ó rẹ̀ mí, mo parí iṣẹ́ náà.",Although I was tired I finished the work.,,0.6018,,,,,pending
+2,0189,audio_wav_24k/speaker01_0189.wav,"Nígbà tí fóònù náà dún, mo wà ní ìpàdé.",When the phone rang I was in a meeting.,,0.6551,,,,,pending
+2,0190,audio_wav_24k/speaker01_0190.wav,Ẹ̀rù bà mí nígbà tí mo gbọ́ ariwo náà.,I was frightened when I heard the noise.,,0.5675,,,,,pending
+2,0195,audio_wav_24k/speaker01_0195.wav,Ṣètò ìtanijí fún aago mẹ́fà òwúrọ̀.,Set an alarm for six in the morning.,,0.6386,,,,,pending
+2,0196,audio_wav_24k/speaker01_0196.wav,Pe Kúnlé lórí fóònù.,Call Kunle on the phone.,,0.3846,,,,,pending
+2,0197,audio_wav_24k/speaker01_0197.wav,Ka ìròyìn tuntun fún mi.,Read the latest news to me.,,0.4606,,,,,pending
+2,0198,audio_wav_24k/speaker01_0198.wav,Kọ ìránṣẹ́ sí Bọ́lá pé màá pẹ́ díẹ̀.,Send Bola a message saying that I will be a little late.,,0.566,,,,,pending
+2,0201,audio_wav_24k/speaker01_0201.wav,Dún orin Yorùbá kan fún mi.,Play a Yoruba song for me.,,0.532,,,,,pending
+2,0202,audio_wav_24k/speaker01_0202.wav,Báwo ni ojú ọjọ́ ṣe rí lónìí?,What is the weather like today?,,0.5987,,,,,pending
+2,0203,audio_wav_24k/speaker01_0203.wav,Rán mi létí ìpàdé ọ̀la.,Remind me about tomorrow's meeting.,,0.6503,,,,,pending
+2,0204,audio_wav_24k/speaker01_0204.wav,Fi ọ̀nà ilé ìwòsàn hàn mí.,Show me the way to the hospital.,,0.7041,,,,,pending
+2,0207,audio_wav_24k/speaker01_0207.wav,Ṣé o lè sọ̀rọ̀ díẹ̀díẹ̀?,Can you speak slowly?,,0.4618,,,,,pending
+2,0208,audio_wav_24k/speaker01_0208.wav,"Jọ̀wọ́, máa sọ̀rọ̀ sókè díẹ̀.",Please speak a little louder.,,0.5362,,,,,pending
+2,0209,audio_wav_24k/speaker01_0209.wav,Kí ni ìtumọ̀ ọ̀rọ̀ yìí?,What is the meaning of this word?,,0.4305,,,,,pending
+2,0210,audio_wav_24k/speaker01_0210.wav,Tú gbólóhùn yìí sí èdè Gẹ̀ẹ́sì.,Translate this sentence into English.,,0.4965,,,,,pending
+2,0213,audio_wav_24k/speaker01_0213.wav,"Ó ṣe é ní àná, kì í ṣe lónìí.",He or she did it yesterday not today.,,0.7715,,,,,pending
+2,0214,audio_wav_24k/speaker01_0214.wav,Ẹ kú oríire!,Congratulations!,,0.463,,,,,pending
+2,0215,audio_wav_24k/speaker01_0215.wav,Ó ṣeun púpọ̀!,Thank you very much!,,0.39,,,,,pending
+2,0216,audio_wav_24k/speaker01_0216.wav,Má ṣe yọ ara rẹ lẹ́nu.,Do not worry.,,0.5041,,,,,pending
+2,0217,audio_wav_24k/speaker01_0217.wav,Inú bí mi gan-an.,I am very angry.,,0.4347,,,,,pending
+2,0218,audio_wav_24k/speaker01_0218.wav,Káàbọ̀ sí ilé wa!,Welcome to our home!,,0.429,,,,,pending
+2,0219,audio_wav_24k/speaker01_0219.wav,"Tí o bá nílò ìrànlọ́wọ́, pe mí lẹ́sẹ̀kẹsẹ̀.",If you need help call me immediately.,,0.5058,,,,,pending
+2,0220,audio_wav_24k/speaker01_0220.wav,"Nítorí pé ojú ọ̀nà dí, a dé pẹ́.",Because there was traffic we arrived late.,,0.478,,,,,pending

@@ -1,0 +1,31 @@
+# Codex/app metadata
+.agents/
+.codex/
+
+# Downloaded runtimes and generated intermediates
+work/audio_tools*/
+work/tone_tools*/
+work/numba_cache*/
+work/ffmpeg_batch2.exe
+work/*_render/
+work/*_word_render/
+work/*standalone.html
+work/review*-debug.js
+work/listening_review_mp3/
+
+# Raw and processed participant audio
+work/*received*/
+work/*corrected_names*/
+work/yoruba_targeted_120_master/
+work/yoruba_voice_benchmark_v0_1/audio_wav_24k/
+work/calibration_originals_corrected_names/
+work/received_audio_*/
+*.m4a
+*.wav
+
+# Generated release archives (kept locally; publish through an approved data release)
+*.zip
+
+# Python caches
+__pycache__/
+*.py[cod]

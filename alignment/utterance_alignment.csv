@@ -1,0 +1,121 @@
+﻿prompt_id,audio_filename,utterance_start_s,utterance_end_s,boundary_source,yoruba,english_meaning,word_count,vowel_nucleus_count,orthographic_tone_sequence,contrast_group_ids,utterance_alignment_status,word_alignment_status,vowel_alignment_status
+0101,audio_wav_24k/speaker01_0101.wav,0.000,3.520,wav_file_extent_after_edge_silence_trimming,Mo rí ọkọ̀ tuntun ní òpópónà.,I saw a new vehicle on the road.,6,11,MHMLMMHLHHL,C01,complete,pending,pending
+0102,audio_wav_24k/speaker01_0102.wav,0.000,3.260,wav_file_extent_after_edge_silence_trimming,Ọdẹ náà gbé ọ̀kọ̀ rẹ̀.,The hunter carried his spear.,5,8,MMHLHLLL,C01,complete,pending,pending
+0103,audio_wav_24k/speaker01_0103.wav,0.000,3.660,wav_file_extent_after_edge_silence_trimming,Ọkọ Adé dé láti ibise.,Ade's husband returned from work.,5,10,MMMHHHMMMM,C01,complete,pending,pending
+0104,audio_wav_24k/speaker01_0104.wav,0.000,3.220,wav_file_extent_after_edge_silence_trimming,Bàbá mi lọ sí oko ní òwúrọ̀.,My father went to the farm in the morning.,7,11,LHMMHMMHLHL,C01,complete,pending,pending
+0105,audio_wav_24k/speaker01_0105.wav,0.000,2.480,wav_file_extent_after_edge_silence_trimming,Mo fi owó ra oúnjẹ.,I used money to buy food.,5,8,MMMHMMHM,C02,complete,pending,pending
+0106,audio_wav_24k/speaker01_0106.wav,0.000,3.000,wav_file_extent_after_edge_silence_trimming,Fọ ọwọ́ rẹ kí o tó jẹun.,Wash your hands before you eat.,7,9,MMHMHMHMM,C02,complete,pending,pending
+0107,audio_wav_24k/speaker01_0107.wav,0.000,2.820,wav_file_extent_after_edge_silence_trimming,Ìgbà wo ni o máa dé?,What time will you arrive?,6,8,LLMMMHMH,C03,complete,pending,pending
+0108,audio_wav_24k/speaker01_0108.wav,0.000,3.240,wav_file_extent_after_edge_silence_trimming,Ìyá fi omi sínú igbá.,Mother put water in the calabash.,5,9,LHMMMHHMH,C03,complete,pending,pending
+0109,audio_wav_24k/speaker01_0109.wav,0.000,2.500,wav_file_extent_after_edge_silence_trimming,Òjò ń rọ̀ lónìí.,It is raining today.,4,6,LLLHLH,,complete,pending,pending
+0110,audio_wav_24k/speaker01_0110.wav,0.000,2.300,wav_file_extent_after_edge_silence_trimming,Ojú n dùn mi,My eye hurts.,4,4,MHLM,,complete,pending,pending
+0111,audio_wav_24k/speaker01_0111.wav,0.000,2.540,wav_file_extent_after_edge_silence_trimming,Ẹja náà wà nínú omi.,The fish is in the water.,5,9,MMHLLHHMM,,complete,pending,pending
+0112,audio_wav_24k/speaker01_0112.wav,0.000,3.080,wav_file_extent_after_edge_silence_trimming,Adé ra ewé ní ọjà.,Ade bought leaves at the market.,5,8,MHMMHHML,,complete,pending,pending
+0113,audio_wav_24k/speaker01_0113.wav,0.000,2.480,wav_file_extent_after_edge_silence_trimming,Ọmọ náà jókòó.,The child sat down.,3,7,MMHLHLH,,complete,pending,pending
+0114,audio_wav_24k/speaker01_0114.wav,0.000,2.120,wav_file_extent_after_edge_silence_trimming,Mo ra ọ̀bẹ tuntun.,I bought a new knife.,4,6,MMLMMM,,complete,pending,pending
+0115,audio_wav_24k/speaker01_0115.wav,0.000,2.180,wav_file_extent_after_edge_silence_trimming,Ṣadé ń ṣe oúnjẹ.,Sade is cooking.,4,6,MHMMHM,,complete,pending,pending
+0116,audio_wav_24k/speaker01_0116.wav,0.000,2.740,wav_file_extent_after_edge_silence_trimming,Ṣẹ́gun sọ òtítọ́.,Segun told the truth.,3,6,HMMLHH,,complete,pending,pending
+0117,audio_wav_24k/speaker01_0117.wav,0.000,3.060,wav_file_extent_after_edge_silence_trimming,"Ẹ jọ̀wọ́, ẹ ṣí ilẹ̀kùn.",Please open the door.,5,8,MLHMHMLL,,complete,pending,pending
+0118,audio_wav_24k/speaker01_0118.wav,0.000,2.820,wav_file_extent_after_edge_silence_trimming,Omi náà tutù.,The water is cold.,3,6,MMHLML,,complete,pending,pending
+0119,audio_wav_24k/speaker01_0119.wav,0.000,3.400,wav_file_extent_after_edge_silence_trimming,Ọ̀rẹ́ mi fẹ́ ra ẹja.,My friend wants to buy fish.,5,7,LHMHMMM,,complete,pending,pending
+0120,audio_wav_24k/speaker01_0120.wav,0.000,2.920,wav_file_extent_after_edge_silence_trimming,Ẹ̀gbọ́n mi ń ka ìwé.,My older sibling is reading a book.,5,6,LHMMLH,,complete,pending,pending
+0121,audio_wav_24k/speaker01_0121.wav,0.000,3.120,wav_file_extent_after_edge_silence_trimming,"Báwo ni, o ṣe wà?",How are you?,5,6,HMMMML,,complete,pending,pending
+0122,audio_wav_24k/speaker01_0122.wav,0.000,3.300,wav_file_extent_after_edge_silence_trimming,Ṣé o ti jẹun?,Have you eaten?,4,5,HMMMM,,complete,pending,pending
+0123,audio_wav_24k/speaker01_0123.wav,0.000,2.940,wav_file_extent_after_edge_silence_trimming,Mo fẹ́ lọ sí ilé.,I want to go home.,5,6,MHMHMH,,complete,pending,pending
+0124,audio_wav_24k/speaker01_0124.wav,0.000,2.980,wav_file_extent_after_edge_silence_trimming,"Jọ̀wọ́, fún mi ní omi.",Please give me water.,5,7,LHHMHMM,,complete,pending,pending
+0125,audio_wav_24k/speaker01_0125.wav,0.000,2.380,wav_file_extent_after_edge_silence_trimming,A ó pàdé lọ́la.,We will meet tomorrow.,4,6,MHLHHM,,complete,pending,pending
+0126,audio_wav_24k/speaker01_0126.wav,0.000,3.780,wav_file_extent_after_edge_silence_trimming,Ọjọ́ náà dára gan-an.,The day was very good.,4,8,MHHLHMMM,,complete,pending,pending
+0127,audio_wav_24k/speaker01_0127.wav,0.000,4.600,wav_file_extent_after_edge_silence_trimming,Mo gbọ́ ohun tí o sọ.,I heard what you said.,6,7,MHMMHMM,,complete,pending,pending
+0128,audio_wav_24k/speaker01_0128.wav,0.000,5.440,wav_file_extent_after_edge_silence_trimming,Ṣé o lè ràn mí lọ́wọ́?,Can you help me?,6,7,HMLLHHH,,complete,pending,pending
+0129,audio_wav_24k/speaker01_0129.wav,0.000,5.700,wav_file_extent_after_edge_silence_trimming,"Jọ̀wọ́, pa ilẹ̀kùn de.",Please close the door.,4,7,LHMMLLM,,complete,pending,pending
+0130,audio_wav_24k/speaker01_0130.wav,0.000,4.760,wav_file_extent_after_edge_silence_trimming,Inú mi dùn láti rí ẹ!,I am happy to see you!,6,8,MHMLHMHM,,complete,pending,pending
+0131,audio_wav_24k/speaker01_0131.wav,0.000,2.640,wav_file_extent_after_edge_silence_trimming,Ará Èkó ni Bọ́lá.,Bola is a resident of Lagos.,4,7,MHLHMHH,C04,complete,pending,pending
+0132,audio_wav_24k/speaker01_0132.wav,0.000,2.640,wav_file_extent_after_edge_silence_trimming,Ara ọmọ náà gbóná.,The child's body is hot.,4,8,MMMMHLHH,C04,complete,pending,pending
+0133,audio_wav_24k/speaker01_0133.wav,0.000,3.420,wav_file_extent_after_edge_silence_trimming,Àrá ń sán lókè ọ̀run.,Thunder is rumbling in the sky.,5,7,LHHHLLM,C04,complete,pending,pending
+0134,audio_wav_24k/speaker01_0134.wav,0.000,3.800,wav_file_extent_after_edge_silence_trimming,Ogun náà parí ní àná.,The war ended yesterday.,5,9,MMHLMHHLH,,complete,pending,pending
+0135,audio_wav_24k/speaker01_0135.wav,0.000,3.660,wav_file_extent_after_edge_silence_trimming,Dókítà fún mi ní oògùn.,The doctor gave me medicine.,5,9,HHLHMHMLL,,complete,pending,pending
+0136,audio_wav_24k/speaker01_0136.wav,0.000,3.980,wav_file_extent_after_edge_silence_trimming,Kúnlé jogún ilé bàbá rẹ̀.,Kunle inherited his father's house.,5,9,HHMHMHLHL,,complete,pending,pending
+0137,audio_wav_24k/speaker01_0137.wav,0.000,2.800,wav_file_extent_after_edge_silence_trimming,Bàbá mi ń ṣe òwò ní ọjà.,My father trades at the market.,7,9,LHMMLLHML,C02,complete,pending,pending
+0138,audio_wav_24k/speaker01_0138.wav,0.000,3.820,wav_file_extent_after_edge_silence_trimming,Owó náà wà nínú àpò mi.,The money is in my bag.,6,10,MHHLLHHLLM,C02,complete,pending,pending
+0139,audio_wav_24k/speaker01_0139.wav,0.000,2.360,wav_file_extent_after_edge_silence_trimming,Ọwọ́ mi mọ́.,My hand is clean.,3,4,MHMH,C02,complete,pending,pending
+0140,audio_wav_24k/speaker01_0140.wav,0.000,2.380,wav_file_extent_after_edge_silence_trimming,Mo dé ní ìgbà tó yẹ.,I arrived at the right time.,6,7,MHHLLHM,C03,complete,pending,pending
+0141,audio_wav_24k/speaker01_0141.wav,0.000,3.840,wav_file_extent_after_edge_silence_trimming,Ìyá gbé igbá náà kalẹ̀.,Mother put the calabash down.,5,9,LHHMHHLML,C03,complete,pending,pending
+0142,audio_wav_24k/speaker01_0142.wav,0.000,4.420,wav_file_extent_after_edge_silence_trimming,Mo kọ́ ẹ̀kọ́ tuntun lónìí.,I learned a new lesson today.,5,9,MHLHMMHLH,C05,complete,pending,pending
+0143,audio_wav_24k/speaker01_0143.wav,0.000,4.240,wav_file_extent_after_edge_silence_trimming,Ọmọ náà jẹ ẹ̀kọ ní òwúrọ̀.,The child ate corn pap in the morning.,6,11,MMHLMLMHLHL,C05,complete,pending,pending
+0144,audio_wav_24k/speaker01_0144.wav,0.000,3.480,wav_file_extent_after_edge_silence_trimming,Bọ́lá lọ sí ilé ẹ̀kọ́.,Bola went to school.,5,8,HHMHMHLH,C05,complete,pending,pending
+0145,audio_wav_24k/speaker01_0145.wav,0.000,3.420,wav_file_extent_after_edge_silence_trimming,Kúnlé lọ sí ọjà.,Kunle went to the market.,4,6,HHMHML,C11,complete,pending,pending
+0146,audio_wav_24k/speaker01_0146.wav,0.000,3.320,wav_file_extent_after_edge_silence_trimming,Kúnlé ò lọ sí ọjà.,Kunle did not go to the market.,5,7,HHLMHML,C11,complete,pending,pending
+0147,audio_wav_24k/speaker01_0147.wav,0.000,2.320,wav_file_extent_after_edge_silence_trimming,Ó ti dé ilé.,He or she has arrived home.,4,5,HMHMH,C12,complete,pending,pending
+0148,audio_wav_24k/speaker01_0148.wav,0.000,2.460,wav_file_extent_after_edge_silence_trimming,Kò tíì dé ilé.,He or she has not arrived home yet.,4,6,LHLHMH,C12,complete,pending,pending
+0149,audio_wav_24k/speaker01_0149.wav,0.000,3.620,wav_file_extent_after_edge_silence_trimming,Ṣé Bọ́lá ti jí?,Has Bola woken up?,4,5,HHHMH,C13,complete,pending,pending
+0150,audio_wav_24k/speaker01_0150.wav,0.000,2.280,wav_file_extent_after_edge_silence_trimming,Bọ́lá ti jí.,Bola has woken up.,3,4,HHMH,C13,complete,pending,pending
+0151,audio_wav_24k/speaker01_0151.wav,0.000,2.720,wav_file_extent_after_edge_silence_trimming,Adé ni ó ra ìwé náà.,It was Ade who bought the book.,6,9,MHMHMLHHL,C14,complete,pending,pending
+0152,audio_wav_24k/speaker01_0152.wav,0.000,3.220,wav_file_extent_after_edge_silence_trimming,Adé ra ìwé náà.,Ade bought the book.,4,7,MHMLHHL,C14,complete,pending,pending
+0153,audio_wav_24k/speaker01_0153.wav,0.000,2.520,wav_file_extent_after_edge_silence_trimming,Ẹ má ṣe bẹ̀rù.,Do not be afraid.,4,5,MHMLL,,complete,pending,pending
+0154,audio_wav_24k/speaker01_0154.wav,0.000,2.960,wav_file_extent_after_edge_silence_trimming,"Ẹ jọ̀wọ́, ẹ tún un sọ.",Please say it again.,6,7,MLHMHMM,,complete,pending,pending
+0155,audio_wav_24k/speaker01_0155.wav,0.000,3.000,wav_file_extent_after_edge_silence_trimming,Mo fẹ́ kí o wá ní báyìí.,I want you to come now.,7,9,MHHMHHHLH,,complete,pending,pending
+0156,audio_wav_24k/speaker01_0156.wav,0.000,2.700,wav_file_extent_after_edge_silence_trimming,"Nígbà tí mo dé, wọ́n ti lọ.","By the time I arrived, they had left.",7,8,HLHMHHMM,,complete,pending,pending
+0157,audio_wav_24k/speaker01_0157.wav,0.000,3.460,wav_file_extent_after_edge_silence_trimming,"Bí òjò bá rọ̀, a ó dúró sí ilé.","If it rains, we will stay at home.",9,12,HLLHLMHHHHMH,,complete,pending,pending
+0158,audio_wav_24k/speaker01_0158.wav,0.000,3.320,wav_file_extent_after_edge_silence_trimming,Ìpàdé náà bẹ̀rẹ̀ ní aago mẹ́wàá.,The meeting began at ten o'clock.,6,14,LLHHLLLHMMMHLH,,complete,pending,pending
+0159,audio_wav_24k/speaker01_0159.wav,0.000,3.700,wav_file_extent_after_edge_silence_trimming,Mo ra ọ̀gẹ̀dẹ̀ méje ní ọjà.,I bought seven bananas at the market.,6,10,MMLLLHMHML,,complete,pending,pending
+0160,audio_wav_24k/speaker01_0160.wav,0.000,3.140,wav_file_extent_after_edge_silence_trimming,Inú mi kò dùn sí ohun tí ó ṣẹlẹ̀.,I am unhappy about what happened.,9,12,MHMLLHMMHHML,,complete,pending,pending
+0161,audio_wav_24k/speaker01_0161.wav,0.000,4.080,wav_file_extent_after_edge_silence_trimming,Adé kọ́ ilé tuntun.,Ade built a new house.,4,7,MHHMHMM,C06,complete,pending,pending
+0162,audio_wav_24k/speaker01_0162.wav,0.000,3.220,wav_file_extent_after_edge_silence_trimming,Adé kọ lẹ́tà sí mi.,Ade wrote a letter to me.,5,7,MHMHLHM,C06,complete,pending,pending
+0163,audio_wav_24k/speaker01_0163.wav,0.000,3.280,wav_file_extent_after_edge_silence_trimming,Adé kọ̀ láti lọ.,Ade refused to go.,4,6,MHLHMM,C06,complete,pending,pending
+0164,audio_wav_24k/speaker01_0164.wav,0.000,2.800,wav_file_extent_after_edge_silence_trimming,Yàrá náà mọ́.,The room is clean.,3,5,LHHLH,C07,complete,pending,pending
+0165,audio_wav_24k/speaker01_0165.wav,0.000,3.040,wav_file_extent_after_edge_silence_trimming,"Jọ̀wọ́, yára dé síbí.",Please come here quickly.,4,7,LHHMHHH,C07,complete,pending,pending
+0166,audio_wav_24k/speaker01_0166.wav,0.000,2.880,wav_file_extent_after_edge_silence_trimming,Agbẹ̀ náà gbin àgbàdo.,The farmer planted maize.,4,8,MLHLMLLM,,complete,pending,pending
+0167,audio_wav_24k/speaker01_0167.wav,0.000,3.380,wav_file_extent_after_edge_silence_trimming,Gbádé gbé àpótí náà.,Gbade lifted the box.,4,8,HHHLHHHL,,complete,pending,pending
+0168,audio_wav_24k/speaker01_0168.wav,0.000,3.940,wav_file_extent_after_edge_silence_trimming,Ṣọ́lá ra ṣúgà àti iyọ̀.,Sola bought sugar and salt.,5,9,HHMHLLMML,,complete,pending,pending
+0169,audio_wav_24k/speaker01_0169.wav,0.000,2.940,wav_file_extent_after_edge_silence_trimming,Ọmọ náà ń fọ aṣọ rẹ̀.,The child is washing his or her clothes.,6,8,MMHLMMML,C08,complete,pending,pending
+0170,audio_wav_24k/speaker01_0170.wav,0.000,3.260,wav_file_extent_after_edge_silence_trimming,Má fọ́ ife náà.,Do not break the cup.,4,6,HHMMHL,C08,complete,pending,pending
+0171,audio_wav_24k/speaker01_0171.wav,0.000,2.680,wav_file_extent_after_edge_silence_trimming,Ta ni ó dé?,Who arrived?,4,4,MMHH,,complete,pending,pending
+0172,audio_wav_24k/speaker01_0172.wav,0.000,2.740,wav_file_extent_after_edge_silence_trimming,Kí ni o fẹ́?,What do you want?,4,4,HMMH,,complete,pending,pending
+0173,audio_wav_24k/speaker01_0173.wav,0.000,3.000,wav_file_extent_after_edge_silence_trimming,Níbo ni wọ́n ń lọ?,Where are they going?,5,5,HMMHM,,complete,pending,pending
+0174,audio_wav_24k/speaker01_0174.wav,0.000,2.680,wav_file_extent_after_edge_silence_trimming,Èló ni ó jẹ́?,How much is it?,4,5,LHMHH,,complete,pending,pending
+0175,audio_wav_24k/speaker01_0175.wav,0.000,4.100,wav_file_extent_after_edge_silence_trimming,Ìgbà wo ni ìpàdé náà máa parí?,What time will the meeting end?,7,13,LLMMLLHHLHMMH,,complete,pending,pending
+0176,audio_wav_24k/speaker01_0176.wav,0.000,2.680,wav_file_extent_after_edge_silence_trimming,Má fọwọ́ kan iná.,Do not touch the fire.,4,6,HMHMMH,,complete,pending,pending
+0177,audio_wav_24k/speaker01_0177.wav,0.000,2.340,wav_file_extent_after_edge_silence_trimming,Ẹ dúró níbí.,Wait here.,3,5,MHHHH,,complete,pending,pending
+0178,audio_wav_24k/speaker01_0178.wav,0.000,4.660,wav_file_extent_after_edge_silence_trimming,Gbé àga yìí sí ẹ̀gbẹ́ tábìlì.,Move this chair beside the table.,6,11,HLMLHHLHHLL,,complete,pending,pending
+0179,audio_wav_24k/speaker01_0179.wav,0.000,2.940,wav_file_extent_after_edge_silence_trimming,Fóònù mi ń dún.,My phone is ringing.,4,5,HLLMH,,complete,pending,pending
+0180,audio_wav_24k/speaker01_0180.wav,0.000,2.820,wav_file_extent_after_edge_silence_trimming,Ẹ̀rọ náà kò ṣiṣẹ́.,The device is not working.,4,7,LMHLLMH,,complete,pending,pending
+0181,audio_wav_24k/speaker01_0181.wav,0.000,2.820,wav_file_extent_after_edge_silence_trimming,Mo pè ọ́ ní ẹ̀ẹ̀mejì.,I called you twice.,5,8,MLHHLLML,,complete,pending,pending
+0182,audio_wav_24k/speaker01_0182.wav,0.000,3.020,wav_file_extent_after_edge_silence_trimming,A ó pàdé ní ọjọ́ Ajé.,We will meet on Monday.,6,9,MHLHHMHMH,,complete,pending,pending
+0183,audio_wav_24k/speaker01_0183.wav,0.000,3.300,wav_file_extent_after_edge_silence_trimming,Ayẹyẹ náà máa wáyé ní ọjọ́ Ẹtì.,The celebration will take place on Friday.,7,14,MMMHLHMHHHMHML,,complete,pending,pending
+0184,audio_wav_24k/speaker01_0184.wav,0.000,4.240,wav_file_extent_after_edge_silence_trimming,Ọkọ̀ ojú irin máa dé ní aago mẹ́ta àbọ̀.,The train will arrive at half past three.,9,17,MLMHMMHMHHMMMHMLL,,complete,pending,pending
+0185,audio_wav_24k/speaker01_0185.wav,0.000,3.260,wav_file_extent_after_edge_silence_trimming,Ó ra ẹyin méjìlá.,He or she bought twelve eggs.,4,7,HMMMHLH,,complete,pending,pending
+0186,audio_wav_24k/speaker01_0186.wav,0.000,3.700,wav_file_extent_after_edge_silence_trimming,Àwọn ọmọ márùn-ún wà nínú yàrá.,Five children are in the room.,6,12,LMMMHLHLHHLH,,complete,pending,pending
+0187,audio_wav_24k/speaker01_0187.wav,0.000,4.040,wav_file_extent_after_edge_silence_trimming,"Lẹ́yìn tí mo jẹun, mo lọ sí ibi iṣẹ́.",After I ate I went to work.,9,13,HLHMMMMMHMMMH,,complete,pending,pending
+0188,audio_wav_24k/speaker01_0188.wav,0.000,4.360,wav_file_extent_after_edge_silence_trimming,"Bó tilẹ̀ jẹ́ pé ó rẹ̀ mí, mo parí iṣẹ́ náà.",Although I was tired I finished the work.,11,15,HMLHHHLHMMHMHHL,,complete,pending,pending
+0189,audio_wav_24k/speaker01_0189.wav,0.000,4.020,wav_file_extent_after_edge_silence_trimming,"Nígbà tí fóònù náà dún, mo wà ní ìpàdé.",When the phone rang I was in a meeting.,9,15,HLHHLLHLHMLHLLH,,complete,pending,pending
+0190,audio_wav_24k/speaker01_0190.wav,0.000,4.660,wav_file_extent_after_edge_silence_trimming,Ẹ̀rù bà mí nígbà tí mo gbọ́ ariwo náà.,I was frightened when I heard the noise.,9,14,LLLHHLHMHMMMHL,,complete,pending,pending
+0191,audio_wav_24k/speaker01_0191.wav,0.000,2.840,wav_file_extent_after_edge_silence_trimming,Ìlú náà tóbi.,The town is large.,3,6,LHHLHM,C09,complete,pending,pending
+0192,audio_wav_24k/speaker01_0192.wav,0.000,2.800,wav_file_extent_after_edge_silence_trimming,Ọmọ náà ń lu ìlù.,The child is beating a drum.,5,7,MMHLMLL,C09,complete,pending,pending
+0193,audio_wav_24k/speaker01_0193.wav,0.000,3.120,wav_file_extent_after_edge_silence_trimming,Ìyá mi wà nílé.,My mother is at home.,4,6,LHMLHH,C10,complete,pending,pending
+0194,audio_wav_24k/speaker01_0194.wav,0.000,2.500,wav_file_extent_after_edge_silence_trimming,Ọmọ náà bẹ̀rù ìyà.,The child is afraid of punishment.,4,8,MMHLLLLL,C10,complete,pending,pending
+0195,audio_wav_24k/speaker01_0195.wav,0.000,4.140,wav_file_extent_after_edge_silence_trimming,Ṣètò ìtanijí fún aago mẹ́fà òwúrọ̀.,Set an alarm for six in the morning.,6,15,LLLMMHHMMMHLLHL,,complete,pending,pending
+0196,audio_wav_24k/speaker01_0196.wav,0.000,3.240,wav_file_extent_after_edge_silence_trimming,Pe Kúnlé lórí fóònù.,Call Kunle on the phone.,4,8,MHHHHHLL,,complete,pending,pending
+0197,audio_wav_24k/speaker01_0197.wav,0.000,3.160,wav_file_extent_after_edge_silence_trimming,Ka ìròyìn tuntun fún mi.,Read the latest news to me.,5,8,MLLLMMHM,,complete,pending,pending
+0198,audio_wav_24k/speaker01_0198.wav,0.000,3.400,wav_file_extent_after_edge_silence_trimming,Kọ ìránṣẹ́ sí Bọ́lá pé màá pẹ́ díẹ̀.,Send Bola a message saying that I will be a little late.,8,13,MLHHHHHHLHHHL,,complete,pending,pending
+0199,audio_wav_24k/speaker01_0199.wav,0.000,2.800,wav_file_extent_after_edge_silence_trimming,Tan iná yàrá náà.,Turn on the room light.,4,7,MMHLHHL,C15,complete,pending,pending
+0200,audio_wav_24k/speaker01_0200.wav,0.000,2.840,wav_file_extent_after_edge_silence_trimming,Pa iná yàrá náà.,Turn off the room light.,4,7,MMHLHHL,C15,complete,pending,pending
+0201,audio_wav_24k/speaker01_0201.wav,0.000,2.960,wav_file_extent_after_edge_silence_trimming,Dún orin Yorùbá kan fún mi.,Play a Yoruba song for me.,6,9,HMMMLHMHM,,complete,pending,pending
+0202,audio_wav_24k/speaker01_0202.wav,0.000,3.080,wav_file_extent_after_edge_silence_trimming,Báwo ni ojú ọjọ́ ṣe rí lónìí?,What is the weather like today?,7,12,HMMMHMHMHHLH,,complete,pending,pending
+0203,audio_wav_24k/speaker01_0203.wav,0.000,2.859,wav_file_extent_after_edge_silence_trimming,Rán mi létí ìpàdé ọ̀la.,Remind me about tomorrow's meeting.,5,9,HMHHLLHLM,,complete,pending,pending
+0204,audio_wav_24k/speaker01_0204.wav,0.000,3.640,wav_file_extent_after_edge_silence_trimming,Fi ọ̀nà ilé ìwòsàn hàn mí.,Show me the way to the hospital.,6,10,MLLMHLLLLH,,complete,pending,pending
+0205,audio_wav_24k/speaker01_0205.wav,0.000,3.904,wav_file_extent_after_edge_silence_trimming,Mo gbọ́ ọ dáadáa.,I can hear you clearly.,4,7,MHMHMHM,C16,complete,pending,pending
+0206,audio_wav_24k/speaker01_0206.wav,0.000,2.300,wav_file_extent_after_edge_silence_trimming,Mi ò gbọ́ ohun tí o sọ.,I did not hear what you said.,7,8,MLHMMHMM,C16,complete,pending,pending
+0207,audio_wav_24k/speaker01_0207.wav,0.000,3.260,wav_file_extent_after_edge_silence_trimming,Ṣé o lè sọ̀rọ̀ díẹ̀díẹ̀?,Can you speak slowly?,5,9,HMLLLHLHL,,complete,pending,pending
+0208,audio_wav_24k/speaker01_0208.wav,0.000,4.000,wav_file_extent_after_edge_silence_trimming,"Jọ̀wọ́, máa sọ̀rọ̀ sókè díẹ̀.",Please speak a little louder.,5,10,LHHMLLHLHL,,complete,pending,pending
+0209,audio_wav_24k/speaker01_0209.wav,0.000,2.940,wav_file_extent_after_edge_silence_trimming,Kí ni ìtumọ̀ ọ̀rọ̀ yìí?,What is the meaning of this word?,5,9,HMLMLLLLH,,complete,pending,pending
+0210,audio_wav_24k/speaker01_0210.wav,0.000,4.320,wav_file_extent_after_edge_silence_trimming,Tú gbólóhùn yìí sí èdè Gẹ̀ẹ́sì.,Translate this sentence into English.,6,12,HHHLLHHLLLHL,,complete,pending,pending
+0211,audio_wav_24k/speaker01_0211.wav,0.000,3.733,wav_file_extent_after_edge_silence_trimming,Èmi ni mo ṣe é.,I am the one who did it.,5,6,LMMMMH,C17,complete,pending,pending
+0212,audio_wav_24k/speaker01_0212.wav,0.000,2.220,wav_file_extent_after_edge_silence_trimming,Èmi kò ṣe é.,I did not do it.,4,5,LMLMH,C17,complete,pending,pending
+0213,audio_wav_24k/speaker01_0213.wav,0.000,2.660,wav_file_extent_after_edge_silence_trimming,"Ó ṣe é ní àná, kì í ṣe lónìí.",He or she did it yesterday not today.,9,12,HMHHLHLHMHLH,,complete,pending,pending
+0214,audio_wav_24k/speaker01_0214.wav,0.000,2.560,wav_file_extent_after_edge_silence_trimming,Ẹ kú oríire!,Congratulations!,3,6,MHMHMM,,complete,pending,pending
+0215,audio_wav_24k/speaker01_0215.wav,0.000,2.580,wav_file_extent_after_edge_silence_trimming,Ó ṣeun púpọ̀!,Thank you very much!,3,5,HMMHL,,complete,pending,pending
+0216,audio_wav_24k/speaker01_0216.wav,0.000,3.660,wav_file_extent_after_edge_silence_trimming,Má ṣe yọ ara rẹ lẹ́nu.,Do not worry.,6,8,HMMMMMHM,,complete,pending,pending
+0217,audio_wav_24k/speaker01_0217.wav,0.000,3.280,wav_file_extent_after_edge_silence_trimming,Inú bí mi gan-an.,I am very angry.,4,6,MHHMMM,,complete,pending,pending
+0218,audio_wav_24k/speaker01_0218.wav,0.000,3.020,wav_file_extent_after_edge_silence_trimming,Káàbọ̀ sí ilé wa!,Welcome to our home!,4,7,HLLHMHM,,complete,pending,pending
+0219,audio_wav_24k/speaker01_0219.wav,0.000,4.300,wav_file_extent_after_edge_silence_trimming,"Tí o bá nílò ìrànlọ́wọ́, pe mí lẹ́sẹ̀kẹsẹ̀.",If you need help call me immediately.,8,15,HMHHLLLHHMHHLML,,complete,pending,pending
+0220,audio_wav_24k/speaker01_0220.wav,0.000,3.860,wav_file_extent_after_edge_silence_trimming,"Nítorí pé ojú ọ̀nà dí, a dé pẹ́.",Because there was traffic we arrived late.,8,12,HMHHMHLLHMHH,,complete,pending,pending

@@ -1,0 +1,31 @@
+﻿filename,yoruba,english_meaning,research_purpose
+speaker01_0191.m4a,Ìlú náà tóbi.,The town is large.,meaning-changing tone contrast: ìlú
+speaker01_0192.m4a,Ọmọ náà ń lu ìlù.,The child is beating a drum.,meaning-changing tone contrast: ìlù
+speaker01_0193.m4a,Ìyá mi wà nílé.,My mother is at home.,meaning-changing tone contrast: ìyá
+speaker01_0194.m4a,Ọmọ náà bẹ̀rù ìyà.,The child is afraid of punishment.,meaning-changing tone contrast: ìyà
+speaker01_0195.m4a,Ṣètò ìtanijí fún aago mẹ́fà òwúrọ̀.,Set an alarm for six in the morning.,voice-assistant alarm command
+speaker01_0196.m4a,Pe Kúnlé lórí fóònù.,Call Kunle on the phone.,voice-assistant calling command
+speaker01_0197.m4a,Ka ìròyìn tuntun fún mi.,Read the latest news to me.,voice-assistant information request
+speaker01_0198.m4a,Kọ ìránṣẹ́ sí Bọ́lá pé màá pẹ́ díẹ̀.,Send Bola a message saying that I will be a little late.,voice-assistant messaging command
+speaker01_0199.m4a,Tan iná yàrá náà.,Turn on the room light.,on-command contrast
+speaker01_0200.m4a,Pa iná yàrá náà.,Turn off the room light.,off-command contrast
+speaker01_0201.m4a,Dún orin Yorùbá kan fún mi.,Play a Yoruba song for me.,media command
+speaker01_0202.m4a,Báwo ni ojú ọjọ́ ṣe rí lónìí?,What is the weather like today?,weather question
+speaker01_0203.m4a,Rán mi létí ìpàdé ọ̀la.,Remind me about tomorrow's meeting.,reminder command
+speaker01_0204.m4a,Fi ọ̀nà ilé ìwòsàn hàn mí.,Show me the way to the hospital.,navigation command
+speaker01_0205.m4a,Mo gbọ́ ọ dáadáa.,I can hear you clearly.,connected object pronoun
+speaker01_0206.m4a,Mi ò gbọ́ ohun tí o sọ.,I did not hear what you said.,negative listening statement
+speaker01_0207.m4a,Ṣé o lè sọ̀rọ̀ díẹ̀díẹ̀?,Can you speak slowly?,voice-speed request
+speaker01_0208.m4a,"Jọ̀wọ́, máa sọ̀rọ̀ sókè díẹ̀.",Please speak a little louder.,voice-volume request
+speaker01_0209.m4a,Kí ni ìtumọ̀ ọ̀rọ̀ yìí?,What is the meaning of this word?,definition question
+speaker01_0210.m4a,Tú gbólóhùn yìí sí èdè Gẹ̀ẹ́sì.,Translate this sentence into English.,translation command
+speaker01_0211.m4a,Èmi ni mo ṣe é.,I am the one who did it.,focus and emphasis
+speaker01_0212.m4a,Èmi kò ṣe é.,I did not do it.,negation contrast
+speaker01_0213.m4a,"Ó ṣe é ní àná, kì í ṣe lónìí.",He or she did it yesterday not today.,corrective emphasis
+speaker01_0214.m4a,Ẹ kú oríire!,Congratulations!,celebratory expression
+speaker01_0215.m4a,Ó ṣeun púpọ̀!,Thank you very much!,grateful expression
+speaker01_0216.m4a,Má ṣe yọ ara rẹ lẹ́nu.,Do not worry.,reassuring command
+speaker01_0217.m4a,Inú bí mi gan-an.,I am very angry.,angry expression
+speaker01_0218.m4a,Káàbọ̀ sí ilé wa!,Welcome to our home!,welcoming expression
+speaker01_0219.m4a,"Tí o bá nílò ìrànlọ́wọ́, pe mí lẹ́sẹ̀kẹsẹ̀.",If you need help call me immediately.,conditional connected speech
+speaker01_0220.m4a,"Nítorí pé ojú ọ̀nà dí, a dé pẹ́.",Because there was traffic we arrived late.,causal connected speech
