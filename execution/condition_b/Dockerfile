@@ -1,5 +1,8 @@
 FROM pytorch/pytorch:2.1.2-cuda12.1-cudnn8-devel
 
+ARG DEBIAN_FRONTEND=noninteractive
+ENV TZ=Etc/UTC
+
 ARG VITS_COMMIT=2e561ba58618d021b5b8323d3765880f7e0ecfdb
 ARG FAIRSEQ_COMMIT=3d262bb25690e4eb2e7d3c1309b1e9c406ca4b99
 
