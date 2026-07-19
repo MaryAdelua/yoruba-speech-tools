@@ -1,6 +1,7 @@
 """Apply narrowly scoped PyTorch 2.1/librosa compatibility fixes to pinned VITS."""
 
 from pathlib import Path
+import re
 import sys
 
 
@@ -30,12 +31,15 @@ def main() -> None:
         "fmin=fmin, fmax=fmax)",
         2,
     )
-    replace_exact(
-        mel,
-        "  global mel_basis, hann_window\n",
-        "  global mel_basis, hann_window\n  y = y.float()\n",
-        1,
-    )
+    mel_text = mel.read_text(encoding="utf-8")
+    pattern = r"(?m)^(?P<indent>[\t ]+)global mel_basis, hann_window$"
+    matches = list(re.finditer(pattern, mel_text))
+    if len(matches) != 1:
+        raise RuntimeError(f"{mel}: expected one mel_spectrogram global line, found {len(matches)}")
+    match = matches[0]
+    indent = match.group("indent")
+    replacement = match.group(0) + "\n" + indent + "y = y.float()"
+    mel.write_text(mel_text[:match.start()] + replacement + mel_text[match.end():], encoding="utf-8")
     replace_exact(
         transforms,
         "torch.cumsum(widths, dim=-1)",
