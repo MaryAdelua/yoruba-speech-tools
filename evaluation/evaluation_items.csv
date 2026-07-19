@@ -1,0 +1,121 @@
+﻿prompt_id,yoruba,english_meaning,research_purpose,orthographic_tone_sequence,contrast_group_ids,is_controlled_contrast
+0101,Mo rí ọkọ̀ tuntun ní òpópónà.,I saw a new vehicle on the road.,tone and vowel contrast,MHMLMMHLHHL,C01,yes
+0102,Ọdẹ náà gbé ọ̀kọ̀ rẹ̀.,The hunter carried his spear.,tone contrast,MMHLHLLL,C01,yes
+0103,Ọkọ Adé dé láti ibise.,Ade's husband returned from work.,tone contrast,MMMHHHMMMM,C01,yes
+0104,Bàbá mi lọ sí oko ní òwúrọ̀.,My father went to the farm in the morning.,vowel contrast,LHMMHMMHLHL,C01,yes
+0105,Mo fi owó ra oúnjẹ.,I used money to buy food.,vowel and tone contrast,MMMHMMHM,C02,yes
+0106,Fọ ọwọ́ rẹ kí o tó jẹun.,Wash your hands before you eat.,vowel and tone contrast,MMHMHMHMM,C02,yes
+0107,Ìgbà wo ni o máa dé?,What time will you arrive?,tone contrast,LLMMMHMH,C03,yes
+0108,Ìyá fi omi sínú igbá.,Mother put water in the calabash.,tone contrast,LHMMMHHMH,C03,yes
+0109,Òjò ń rọ̀ lónìí.,It is raining today.,tone contrast,LLLHLH,,no
+0110,Ojú n dùn mi,My eye hurts.,vowel and tone contrast,MHLM,,no
+0111,Ẹja náà wà nínú omi.,The fish is in the water.,ẹ/e vowel coverage,MMHLLHHMM,,no
+0112,Adé ra ewé ní ọjà.,Ade bought leaves at the market.,ẹ/e vowel coverage,MHMMHHML,,no
+0113,Ọmọ náà jókòó.,The child sat down.,ọ/o vowel coverage,MMHLHLH,,no
+0114,Mo ra ọ̀bẹ tuntun.,I bought a new knife.,ọ/o vowel coverage,MMLMMM,,no
+0115,Ṣadé ń ṣe oúnjẹ.,Sade is cooking.,ṣ/s consonant coverage,MHMMHM,,no
+0116,Ṣẹ́gun sọ òtítọ́.,Segun told the truth.,ṣ/s consonant coverage,HMMLHH,,no
+0117,"Ẹ jọ̀wọ́, ẹ ṣí ilẹ̀kùn.",Please open the door.,connected speech,MLHMHMLL,,no
+0118,Omi náà tutù.,The water is cold.,vowel and tone coverage,MMHLML,,no
+0119,Ọ̀rẹ́ mi fẹ́ ra ẹja.,My friend wants to buy fish.,vowel and tone coverage,LHMHMMM,,no
+0120,Ẹ̀gbọ́n mi ń ka ìwé.,My older sibling is reading a book.,connected speech,LHMMLH,,no
+0121,"Báwo ni, o ṣe wà?",How are you?,question intonation,HMMMML,,no
+0122,Ṣé o ti jẹun?,Have you eaten?,question intonation,HMMMM,,no
+0123,Mo fẹ́ lọ sí ilé.,I want to go home.,natural statement,MHMHMH,,no
+0124,"Jọ̀wọ́, fún mi ní omi.",Please give me water.,polite request,LHHMHMM,,no
+0125,A ó pàdé lọ́la.,We will meet tomorrow.,future statement,MHLHHM,,no
+0126,Ọjọ́ náà dára gan-an.,The day was very good.,natural emphasis,MHHLHMMM,,no
+0127,Mo gbọ́ ohun tí o sọ.,I heard what you said.,connected speech,MHMMHMM,,no
+0128,Ṣé o lè ràn mí lọ́wọ́?,Can you help me?,question intonation,HMLLHHH,,no
+0129,"Jọ̀wọ́, pa ilẹ̀kùn de.",Please close the door.,polite command,LHMMLLM,,no
+0130,Inú mi dùn láti rí ẹ!,I am happy to see you!,expressive speech,MHMLHMHM,,no
+0131,Ará Èkó ni Bọ́lá.,Bola is a resident of Lagos.,lexical-tone contrast: ará,MHLHMHH,C04,yes
+0132,Ara ọmọ náà gbóná.,The child's body is hot.,lexical-tone contrast: ara,MMMMHLHH,C04,yes
+0133,Àrá ń sán lókè ọ̀run.,Thunder is rumbling in the sky.,lexical-tone contrast: àrá,LHHHLLM,C04,yes
+0134,Ogun náà parí ní àná.,The war ended yesterday.,tone sequence: ogun,MMHLMHHLH,,no
+0135,Dókítà fún mi ní oògùn.,The doctor gave me medicine.,tone sequence: oògùn,HHLHMHMLL,,no
+0136,Kúnlé jogún ilé bàbá rẹ̀.,Kunle inherited his father's house.,tone sequence: jogún,HHMHMHLHL,,no
+0137,Bàbá mi ń ṣe òwò ní ọjà.,My father trades at the market.,lexical-tone contrast: òwò,LHMMLLHML,C02,yes
+0138,Owó náà wà nínú àpò mi.,The money is in my bag.,lexical-tone contrast: owó,MHHLLHHLLM,C02,yes
+0139,Ọwọ́ mi mọ́.,My hand is clean.,lexical-tone contrast: ọwọ́,MHMH,C02,yes
+0140,Mo dé ní ìgbà tó yẹ.,I arrived at the right time.,lexical-tone contrast: ìgbà,MHHLLHM,C03,yes
+0141,Ìyá gbé igbá náà kalẹ̀.,Mother put the calabash down.,lexical-tone contrast: igbá,LHHMHHLML,C03,yes
+0142,Mo kọ́ ẹ̀kọ́ tuntun lónìí.,I learned a new lesson today.,lexical-tone contrast: ẹ̀kọ́,MHLHMMHLH,C05,yes
+0143,Ọmọ náà jẹ ẹ̀kọ ní òwúrọ̀.,The child ate corn pap in the morning.,lexical-tone contrast: ẹ̀kọ,MMHLMLMHLHL,C05,yes
+0144,Bọ́lá lọ sí ilé ẹ̀kọ́.,Bola went to school.,compound tone sequence,HHMHMHLH,C05,yes
+0145,Kúnlé lọ sí ọjà.,Kunle went to the market.,affirmative statement,HHMHML,C11,yes
+0146,Kúnlé ò lọ sí ọjà.,Kunle did not go to the market.,negation contrast,HHLMHML,C11,yes
+0147,Ó ti dé ilé.,He or she has arrived home.,completed-action statement,HMHMH,C12,yes
+0148,Kò tíì dé ilé.,He or she has not arrived home yet.,negative aspect contrast,LHLHMH,C12,yes
+0149,Ṣé Bọ́lá ti jí?,Has Bola woken up?,yes-no question intonation,HHHMH,C13,yes
+0150,Bọ́lá ti jí.,Bola has woken up.,question-statement contrast,HHMH,C13,yes
+0151,Adé ni ó ra ìwé náà.,It was Ade who bought the book.,focus construction,MHMHMLHHL,C14,yes
+0152,Adé ra ìwé náà.,Ade bought the book.,neutral-focus contrast,MHMLHHL,C14,yes
+0153,Ẹ má ṣe bẹ̀rù.,Do not be afraid.,negative command,MHMLL,,no
+0154,"Ẹ jọ̀wọ́, ẹ tún un sọ.",Please say it again.,polite request and connected speech,MLHMHMM,,no
+0155,Mo fẹ́ kí o wá ní báyìí.,I want you to come now.,connected speech,MHHMHHHLH,,no
+0156,"Nígbà tí mo dé, wọ́n ti lọ.","By the time I arrived, they had left.",tone in a complex sentence,HLHMHHMM,,no
+0157,"Bí òjò bá rọ̀, a ó dúró sí ilé.","If it rains, we will stay at home.",conditional and connected speech,HLLHLMHHHHMH,,no
+0158,Ìpàdé náà bẹ̀rẹ̀ ní aago mẹ́wàá.,The meeting began at ten o'clock.,meeting term and numeral,LLHHLLLHMMMHLH,,no
+0159,Mo ra ọ̀gẹ̀dẹ̀ méje ní ọjà.,I bought seven bananas at the market.,numeral and vowel coverage,MMLLLHMHML,,no
+0160,Inú mi kò dùn sí ohun tí ó ṣẹlẹ̀.,I am unhappy about what happened.,expressive negative speech,MHMLLHMMHHML,,no
+0161,Adé kọ́ ilé tuntun.,Ade built a new house.,meaning-changing tone contrast: kọ́,MHHMHMM,C06,yes
+0162,Adé kọ lẹ́tà sí mi.,Ade wrote a letter to me.,meaning-changing tone contrast: kọ,MHMHLHM,C06,yes
+0163,Adé kọ̀ láti lọ.,Ade refused to go.,meaning-changing tone contrast: kọ̀,MHLHMM,C06,yes
+0164,Yàrá náà mọ́.,The room is clean.,tone sequence: yàrá,LHHLH,C07,yes
+0165,"Jọ̀wọ́, yára dé síbí.",Please come here quickly.,tone sequence: yára,LHHMHHH,C07,yes
+0166,Agbẹ̀ náà gbin àgbàdo.,The farmer planted maize.,gb consonant coverage,MLHLMLLM,,no
+0167,Gbádé gbé àpótí náà.,Gbade lifted the box.,repeated gb consonants,HHHLHHHL,,no
+0168,Ṣọ́lá ra ṣúgà àti iyọ̀.,Sola bought sugar and salt.,ṣ consonant and loanword coverage,HHMHLLMML,,no
+0169,Ọmọ náà ń fọ aṣọ rẹ̀.,The child is washing his or her clothes.,meaning-changing tone contrast: fọ,MMHLMMML,C08,yes
+0170,Má fọ́ ife náà.,Do not break the cup.,meaning-changing tone contrast: fọ́,HHMMHL,C08,yes
+0171,Ta ni ó dé?,Who arrived?,who-question intonation,MMHH,,no
+0172,Kí ni o fẹ́?,What do you want?,what-question intonation,HMMH,,no
+0173,Níbo ni wọ́n ń lọ?,Where are they going?,where-question intonation,HMMHM,,no
+0174,Èló ni ó jẹ́?,How much is it?,quantity-question intonation,LHMHH,,no
+0175,Ìgbà wo ni ìpàdé náà máa parí?,What time will the meeting end?,time-question and connected speech,LLMMLLHHLHMMH,,no
+0176,Má fọwọ́ kan iná.,Do not touch the fire.,negative command,HMHMMH,,no
+0177,Ẹ dúró níbí.,Wait here.,plural or respectful command,MHHHH,,no
+0178,Gbé àga yìí sí ẹ̀gbẹ́ tábìlì.,Move this chair beside the table.,command and connected speech,HLMLHHLHHLL,,no
+0179,Fóònù mi ń dún.,My phone is ringing.,loanword and progressive aspect,HLLMH,,no
+0180,Ẹ̀rọ náà kò ṣiṣẹ́.,The device is not working.,negation and vowel coverage,LMHLLMH,,no
+0181,Mo pè ọ́ ní ẹ̀ẹ̀mejì.,I called you twice.,object pronoun and numeral,MLHHLLML,,no
+0182,A ó pàdé ní ọjọ́ Ajé.,We will meet on Monday.,future statement and weekday,MHLHHMHMH,,no
+0183,Ayẹyẹ náà máa wáyé ní ọjọ́ Ẹtì.,The celebration will take place on Friday.,future expression and weekday,MMMHLHMHHHMHML,,no
+0184,Ọkọ̀ ojú irin máa dé ní aago mẹ́ta àbọ̀.,The train will arrive at half past three.,time expression,MLMHMMHMHHMMMHMLL,,no
+0185,Ó ra ẹyin méjìlá.,He or she bought twelve eggs.,numeral pronunciation,HMMMHLH,,no
+0186,Àwọn ọmọ márùn-ún wà nínú yàrá.,Five children are in the room.,numeral and connected speech,LMMMHLHLHHLH,,no
+0187,"Lẹ́yìn tí mo jẹun, mo lọ sí ibi iṣẹ́.",After I ate I went to work.,multi-clause connected speech,HLHMMMMMHMMMH,,no
+0188,"Bó tilẹ̀ jẹ́ pé ó rẹ̀ mí, mo parí iṣẹ́ náà.",Although I was tired I finished the work.,multi-clause tone realization,HMLHHHLHMMHMHHL,,no
+0189,"Nígbà tí fóònù náà dún, mo wà ní ìpàdé.",When the phone rang I was in a meeting.,multi-clause connected speech,HLHHLLHLHMLHLLH,,no
+0190,Ẹ̀rù bà mí nígbà tí mo gbọ́ ariwo náà.,I was frightened when I heard the noise.,expressive connected speech,LLLHHLHMHMMMHL,,no
+0191,Ìlú náà tóbi.,The town is large.,meaning-changing tone contrast: ìlú,LHHLHM,C09,yes
+0192,Ọmọ náà ń lu ìlù.,The child is beating a drum.,meaning-changing tone contrast: ìlù,MMHLMLL,C09,yes
+0193,Ìyá mi wà nílé.,My mother is at home.,meaning-changing tone contrast: ìyá,LHMLHH,C10,yes
+0194,Ọmọ náà bẹ̀rù ìyà.,The child is afraid of punishment.,meaning-changing tone contrast: ìyà,MMHLLLLL,C10,yes
+0195,Ṣètò ìtanijí fún aago mẹ́fà òwúrọ̀.,Set an alarm for six in the morning.,voice-assistant alarm command,LLLMMHHMMMHLLHL,,no
+0196,Pe Kúnlé lórí fóònù.,Call Kunle on the phone.,voice-assistant calling command,MHHHHHLL,,no
+0197,Ka ìròyìn tuntun fún mi.,Read the latest news to me.,voice-assistant information request,MLLLMMHM,,no
+0198,Kọ ìránṣẹ́ sí Bọ́lá pé màá pẹ́ díẹ̀.,Send Bola a message saying that I will be a little late.,voice-assistant messaging command,MLHHHHHHLHHHL,,no
+0199,Tan iná yàrá náà.,Turn on the room light.,on-command contrast,MMHLHHL,C15,yes
+0200,Pa iná yàrá náà.,Turn off the room light.,off-command contrast,MMHLHHL,C15,yes
+0201,Dún orin Yorùbá kan fún mi.,Play a Yoruba song for me.,media command,HMMMLHMHM,,no
+0202,Báwo ni ojú ọjọ́ ṣe rí lónìí?,What is the weather like today?,weather question,HMMMHMHMHHLH,,no
+0203,Rán mi létí ìpàdé ọ̀la.,Remind me about tomorrow's meeting.,reminder command,HMHHLLHLM,,no
+0204,Fi ọ̀nà ilé ìwòsàn hàn mí.,Show me the way to the hospital.,navigation command,MLLMHLLLLH,,no
+0205,Mo gbọ́ ọ dáadáa.,I can hear you clearly.,connected object pronoun,MHMHMHM,C16,yes
+0206,Mi ò gbọ́ ohun tí o sọ.,I did not hear what you said.,negative listening statement,MLHMMHMM,C16,yes
+0207,Ṣé o lè sọ̀rọ̀ díẹ̀díẹ̀?,Can you speak slowly?,voice-speed request,HMLLLHLHL,,no
+0208,"Jọ̀wọ́, máa sọ̀rọ̀ sókè díẹ̀.",Please speak a little louder.,voice-volume request,LHHMLLHLHL,,no
+0209,Kí ni ìtumọ̀ ọ̀rọ̀ yìí?,What is the meaning of this word?,definition question,HMLMLLLLH,,no
+0210,Tú gbólóhùn yìí sí èdè Gẹ̀ẹ́sì.,Translate this sentence into English.,translation command,HHHLLHHLLLHL,,no
+0211,Èmi ni mo ṣe é.,I am the one who did it.,focus and emphasis,LMMMMH,C17,yes
+0212,Èmi kò ṣe é.,I did not do it.,negation contrast,LMLMH,C17,yes
+0213,"Ó ṣe é ní àná, kì í ṣe lónìí.",He or she did it yesterday not today.,corrective emphasis,HMHHLHLHMHLH,,no
+0214,Ẹ kú oríire!,Congratulations!,celebratory expression,MHMHMM,,no
+0215,Ó ṣeun púpọ̀!,Thank you very much!,grateful expression,HMMHL,,no
+0216,Má ṣe yọ ara rẹ lẹ́nu.,Do not worry.,reassuring command,HMMMMMHM,,no
+0217,Inú bí mi gan-an.,I am very angry.,angry expression,MHHMMM,,no
+0218,Káàbọ̀ sí ilé wa!,Welcome to our home!,welcoming expression,HLLHMHM,,no
+0219,"Tí o bá nílò ìrànlọ́wọ́, pe mí lẹ́sẹ̀kẹsẹ̀.",If you need help call me immediately.,conditional connected speech,HMHHLLLHHMHHLML,,no
+0220,"Nítorí pé ojú ọ̀nà dí, a dé pẹ́.",Because there was traffic we arrived late.,causal connected speech,HMHHMHLLHMHH,,no

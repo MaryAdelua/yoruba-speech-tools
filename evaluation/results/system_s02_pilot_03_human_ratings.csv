@@ -1,0 +1,11 @@
+prompt_id,transcript_match,no_extra_speech,pronunciation_natural,tone_correct,meaning_recovered,scorable,notes
+0161,partial,yes,no,no,no,yes,"None."
+0162,yes,yes,yes,yes,yes,yes,"None."
+0163,partial,yes,no,yes,yes,yes,"None."
+0164,partial,yes,no,no,unsure,yes,"Pronunciation concern: náà mọ́."
+0165,partial,yes,no,no,no,yes,"Pronunciation concern: yára dé síbí."
+0169,partial,yes,no,no,no,yes,"Pronunciation was incorrect."
+0170,no,yes,no,no,no,yes,"Pronunciation was incorrect."
+0191,partial,yes,no,yes,unsure,yes,"Pronunciation concern: náà."
+0192,partial,yes,no,yes,yes,yes,"Pronunciation concern: ìlù."
+0144,partial,yes,no,yes,yes,yes,"Pronunciation concern: ilé ẹ̀kọ́."

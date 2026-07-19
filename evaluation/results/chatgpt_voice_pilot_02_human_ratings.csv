@@ -1,0 +1,11 @@
+prompt_id,transcript_match,no_extra_speech,pronunciation_natural,tone_correct,meaning_recovered,scorable,notes
+0101,no,yes,no,no,no,yes,"The tone changed the meaning; speech sounded unnatural; the sentence was unfinished and omitted “òpópónà”."
+0102,no,yes,no,no,no,yes,"Different words were pronounced, producing an entirely different meaning."
+0103,no,yes,no,no,no,yes,"Pronunciation and words were substantially different and did not convey the full meaning."
+0104,no,yes,no,no,unsure,yes,"The word for farm was not pronounced properly; the accent did not sound Yoruba."
+0105,yes,yes,no,yes,yes,yes,"The accent and pronunciation were major problems despite preservation of the words, tone judgment, and meaning."
+0106,yes,yes,no,yes,yes,yes,"Intonation and pronunciation made the utterance hard to understand on first hearing."
+0107,no,yes,no,no,unsure,yes,"“Ìgbà” was realized without the initial consonant and “wo” sounded like “wu”."
+0108,no,yes,not_scorable,not_scorable,unsure,no,"The extracted clip began with noise and the ChatGPT voice was missing or cut off; content and pronunciation could not be evaluated."
+0142,no,yes,no,no,no,yes,"“Tuntun” was pronounced incorrectly and the sentence did not convey the intended meaning."
+0143,yes,yes,no,yes,yes,yes,"The words, tone judgment, and meaning were preserved, but intonation and pronunciation were unnatural."

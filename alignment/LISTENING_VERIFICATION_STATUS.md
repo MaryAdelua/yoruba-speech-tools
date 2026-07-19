@@ -1,10 +1,11 @@
 # Listening verification status
 
-- Verified by the fluent speaker: **20 of 120**
-- Pending: **100 of 120**
+- Verified by the fluent speaker: **120 of 120**
+- Pending: **0 of 120**
 - Verified transcript mismatches: **none**
 - Verified unnatural pronunciations: **none**
-- Corrections required: **none**
+- Outstanding corrections: **none**
 - Re-recordings required: **none**
+- Resolved corrections: **1 (`0205`: final 1 second trimmed to remove trailing noise)**
 
-The third review batch covered ten `ìgbà/igbá`, `ara/ará/àrá`, and `ẹ̀kọ/ẹ̀kọ́` contrast recordings. All ten matched their transcripts and sounded natural.
+Human listening verification and the identified audio correction are complete.

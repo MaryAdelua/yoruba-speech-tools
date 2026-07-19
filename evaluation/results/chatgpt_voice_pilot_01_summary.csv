@@ -1,0 +1,2 @@
+system,pilot,requested_items,produced_target_items,target_coverage_pct,exact_transcript_matches,extra_chunks,end_to_end_success,tone_contrast_preservation_accuracy,syllable_tone_error_rate,naturalness_mos
+ChatGPT Voice,01,10,0,0.0,0,11,0/10,not_scorable,not_scorable,not_rated

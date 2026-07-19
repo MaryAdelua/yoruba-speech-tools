@@ -1,0 +1,11 @@
+prompt_id,baseline_transcript,guided_transcript,baseline_tone,guided_tone,baseline_meaning,guided_meaning,baseline_natural,guided_natural,paired_status
+0161,no,partial,no,yes,no,yes,no,no,comparable
+0162,partial,yes,yes,yes,yes,yes,no,no,comparable
+0163,not_scorable,partial,not_scorable,no,not_scorable,unsure,not_scorable,no,excluded_baseline_technical_failure
+0164,partial,no,no,no,no,no,no,no,comparable
+0165,partial,partial,no,no,unsure,unsure,no,no,comparable
+0169,yes,partial,yes,yes,yes,unsure,no,no,comparable
+0170,no,no,no,no,no,no,no,no,comparable
+0191,partial,no,yes,no,unsure,no,no,no,comparable
+0192,no,no,no,no,no,no,no,no,comparable
+0144,partial,partial,yes,yes,yes,unsure,no,no,comparable

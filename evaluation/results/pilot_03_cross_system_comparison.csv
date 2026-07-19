@@ -1,0 +1,7 @@
+metric,chatgpt_numerator,chatgpt_denominator,chatgpt_percent,s02_numerator,s02_denominator,s02_percent,difference_s02_minus_chatgpt_pp
+Exact transcript match,1,9,11.1,1,10,10.0,-1.1
+Partial transcript match,5,9,55.6,8,10,80.0,24.4
+Natural Yoruba pronunciation,0,9,0.0,1,10,10.0,10.0
+Tone correctness,4,9,44.4,5,10,50.0,5.6
+Strict meaning recovery,3,9,33.3,4,10,40.0,6.7
+No added speech,9,9,100.0,10,10,100.0,0.0

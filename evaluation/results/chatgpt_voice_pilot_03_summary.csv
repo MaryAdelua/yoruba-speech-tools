@@ -1,0 +1,14 @@
+metric,numerator,denominator,percent,denominator_rule
+Usable extracted responses,9,10,90.0,All requested prompts
+Exact transcript match,1,9,11.1,Scorable responses only
+Partial transcript match,5,9,55.6,Scorable responses only
+No transcript match,3,9,33.3,Scorable responses only
+No added speech,9,9,100.0,Scorable responses only
+Natural Yoruba pronunciation,0,9,0.0,Scorable responses only
+Tone correctness,4,9,44.4,Responses with scorable tone
+Strict meaning recovery,3,9,33.3,Scorable responses; unsure counts as not recovered
+Meaning definitely not recovered,4,9,44.4,Scorable responses only
+Meaning uncertain,2,9,22.2,Scorable responses only
+Exact transcript match (all prompts),1,10,10.0,All requested prompts including extraction failure
+Tone correctness (all prompts),4,10,40.0,All requested prompts including extraction failure
+Strict meaning recovery (all prompts),3,10,30.0,All requested prompts including extraction failure

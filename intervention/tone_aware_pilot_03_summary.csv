@@ -1,0 +1,11 @@
+metric,numerator,denominator,percent,denominator_rule
+Usable guided responses,10,10,100.0,All intervention prompts
+Exact transcript match,1,10,10.0,All scorable guided responses
+Partial transcript match,5,10,50.0,All scorable guided responses
+No transcript match,4,10,40.0,All scorable guided responses
+No added speech,10,10,100.0,All scorable guided responses
+Natural Yoruba pronunciation,0,10,0.0,All scorable guided responses
+Tone correctness,4,10,40.0,All scorable guided responses
+Strict meaning recovery,2,10,20.0,Unsure counts as not recovered
+Meaning definitely not recovered,4,10,40.0,All scorable guided responses
+Meaning uncertain,4,10,40.0,All scorable guided responses

@@ -1,0 +1,11 @@
+order,prompt_id,yoruba,english_meaning,contrast_group_id,research_purpose
+1,0161,Adé kọ́ ilé tuntun.,Ade built a new house.,C06,meaning-changing tone contrast
+2,0162,Adé kọ lẹ́tà sí mi.,Ade wrote a letter to me.,C06,meaning-changing tone contrast
+3,0163,Adé kọ̀ láti lọ.,Ade refused to go.,C06,meaning-changing tone contrast
+4,0164,Yàrá náà mọ́.,The room is clean.,C07,tone-sequence contrast
+5,0165,"Jọ̀wọ́, yára dé síbí.",Please come here quickly.,C07,tone-sequence contrast
+6,0169,Ọmọ náà ń fọ aṣọ rẹ̀.,The child is washing his or her clothes.,C08,meaning-changing tone contrast
+7,0170,Má fọ́ ife náà.,Do not break the cup.,C08,meaning-changing tone contrast
+8,0191,Ìlú náà tóbi.,The town is large.,C09,meaning-changing tone contrast
+9,0192,Ọmọ náà ń lu ìlù.,The child is beating a drum.,C09,meaning-changing tone contrast
+10,0144,Bọ́lá lọ sí ilé ẹ̀kọ́.,Bola went to school.,C05,compound tone sequence

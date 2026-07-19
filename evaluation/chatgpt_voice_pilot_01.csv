@@ -1,0 +1,11 @@
+order,prompt_id,yoruba,english_meaning,contrast_group_id,contrast_family
+1,0101,Mo rí ọkọ̀ tuntun ní òpópónà.,I saw a new vehicle on the road.,C01,oko-family
+2,0102,Ọdẹ náà gbé ọ̀kọ̀ rẹ̀.,The hunter carried his spear.,C01,oko-family
+3,0103,Ọkọ Adé dé láti ibise.,Ade's husband returned from work.,C01,oko-family
+4,0104,Bàbá mi lọ sí oko ní òwúrọ̀.,My father went to the farm in the morning.,C01,oko-family
+5,0105,Mo fi owó ra oúnjẹ.,I used money to buy food.,C02,owo-family
+6,0106,Fọ ọwọ́ rẹ kí o tó jẹun.,Wash your hands before eating.,C02,owo-family
+7,0107,Ìgbà wo ni o máa dé?,What time will you arrive?,C03,igba-family
+8,0108,Ìyá fi omi sínú igbá.,Mother put water into the calabash.,C03,igba-family
+9,0142,Mo kọ́ ẹ̀kọ́ tuntun lónìí.,I learned a new lesson today.,C05,eko-family
+10,0143,Ọmọ náà jẹ ẹ̀kọ ní òwúrọ̀.,The child ate corn pap in the morning.,C05,eko-family

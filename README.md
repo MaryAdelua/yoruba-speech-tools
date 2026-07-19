@@ -14,8 +14,13 @@ Can explicit syllable-tone supervision and meaning-risk-weighted contrastive obj
 - frame-level pYIN F0 tracks and utterance contours extracted;
 - 17 meaning-relevant contrast groups defined;
 - utterance-level alignment completed;
-- 20 of 120 recordings listening-verified by the fluent speaker;
-- no verified transcript or naturalness failures so far.
+- all 120 recordings listening-verified by the fluent speaker;
+- one trailing-noise correction completed (`0205`), with no re-recordings required;
+- matched ChatGPT Voice and Microsoft Copilot Voice baselines evaluated;
+- a concise functional-load tone-prompt intervention implemented and tested;
+- prompt-level tone guidance produced **no aggregate improvement** over the matched ChatGPT baseline: exact transcript accuracy, tone correctness, and naturalness were unchanged, while strict meaning recovery decreased from 33.3% to 22.2% on nine valid pairs.
+
+The prompt intervention is retained as a reproducible null result. The project will not repeatedly tune prompts on the same test items. The next technical stage, when separately authorized, is an architecture-level tone objective on a trainable open Yoruba TTS baseline.
 
 ## Repository scope
 
@@ -24,6 +29,8 @@ The repository tracks code, manifests, reports, recording sheets, and reproducib
 ## Important limitation
 
 Word-, syllable-, and vowel-level acoustic timestamps remain pending. The project does not report lexical Tone Error Rate until Yoruba-capable alignment and manual review are complete.
+
+The current voice-system and intervention results are single-rater diagnostic findings from a small, non-blinded pilot. They are not population-level estimates or provider rankings.
 
 ## Data and consent
 

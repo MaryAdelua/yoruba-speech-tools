@@ -1,0 +1,11 @@
+﻿order,prompt_id,yoruba,english_meaning,contrast_group_id,research_purpose,focus_word,focus_tones,focus_meaning,concise_guided_prompt
+1,0161,Adé kọ́ ilé tuntun.,Ade built a new house.,C06,meaning-changing tone contrast,kọ́,H,built,Say exactly: “Adé kọ́ ilé tuntun.” Cue: kọ́ is HIGH and means built. Nothing else.
+2,0162,Adé kọ lẹ́tà sí mi.,Ade wrote a letter to me.,C06,meaning-changing tone contrast,kọ,M,wrote,Say exactly: “Adé kọ lẹ́tà sí mi.” Cue: kọ is MID and means wrote. Nothing else.
+3,0163,Adé kọ̀ láti lọ.,Ade refused to go.,C06,meaning-changing tone contrast,kọ̀,L,refused,Say exactly: “Adé kọ̀ láti lọ.” Cue: kọ̀ is LOW and means refused. Nothing else.
+4,0164,Yàrá náà mọ́.,The room is clean.,C07,tone-sequence contrast,Yàrá,L-H,room,Say exactly: “Yàrá náà mọ́.” Cue: Yàrá is LOW-HIGH and means room. Nothing else.
+5,0165,"Jọ̀wọ́, yára dé síbí.",Please come here quickly.,C07,tone-sequence contrast,yára,H-M,quickly,"Say exactly: “Jọ̀wọ́, yára dé síbí.” Cue: yára is HIGH-MID and means quickly. Nothing else."
+6,0169,Ọmọ náà ń fọ aṣọ rẹ̀.,The child is washing his or her clothes.,C08,meaning-changing tone contrast,fọ,M,wash,Say exactly: “Ọmọ náà ń fọ aṣọ rẹ̀.” Cue: fọ is MID and means wash. Nothing else.
+7,0170,Má fọ́ ife náà.,Do not break the cup.,C08,meaning-changing tone contrast,fọ́,H,break,Say exactly: “Má fọ́ ife náà.” Cue: fọ́ is HIGH and means break. Nothing else.
+8,0191,Ìlú náà tóbi.,The town is large.,C09,meaning-changing tone contrast,Ìlú,L-H,town,Say exactly: “Ìlú náà tóbi.” Cue: Ìlú is LOW-HIGH and means town. Nothing else.
+9,0192,Ọmọ náà ń lu ìlù.,The child is beating a drum.,C09,meaning-changing tone contrast,ìlù,L-L,drum,Say exactly: “Ọmọ náà ń lu ìlù.” Cue: ìlù is LOW-LOW and means drum. Nothing else.
+10,0144,Bọ́lá lọ sí ilé ẹ̀kọ́.,Bola went to school.,C05,compound tone sequence,ẹ̀kọ́,L-H,school/learning,Say exactly: “Bọ́lá lọ sí ilé ẹ̀kọ́.” Cue: ẹ̀kọ́ is LOW-HIGH and means school/learning. Nothing else.

@@ -1,0 +1,11 @@
+prompt_id,transcript_match,no_extra_speech,pronunciation_natural,tone_correct,meaning_recovered,scorable,notes
+0161,no,yes,no,no,no,yes,"The pronunciation was wrong."
+0162,partial,yes,no,yes,yes,yes,"The pronunciation was slightly wrong."
+0163,not_scorable,yes,not_scorable,not_scorable,not_scorable,no,"The clip began with background noise and the ChatGPT voice was missing or cut off, so pronunciation and content could not be evaluated."
+0164,partial,yes,no,no,no,yes,"Yàrá was the only part pronounced properly; the rest was not pronounced well."
+0165,partial,yes,no,no,unsure,yes,"Dé síbí was improperly pronounced."
+0169,yes,yes,no,yes,yes,yes,"Pronunciation was unnatural."
+0170,no,yes,no,no,no,yes,"Pronunciation was wrong, especially ife náà."
+0191,partial,yes,no,yes,unsure,yes,"Ìlú was not pronounced well."
+0192,no,yes,no,no,no,yes,"Pronunciation and intonation were wrong."
+0144,partial,yes,no,yes,yes,yes,"Ilé ẹ̀kọ́ was pronounced incorrectly."

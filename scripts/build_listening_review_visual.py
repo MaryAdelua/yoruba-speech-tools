@@ -172,7 +172,7 @@ fragment = f'''<div id="yoruba-listening-review">
           await window.openai.sendFollowUpMessage({{ prompt, title: 'Send listening-review results?' }});
           status.textContent = 'Results sent to Codex.';
         }} else {{
-          status.textContent = 'Sending is unavailable here. Copy your five answers into the chat.';
+          status.textContent = 'Sending is unavailable here. Copy your completed answers into the chat.';
         }}
       }});
 

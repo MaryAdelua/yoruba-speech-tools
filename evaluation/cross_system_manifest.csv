@@ -1,0 +1,3 @@
+system_id,provider,product,benchmark_prompt_set,status,voice,test_date,notes
+S01,OpenAI,ChatGPT Voice,Pilot 3,completed,unknown,2026-07-18,One of ten clips was technically unusable
+S02,Microsoft,Copilot Voice,Pilot 3,completed,unknown,2026-07-18,Matched cross-system comparison
