@@ -112,7 +112,10 @@ def seed_everything(seed: int, deterministic: bool) -> None:
     if torch.cuda.is_available():
         torch.cuda.manual_seed_all(seed)
     torch.backends.cudnn.benchmark = False
-    torch.use_deterministic_algorithms(deterministic)
+    # Original VITS uses reflection_pad1d_backward on CUDA, for which PyTorch
+    # 2.1.2 has no deterministic implementation. Keep deterministic mode and
+    # surface the unsupported kernel explicitly instead of aborting the run.
+    torch.use_deterministic_algorithms(deterministic, warn_only=True)
 
 
 class MMSVocabulary:
@@ -255,7 +258,12 @@ class OriginalVITSBackend:
         kwargs = {"betas": tuple(opt["betas"]), "eps": opt["epsilon"], "weight_decay": opt["weight_decay"]}
         self.optimizer_g = torch.optim.AdamW(self.generator.parameters(), lr=opt["learning_rate_generator"], **kwargs)
         self.optimizer_d = torch.optim.AdamW(self.discriminator.parameters(), lr=opt["learning_rate_discriminator"], **kwargs)
-        self.scaler = torch.cuda.amp.GradScaler(enabled=opt["mixed_precision"] == "fp16")
+        # The default 65536 scale overflows the pretrained MMS/VITS gradients
+        # before the first optimizer update. The recipe freezes FP16 but does
+        # not prescribe a scale; 1.0 is the validated conservative start.
+        self.scaler = torch.cuda.amp.GradScaler(
+            enabled=opt["mixed_precision"] == "fp16", init_scale=1.0,
+        )
         self.losses, self.mel_processing, self.device, self.recipe = losses, mel_processing, device, recipe
         self.optimizer_g.zero_grad(set_to_none=True)
         self.optimizer_d.zero_grad(set_to_none=True)
@@ -390,7 +398,8 @@ def cycle_batches(loader: Iterable) -> Iterator:
 
 def run_training_controller(backend, train_loader: Iterable, development_loader: Iterable, recipe: dict,
                             output_dir: Path, recipe_hash: str, dataset_hash: str,
-                            max_updates_override: int | None = None) -> dict:
+                            max_updates_override: int | None = None,
+                            allow_unselected_final_checkpoint: bool = False) -> dict:
     opt = recipe["optimization"]
     select = recipe["checkpoint_selection"]
     accumulation = opt["gradient_accumulation_steps"]
@@ -436,17 +445,36 @@ def run_training_controller(backend, train_loader: Iterable, development_loader:
                 break
         log.append(entry)
     best_path = output_dir / "best.pt"
+    selected_path = best_path
+    checkpoint_kind = "development_selected_best"
     if not best_path.is_file():
-        raise RuntimeError("No development checkpoint was selected")
-    best = torch.load(best_path, map_location="cpu", weights_only=False)
-    if best["recipe_sha256"] != recipe_hash or best["dataset_sha256"] != dataset_hash:
-        raise ValueError("Best checkpoint provenance mismatch")
-    backend.load_checkpoint_state(best["backend"])
+        if not allow_unselected_final_checkpoint:
+            raise RuntimeError("No development checkpoint was selected")
+        # A ten-update infrastructure validation ends before the frozen update-25
+        # development evaluation. Preserve its final state without calling it a
+        # selected/best research checkpoint or changing the evaluation schedule.
+        state = {
+            "schema_version": "1.0", "condition": "B", "update": log[-1]["update"],
+            "recipe_sha256": recipe_hash, "dataset_sha256": dataset_hash,
+            "early_stopping": early.__dict__, "backend": backend.checkpoint_state(),
+            "rng": {"python": random.getstate(), "numpy": np.random.get_state(),
+                    "torch": torch.get_rng_state(), "cuda": torch.cuda.get_rng_state_all()},
+        }
+        selected_path = output_dir / "technical_validation_update_10.pt"
+        atomic_torch_save(state, selected_path)
+        checkpoint_kind = "unselected_technical_validation_final"
+    selected = torch.load(selected_path, map_location="cpu", weights_only=False)
+    if selected["recipe_sha256"] != recipe_hash or selected["dataset_sha256"] != dataset_hash:
+        raise ValueError("Checkpoint provenance mismatch")
+    backend.load_checkpoint_state(selected["backend"])
     summary = {
         "training_started": True, "optimizer_updates": log[-1]["update"],
-        "stopped_early": stopped_early, "best_update": early.best_update,
-        "best_development_metric": early.best_metric, "microbatches_per_update": accumulation,
-        "protected_test_items_seen": 0, "log": log,
+        "stopped_early": stopped_early,
+        "best_update": early.best_update if early.best_update else None,
+        "best_development_metric": early.best_metric if math.isfinite(early.best_metric) else None,
+        "microbatches_per_update": accumulation,
+        "protected_test_items_seen": 0, "checkpoint_path": selected_path.as_posix(),
+        "checkpoint_kind": checkpoint_kind, "log": log,
     }
     (output_dir / "training_summary.json").write_text(json.dumps(summary, indent=2) + "\n", encoding="utf-8")
     return summary

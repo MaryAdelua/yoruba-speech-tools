@@ -199,6 +199,7 @@ def run_production(args, recipe: dict, split: SplitPlan, *, technical_validation
         backend, train_loader, dev_loader, recipe, args.output,
         provenance["recipe_sha256"], provenance["dataset_sha256"],
         max_updates_override=approval["maximum_optimizer_updates"] if technical_validation else None,
+        allow_unselected_final_checkpoint=technical_validation,
     )
     if technical_validation and summary["optimizer_updates"] != 10:
         raise RuntimeError("Technical validation did not complete exactly 10 optimizer updates")

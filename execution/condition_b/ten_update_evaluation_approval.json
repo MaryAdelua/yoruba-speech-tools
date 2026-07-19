@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "approved": true,
+  "approved_by": "Mary Adelua",
+  "approved_at": "2026-07-19",
+  "condition": "B",
+  "scope": "ten_update_evaluation_audio_only",
+  "required_checkpoint_update": 10,
+  "protected_test_prompt_ids": ["YT0028", "YT0029", "YT0030"],
+  "protected_test_audio_access_approved": false,
+  "text_only_synthesis_approved": true,
+  "full_training_approved": false,
+  "recipe_sha256": "09c5d642bd87e8c345d03e08ef362145ca507494314ebdf2126b589519ce3cbf",
+  "dataset_sha256": "4fbb4b3f977b9733245cbc4c2013245a92a0ade284001fc6d9e30f208a228946"
+}

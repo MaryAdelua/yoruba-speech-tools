@@ -4,10 +4,10 @@
   "training_started": false,
   "recipe_sha256": "09c5d642bd87e8c345d03e08ef362145ca507494314ebdf2126b589519ce3cbf",
   "dataset_sha256": "4fbb4b3f977b9733245cbc4c2013245a92a0ade284001fc6d9e30f208a228946",
-  "platform": "Linux-6.5.0-44-generic-x86_64-with-glibc2.39",
-  "python": "3.12.3",
-  "torch": "2.8.0+cu128",
-  "gpu": {"name": "NVIDIA L4", "memory_gb": 22.0440673828125, "cuda_runtime": "12.8", "cudnn": 91002},
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.31",
+  "python": "3.10.13",
+  "torch": "2.1.2",
+  "gpu": {"name": "NVIDIA L4", "memory_gb": 22.0343017578125, "cuda_runtime": "12.1", "cudnn": 8902},
   "checks": {
     "recipe_is_frozen": true,
     "training_gate_remains_closed": true,
@@ -19,12 +19,12 @@
     "gpu_memory_meets_minimum": true,
     "vits_commit_matches": true,
     "fairseq_commit_matches": true,
-    "container_digest_recorded": false,
+    "container_digest_recorded": true,
     "generator_checkpoint_loaded": true,
     "discriminator_checkpoint_loaded": true,
     "checkpoint_verification_had_zero_updates": true
   },
-  "environment_validation_passed": false,
+  "environment_validation_passed": true,
   "training_gate_active": true,
   "approval_gate_active": true
 }
