@@ -29,5 +29,7 @@ This bundle prepares—but does not automatically run—the frozen Condition B e
   CUDA, and VRAM before creating the production backend.
 - The full MMS training archive is not downloaded during local preparation.
 
-The production runner is `scripts/run_condition_b_training.py`. Its `--train` mode is not authorized
-until all blockers in `experiment_01/CONDITION_B_IMPLEMENTATION_AUDIT.md` are resolved.
+The production runner is `scripts/run_condition_b_training.py`. The implementation-audit blockers
+and ten-update validation gate were resolved. Full Condition B has a separate approval record at
+`execution/condition_b/full_training_approval.json`, but the project was paused before full training
+started. See `PAUSE_HANDOFF.md`. Condition C remains unapproved and must not be started.
