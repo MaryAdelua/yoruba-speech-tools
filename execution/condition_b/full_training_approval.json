@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "approved": true,
+  "approved_by": "Mary Adelua",
+  "approved_at": "2026-07-19",
+  "condition": "B",
+  "scope": "full_condition_b_training",
+  "maximum_optimizer_updates": 300,
+  "full_training_approved": true,
+  "protected_test_evaluation_approved": true,
+  "condition_c_approved": false,
+  "recipe_sha256": "09c5d642bd87e8c345d03e08ef362145ca507494314ebdf2126b589519ce3cbf",
+  "dataset_sha256": "4fbb4b3f977b9733245cbc4c2013245a92a0ade284001fc6d9e30f208a228946"
+}
