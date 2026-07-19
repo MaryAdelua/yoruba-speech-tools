@@ -31,8 +31,17 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 work/models/
+work/model_interface/
+work/model-interface-env/
+work/hf-cache/
+work/condition_a_repro/
+work/pytest*/
 work/omni-aligner-env/
 work/*syntax.js
+work/condition_b*.tgz
+work/condition_b_stage_upload.b64
+work/condition_b_stage_upload/
+work/vits-interface/
 
 # Private release candidates contain participant audio. Keep them local until
 # the signed release and dataset license gates are complete.

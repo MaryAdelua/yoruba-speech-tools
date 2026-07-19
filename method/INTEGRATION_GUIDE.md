@@ -38,6 +38,20 @@ An adapter maps dataset annotations to host-model positions and may expose:
 
 The contract makes no assumption about autoregressive versus parallel decoding, mel spectrograms versus codec tokens, or speaker-embedding design.
 
+## Implemented dry-run toolkit
+
+The architecture-independent contract is implemented in
+`src/integration_toolkit.py` and documented in `integration/README.md`. The
+current dry run emits a text-encoder-style sequence and a 50 Hz aligned
+acoustic-frame sequence from the same canonical targets. All 29 records retain
+the same target-identity hash across both adapters, and no model weights are
+loaded or updated.
+
+Phoneme and surface-tone losses are deliberately masked off. The phoneme layer
+has not completed full linguistic review, and context-conditioned surface tone
+is not annotated. Verified word/syllable supervision and orthographic tone
+features remain enabled.
+
 ## Recommended experimental sequence
 
 | Condition | Data | Frontend | Auxiliary loss | Question answered |
@@ -68,4 +82,3 @@ The integrated system must improve Yoruba pronunciation against the matched base
 ## Non-training use
 
 Teams that cannot modify a proprietary model can still use the resource for regression testing, model selection, failure triage, and Yoruba-specific release gates.
-

@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "purpose": "checkpoint_load_only",
+  "training_started": false,
+  "optimizer_created": false,
+  "optimizer_updates": 0,
+  "forward_passes": 0,
+  "dataset_items_read": 0,
+  "protected_test_items_seen": 0,
+  "generator_checkpoint_loaded": true,
+  "discriminator_checkpoint_loaded": true,
+  "generator_checkpoint_sha256": "2752787a4274049a9e3e07f6a704071c60cbf60673828f54060d48fc1c6daf296",
+  "discriminator_checkpoint_sha256": "83968d8f97a16940ded68694ca69480bd30e787b9e5fd2d53f81889af1ddf054",
+  "gpu": "NVIDIA L4",
+  "allocated_memory_bytes_after_load": 335045632
+}

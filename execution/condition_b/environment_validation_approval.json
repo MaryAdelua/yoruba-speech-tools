@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "approved_by": "Mary Adelua",
+  "approved_at": "2026-07-19",
+  "condition": "B",
+  "scope": "gpu_environment_validation_only",
+  "environment_validation_approved": true,
+  "ten_update_validation_approved": false,
+  "training_approved": false,
+  "recipe_sha256": "09c5d642bd87e8c345d03e08ef362145ca507494314ebdf2126b589519ce3cbf",
+  "dataset_sha256": "4fbb4b3f977b9733245cbc4c2013245a92a0ade284001fc6d9e30f208a228946",
+  "repository_commit_at_approval": "3c6dc37443a640579d7ec582ea46e30831faa24d",
+  "allowed_actions": [
+    "build_and_hash_container",
+    "download_and_hash_mms_yoruba_archive",
+    "load_generator_checkpoint_without_optimizer_updates",
+    "load_discriminator_checkpoint_without_optimizer_updates",
+    "run_no_update_gpu_preflight"
+  ],
+  "prohibited_actions": [
+    "ten_update_validation",
+    "condition_b_training",
+    "protected_test_evaluation"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "dry_run_only": true,
+  "model_weights_updated": false,
+  "record_count": 29,
+  "adapter_count": 2,
+  "adapters": [
+    "text-sequence-v1",
+    "acoustic-frame-v1"
+  ],
+  "target_identity_match_count": 29,
+  "unicode_round_trip_count": 29,
+  "word_count": 178,
+  "syllable_count": 321,
+  "tone_unit_count": 321,
+  "enabled_supervision": [
+    "audio_pair",
+    "word_boundaries",
+    "syllable_boundaries",
+    "orthographic_tone"
+  ],
+  "disabled_supervision": [
+    "surface_tone",
+    "phonemes"
+  ],
+  "canonical_dataset_sha256": "12f7967e2b87fe6359941345b752284392868213d29768a23314d577592f7ae5"
+}

@@ -1,0 +1,4 @@
+﻿sample_id,prompt_id,audio_path,text_nfc,english_meaning,segmental_pronunciation,lexical_tone,intelligibility,meaning_recovery,naturalness,notes
+A001,YT0028,experiment_01/condition_a/audio/condition_a_YT0028.wav,Ẹlẹ́dẹ̀ náà sáré kọjá ọgbà.,The pig ran across the garden.,yes,yes,yes,yes,partial,the naturalness can be better
+A002,YT0029,experiment_01/condition_a/audio/condition_a_YT0029.wav,Afẹ́fẹ́ tútù ń fẹ́ láti ìlà-oòrùn.,A cool wind is blowing from the east.,yes,yes,yes,yes,partial,the naturalness can be better
+A003,YT0030,experiment_01/condition_a/audio/condition_a_YT0030.wav,Ọ̀rẹ́ rẹ̀ fi ìwé sí orí àpótí.,His or her friend put the book on the box.,yes,yes,yes,yes,partial,the naturalness can be better

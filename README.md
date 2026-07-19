@@ -40,6 +40,51 @@ checked offline with `scripts/validate_portable_release.py`. The generated
 audio package remains local and non-redistributable until the signed release
 and license gates are complete. See `dataset/PORTABLE_RELEASE.md`.
 
+An architecture-independent integration dry run is available through
+`scripts/build_integration_dry_run.py`. It produces canonical model-neutral
+records plus text-sequence and aligned-acoustic-sequence adapters while
+preserving exact Yoruba Unicode and enforcing provenance-aware loss masks. No
+model is loaded or trained in this phase.
+
+## Experiment 1
+
+Phase 1 selected Meta MMS-TTS Yoruba as the first non-commercial research
+test bed. The interface-only audit covered all 29 canonical records with zero
+unknown tokenizer symbols and complete mapping of every annotated tone-bearing
+syllable. No model weights were loaded or changed, and training has not begun.
+
+See `experiment_01/PHASE_1_MODEL_SELECTION.md` for the candidate comparison,
+decision constraints, model-adapter design, and gates before Condition A.
+
+Condition A now contains reproducible unmodified-model outputs for the three
+leakage-safe test items. Generation and packaging passed, model weights were
+unchanged, and a byte-identical offline rerun succeeded. Primary fluent-listener
+ratings are complete as a three-item single-rater pilot: pronunciation, tone,
+intelligibility, and meaning were correct; naturalness was partial. See
+`experiment_01/CONDITION_A_IMPLEMENTATION_REPORT.md`.
+
+Condition B has now started at preflight. The protected split, audio, hashes,
+and MMS tokenizer contract pass, and no weights have been updated. The local
+runtime has no CUDA device. See `experiment_01/CONDITION_B_PREFLIGHT.md`.
+
+The complete Condition B recipe is now frozen but not approved for execution.
+It uses Meta's original trainable MMS/VITS generator and discriminator, a
+conservative small-data update policy, development-only early stopping, and a
+12 GB minimum NVIDIA GPU. See `experiment_01/CONDITION_B_TRAINING_RECIPE.md`.
+
+The reviewed execution target is a RunPod RTX A5000 24 GB Pod, currently the
+lowest-cost practical reproducible option in the provider comparison. A pinned
+Linux/CUDA container and fail-closed environment preflight are available in
+`execution/condition_b/`; neither can start training while approval is pending.
+See `experiment_01/CONDITION_B_EXECUTION_REVIEW.md`.
+
+A strict implementation audit now confirms that the approval-gated original-
+VITS/MMS runner is implemented and its synthetic orchestration test passes.
+Real GPU execution remains blocked on data-transfer approval, verified
+checkpoint acquisition, the approved Linux/CUDA preflight, and a ten-update
+technical validation counted within the frozen budget. See
+`experiment_01/CONDITION_B_IMPLEMENTATION_AUDIT.md`.
+
 ## Repository scope
 
 The repository tracks code, manifests, reports, recording sheets, and reproducible research metadata. Participant audio and generated ZIP archives are intentionally excluded from Git until a signed voice/data release and distribution plan are complete.

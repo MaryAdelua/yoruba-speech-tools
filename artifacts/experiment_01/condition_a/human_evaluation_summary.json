@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "experiment": "Experiment 1",
+  "condition": "A",
+  "evaluation_status": "complete_single_rater_pilot",
+  "reviewer": "Mary Adelua",
+  "reviewer_qualification": "fluent Yoruba speaker and dataset speaker",
+  "review_date": "2026-07-19",
+  "item_count": 3,
+  "ratings_source": "direct fluent-listener report in project conversation",
+  "outcomes": {
+    "segmental_pronunciation": {"yes": 3, "total": 3, "rate": 1.0},
+    "lexical_tone": {"yes": 3, "total": 3, "rate": 1.0},
+    "intelligibility": {"yes": 3, "total": 3, "rate": 1.0},
+    "meaning_recovery": {"yes": 3, "total": 3, "rate": 1.0},
+    "naturalness": {"yes": 0, "partial": 3, "total": 3, "strict_yes_rate": 0.0, "partial_or_better_rate": 1.0}
+  },
+  "notes": "Revised rating: pronunciation, tone, intelligibility, and meaning were correct for all three items. Naturalness was partial for all three; the reviewer stated that the naturalness can be better.",
+  "limitations": [
+    "single non-blinded rater",
+    "rater is also the dataset speaker",
+    "only three held-out utterances",
+    "pronunciation, tone, intelligibility, and meaning are at ceiling on this subset",
+    "naturalness has room for improvement but lacks a predeclared numeric non-inferiority margin"
+  ],
+  "condition_b_started": false
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Yoruba canonical integration record",
+  "type": "object",
+  "required": ["schema_version", "record_type", "utterance_id", "text_nfc", "audio_path", "graphemes", "words", "syllables", "tone_units", "supervision_masks", "target_identity_sha256", "provenance"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "record_type": {"const": "yoruba_canonical_integration_record"},
+    "language": {"const": "yo"},
+    "text_nfc": {"type": "string", "minLength": 1},
+    "target_identity_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "graphemes": {"type": "array", "minItems": 1},
+    "words": {"type": "array", "minItems": 1},
+    "syllables": {"type": "array", "minItems": 1},
+    "tone_units": {"type": "array", "minItems": 1},
+    "supervision_masks": {
+      "type": "object",
+      "required": ["audio_pair", "word_boundaries", "syllable_boundaries", "orthographic_tone", "surface_tone", "phonemes"]
+    }
+  },
+  "additionalProperties": true
+}

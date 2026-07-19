@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "experiment": "Experiment 1",
+  "condition": "A",
+  "condition_definition": "unmodified host baseline",
+  "model_id": "facebook/mms-tts-yor",
+  "model_architecture": "VITS",
+  "model_revision": "main",
+  "test_prompt_ids": ["YT0028", "YT0029", "YT0030"],
+  "experiment_seed": 555,
+  "sampling_rate_hz": 16000,
+  "decoding": {
+    "speaking_rate": 1.0,
+    "noise_scale": 0.667,
+    "noise_scale_duration": 0.8,
+    "use_model_config_defaults": true
+  },
+  "training": {
+    "enabled": false,
+    "updates": 0,
+    "trainable_parameters": 0,
+    "auxiliary_supervision": false
+  },
+  "primary_evaluation": {
+    "segmental_pronunciation": "human_review_required",
+    "lexical_tone": "human_review_required",
+    "intelligibility": "human_review_required",
+    "meaning_recovery": "human_review_required",
+    "naturalness": "human_review_required"
+  },
+  "secondary_evaluation": {
+    "audio_integrity": true,
+    "duration_and_level_diagnostics": true
+  }
+}
