@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Yoruba manual alignment correction",
+  "type": "object",
+  "required": ["schema_version", "prompt_id", "review_status", "reviewer", "reviewed_at", "automatic_alignment_method", "words"],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "prompt_id": {"pattern": "^YT[0-9]{4}$"},
+    "review_status": {"const": "human_verified"},
+    "review_scope": {"enum": ["word_and_syllable_boundaries", "word_boundaries_legacy_review", "word_boundaries_migrated_orthographic_fix"]},
+    "reviewer": {"type": "string", "minLength": 1},
+    "reviewed_at": {"type": "string", "format": "date-time"},
+    "notes": {"type": "string"},
+    "words": {"type": "array", "items": {"type": "object", "required": ["text", "start_s", "end_s"]}}
+  }
+}

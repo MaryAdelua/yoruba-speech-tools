@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "record_count": 29,
+  "verification_status": "complete",
+  "excluded_transcript_audio_mismatches": [
+    "YT0022"
+  ],
+  "excluded_recordings": [
+    "YT0022"
+  ],
+  "corrected_transcripts": [
+    "YT0013"
+  ],
+  "unresolved_issues": [],
+  "word_boundary_coverage": {
+    "covered": 178,
+    "total": 178,
+    "percent": 100.0
+  },
+  "syllable_boundary_coverage": {
+    "covered": 311,
+    "total": 321,
+    "percent": 96.88
+  },
+  "human_authority": true,
+  "source_automatic_sha256": "1198738b8b1f3783742786909b14492f9b626759c5577e4356d30c618bd9347f",
+  "source_manual_sha256": "011045a5486ca5c456b988e7b03cdc2f7c9da080e71a4db6b0ad18cebf742a4f",
+  "dataset_sha256": "acf3b2e5d62582a427583b47b4a1d7443321f966b51140259f9d9a8feb3c136b",
+  "dataset": "dataset/verified/training_batch_01_verified_alignments.jsonl"
+}

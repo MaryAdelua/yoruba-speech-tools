@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Yoruba dataset item issue",
+  "type": "object",
+  "required": ["schema_version", "prompt_id", "review_status", "issue_type", "disposition", "reviewer", "reviewed_at"],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "prompt_id": {"pattern": "^YT[0-9]{4}$"},
+    "review_status": {"enum": ["dataset_item_issue", "transcript_audio_mismatch"]},
+    "issue_type": {"enum": ["missing_audio", "transcript_audio_mismatch", "duplicate_audio", "wrong_audio_mapping"]},
+    "disposition": {"enum": ["corrected_transcript_pending_realignment", "exclude_from_dataset"]},
+    "reviewer": {"type": "string", "minLength": 1},
+    "reviewed_at": {"type": "string", "format": "date-time"},
+    "notes": {"type": "string"}
+  }
+}

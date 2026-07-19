@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/yoruba-pronunciation/annotation-schema-0.2.json",
+  "title": "Yoruba pronunciation utterance",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "utterance_id",
+    "speaker_id",
+    "language",
+    "text",
+    "english_meaning",
+    "audio",
+    "tone_units",
+    "verification"
+  ],
+  "properties": {
+    "schema_version": {"const": "0.2"},
+    "utterance_id": {"type": "string", "pattern": "^speaker[0-9]+_[0-9]{4}$"},
+    "speaker_id": {"type": "string"},
+    "language": {"const": "yo"},
+    "text": {"type": "string", "minLength": 1},
+    "english_meaning": {"type": "string", "minLength": 1},
+    "split": {"enum": ["train", "development", "diagnostic", "test", "unassigned"]},
+    "split_group_id": {"type": "string"},
+    "benchmark_exclusion": {"type": "boolean"},
+    "contrast_group_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "audio": {
+      "type": "object",
+      "required": ["path", "sample_rate_hz", "channels", "sample_format", "duration_s"],
+      "properties": {
+        "path": {"type": "string"},
+        "sample_rate_hz": {"const": 24000},
+        "channels": {"const": 1},
+        "sample_format": {"const": "PCM_S16LE"},
+        "duration_s": {"type": "number", "exclusiveMinimum": 0}
+      },
+      "additionalProperties": true
+    },
+    "tone_units": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["unit_index", "grapheme", "base_vowel", "tone", "character_start", "character_end", "annotation_provenance"],
+        "properties": {
+          "unit_index": {"type": "integer", "minimum": 0},
+          "grapheme": {"type": "string"},
+          "base_vowel": {"type": "string"},
+          "tone": {"enum": ["H", "M", "L"]},
+          "character_start": {"type": "integer", "minimum": 0},
+          "character_end": {"type": "integer", "minimum": 1},
+          "word_index": {"type": ["integer", "null"], "minimum": 0},
+          "start_s": {"type": ["number", "null"], "minimum": 0},
+          "end_s": {"type": ["number", "null"], "minimum": 0},
+          "timing_status": {"enum": ["verified", "automatic_unverified", "pending"]},
+          "annotation_provenance": {"enum": ["derived", "automatic", "human_verified"]},
+          "meaning_risk_weight": {"type": ["number", "null"], "minimum": 0},
+          "meaning_risk_review_status": {"enum": ["not_used", "pending_fluent_speaker_review", "human_verified"]}
+        },
+        "additionalProperties": true
+      }
+    },
+    "verification": {
+      "type": "object",
+      "required": ["transcript", "naturalness", "tone_annotation_type", "pronunciation_annotation_status"],
+      "properties": {
+        "transcript": {"enum": ["verified", "pending", "rejected"]},
+        "naturalness": {"enum": ["verified", "pending", "rejected"]},
+        "tone_annotation_type": {"enum": ["orthographic", "surface_verified"]},
+        "pronunciation_annotation_status": {"enum": ["orthography_only", "automatic_unverified", "human_verified"]}
+      }
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": "0.1",
+  "record_count": 30,
+  "records_with_repairs": 29,
+  "original_validation_error_count": 145,
+  "changed_field_count": 331,
+  "remaining_validation_error_count": 0,
+  "repair_actions_by_reason": {
+    "missing_boundary_interpolated": 55,
+    "out_of_range_clamped": 99,
+    "overlap_split_at_midpoint": 172,
+    "reversed_or_zero_interval_repaired": 4,
+    "squeezed_interval_reopened": 1
+  },
+  "repair_actions_by_level": {
+    "syllable": 249,
+    "word": 82
+  },
+  "repair_policy": "clamp out-of-range endpoints; interpolate missing intervals; split only overlaps at their midpoint",
+  "raw_source_preserved": "alignment/automatic/omnilingual_ctc_training_batch_01.raw.jsonl",
+  "human_verification_required": true
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": "0.1",
+  "scope": [
+    "YT0017",
+    "YT0018",
+    "YT0019",
+    "YT0020",
+    "YT0021",
+    "YT0022",
+    "YT0023"
+  ],
+  "finding": "content offset from YT0018 through YT0022",
+  "mapping": {
+    "YT0017": "YT0017",
+    "YT0018": "YT0019",
+    "YT0019": "YT0020",
+    "YT0020": "YT0021",
+    "YT0021": "YT0022",
+    "YT0022": null,
+    "YT0023": "YT0023"
+  },
+  "duplicate_content": [
+    "pre-fix YT0017",
+    "pre-fix YT0018"
+  ],
+  "duplicate_files_byte_identical": false,
+  "missing_recording": "YT0022",
+  "file_audit": [
+    {
+      "logical_prompt_id": "YT0018",
+      "source_pre_fix_id": "YT0019",
+      "active_path": "work/training_batch_01_mapped_originals/speaker01_YT0018.m4a",
+      "sha256": "f7a264897477047c2c23339fc648285e39541644a2accaa9863adc67a1c3848c"
+    },
+    {
+      "logical_prompt_id": "YT0018",
+      "source_pre_fix_id": "YT0019",
+      "active_path": "work/training_batch_01_wav_24k/speaker01_YT0018.wav",
+      "sha256": "12f356a84ee27178e3d2fd03ed2bf6f02c51f8f3f7a76e478fc0668b346d2be1"
+    },
+    {
+      "logical_prompt_id": "YT0019",
+      "source_pre_fix_id": "YT0020",
+      "active_path": "work/training_batch_01_mapped_originals/speaker01_YT0019.m4a",
+      "sha256": "9a58eba33935dc65defb9266ad9091e3aa93baeb7bdbf5ecd0fdd839497028d8"
+    },
+    {
+      "logical_prompt_id": "YT0019",
+      "source_pre_fix_id": "YT0020",
+      "active_path": "work/training_batch_01_wav_24k/speaker01_YT0019.wav",
+      "sha256": "040eefe4a5f4bc71a5fdee9534b796e587ce5847da16ba27213690cd30f28fe6"
+    },
+    {
+      "logical_prompt_id": "YT0020",
+      "source_pre_fix_id": "YT0021",
+      "active_path": "work/training_batch_01_mapped_originals/speaker01_YT0020.m4a",
+      "sha256": "77a8f4df348391949df821e122ab6e52c933dd8d3fb532573f84cc7443cce75d"
+    },
+    {
+      "logical_prompt_id": "YT0020",
+      "source_pre_fix_id": "YT0021",
+      "active_path": "work/training_batch_01_wav_24k/speaker01_YT0020.wav",
+      "sha256": "9f1af83a6712d9c0718287d113c1faa25a9d22f7ff9f2394775e8ff51b680c8f"
+    },
+    {
+      "logical_prompt_id": "YT0021",
+      "source_pre_fix_id": "YT0022",
+      "active_path": "work/training_batch_01_mapped_originals/speaker01_YT0021.m4a",
+      "sha256": "e90e4fc6d6e90bcb68ef165ce21912f6022a23234bb5b69b2641d49d299a0167"
+    },
+    {
+      "logical_prompt_id": "YT0021",
+      "source_pre_fix_id": "YT0022",
+      "active_path": "work/training_batch_01_wav_24k/speaker01_YT0021.wav",
+      "sha256": "73fe752ee1ac52f70106f2b606ac0c7ea4f6bbe8c8522469fe59fec1f68de472"
+    }
+  ],
+  "evidence": "speaker listening report corroborated by Omnilingual ASR decoded text sequence",
+  "pre_fix_files": "work/training_batch_01_mapping_pre_fix_2026-07-19",
+  "pre_fix_alignment": "alignment/automatic/omnilingual_ctc_training_batch_01.pre_audio_mapping_fix.jsonl"
+}

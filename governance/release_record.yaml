@@ -1,0 +1,28 @@
+record_version: "1.0"
+project: "Yoruba Speech Tools / Yoruba Pronunciation Resource"
+speaker_id: "speaker01"
+consent_status: "unsigned_draft"
+signed_release_file: null
+signature_date: null
+adult_confirmed: null
+speaker_is_recorded_person: null
+permitted_uses:
+  research: null
+  commercial_research: null
+  model_training: null
+  model_evaluation: null
+  synthetic_speech_generation: null
+  dataset_redistribution: null
+  derivative_models: null
+attribution:
+  preference: "public_name"
+  public_name: "Mary Adelua"
+audio_release:
+  status: "blocked_pending_signature_and_license_selection"
+  license_spdx_or_url: null
+withdrawal_contact: null
+private_consent_storage_location: null
+public_manifest_must_exclude_legal_name: true
+notes:
+  - "Do not change consent_status until a completed release is reviewed."
+  - "Conversation-based permission is not treated as the signed public-release record."

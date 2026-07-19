@@ -29,3 +29,7 @@ work/received_audio_*/
 # Python caches
 __pycache__/
 *.py[cod]
+.pytest_cache/
+work/models/
+work/omni-aligner-env/
+work/*syntax.js

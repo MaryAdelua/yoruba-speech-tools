@@ -1,10 +1,10 @@
-# Meaning-Preserving Yoruba Voice Research
+# Yoruba pronunciation resource and integration research
 
-This repository contains the research design, preprocessing code, annotation tools, acoustic pitch-analysis workflow, and alignment metadata for a controlled Yoruba voice-model benchmark.
+This repository develops a training-ready Yoruba pronunciation resource and a model-independent methodology for improving Yoruba pronunciation in existing multilingual speech-generation systems.
 
 ## Research question
 
-Can explicit syllable-tone supervision and meaning-risk-weighted contrastive objectives reduce meaning-changing Yoruba pronunciation errors in modern voice models without reducing naturalness?
+Can verified Yoruba speech, pronunciation representations, and—when required—explicit tone supervision measurably improve held-out Yoruba pronunciation in an existing multilingual speech model without reducing intelligibility or naturalness?
 
 ## Current checkpoint
 
@@ -20,7 +20,19 @@ Can explicit syllable-tone supervision and meaning-risk-weighted contrastive obj
 - a concise functional-load tone-prompt intervention implemented and tested;
 - prompt-level tone guidance produced **no aggregate improvement** over the matched ChatGPT baseline: exact transcript accuracy, tone correctness, and naturalness were unchanged, while strict meaning recovery decreased from 33.3% to 22.2% on nine valid pairs.
 
-The prompt intervention is retained as a reproducible null result. The project will not repeatedly tune prompts on the same test items. The next technical stage, when separately authorized, is an architecture-level tone objective on a trainable open Yoruba TTS baseline.
+The prompt intervention is retained as a reproducible null result. It shows that prompt wording alone did not repair pronunciation. Future experiments will therefore compare verified data adaptation, a pronunciation-aware frontend, and optional auxiliary supervision in that order.
+
+## Pronunciation resource package
+
+The next phase is organized around a portable dataset and method rather than a standalone voice model:
+
+- `dataset/` contains the resource specification, annotation guide, split/leakage policy, dataset card, release gates, schema, and metadata-only manifest;
+- `method/` contains the staged integration guide, optional auxiliary-loss specification, and controlled proof-of-concept protocol;
+- an open-source TTS model will be used only after authorization as a proof-of-concept test bed.
+
+The current collection is a verified single-speaker calibration seed, not yet a publicly releasable or population-representative training corpus. See `dataset/PRONUNCIATION_RESOURCE_SPEC.md` for readiness levels and remaining gates.
+
+The current readiness decision and exact blockers are recorded in `dataset/TRAINING_READINESS_REPORT.md`. The 120 previously evaluated prompts are marked diagnostic and benchmark-excluded in schema version 0.2 so they cannot accidentally be used as unbiased training evidence.
 
 ## Repository scope
 
@@ -28,7 +40,16 @@ The repository tracks code, manifests, reports, recording sheets, and reproducib
 
 ## Important limitation
 
-Word-, syllable-, and vowel-level acoustic timestamps remain pending. The project does not report lexical Tone Error Rate until Yoruba-capable alignment and manual review are complete.
+An Omnilingual ASR CTC acoustic alignment layer is now available for the new
+30-item pronunciation batch. It preserves the authoritative NFC Yoruba text,
+records token-derived word and syllable estimates with transparent confidence,
+and keeps automatic, manual, and verified layers separate. These estimates are
+not training-authoritative until a fluent reviewer exports and imports the
+human-verified corrections through the local alignment review tool. See
+`alignment/OMNILINGUAL_CTC_ALIGNMENT.md`.
+
+The project does not report lexical Tone Error Rate until the relevant acoustic
+units have completed this manual boundary review.
 
 The current voice-system and intervention results are single-rater diagnostic findings from a small, non-blinded pilot. They are not population-level estimates or provider rankings.
 

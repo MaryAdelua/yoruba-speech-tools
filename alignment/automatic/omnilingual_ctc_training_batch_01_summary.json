@@ -1,0 +1,12 @@
+{
+  "schema_version": "0.1",
+  "record_count": 30,
+  "model": "csukuangfj/sherpa-onnx-omnilingual-asr-1600-languages-300M-ctc-int8-2025-11-12",
+  "backend": "sherpa-onnx 1.13.4",
+  "model_sha256": "e7c4e54ee4c4c47829cc6667d5d00ed8ea7bef1dcfeef0fce766f77752a2726c",
+  "tokens_sha256": "a7a044c52cb29cbe8b0dc1953e92cefd4ca16b0ed968177b6beab21f9a7d0b31",
+  "mean_utterance_confidence": 0.5381,
+  "human_verification_required": true,
+  "automatic_output": "alignment/automatic/omnilingual_ctc_training_batch_01.jsonl",
+  "manual_corrections": "alignment/manual/training_batch_01_manual_corrections.jsonl"
+}

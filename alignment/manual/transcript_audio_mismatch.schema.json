@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Transcript/audio mismatch review record",
+  "type": "object",
+  "required": ["schema_version", "prompt_id", "review_status", "expected_transcript_nfc", "observed_transcript_nfc", "disposition", "reviewer", "reviewed_at"],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "prompt_id": {"pattern": "^YT[0-9]{4}$"},
+    "review_status": {"const": "transcript_audio_mismatch"},
+    "expected_transcript_nfc": {"type": "string", "minLength": 1},
+    "observed_transcript_nfc": {"type": "string", "minLength": 1},
+    "disposition": {"enum": ["corrected_transcript_pending_realignment", "exclude_from_dataset"]},
+    "reviewer": {"type": "string", "minLength": 1},
+    "reviewed_at": {"type": "string", "format": "date-time"},
+    "notes": {"type": "string"}
+  }
+}
