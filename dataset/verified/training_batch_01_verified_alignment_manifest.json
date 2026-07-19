@@ -18,13 +18,13 @@
     "percent": 100.0
   },
   "syllable_boundary_coverage": {
-    "covered": 311,
+    "covered": 321,
     "total": 321,
-    "percent": 96.88
+    "percent": 100.0
   },
   "human_authority": true,
   "source_automatic_sha256": "1198738b8b1f3783742786909b14492f9b626759c5577e4356d30c618bd9347f",
-  "source_manual_sha256": "011045a5486ca5c456b988e7b03cdc2f7c9da080e71a4db6b0ad18cebf742a4f",
-  "dataset_sha256": "acf3b2e5d62582a427583b47b4a1d7443321f966b51140259f9d9a8feb3c136b",
+  "source_manual_sha256": "039eb75b2949399c88ca0607b3ad3c09de9690a355cd72db6928c2ceec835714",
+  "dataset_sha256": "4fbb4b3f977b9733245cbc4c2013245a92a0ade284001fc6d9e30f208a228946",
   "dataset": "dataset/verified/training_batch_01_verified_alignments.jsonl"
 }
