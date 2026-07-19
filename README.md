@@ -34,6 +34,12 @@ The current collection is a verified single-speaker calibration seed, not yet a 
 
 The current readiness decision and exact blockers are recorded in `dataset/TRAINING_READINESS_REPORT.md`. The 120 previously evaluated prompts are marked diagnostic and benchmark-excluded in schema version 0.2 so they cannot accidentally be used as unbiased training evidence.
 
+The 29-recording human-verified alignment batch can now be assembled as a
+private portable release candidate with `scripts/build_portable_release.py` and
+checked offline with `scripts/validate_portable_release.py`. The generated
+audio package remains local and non-redistributable until the signed release
+and license gates are complete. See `dataset/PORTABLE_RELEASE.md`.
+
 ## Repository scope
 
 The repository tracks code, manifests, reports, recording sheets, and reproducible research metadata. Participant audio and generated ZIP archives are intentionally excluded from Git until a signed voice/data release and distribution plan are complete.

@@ -33,3 +33,7 @@ __pycache__/
 work/models/
 work/omni-aligner-env/
 work/*syntax.js
+
+# Private release candidates contain participant audio. Keep them local until
+# the signed release and dataset license gates are complete.
+release_candidates/
