@@ -1,0 +1,4873 @@
+{
+  "training_started": true,
+  "optimizer_updates": 300,
+  "stopped_early": false,
+  "best_update": 300,
+  "best_development_metric": 34.577558517456055,
+  "microbatches_per_update": 4,
+  "protected_test_items_seen": 0,
+  "checkpoint_path": "work/condition_c_v4_training_output/best.pt",
+  "checkpoint_kind": "development_selected_best",
+  "log": [
+    {
+      "update": 1,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 37.43603801727295,
+        "duration": 2.9825337529182434,
+        "kl": 21.043147563934326,
+        "discriminator": 39.21090054512024,
+        "feature": 14.84074878692627,
+        "generator": 2.1340655386447906,
+        "tone_auxiliary": 1.1023581326007843,
+        "syllable_boundary_auxiliary": 0.5429865717887878
+      },
+      "gradient_norm_d": 1794.935546875,
+      "gradient_norm_g": 462.5229797363281
+    },
+    {
+      "update": 2,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 39.174696922302246,
+        "duration": 2.9646822214126587,
+        "kl": 21.010969161987305,
+        "discriminator": 7.519853591918945,
+        "feature": 16.085310459136963,
+        "generator": 2.1374910473823547,
+        "tone_auxiliary": 1.1263444423675537,
+        "syllable_boundary_auxiliary": 0.600790485739708
+      },
+      "gradient_norm_d": 314.4742736816406,
+      "gradient_norm_g": 611.4835815429688
+    },
+    {
+      "update": 3,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 38.59036827087402,
+        "duration": 2.983021378517151,
+        "kl": 18.664216995239258,
+        "discriminator": 215.6007913351059,
+        "feature": 22.005667686462402,
+        "generator": 1.8339031040668488,
+        "tone_auxiliary": 1.112380564212799,
+        "syllable_boundary_auxiliary": 0.49423378705978394
+      },
+      "gradient_norm_d": 3160.391845703125,
+      "gradient_norm_g": 516.77197265625
+    },
+    {
+      "update": 4,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 38.99641418457031,
+        "duration": 2.8361377716064453,
+        "kl": 16.987459421157837,
+        "discriminator": 80.18241363763809,
+        "feature": 20.997591733932495,
+        "generator": 2.289095163345337,
+        "tone_auxiliary": 1.1141410171985626,
+        "syllable_boundary_auxiliary": 0.6050622165203094
+      },
+      "gradient_norm_d": 2707.15869140625,
+      "gradient_norm_g": 500.09771728515625
+    },
+    {
+      "update": 5,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 34.05767250061035,
+        "duration": 2.784911274909973,
+        "kl": 16.128088235855103,
+        "discriminator": 9.017641186714172,
+        "feature": 11.172497987747192,
+        "generator": 1.9114916920661926,
+        "tone_auxiliary": 1.1097814738750458,
+        "syllable_boundary_auxiliary": 0.6538345888257027
+      },
+      "gradient_norm_d": 386.88458251953125,
+      "gradient_norm_g": 300.0000915527344
+    },
+    {
+      "update": 6,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 35.539875507354736,
+        "duration": 3.162102520465851,
+        "kl": 15.792553901672363,
+        "discriminator": 30.69685471057892,
+        "feature": 13.53282618522644,
+        "generator": 2.18182110786438,
+        "tone_auxiliary": 1.1274994909763336,
+        "syllable_boundary_auxiliary": 0.5837716162204742
+      },
+      "gradient_norm_d": 1386.8226318359375,
+      "gradient_norm_g": 391.19384765625
+    },
+    {
+      "update": 7,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 37.427242279052734,
+        "duration": 2.7580044865608215,
+        "kl": 14.58860158920288,
+        "discriminator": 461.65112829208374,
+        "feature": 36.83940029144287,
+        "generator": 2.151383191347122,
+        "tone_auxiliary": 1.0998016893863678,
+        "syllable_boundary_auxiliary": 0.5232704281806946
+      },
+      "gradient_norm_d": 8020.66455078125,
+      "gradient_norm_g": 467.7335205078125
+    },
+    {
+      "update": 8,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 34.303210735321045,
+        "duration": 2.7499992847442627,
+        "kl": 13.604285717010498,
+        "discriminator": 37.81629413366318,
+        "feature": 15.048284530639648,
+        "generator": 2.1358552277088165,
+        "tone_auxiliary": 1.1232797801494598,
+        "syllable_boundary_auxiliary": 0.5557595044374466
+      },
+      "gradient_norm_d": 1736.579345703125,
+      "gradient_norm_g": 269.0879211425781
+    },
+    {
+      "update": 9,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 37.89451599121094,
+        "duration": 2.9222798347473145,
+        "kl": 12.835272073745728,
+        "discriminator": 97.00418192148209,
+        "feature": 21.068028926849365,
+        "generator": 2.2150824069976807,
+        "tone_auxiliary": 1.1038259863853455,
+        "syllable_boundary_auxiliary": 0.5556284785270691
+      },
+      "gradient_norm_d": 2956.979736328125,
+      "gradient_norm_g": 239.0695343017578
+    },
+    {
+      "update": 10,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 35.852325439453125,
+        "duration": 2.696500241756439,
+        "kl": 13.286616563796997,
+        "discriminator": 202.00638777017593,
+        "feature": 24.35445201396942,
+        "generator": 2.279315769672394,
+        "tone_auxiliary": 1.1261518597602844,
+        "syllable_boundary_auxiliary": 0.5713706016540527
+      },
+      "gradient_norm_d": 4873.2412109375,
+      "gradient_norm_g": 440.9588928222656
+    },
+    {
+      "update": 11,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 33.11925983428955,
+        "duration": 2.8168217539787292,
+        "kl": 12.514569282531738,
+        "discriminator": 27.2133606672287,
+        "feature": 14.360869407653809,
+        "generator": 2.2287144660949707,
+        "tone_auxiliary": 1.1120913624763489,
+        "syllable_boundary_auxiliary": 0.5520645752549171
+      },
+      "gradient_norm_d": 1426.39013671875,
+      "gradient_norm_g": 241.367431640625
+    },
+    {
+      "update": 12,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 32.94014549255371,
+        "duration": 2.693789303302765,
+        "kl": 12.48630976676941,
+        "discriminator": 14.673873007297516,
+        "feature": 12.364835500717163,
+        "generator": 2.233933925628662,
+        "tone_auxiliary": 1.1192567646503448,
+        "syllable_boundary_auxiliary": 0.6018089950084686
+      },
+      "gradient_norm_d": 798.302734375,
+      "gradient_norm_g": 381.0678405761719
+    },
+    {
+      "update": 13,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 35.60920429229736,
+        "duration": 2.8226802945137024,
+        "kl": 10.9302077293396,
+        "discriminator": 2.9618782997131348,
+        "feature": 11.447624921798706,
+        "generator": 2.2608116567134857,
+        "tone_auxiliary": 1.1191003024578094,
+        "syllable_boundary_auxiliary": 0.5840461030602455
+      },
+      "gradient_norm_d": 72.08795928955078,
+      "gradient_norm_g": 259.345458984375
+    },
+    {
+      "update": 14,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 34.68345260620117,
+        "duration": 2.828975796699524,
+        "kl": 10.367856979370117,
+        "discriminator": 59.405647456645966,
+        "feature": 16.851651430130005,
+        "generator": 2.111674040555954,
+        "tone_auxiliary": 1.116560012102127,
+        "syllable_boundary_auxiliary": 0.5876496210694313
+      },
+      "gradient_norm_d": 1964.1324462890625,
+      "gradient_norm_g": 191.736572265625
+    },
+    {
+      "update": 15,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 31.280756950378418,
+        "duration": 2.6591185927391052,
+        "kl": 10.839234352111816,
+        "discriminator": 5.834359765052795,
+        "feature": 8.966397166252136,
+        "generator": 2.191994935274124,
+        "tone_auxiliary": 1.1261605322360992,
+        "syllable_boundary_auxiliary": 0.5744150951504707
+      },
+      "gradient_norm_d": 373.2617492675781,
+      "gradient_norm_g": 201.4539337158203
+    },
+    {
+      "update": 16,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 33.756831645965576,
+        "duration": 2.7632442116737366,
+        "kl": 10.950757503509521,
+        "discriminator": 13.356720566749573,
+        "feature": 12.43450379371643,
+        "generator": 2.39936763048172,
+        "tone_auxiliary": 1.1370594799518585,
+        "syllable_boundary_auxiliary": 0.6264002919197083
+      },
+      "gradient_norm_d": 507.53155517578125,
+      "gradient_norm_g": 277.4927978515625
+    },
+    {
+      "update": 17,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 32.78616428375244,
+        "duration": 2.55767160654068,
+        "kl": 9.54012656211853,
+        "discriminator": 242.40644878149033,
+        "feature": 22.6493159532547,
+        "generator": 2.5178210139274597,
+        "tone_auxiliary": 1.1033357679843903,
+        "syllable_boundary_auxiliary": 0.5746836066246033
+      },
+      "gradient_norm_d": 3698.607421875,
+      "gradient_norm_g": 339.17462158203125
+    },
+    {
+      "update": 18,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 35.070393562316895,
+        "duration": 2.713565945625305,
+        "kl": 9.681495904922485,
+        "discriminator": 27.809569656848907,
+        "feature": 14.502947568893433,
+        "generator": 2.3646239042282104,
+        "tone_auxiliary": 1.1189387142658234,
+        "syllable_boundary_auxiliary": 0.5773680657148361
+      },
+      "gradient_norm_d": 1194.0953369140625,
+      "gradient_norm_g": 157.72044372558594
+    },
+    {
+      "update": 19,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 30.76527976989746,
+        "duration": 2.652968645095825,
+        "kl": 9.821747303009033,
+        "discriminator": 43.36784315109253,
+        "feature": 16.745685338974,
+        "generator": 2.3852834701538086,
+        "tone_auxiliary": 1.1261066198349,
+        "syllable_boundary_auxiliary": 0.5930761769413948
+      },
+      "gradient_norm_d": 1833.849853515625,
+      "gradient_norm_g": 405.7063293457031
+    },
+    {
+      "update": 20,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 30.687970638275146,
+        "duration": 2.922892153263092,
+        "kl": 9.113317489624023,
+        "discriminator": 108.47829806804657,
+        "feature": 20.864046812057495,
+        "generator": 2.2801372408866882,
+        "tone_auxiliary": 1.1051723062992096,
+        "syllable_boundary_auxiliary": 0.5528887063264847
+      },
+      "gradient_norm_d": 3127.125,
+      "gradient_norm_g": 274.045166015625
+    },
+    {
+      "update": 21,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 32.222947120666504,
+        "duration": 2.6274814009666443,
+        "kl": 9.017345905303955,
+        "discriminator": 3.366585910320282,
+        "feature": 11.39483118057251,
+        "generator": 2.1965003609657288,
+        "tone_auxiliary": 1.1030433773994446,
+        "syllable_boundary_auxiliary": 0.5555022358894348
+      },
+      "gradient_norm_d": 68.59984588623047,
+      "gradient_norm_g": 198.90988159179688
+    },
+    {
+      "update": 22,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 35.20546579360962,
+        "duration": 2.486392021179199,
+        "kl": 9.10816514492035,
+        "discriminator": 8.337075233459473,
+        "feature": 12.991872549057007,
+        "generator": 2.154904782772064,
+        "tone_auxiliary": 1.1233347058296204,
+        "syllable_boundary_auxiliary": 0.6346060335636139
+      },
+      "gradient_norm_d": 208.0951385498047,
+      "gradient_norm_g": 211.85340881347656
+    },
+    {
+      "update": 23,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 29.192216396331787,
+        "duration": 2.488672435283661,
+        "kl": 8.70737087726593,
+        "discriminator": 10.775082290172577,
+        "feature": 10.59775686264038,
+        "generator": 2.458297908306122,
+        "tone_auxiliary": 1.1282925009727478,
+        "syllable_boundary_auxiliary": 0.562668688595295
+      },
+      "gradient_norm_d": 342.1427917480469,
+      "gradient_norm_g": 225.39703369140625
+    },
+    {
+      "update": 24,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 29.373576164245605,
+        "duration": 2.691472589969635,
+        "kl": 8.142733573913574,
+        "discriminator": 31.15566372871399,
+        "feature": 13.209686279296875,
+        "generator": 2.3812136054039,
+        "tone_auxiliary": 1.1082944869995117,
+        "syllable_boundary_auxiliary": 0.6475474983453751
+      },
+      "gradient_norm_d": 1194.5675048828125,
+      "gradient_norm_g": 304.32977294921875
+    },
+    {
+      "update": 25,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 27.39799737930298,
+        "duration": 2.4075793027877808,
+        "kl": 8.280704736709595,
+        "discriminator": 117.72717380523682,
+        "feature": 22.76392698287964,
+        "generator": 2.3781819343566895,
+        "tone_auxiliary": 1.117951512336731,
+        "syllable_boundary_auxiliary": 0.5994419753551483
+      },
+      "gradient_norm_d": 3503.160888671875,
+      "gradient_norm_g": 537.7203979492188,
+      "development_metric": 46.554874420166016,
+      "improved": true,
+      "train_reconstruction_metric": 38.086281418800354,
+      "development_train_relative_gap": 0.2223528442759799,
+      "overfitting_gap_flag": false
+    },
+    {
+      "update": 26,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 28.512592315673828,
+        "duration": 2.5608898997306824,
+        "kl": 7.838104605674744,
+        "discriminator": 82.0997731089592,
+        "feature": 18.905273914337158,
+        "generator": 2.504127621650696,
+        "tone_auxiliary": 1.1089638769626617,
+        "syllable_boundary_auxiliary": 0.519629567861557
+      },
+      "gradient_norm_d": 2633.0205078125,
+      "gradient_norm_g": 254.35714721679688
+    },
+    {
+      "update": 27,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 30.175955772399902,
+        "duration": 2.667248487472534,
+        "kl": 7.634881258010864,
+        "discriminator": 84.71245974302292,
+        "feature": 19.43549132347107,
+        "generator": 2.511463463306427,
+        "tone_auxiliary": 1.1206705570220947,
+        "syllable_boundary_auxiliary": 0.6130154430866241
+      },
+      "gradient_norm_d": 2323.735595703125,
+      "gradient_norm_g": 334.72760009765625
+    },
+    {
+      "update": 28,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 29.68964385986328,
+        "duration": 2.29842472076416,
+        "kl": 8.021543264389038,
+        "discriminator": 23.388700306415558,
+        "feature": 14.963767290115356,
+        "generator": 2.4062103033065796,
+        "tone_auxiliary": 1.1368147432804108,
+        "syllable_boundary_auxiliary": 0.6711279451847076
+      },
+      "gradient_norm_d": 713.3583984375,
+      "gradient_norm_g": 192.00103759765625
+    },
+    {
+      "update": 29,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 29.27794885635376,
+        "duration": 2.205447018146515,
+        "kl": 7.286698937416077,
+        "discriminator": 37.3669855594635,
+        "feature": 14.193137884140015,
+        "generator": 2.2805811166763306,
+        "tone_auxiliary": 1.1059389412403107,
+        "syllable_boundary_auxiliary": 0.5615979358553886
+      },
+      "gradient_norm_d": 1372.9393310546875,
+      "gradient_norm_g": 413.990234375
+    },
+    {
+      "update": 30,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 30.425947189331055,
+        "duration": 2.4434065222740173,
+        "kl": 7.6470701694488525,
+        "discriminator": 10.118748903274536,
+        "feature": 11.768575549125671,
+        "generator": 2.4046325087547302,
+        "tone_auxiliary": 1.1125803887844086,
+        "syllable_boundary_auxiliary": 0.5563572198152542
+      },
+      "gradient_norm_d": 537.7745361328125,
+      "gradient_norm_g": 264.40887451171875
+    },
+    {
+      "update": 31,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 33.264822483062744,
+        "duration": 2.65831857919693,
+        "kl": 6.643368721008301,
+        "discriminator": 17.30709010362625,
+        "feature": 13.12888789176941,
+        "generator": 2.562624931335449,
+        "tone_auxiliary": 1.1046117544174194,
+        "syllable_boundary_auxiliary": 0.663975827395916
+      },
+      "gradient_norm_d": 485.9825134277344,
+      "gradient_norm_g": 146.8965301513672
+    },
+    {
+      "update": 32,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 30.305253982543945,
+        "duration": 2.491139531135559,
+        "kl": 7.997686743736267,
+        "discriminator": 21.410629212856293,
+        "feature": 14.82478642463684,
+        "generator": 2.365607976913452,
+        "tone_auxiliary": 1.1426898837089539,
+        "syllable_boundary_auxiliary": 0.5696612447500229
+      },
+      "gradient_norm_d": 817.3761596679688,
+      "gradient_norm_g": 197.1128692626953
+    },
+    {
+      "update": 33,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 27.728166103363037,
+        "duration": 2.0704023838043213,
+        "kl": 6.174434542655945,
+        "discriminator": 24.507279574871063,
+        "feature": 11.814642429351807,
+        "generator": 2.242880344390869,
+        "tone_auxiliary": 1.1061919927597046,
+        "syllable_boundary_auxiliary": 0.5353937819600105
+      },
+      "gradient_norm_d": 947.674560546875,
+      "gradient_norm_g": 192.3981475830078
+    },
+    {
+      "update": 34,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 33.765299797058105,
+        "duration": 2.3534568548202515,
+        "kl": 7.151747941970825,
+        "discriminator": 3.803817570209503,
+        "feature": 10.27474319934845,
+        "generator": 2.4311734437942505,
+        "tone_auxiliary": 1.111435055732727,
+        "syllable_boundary_auxiliary": 0.5889648199081421
+      },
+      "gradient_norm_d": 70.14900207519531,
+      "gradient_norm_g": 180.8363800048828
+    },
+    {
+      "update": 35,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 28.977356433868408,
+        "duration": 2.293129563331604,
+        "kl": 6.729167222976685,
+        "discriminator": 15.52088326215744,
+        "feature": 10.666919708251953,
+        "generator": 2.1572960019111633,
+        "tone_auxiliary": 1.1167998611927032,
+        "syllable_boundary_auxiliary": 0.5567083582282066
+      },
+      "gradient_norm_d": 684.5554809570312,
+      "gradient_norm_g": 265.0367431640625
+    },
+    {
+      "update": 36,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 32.50852680206299,
+        "duration": 2.296662926673889,
+        "kl": 6.870559215545654,
+        "discriminator": 3.5946632027626038,
+        "feature": 11.113440752029419,
+        "generator": 2.3934995532035828,
+        "tone_auxiliary": 1.128653734922409,
+        "syllable_boundary_auxiliary": 0.5625835359096527
+      },
+      "gradient_norm_d": 60.881591796875,
+      "gradient_norm_g": 230.9167938232422
+    },
+    {
+      "update": 37,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 28.37474775314331,
+        "duration": 2.2559701800346375,
+        "kl": 6.951502203941345,
+        "discriminator": 16.60221493244171,
+        "feature": 12.796148300170898,
+        "generator": 2.1798035800457,
+        "tone_auxiliary": 1.1222149729728699,
+        "syllable_boundary_auxiliary": 0.6191229522228241
+      },
+      "gradient_norm_d": 1136.390869140625,
+      "gradient_norm_g": 280.45440673828125
+    },
+    {
+      "update": 38,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 27.99620819091797,
+        "duration": 2.3676924109458923,
+        "kl": 6.649098873138428,
+        "discriminator": 221.06141901016235,
+        "feature": 23.936681985855103,
+        "generator": 2.3218822479248047,
+        "tone_auxiliary": 1.138540118932724,
+        "syllable_boundary_auxiliary": 0.6760236099362373
+      },
+      "gradient_norm_d": 3943.9052734375,
+      "gradient_norm_g": 360.1473693847656
+    },
+    {
+      "update": 39,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 27.073648929595947,
+        "duration": 2.2322994470596313,
+        "kl": 6.14004373550415,
+        "discriminator": 68.42373591661453,
+        "feature": 17.557796716690063,
+        "generator": 2.290652811527252,
+        "tone_auxiliary": 1.1155653595924377,
+        "syllable_boundary_auxiliary": 0.5376821160316467
+      },
+      "gradient_norm_d": 2292.964111328125,
+      "gradient_norm_g": 392.2454528808594
+    },
+    {
+      "update": 40,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 28.322020053863525,
+        "duration": 2.2856059074401855,
+        "kl": 6.328263282775879,
+        "discriminator": 33.927221179008484,
+        "feature": 14.570595383644104,
+        "generator": 2.3041120171546936,
+        "tone_auxiliary": 1.1077818274497986,
+        "syllable_boundary_auxiliary": 0.6008990779519081
+      },
+      "gradient_norm_d": 1204.30078125,
+      "gradient_norm_g": 312.3928527832031
+    },
+    {
+      "update": 41,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 22.416725158691406,
+        "duration": 2.2575467228889465,
+        "kl": 5.984668612480164,
+        "discriminator": 175.375470161438,
+        "feature": 22.30537724494934,
+        "generator": 1.9889905154705048,
+        "tone_auxiliary": 1.1401911973953247,
+        "syllable_boundary_auxiliary": 0.5774576887488365
+      },
+      "gradient_norm_d": 4129.2802734375,
+      "gradient_norm_g": 484.85430908203125
+    },
+    {
+      "update": 42,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 29.133714199066162,
+        "duration": 2.127084732055664,
+        "kl": 5.653960227966309,
+        "discriminator": 18.68583470582962,
+        "feature": 12.605187773704529,
+        "generator": 2.1686506867408752,
+        "tone_auxiliary": 1.139898955821991,
+        "syllable_boundary_auxiliary": 0.7839472144842148
+      },
+      "gradient_norm_d": 816.6575317382812,
+      "gradient_norm_g": 296.9182434082031
+    },
+    {
+      "update": 43,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 31.692702293395996,
+        "duration": 2.2938188314437866,
+        "kl": 6.036292195320129,
+        "discriminator": 126.98652803897858,
+        "feature": 19.833602905273438,
+        "generator": 2.2462593615055084,
+        "tone_auxiliary": 1.113435298204422,
+        "syllable_boundary_auxiliary": 0.6008242517709732
+      },
+      "gradient_norm_d": 2527.06298828125,
+      "gradient_norm_g": 310.08514404296875
+    },
+    {
+      "update": 44,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 29.457114696502686,
+        "duration": 2.2337045669555664,
+        "kl": 6.249950051307678,
+        "discriminator": 29.630170047283173,
+        "feature": 16.3609402179718,
+        "generator": 2.0901976823806763,
+        "tone_auxiliary": 1.1310956180095673,
+        "syllable_boundary_auxiliary": 0.528426855802536
+      },
+      "gradient_norm_d": 1547.9637451171875,
+      "gradient_norm_g": 907.029541015625
+    },
+    {
+      "update": 45,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 31.976824283599854,
+        "duration": 2.315083384513855,
+        "kl": 5.778061151504517,
+        "discriminator": 2.5985493063926697,
+        "feature": 10.786586284637451,
+        "generator": 2.1042188107967377,
+        "tone_auxiliary": 1.1439423561096191,
+        "syllable_boundary_auxiliary": 0.6477054953575134
+      },
+      "gradient_norm_d": 61.68362045288086,
+      "gradient_norm_g": 250.1578826904297
+    },
+    {
+      "update": 46,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 23.21363878250122,
+        "duration": 2.2311514616012573,
+        "kl": 5.663237810134888,
+        "discriminator": 237.6312319636345,
+        "feature": 25.750002145767212,
+        "generator": 2.320503532886505,
+        "tone_auxiliary": 1.117672860622406,
+        "syllable_boundary_auxiliary": 0.5328042060136795
+      },
+      "gradient_norm_d": 5005.12109375,
+      "gradient_norm_g": 574.2449951171875
+    },
+    {
+      "update": 47,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 28.82088804244995,
+        "duration": 2.388593316078186,
+        "kl": 5.87835967540741,
+        "discriminator": 23.581695437431335,
+        "feature": 12.795058965682983,
+        "generator": 2.330345869064331,
+        "tone_auxiliary": 1.1099393665790558,
+        "syllable_boundary_auxiliary": 0.6814606487751007
+      },
+      "gradient_norm_d": 1139.7066650390625,
+      "gradient_norm_g": 182.80262756347656
+    },
+    {
+      "update": 48,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.94854211807251,
+        "duration": 2.1930938959121704,
+        "kl": 5.71029257774353,
+        "discriminator": 30.9340597987175,
+        "feature": 12.981143236160278,
+        "generator": 2.19259512424469,
+        "tone_auxiliary": 1.1381823420524597,
+        "syllable_boundary_auxiliary": 0.5699550211429596
+      },
+      "gradient_norm_d": 1002.7122192382812,
+      "gradient_norm_g": 350.8860778808594
+    },
+    {
+      "update": 49,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 26.476325035095215,
+        "duration": 2.0932522416114807,
+        "kl": 5.732387185096741,
+        "discriminator": 16.648597180843353,
+        "feature": 11.472331643104553,
+        "generator": 2.3172364830970764,
+        "tone_auxiliary": 1.1099264323711395,
+        "syllable_boundary_auxiliary": 0.565607987344265
+      },
+      "gradient_norm_d": 839.0927124023438,
+      "gradient_norm_g": 285.13433837890625
+    },
+    {
+      "update": 50,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 30.410094261169434,
+        "duration": 2.3028646111488342,
+        "kl": 6.0429428815841675,
+        "discriminator": 3.2056682109832764,
+        "feature": 8.973864078521729,
+        "generator": 2.289709508419037,
+        "tone_auxiliary": 1.1154586374759674,
+        "syllable_boundary_auxiliary": 0.6809771507978439
+      },
+      "gradient_norm_d": 84.74161529541016,
+      "gradient_norm_g": 204.03099060058594,
+      "development_metric": 41.57272084554037,
+      "improved": true,
+      "train_reconstruction_metric": 38.755901753902435,
+      "development_train_relative_gap": 0.07268103602709486,
+      "overfitting_gap_flag": false
+    },
+    {
+      "update": 51,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 29.376673221588135,
+        "duration": 2.2546295523643494,
+        "kl": 5.625412583351135,
+        "discriminator": 225.8286868929863,
+        "feature": 26.75388264656067,
+        "generator": 2.3283588886260986,
+        "tone_auxiliary": 1.100399374961853,
+        "syllable_boundary_auxiliary": 0.5430013090372086
+      },
+      "gradient_norm_d": 4259.1708984375,
+      "gradient_norm_g": 239.51593017578125
+    },
+    {
+      "update": 52,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 27.332326412200928,
+        "duration": 2.1303606629371643,
+        "kl": 5.577536463737488,
+        "discriminator": 30.372241973876953,
+        "feature": 13.821773290634155,
+        "generator": 2.333574652671814,
+        "tone_auxiliary": 1.1404767036437988,
+        "syllable_boundary_auxiliary": 0.6136397570371628
+      },
+      "gradient_norm_d": 1601.9117431640625,
+      "gradient_norm_g": 212.97744750976562
+    },
+    {
+      "update": 53,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 30.81069803237915,
+        "duration": 2.167225480079651,
+        "kl": 5.746207594871521,
+        "discriminator": 47.66783732175827,
+        "feature": 16.37657904624939,
+        "generator": 2.2508046329021454,
+        "tone_auxiliary": 1.1392039358615875,
+        "syllable_boundary_auxiliary": 0.5887357741594315
+      },
+      "gradient_norm_d": 1562.386474609375,
+      "gradient_norm_g": 169.99517822265625
+    },
+    {
+      "update": 54,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 32.82483673095703,
+        "duration": 2.238119661808014,
+        "kl": 5.390147089958191,
+        "discriminator": 3.0748907327651978,
+        "feature": 10.877251625061035,
+        "generator": 2.4423630833625793,
+        "tone_auxiliary": 1.1167913973331451,
+        "syllable_boundary_auxiliary": 0.6288726925849915
+      },
+      "gradient_norm_d": 15.3573637008667,
+      "gradient_norm_g": 185.4373016357422
+    },
+    {
+      "update": 55,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.443237781524658,
+        "duration": 2.226599097251892,
+        "kl": 5.337887406349182,
+        "discriminator": 12.819846749305725,
+        "feature": 9.944079995155334,
+        "generator": 2.399928867816925,
+        "tone_auxiliary": 1.1196990311145782,
+        "syllable_boundary_auxiliary": 0.6067332923412323
+      },
+      "gradient_norm_d": 976.4296875,
+      "gradient_norm_g": 271.47430419921875
+    },
+    {
+      "update": 56,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 26.210536003112793,
+        "duration": 2.0440275371074677,
+        "kl": 5.406649827957153,
+        "discriminator": 13.55291372537613,
+        "feature": 13.645516633987427,
+        "generator": 2.3325682878494263,
+        "tone_auxiliary": 1.1288894414901733,
+        "syllable_boundary_auxiliary": 0.6231314390897751
+      },
+      "gradient_norm_d": 969.6749267578125,
+      "gradient_norm_g": 178.04684448242188
+    },
+    {
+      "update": 57,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 26.260454177856445,
+        "duration": 2.3096675872802734,
+        "kl": 5.714356899261475,
+        "discriminator": 14.249114453792572,
+        "feature": 10.92668902873993,
+        "generator": 2.218246102333069,
+        "tone_auxiliary": 1.1104080080986023,
+        "syllable_boundary_auxiliary": 0.6982248574495316
+      },
+      "gradient_norm_d": 979.1566772460938,
+      "gradient_norm_g": 148.1490936279297
+    },
+    {
+      "update": 58,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 31.245610237121582,
+        "duration": 2.158218204975128,
+        "kl": 4.459208905696869,
+        "discriminator": 11.566954791545868,
+        "feature": 11.946061849594116,
+        "generator": 2.5031890273094177,
+        "tone_auxiliary": 1.145389437675476,
+        "syllable_boundary_auxiliary": 0.6008084937930107
+      },
+      "gradient_norm_d": 496.6953125,
+      "gradient_norm_g": 207.2464599609375
+    },
+    {
+      "update": 59,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 30.062991619110107,
+        "duration": 2.2820618748664856,
+        "kl": 4.987218737602234,
+        "discriminator": 2.909757375717163,
+        "feature": 9.741757154464722,
+        "generator": 2.4230763912200928,
+        "tone_auxiliary": 1.1361818313598633,
+        "syllable_boundary_auxiliary": 0.55607620626688
+      },
+      "gradient_norm_d": 197.28546142578125,
+      "gradient_norm_g": 121.43346405029297
+    },
+    {
+      "update": 60,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 29.528815746307373,
+        "duration": 2.1272133588790894,
+        "kl": 5.832826375961304,
+        "discriminator": 3.4161866903305054,
+        "feature": 12.394681692123413,
+        "generator": 2.2612485885620117,
+        "tone_auxiliary": 1.1209807097911835,
+        "syllable_boundary_auxiliary": 0.6915351748466492
+      },
+      "gradient_norm_d": 246.18492126464844,
+      "gradient_norm_g": 158.28831481933594
+    },
+    {
+      "update": 61,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.386955738067627,
+        "duration": 2.1750699877738953,
+        "kl": 5.317829132080078,
+        "discriminator": 27.262986719608307,
+        "feature": 13.094298839569092,
+        "generator": 2.262759208679199,
+        "tone_auxiliary": 1.1101985573768616,
+        "syllable_boundary_auxiliary": 0.5646389499306679
+      },
+      "gradient_norm_d": 1225.682861328125,
+      "gradient_norm_g": 176.27166748046875
+    },
+    {
+      "update": 62,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 32.74435901641846,
+        "duration": 2.257742762565613,
+        "kl": 5.590641736984253,
+        "discriminator": 2.9801304936408997,
+        "feature": 11.668384552001953,
+        "generator": 2.419025421142578,
+        "tone_auxiliary": 1.1430815756320953,
+        "syllable_boundary_auxiliary": 0.6654192060232162
+      },
+      "gradient_norm_d": 196.85105895996094,
+      "gradient_norm_g": 124.04545593261719
+    },
+    {
+      "update": 63,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 28.213141918182373,
+        "duration": 1.8960847854614258,
+        "kl": 4.705997824668884,
+        "discriminator": 88.13281631469727,
+        "feature": 15.362607479095459,
+        "generator": 2.5266817808151245,
+        "tone_auxiliary": 1.1258299350738525,
+        "syllable_boundary_auxiliary": 0.5547782629728317
+      },
+      "gradient_norm_d": 1632.36767578125,
+      "gradient_norm_g": 162.16961669921875
+    },
+    {
+      "update": 64,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 26.610445499420166,
+        "duration": 2.078296720981598,
+        "kl": 5.122835159301758,
+        "discriminator": 61.36230969429016,
+        "feature": 18.64501452445984,
+        "generator": 2.359629899263382,
+        "tone_auxiliary": 1.1119039952754974,
+        "syllable_boundary_auxiliary": 0.6759870946407318
+      },
+      "gradient_norm_d": 2410.14013671875,
+      "gradient_norm_g": 185.38218688964844
+    },
+    {
+      "update": 65,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 24.133657932281494,
+        "duration": 2.197587013244629,
+        "kl": 5.2914512157440186,
+        "discriminator": 28.150446712970734,
+        "feature": 14.789517402648926,
+        "generator": 2.420145332813263,
+        "tone_auxiliary": 1.1252000331878662,
+        "syllable_boundary_auxiliary": 0.587419904768467
+      },
+      "gradient_norm_d": 1813.5980224609375,
+      "gradient_norm_g": 251.5617218017578
+    },
+    {
+      "update": 66,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 28.81281805038452,
+        "duration": 2.070265054702759,
+        "kl": 5.18934965133667,
+        "discriminator": 2.9675344228744507,
+        "feature": 10.484047055244446,
+        "generator": 2.4086979031562805,
+        "tone_auxiliary": 1.1251670718193054,
+        "syllable_boundary_auxiliary": 0.7068099230527878
+      },
+      "gradient_norm_d": 62.24249267578125,
+      "gradient_norm_g": 187.8437957763672
+    },
+    {
+      "update": 67,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 26.6276912689209,
+        "duration": 2.2612462043762207,
+        "kl": 5.19773256778717,
+        "discriminator": 111.36780905723572,
+        "feature": 21.609713077545166,
+        "generator": 2.567238509654999,
+        "tone_auxiliary": 1.1141358017921448,
+        "syllable_boundary_auxiliary": 0.7279832065105438
+      },
+      "gradient_norm_d": 3015.90966796875,
+      "gradient_norm_g": 223.40916442871094
+    },
+    {
+      "update": 68,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 28.338842391967773,
+        "duration": 2.1125782132148743,
+        "kl": 4.722355544567108,
+        "discriminator": 67.45953321456909,
+        "feature": 18.863675355911255,
+        "generator": 2.264219343662262,
+        "tone_auxiliary": 1.1190601289272308,
+        "syllable_boundary_auxiliary": 0.5627845078706741
+      },
+      "gradient_norm_d": 2101.39404296875,
+      "gradient_norm_g": 237.51502990722656
+    },
+    {
+      "update": 69,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.54276418685913,
+        "duration": 2.060503751039505,
+        "kl": 5.038706541061401,
+        "discriminator": 48.2345529794693,
+        "feature": 11.607343435287476,
+        "generator": 2.392946481704712,
+        "tone_auxiliary": 1.11720210313797,
+        "syllable_boundary_auxiliary": 0.5603829994797707
+      },
+      "gradient_norm_d": 1049.248779296875,
+      "gradient_norm_g": 205.8618621826172
+    },
+    {
+      "update": 70,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 30.989637851715088,
+        "duration": 1.9907545447349548,
+        "kl": 4.693114459514618,
+        "discriminator": 123.89746803045273,
+        "feature": 18.93415403366089,
+        "generator": 2.3411784172058105,
+        "tone_auxiliary": 1.1186130344867706,
+        "syllable_boundary_auxiliary": 0.6446195244789124
+      },
+      "gradient_norm_d": 2228.253173828125,
+      "gradient_norm_g": 122.53343963623047
+    },
+    {
+      "update": 71,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 26.546640872955322,
+        "duration": 2.1444427967071533,
+        "kl": 4.668325901031494,
+        "discriminator": 5.52137953042984,
+        "feature": 10.561897039413452,
+        "generator": 2.4338947534561157,
+        "tone_auxiliary": 1.1347460448741913,
+        "syllable_boundary_auxiliary": 0.5953158959746361
+      },
+      "gradient_norm_d": 395.49505615234375,
+      "gradient_norm_g": 174.2543487548828
+    },
+    {
+      "update": 72,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.785954475402832,
+        "duration": 2.112152725458145,
+        "kl": 4.753373503684998,
+        "discriminator": 12.236007928848267,
+        "feature": 12.42527437210083,
+        "generator": 2.21114045381546,
+        "tone_auxiliary": 1.1469227373600006,
+        "syllable_boundary_auxiliary": 0.6388339847326279
+      },
+      "gradient_norm_d": 997.6322021484375,
+      "gradient_norm_g": 300.5097961425781
+    },
+    {
+      "update": 73,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 24.78027868270874,
+        "duration": 2.045026808977127,
+        "kl": 4.9832810163497925,
+        "discriminator": 40.40328997373581,
+        "feature": 14.326529741287231,
+        "generator": 2.211632490158081,
+        "tone_auxiliary": 1.1144077777862549,
+        "syllable_boundary_auxiliary": 0.5499031469225883
+      },
+      "gradient_norm_d": 1507.869140625,
+      "gradient_norm_g": 186.51881408691406
+    },
+    {
+      "update": 74,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 30.972728729248047,
+        "duration": 2.1016401052474976,
+        "kl": 4.023334980010986,
+        "discriminator": 2.7059174180030823,
+        "feature": 9.12794578075409,
+        "generator": 2.502941608428955,
+        "tone_auxiliary": 1.1275081634521484,
+        "syllable_boundary_auxiliary": 0.6460397019982338
+      },
+      "gradient_norm_d": 67.56600189208984,
+      "gradient_norm_g": 240.96751403808594
+    },
+    {
+      "update": 75,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 28.101152420043945,
+        "duration": 1.9687086641788483,
+        "kl": 4.272886157035828,
+        "discriminator": 10.846061885356903,
+        "feature": 13.00782322883606,
+        "generator": 2.2296122610569,
+        "tone_auxiliary": 1.1135273873806,
+        "syllable_boundary_auxiliary": 0.5581695213913918
+      },
+      "gradient_norm_d": 710.9732055664062,
+      "gradient_norm_g": 148.78672790527344,
+      "development_metric": 39.11879857381185,
+      "improved": true,
+      "train_reconstruction_metric": 34.34274724125862,
+      "development_train_relative_gap": 0.13907015938478523,
+      "overfitting_gap_flag": false
+    },
+    {
+      "update": 76,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 27.54512310028076,
+        "duration": 2.1366361379623413,
+        "kl": 4.787560045719147,
+        "discriminator": 4.4073768854141235,
+        "feature": 9.489554047584534,
+        "generator": 2.3858245611190796,
+        "tone_auxiliary": 1.1242952644824982,
+        "syllable_boundary_auxiliary": 0.6056947708129883
+      },
+      "gradient_norm_d": 149.06854248046875,
+      "gradient_norm_g": 129.90838623046875
+    },
+    {
+      "update": 77,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.347590923309326,
+        "duration": 2.0901437997817993,
+        "kl": 4.540729343891144,
+        "discriminator": 82.29491519927979,
+        "feature": 21.83098268508911,
+        "generator": 2.358776330947876,
+        "tone_auxiliary": 1.1280211508274078,
+        "syllable_boundary_auxiliary": 0.6305725127458572
+      },
+      "gradient_norm_d": 2514.23974609375,
+      "gradient_norm_g": 259.25537109375
+    },
+    {
+      "update": 78,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.419718265533447,
+        "duration": 2.1070951223373413,
+        "kl": 4.905439734458923,
+        "discriminator": 4.06532222032547,
+        "feature": 8.665058016777039,
+        "generator": 2.149817705154419,
+        "tone_auxiliary": 1.1160758435726166,
+        "syllable_boundary_auxiliary": 0.656548410654068
+      },
+      "gradient_norm_d": 169.53575134277344,
+      "gradient_norm_g": 183.1230926513672
+    },
+    {
+      "update": 79,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 26.666935920715332,
+        "duration": 2.1477017402648926,
+        "kl": 4.741538882255554,
+        "discriminator": 8.628672301769257,
+        "feature": 9.876531958580017,
+        "generator": 2.3704609870910645,
+        "tone_auxiliary": 1.1372526586055756,
+        "syllable_boundary_auxiliary": 0.7181988060474396
+      },
+      "gradient_norm_d": 455.3185119628906,
+      "gradient_norm_g": 255.6846923828125
+    },
+    {
+      "update": 80,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 30.105568885803223,
+        "duration": 2.084060698747635,
+        "kl": 4.2702929973602295,
+        "discriminator": 4.612812280654907,
+        "feature": 11.859435081481934,
+        "generator": 2.477657437324524,
+        "tone_auxiliary": 1.125701665878296,
+        "syllable_boundary_auxiliary": 0.6517336443066597
+      },
+      "gradient_norm_d": 397.15435791015625,
+      "gradient_norm_g": 314.15435791015625
+    },
+    {
+      "update": 81,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.715617179870605,
+        "duration": 2.107687830924988,
+        "kl": 4.153980553150177,
+        "discriminator": 22.048893094062805,
+        "feature": 11.462432861328125,
+        "generator": 2.3592673540115356,
+        "tone_auxiliary": 1.1187653243541718,
+        "syllable_boundary_auxiliary": 0.6003376767039299
+      },
+      "gradient_norm_d": 730.8814697265625,
+      "gradient_norm_g": 143.7556610107422
+    },
+    {
+      "update": 82,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 27.621324062347412,
+        "duration": 2.075608044862747,
+        "kl": 4.611090183258057,
+        "discriminator": 7.527225613594055,
+        "feature": 10.244739532470703,
+        "generator": 2.0085951685905457,
+        "tone_auxiliary": 1.1126020848751068,
+        "syllable_boundary_auxiliary": 0.5918289124965668
+      },
+      "gradient_norm_d": 394.3456115722656,
+      "gradient_norm_g": 155.02597045898438
+    },
+    {
+      "update": 83,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.714961051940918,
+        "duration": 2.1671029329299927,
+        "kl": 4.541837155818939,
+        "discriminator": 5.142080008983612,
+        "feature": 11.609665751457214,
+        "generator": 2.369589924812317,
+        "tone_auxiliary": 1.119033396244049,
+        "syllable_boundary_auxiliary": 0.6186007708311081
+      },
+      "gradient_norm_d": 646.6180419921875,
+      "gradient_norm_g": 192.31698608398438
+    },
+    {
+      "update": 84,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 27.40721559524536,
+        "duration": 2.031698554754257,
+        "kl": 4.711511492729187,
+        "discriminator": 19.16918432712555,
+        "feature": 12.874394655227661,
+        "generator": 2.3034059405326843,
+        "tone_auxiliary": 1.1314069032669067,
+        "syllable_boundary_auxiliary": 0.7364102154970169
+      },
+      "gradient_norm_d": 839.8173217773438,
+      "gradient_norm_g": 127.27317810058594
+    },
+    {
+      "update": 85,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 28.123572826385498,
+        "duration": 2.05462509393692,
+        "kl": 3.8113643527030945,
+        "discriminator": 3.7542731761932373,
+        "feature": 11.586423873901367,
+        "generator": 2.2182937562465668,
+        "tone_auxiliary": 1.1061022579669952,
+        "syllable_boundary_auxiliary": 0.5729179605841637
+      },
+      "gradient_norm_d": 349.3771667480469,
+      "gradient_norm_g": 154.38510131835938
+    },
+    {
+      "update": 86,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 26.61467742919922,
+        "duration": 2.0792335867881775,
+        "kl": 4.2903860211372375,
+        "discriminator": 9.249475717544556,
+        "feature": 11.049118041992188,
+        "generator": 2.19691264629364,
+        "tone_auxiliary": 1.113217532634735,
+        "syllable_boundary_auxiliary": 0.7084192633628845
+      },
+      "gradient_norm_d": 717.7692260742188,
+      "gradient_norm_g": 117.87682342529297
+    },
+    {
+      "update": 87,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 24.74832582473755,
+        "duration": 2.207581877708435,
+        "kl": 4.5551207065582275,
+        "discriminator": 22.570457816123962,
+        "feature": 12.885046005249023,
+        "generator": 2.3456863164901733,
+        "tone_auxiliary": 1.124941647052765,
+        "syllable_boundary_auxiliary": 0.5997582823038101
+      },
+      "gradient_norm_d": 890.2734375,
+      "gradient_norm_g": 133.68702697753906
+    },
+    {
+      "update": 88,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 31.816223621368408,
+        "duration": 2.0022897124290466,
+        "kl": 4.071946620941162,
+        "discriminator": 2.413711965084076,
+        "feature": 10.284354209899902,
+        "generator": 2.422693967819214,
+        "tone_auxiliary": 1.1215867400169373,
+        "syllable_boundary_auxiliary": 0.5537635609507561
+      },
+      "gradient_norm_d": 93.85416412353516,
+      "gradient_norm_g": 232.75216674804688
+    },
+    {
+      "update": 89,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.400222778320312,
+        "duration": 2.130252480506897,
+        "kl": 4.186360239982605,
+        "discriminator": 90.04668718576431,
+        "feature": 15.10674238204956,
+        "generator": 2.2576268315315247,
+        "tone_auxiliary": 1.1241083443164825,
+        "syllable_boundary_auxiliary": 0.5343701541423798
+      },
+      "gradient_norm_d": 1633.4676513671875,
+      "gradient_norm_g": 117.947509765625
+    },
+    {
+      "update": 90,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 26.70271873474121,
+        "duration": 2.055474728345871,
+        "kl": 3.632651627063751,
+        "discriminator": 2.952756106853485,
+        "feature": 9.510682344436646,
+        "generator": 2.406566321849823,
+        "tone_auxiliary": 1.134643942117691,
+        "syllable_boundary_auxiliary": 0.6839940920472145
+      },
+      "gradient_norm_d": 204.71165466308594,
+      "gradient_norm_g": 212.17034912109375
+    },
+    {
+      "update": 91,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 27.529890537261963,
+        "duration": 2.1786937713623047,
+        "kl": 4.39346170425415,
+        "discriminator": 4.801252782344818,
+        "feature": 10.38391387462616,
+        "generator": 2.1776190996170044,
+        "tone_auxiliary": 1.1064456701278687,
+        "syllable_boundary_auxiliary": 0.6891034692525864
+      },
+      "gradient_norm_d": 602.795166015625,
+      "gradient_norm_g": 448.2841491699219
+    },
+    {
+      "update": 92,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 28.075369834899902,
+        "duration": 1.9929666817188263,
+        "kl": 4.482347726821899,
+        "discriminator": 31.913512527942657,
+        "feature": 13.880723595619202,
+        "generator": 2.276960253715515,
+        "tone_auxiliary": 1.1204156577587128,
+        "syllable_boundary_auxiliary": 0.6371794193983078
+      },
+      "gradient_norm_d": 792.672607421875,
+      "gradient_norm_g": 175.7194366455078
+    },
+    {
+      "update": 93,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 24.118810653686523,
+        "duration": 2.1075905561447144,
+        "kl": 3.922605872154236,
+        "discriminator": 58.12856471538544,
+        "feature": 17.545905828475952,
+        "generator": 2.3762338161468506,
+        "tone_auxiliary": 1.1133556365966797,
+        "syllable_boundary_auxiliary": 0.545772984623909
+      },
+      "gradient_norm_d": 1693.7005615234375,
+      "gradient_norm_g": 192.930908203125
+    },
+    {
+      "update": 94,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 28.3818621635437,
+        "duration": 2.130749464035034,
+        "kl": 4.1119027733802795,
+        "discriminator": 3.991606831550598,
+        "feature": 11.10153841972351,
+        "generator": 2.2823894917964935,
+        "tone_auxiliary": 1.1144766211509705,
+        "syllable_boundary_auxiliary": 0.7173486277461052
+      },
+      "gradient_norm_d": 291.3114013671875,
+      "gradient_norm_g": 134.78652954101562
+    },
+    {
+      "update": 95,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.79104471206665,
+        "duration": 2.1668161153793335,
+        "kl": 4.220164120197296,
+        "discriminator": 14.049657046794891,
+        "feature": 11.225865364074707,
+        "generator": 2.4230090975761414,
+        "tone_auxiliary": 1.1314014196395874,
+        "syllable_boundary_auxiliary": 0.6961998492479324
+      },
+      "gradient_norm_d": 688.4784545898438,
+      "gradient_norm_g": 183.2317657470703
+    },
+    {
+      "update": 96,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 26.184329986572266,
+        "duration": 1.9913549423217773,
+        "kl": 4.04049950838089,
+        "discriminator": 17.570194900035858,
+        "feature": 13.422973394393921,
+        "generator": 2.3598216772079468,
+        "tone_auxiliary": 1.115354210138321,
+        "syllable_boundary_auxiliary": 0.6084171384572983
+      },
+      "gradient_norm_d": 663.22412109375,
+      "gradient_norm_g": 129.77200317382812
+    },
+    {
+      "update": 97,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 26.10762882232666,
+        "duration": 2.01058691740036,
+        "kl": 3.7598246335983276,
+        "discriminator": 103.92701065540314,
+        "feature": 18.207155108451843,
+        "generator": 2.2544928789138794,
+        "tone_auxiliary": 1.1256851553916931,
+        "syllable_boundary_auxiliary": 0.6127633228898048
+      },
+      "gradient_norm_d": 1892.6771240234375,
+      "gradient_norm_g": 246.42678833007812
+    },
+    {
+      "update": 98,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 27.58025026321411,
+        "duration": 2.1855810284614563,
+        "kl": 4.536460280418396,
+        "discriminator": 72.59392148256302,
+        "feature": 15.967531442642212,
+        "generator": 2.645642638206482,
+        "tone_auxiliary": 1.1055124402046204,
+        "syllable_boundary_auxiliary": 0.7317535430192947
+      },
+      "gradient_norm_d": 1644.13232421875,
+      "gradient_norm_g": 222.94842529296875
+    },
+    {
+      "update": 99,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 29.837038040161133,
+        "duration": 2.093048870563507,
+        "kl": 3.458007514476776,
+        "discriminator": 10.981760025024414,
+        "feature": 13.253274917602539,
+        "generator": 2.5673981308937073,
+        "tone_auxiliary": 1.127044916152954,
+        "syllable_boundary_auxiliary": 0.5768635421991348
+      },
+      "gradient_norm_d": 590.9828491210938,
+      "gradient_norm_g": 215.2256622314453
+    },
+    {
+      "update": 100,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 21.18020534515381,
+        "duration": 2.0121999084949493,
+        "kl": 4.216132640838623,
+        "discriminator": 67.77617222070694,
+        "feature": 15.753163933753967,
+        "generator": 2.539136230945587,
+        "tone_auxiliary": 1.1093330383300781,
+        "syllable_boundary_auxiliary": 0.6714664697647095
+      },
+      "gradient_norm_d": 1702.6937255859375,
+      "gradient_norm_g": 186.81578063964844,
+      "development_metric": 37.56000836690267,
+      "improved": true,
+      "train_reconstruction_metric": 27.40853789448738,
+      "development_train_relative_gap": 0.37037621311631636,
+      "overfitting_gap_flag": true
+    },
+    {
+      "update": 101,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.87119722366333,
+        "duration": 2.1396904587745667,
+        "kl": 4.308397352695465,
+        "discriminator": 9.866491258144379,
+        "feature": 12.946227312088013,
+        "generator": 2.260512948036194,
+        "tone_auxiliary": 1.117540717124939,
+        "syllable_boundary_auxiliary": 0.588564321398735
+      },
+      "gradient_norm_d": 566.8311767578125,
+      "gradient_norm_g": 116.70760345458984
+    },
+    {
+      "update": 102,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.546498775482178,
+        "duration": 2.0344753861427307,
+        "kl": 3.8776082396507263,
+        "discriminator": 6.451254844665527,
+        "feature": 11.835564374923706,
+        "generator": 2.3730205297470093,
+        "tone_auxiliary": 1.1151908040046692,
+        "syllable_boundary_auxiliary": 0.5992080718278885
+      },
+      "gradient_norm_d": 603.21435546875,
+      "gradient_norm_g": 233.45008850097656
+    },
+    {
+      "update": 103,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 26.27138900756836,
+        "duration": 2.1776146292686462,
+        "kl": 4.418256938457489,
+        "discriminator": 288.3027096390724,
+        "feature": 21.955825090408325,
+        "generator": 2.5123992562294006,
+        "tone_auxiliary": 1.1271859109401703,
+        "syllable_boundary_auxiliary": 0.7390046715736389
+      },
+      "gradient_norm_d": 3795.503173828125,
+      "gradient_norm_g": 170.62425231933594
+    },
+    {
+      "update": 104,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 26.449171543121338,
+        "duration": 2.147202491760254,
+        "kl": 4.236635863780975,
+        "discriminator": 3.5865777134895325,
+        "feature": 9.84954285621643,
+        "generator": 2.4050241112709045,
+        "tone_auxiliary": 1.1098730862140656,
+        "syllable_boundary_auxiliary": 0.5603476613759995
+      },
+      "gradient_norm_d": 402.2322692871094,
+      "gradient_norm_g": 171.35809326171875
+    },
+    {
+      "update": 105,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 23.028969764709473,
+        "duration": 1.9696440994739532,
+        "kl": 3.38543164730072,
+        "discriminator": 58.93116474151611,
+        "feature": 15.94359016418457,
+        "generator": 2.5521381497383118,
+        "tone_auxiliary": 1.1234249472618103,
+        "syllable_boundary_auxiliary": 0.5501374900341034
+      },
+      "gradient_norm_d": 1505.1490478515625,
+      "gradient_norm_g": 189.21620178222656
+    },
+    {
+      "update": 106,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 23.736720085144043,
+        "duration": 2.1223583221435547,
+        "kl": 4.373771369457245,
+        "discriminator": 41.99175900220871,
+        "feature": 14.2872154712677,
+        "generator": 2.4392945170402527,
+        "tone_auxiliary": 1.113653987646103,
+        "syllable_boundary_auxiliary": 0.6474416255950928
+      },
+      "gradient_norm_d": 1165.8096923828125,
+      "gradient_norm_g": 155.4300537109375
+    },
+    {
+      "update": 107,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 28.224629878997803,
+        "duration": 2.161358416080475,
+        "kl": 4.4112319350242615,
+        "discriminator": 3.028391182422638,
+        "feature": 9.28152871131897,
+        "generator": 2.4910290837287903,
+        "tone_auxiliary": 1.127952754497528,
+        "syllable_boundary_auxiliary": 0.6762737482786179
+      },
+      "gradient_norm_d": 116.66228485107422,
+      "gradient_norm_g": 125.17852020263672
+    },
+    {
+      "update": 108,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 22.439814567565918,
+        "duration": 2.1240985989570618,
+        "kl": 3.3184606432914734,
+        "discriminator": 16.743825614452362,
+        "feature": 12.813253402709961,
+        "generator": 2.4698362350463867,
+        "tone_auxiliary": 1.1257506310939789,
+        "syllable_boundary_auxiliary": 0.6261051148176193
+      },
+      "gradient_norm_d": 790.4252319335938,
+      "gradient_norm_g": 148.52207946777344
+    },
+    {
+      "update": 109,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 23.886730432510376,
+        "duration": 2.0158832371234894,
+        "kl": 3.767760396003723,
+        "discriminator": 7.952861428260803,
+        "feature": 11.958922386169434,
+        "generator": 2.576194167137146,
+        "tone_auxiliary": 1.1102211475372314,
+        "syllable_boundary_auxiliary": 0.6256891936063766
+      },
+      "gradient_norm_d": 506.2074890136719,
+      "gradient_norm_g": 131.33338928222656
+    },
+    {
+      "update": 110,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 21.331873893737793,
+        "duration": 2.0263009071350098,
+        "kl": 3.52552330493927,
+        "discriminator": 3.759265124797821,
+        "feature": 10.28166651725769,
+        "generator": 2.4314471185207367,
+        "tone_auxiliary": 1.118825227022171,
+        "syllable_boundary_auxiliary": 0.5820210874080658
+      },
+      "gradient_norm_d": 428.69976806640625,
+      "gradient_norm_g": 120.037353515625
+    },
+    {
+      "update": 111,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 27.472159385681152,
+        "duration": 1.9678003787994385,
+        "kl": 3.805883765220642,
+        "discriminator": 3.2308237552642822,
+        "feature": 10.720205307006836,
+        "generator": 2.2955875396728516,
+        "tone_auxiliary": 1.1122919619083405,
+        "syllable_boundary_auxiliary": 0.6590177267789841
+      },
+      "gradient_norm_d": 177.1412811279297,
+      "gradient_norm_g": 158.66693115234375
+    },
+    {
+      "update": 112,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 22.41886019706726,
+        "duration": 2.139993131160736,
+        "kl": 3.587154746055603,
+        "discriminator": 23.904894769191742,
+        "feature": 12.70296573638916,
+        "generator": 2.405396819114685,
+        "tone_auxiliary": 1.1074813306331635,
+        "syllable_boundary_auxiliary": 0.6978354603052139
+      },
+      "gradient_norm_d": 678.4957885742188,
+      "gradient_norm_g": 263.3523254394531
+    },
+    {
+      "update": 113,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 27.872653484344482,
+        "duration": 2.2315106987953186,
+        "kl": 4.113624751567841,
+        "discriminator": 10.133152663707733,
+        "feature": 12.566898107528687,
+        "generator": 2.4742467999458313,
+        "tone_auxiliary": 1.1254482567310333,
+        "syllable_boundary_auxiliary": 0.7434152811765671
+      },
+      "gradient_norm_d": 393.79742431640625,
+      "gradient_norm_g": 102.38973999023438
+    },
+    {
+      "update": 114,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 27.60367774963379,
+        "duration": 2.1013267040252686,
+        "kl": 4.155247390270233,
+        "discriminator": 4.625893294811249,
+        "feature": 9.497862339019775,
+        "generator": 2.4260921478271484,
+        "tone_auxiliary": 1.1172985136508942,
+        "syllable_boundary_auxiliary": 0.7889918982982635
+      },
+      "gradient_norm_d": 192.0576629638672,
+      "gradient_norm_g": 121.69477844238281
+    },
+    {
+      "update": 115,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 20.904908180236816,
+        "duration": 2.007748931646347,
+        "kl": 3.8427961468696594,
+        "discriminator": 5.479016900062561,
+        "feature": 10.033862113952637,
+        "generator": 2.742612600326538,
+        "tone_auxiliary": 1.1073555946350098,
+        "syllable_boundary_auxiliary": 0.6217922270298004
+      },
+      "gradient_norm_d": 370.8843078613281,
+      "gradient_norm_g": 190.63693237304688
+    },
+    {
+      "update": 116,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 28.86865997314453,
+        "duration": 2.0052027106285095,
+        "kl": 3.5185588598251343,
+        "discriminator": 16.85134655237198,
+        "feature": 13.801342725753784,
+        "generator": 2.5323084592819214,
+        "tone_auxiliary": 1.0926433205604553,
+        "syllable_boundary_auxiliary": 0.6899880319833755
+      },
+      "gradient_norm_d": 539.2142944335938,
+      "gradient_norm_g": 135.6024169921875
+    },
+    {
+      "update": 117,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 23.589934825897217,
+        "duration": 2.0858049988746643,
+        "kl": 4.168459355831146,
+        "discriminator": 6.726773798465729,
+        "feature": 11.263806104660034,
+        "generator": 2.5665833950042725,
+        "tone_auxiliary": 1.1036315858364105,
+        "syllable_boundary_auxiliary": 0.7256657034158707
+      },
+      "gradient_norm_d": 282.86541748046875,
+      "gradient_norm_g": 162.8813934326172
+    },
+    {
+      "update": 118,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 19.37541127204895,
+        "duration": 2.266980230808258,
+        "kl": 3.0004847049713135,
+        "discriminator": 21.786692559719086,
+        "feature": 12.603183507919312,
+        "generator": 2.922587752342224,
+        "tone_auxiliary": 1.1290907561779022,
+        "syllable_boundary_auxiliary": 0.6119977980852127
+      },
+      "gradient_norm_d": 676.4067993164062,
+      "gradient_norm_g": 273.0404052734375
+    },
+    {
+      "update": 119,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.432276725769043,
+        "duration": 2.047703981399536,
+        "kl": 3.7662724256515503,
+        "discriminator": 8.42362356185913,
+        "feature": 11.369487285614014,
+        "generator": 2.484823167324066,
+        "tone_auxiliary": 1.1107322871685028,
+        "syllable_boundary_auxiliary": 0.6097855642437935
+      },
+      "gradient_norm_d": 294.9216613769531,
+      "gradient_norm_g": 145.37010192871094
+    },
+    {
+      "update": 120,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.84363079071045,
+        "duration": 2.1275376081466675,
+        "kl": 3.5150856971740723,
+        "discriminator": 3.4338781237602234,
+        "feature": 10.606506586074829,
+        "generator": 2.519265353679657,
+        "tone_auxiliary": 1.1236225068569183,
+        "syllable_boundary_auxiliary": 0.6605413258075714
+      },
+      "gradient_norm_d": 71.77942657470703,
+      "gradient_norm_g": 133.43783569335938
+    },
+    {
+      "update": 121,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 23.77681016921997,
+        "duration": 2.1580832600593567,
+        "kl": 3.833101451396942,
+        "discriminator": 10.814807772636414,
+        "feature": 10.89385437965393,
+        "generator": 2.747072756290436,
+        "tone_auxiliary": 1.1055232286453247,
+        "syllable_boundary_auxiliary": 0.6507820039987564
+      },
+      "gradient_norm_d": 286.64959716796875,
+      "gradient_norm_g": 172.2537078857422
+    },
+    {
+      "update": 122,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 23.505337715148926,
+        "duration": 2.1156055331230164,
+        "kl": 4.571669340133667,
+        "discriminator": 23.203559279441833,
+        "feature": 14.574887037277222,
+        "generator": 2.872287929058075,
+        "tone_auxiliary": 1.1094461381435394,
+        "syllable_boundary_auxiliary": 0.6831359714269638
+      },
+      "gradient_norm_d": 694.4356689453125,
+      "gradient_norm_g": 120.60914611816406
+    },
+    {
+      "update": 123,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 20.601353883743286,
+        "duration": 2.0051678121089935,
+        "kl": 3.8028945922851562,
+        "discriminator": 7.105037868022919,
+        "feature": 12.055122375488281,
+        "generator": 2.8459779620170593,
+        "tone_auxiliary": 1.1146830916404724,
+        "syllable_boundary_auxiliary": 0.6763157695531845
+      },
+      "gradient_norm_d": 272.4624938964844,
+      "gradient_norm_g": 221.0229034423828
+    },
+    {
+      "update": 124,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 22.96339511871338,
+        "duration": 2.0843392610549927,
+        "kl": 3.336190402507782,
+        "discriminator": 5.003586769104004,
+        "feature": 11.472716093063354,
+        "generator": 2.859943985939026,
+        "tone_auxiliary": 1.1134877800941467,
+        "syllable_boundary_auxiliary": 0.6541689112782478
+      },
+      "gradient_norm_d": 186.98611450195312,
+      "gradient_norm_g": 166.18663024902344
+    },
+    {
+      "update": 125,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.645837783813477,
+        "duration": 2.191927909851074,
+        "kl": 3.137036442756653,
+        "discriminator": 3.4809670448303223,
+        "feature": 8.76060140132904,
+        "generator": 2.713783919811249,
+        "tone_auxiliary": 1.1123738288879395,
+        "syllable_boundary_auxiliary": 0.6222142577171326
+      },
+      "gradient_norm_d": 58.43345260620117,
+      "gradient_norm_g": 131.20639038085938,
+      "development_metric": 36.90342330932617,
+      "improved": true,
+      "train_reconstruction_metric": 30.974802136421204,
+      "development_train_relative_gap": 0.1914014219297917,
+      "overfitting_gap_flag": false
+    },
+    {
+      "update": 126,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 23.21204662322998,
+        "duration": 2.0488139390945435,
+        "kl": 3.7314931750297546,
+        "discriminator": 6.820137083530426,
+        "feature": 9.506126403808594,
+        "generator": 2.7018316984176636,
+        "tone_auxiliary": 1.0978431403636932,
+        "syllable_boundary_auxiliary": 0.7157191932201385
+      },
+      "gradient_norm_d": 233.9786376953125,
+      "gradient_norm_g": 170.63201904296875
+    },
+    {
+      "update": 127,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.342368125915527,
+        "duration": 2.0622427463531494,
+        "kl": 4.193492412567139,
+        "discriminator": 5.292171359062195,
+        "feature": 11.133930921554565,
+        "generator": 2.6577451825141907,
+        "tone_auxiliary": 1.0964744687080383,
+        "syllable_boundary_auxiliary": 0.577064260840416
+      },
+      "gradient_norm_d": 168.65969848632812,
+      "gradient_norm_g": 124.2646255493164
+    },
+    {
+      "update": 128,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 27.376766204833984,
+        "duration": 2.1268842816352844,
+        "kl": 3.0918291807174683,
+        "discriminator": 3.616462230682373,
+        "feature": 11.182778596878052,
+        "generator": 2.5972238183021545,
+        "tone_auxiliary": 1.1116483211517334,
+        "syllable_boundary_auxiliary": 0.582544632256031
+      },
+      "gradient_norm_d": 72.18603515625,
+      "gradient_norm_g": 165.4889678955078
+    },
+    {
+      "update": 129,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 22.06202507019043,
+        "duration": 2.1641401648521423,
+        "kl": 3.028269946575165,
+        "discriminator": 18.237792253494263,
+        "feature": 10.362446427345276,
+        "generator": 2.599594533443451,
+        "tone_auxiliary": 1.108648955821991,
+        "syllable_boundary_auxiliary": 0.5902359783649445
+      },
+      "gradient_norm_d": 455.80682373046875,
+      "gradient_norm_g": 128.4532928466797
+    },
+    {
+      "update": 130,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 26.170514583587646,
+        "duration": 2.159163236618042,
+        "kl": 3.2721142172813416,
+        "discriminator": 19.823163151741028,
+        "feature": 14.07794713973999,
+        "generator": 2.8025075793266296,
+        "tone_auxiliary": 1.1044195592403412,
+        "syllable_boundary_auxiliary": 0.6030679494142532
+      },
+      "gradient_norm_d": 620.3381958007812,
+      "gradient_norm_g": 158.61769104003906
+    },
+    {
+      "update": 131,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.582763671875,
+        "duration": 2.1363008618354797,
+        "kl": 3.5924968123435974,
+        "discriminator": 3.0152053833007812,
+        "feature": 10.388001561164856,
+        "generator": 2.601260721683502,
+        "tone_auxiliary": 1.1086254119873047,
+        "syllable_boundary_auxiliary": 0.6854494214057922
+      },
+      "gradient_norm_d": 34.485836029052734,
+      "gradient_norm_g": 127.27166748046875
+    },
+    {
+      "update": 132,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.091820240020752,
+        "duration": 2.12328439950943,
+        "kl": 3.6765418648719788,
+        "discriminator": 3.6793335378170013,
+        "feature": 11.353083848953247,
+        "generator": 2.8257039189338684,
+        "tone_auxiliary": 1.1275338232517242,
+        "syllable_boundary_auxiliary": 0.5896743685007095
+      },
+      "gradient_norm_d": 95.7666015625,
+      "gradient_norm_g": 141.20132446289062
+    },
+    {
+      "update": 133,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 23.907942295074463,
+        "duration": 2.0404190123081207,
+        "kl": 3.7324418425559998,
+        "discriminator": 7.4701955914497375,
+        "feature": 10.485836148262024,
+        "generator": 2.6974512934684753,
+        "tone_auxiliary": 1.1027411222457886,
+        "syllable_boundary_auxiliary": 0.6298972070217133
+      },
+      "gradient_norm_d": 195.4077911376953,
+      "gradient_norm_g": 139.82200622558594
+    },
+    {
+      "update": 134,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 21.731010913848877,
+        "duration": 2.2578638195991516,
+        "kl": 3.0305567383766174,
+        "discriminator": 3.0856773853302,
+        "feature": 8.429258227348328,
+        "generator": 2.783420979976654,
+        "tone_auxiliary": 1.1162078082561493,
+        "syllable_boundary_auxiliary": 0.6697050258517265
+      },
+      "gradient_norm_d": 48.34440612792969,
+      "gradient_norm_g": 184.989013671875
+    },
+    {
+      "update": 135,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 24.105713367462158,
+        "duration": 1.951607197523117,
+        "kl": 3.326816499233246,
+        "discriminator": 6.3742987513542175,
+        "feature": 13.358428239822388,
+        "generator": 3.0280665159225464,
+        "tone_auxiliary": 1.1006409525871277,
+        "syllable_boundary_auxiliary": 0.5818932205438614
+      },
+      "gradient_norm_d": 220.88424682617188,
+      "gradient_norm_g": 156.57135009765625
+    },
+    {
+      "update": 136,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 31.304317474365234,
+        "duration": 1.9854353368282318,
+        "kl": 3.6057634949684143,
+        "discriminator": 2.253717839717865,
+        "feature": 12.061348676681519,
+        "generator": 2.720927447080612,
+        "tone_auxiliary": 1.1380814611911774,
+        "syllable_boundary_auxiliary": 0.666828989982605
+      },
+      "gradient_norm_d": 26.420991897583008,
+      "gradient_norm_g": 209.87892150878906
+    },
+    {
+      "update": 137,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.28901243209839,
+        "duration": 2.126871734857559,
+        "kl": 3.7396053075790405,
+        "discriminator": 62.432782769203186,
+        "feature": 15.993748664855957,
+        "generator": 2.8271149396896362,
+        "tone_auxiliary": 1.102735549211502,
+        "syllable_boundary_auxiliary": 0.7154291719198227
+      },
+      "gradient_norm_d": 1336.1669921875,
+      "gradient_norm_g": 167.0084228515625
+    },
+    {
+      "update": 138,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.967854976654053,
+        "duration": 2.106087327003479,
+        "kl": 3.221726953983307,
+        "discriminator": 2.796227216720581,
+        "feature": 11.025170683860779,
+        "generator": 2.7665786147117615,
+        "tone_auxiliary": 1.1021355986595154,
+        "syllable_boundary_auxiliary": 0.6382305845618248
+      },
+      "gradient_norm_d": 69.21383666992188,
+      "gradient_norm_g": 133.82310485839844
+    },
+    {
+      "update": 139,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 22.794984340667725,
+        "duration": 2.017691433429718,
+        "kl": 3.71463805437088,
+        "discriminator": 7.760960102081299,
+        "feature": 11.690821528434753,
+        "generator": 3.270447075366974,
+        "tone_auxiliary": 1.120992749929428,
+        "syllable_boundary_auxiliary": 0.6541986912488937
+      },
+      "gradient_norm_d": 284.5343322753906,
+      "gradient_norm_g": 152.14425659179688
+    },
+    {
+      "update": 140,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 26.646166563034058,
+        "duration": 2.0811295211315155,
+        "kl": 3.2317790389060974,
+        "discriminator": 255.8949499130249,
+        "feature": 22.584007501602173,
+        "generator": 3.2096242904663086,
+        "tone_auxiliary": 1.1082367897033691,
+        "syllable_boundary_auxiliary": 0.7536026239395142
+      },
+      "gradient_norm_d": 3913.072021484375,
+      "gradient_norm_g": 168.85504150390625
+    },
+    {
+      "update": 141,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 26.7578387260437,
+        "duration": 2.197500705718994,
+        "kl": 3.257621645927429,
+        "discriminator": 4.3784352242946625,
+        "feature": 11.00853943824768,
+        "generator": 3.2108967304229736,
+        "tone_auxiliary": 1.1135358214378357,
+        "syllable_boundary_auxiliary": 0.6831661611795425
+      },
+      "gradient_norm_d": 84.04080200195312,
+      "gradient_norm_g": 109.08592224121094
+    },
+    {
+      "update": 142,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 24.518904209136963,
+        "duration": 2.067300796508789,
+        "kl": 3.5365856289863586,
+        "discriminator": 3.06550794839859,
+        "feature": 12.485730409622192,
+        "generator": 3.1257542967796326,
+        "tone_auxiliary": 1.1048541367053986,
+        "syllable_boundary_auxiliary": 0.6925799995660782
+      },
+      "gradient_norm_d": 46.01617431640625,
+      "gradient_norm_g": 184.6495819091797
+    },
+    {
+      "update": 143,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.80015730857849,
+        "duration": 2.071459263563156,
+        "kl": 3.8086668848991394,
+        "discriminator": 2.6088309288024902,
+        "feature": 11.483038425445557,
+        "generator": 3.084541618824005,
+        "tone_auxiliary": 1.1050597131252289,
+        "syllable_boundary_auxiliary": 0.6686054766178131
+      },
+      "gradient_norm_d": 38.36750793457031,
+      "gradient_norm_g": 117.89636993408203
+    },
+    {
+      "update": 144,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 21.438698768615723,
+        "duration": 2.0637650191783905,
+        "kl": 3.4831658005714417,
+        "discriminator": 29.2424333691597,
+        "feature": 16.24071216583252,
+        "generator": 3.349246859550476,
+        "tone_auxiliary": 1.1194539666175842,
+        "syllable_boundary_auxiliary": 0.6508888453245163
+      },
+      "gradient_norm_d": 861.1149291992188,
+      "gradient_norm_g": 226.91583251953125
+    },
+    {
+      "update": 145,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 21.556193113327026,
+        "duration": 2.1487569510936737,
+        "kl": 3.103201448917389,
+        "discriminator": 199.590677857399,
+        "feature": 19.533158540725708,
+        "generator": 3.542617917060852,
+        "tone_auxiliary": 1.087989866733551,
+        "syllable_boundary_auxiliary": 0.6929953396320343
+      },
+      "gradient_norm_d": 3102.96240234375,
+      "gradient_norm_g": 151.08712768554688
+    },
+    {
+      "update": 146,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 24.804428577423096,
+        "duration": 2.0888671875,
+        "kl": 3.530763268470764,
+        "discriminator": 2.8842475414276123,
+        "feature": 9.492212176322937,
+        "generator": 3.1771531105041504,
+        "tone_auxiliary": 1.1098189651966095,
+        "syllable_boundary_auxiliary": 0.7282349914312363
+      },
+      "gradient_norm_d": 57.931697845458984,
+      "gradient_norm_g": 141.85768127441406
+    },
+    {
+      "update": 147,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.377440452575684,
+        "duration": 2.028670608997345,
+        "kl": 3.36509907245636,
+        "discriminator": 3.446707546710968,
+        "feature": 11.889383554458618,
+        "generator": 2.8477567434310913,
+        "tone_auxiliary": 1.1023721396923065,
+        "syllable_boundary_auxiliary": 0.671954408288002
+      },
+      "gradient_norm_d": 59.36992263793945,
+      "gradient_norm_g": 119.94986724853516
+    },
+    {
+      "update": 148,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 26.792108058929443,
+        "duration": 2.1582821011543274,
+        "kl": 3.5786654353141785,
+        "discriminator": 2.746632993221283,
+        "feature": 10.470378518104553,
+        "generator": 2.771655559539795,
+        "tone_auxiliary": 1.0975774824619293,
+        "syllable_boundary_auxiliary": 0.6615261137485504
+      },
+      "gradient_norm_d": 90.39321899414062,
+      "gradient_norm_g": 161.3766632080078
+    },
+    {
+      "update": 149,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 26.215257167816162,
+        "duration": 2.0837318301200867,
+        "kl": 2.8619741201400757,
+        "discriminator": 15.495405197143555,
+        "feature": 12.49078631401062,
+        "generator": 3.039304554462433,
+        "tone_auxiliary": 1.1239914000034332,
+        "syllable_boundary_auxiliary": 0.6262982487678528
+      },
+      "gradient_norm_d": 398.5215759277344,
+      "gradient_norm_g": 147.44683837890625
+    },
+    {
+      "update": 150,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 28.09644603729248,
+        "duration": 2.1549184918403625,
+        "kl": 3.6898275017738342,
+        "discriminator": 2.530839502811432,
+        "feature": 11.98863673210144,
+        "generator": 2.735829532146454,
+        "tone_auxiliary": 1.1085545718669891,
+        "syllable_boundary_auxiliary": 0.7232932597398758
+      },
+      "gradient_norm_d": 41.52347946166992,
+      "gradient_norm_g": 151.57969665527344,
+      "development_metric": 36.16405804951986,
+      "improved": true,
+      "train_reconstruction_metric": 33.94119203090668,
+      "development_train_relative_gap": 0.06549168976119199,
+      "overfitting_gap_flag": false
+    },
+    {
+      "update": 151,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 22.370509147644043,
+        "duration": 2.0721569657325745,
+        "kl": 2.699811279773712,
+        "discriminator": 3.3686264753341675,
+        "feature": 8.776727676391602,
+        "generator": 2.9541706442832947,
+        "tone_auxiliary": 1.1058490574359894,
+        "syllable_boundary_auxiliary": 0.6396435871720314
+      },
+      "gradient_norm_d": 51.052650451660156,
+      "gradient_norm_g": 165.32472229003906
+    },
+    {
+      "update": 152,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 24.66594409942627,
+        "duration": 2.1935835480690002,
+        "kl": 3.0872875452041626,
+        "discriminator": 2.578805983066559,
+        "feature": 9.187131762504578,
+        "generator": 2.632751166820526,
+        "tone_auxiliary": 1.0918062925338745,
+        "syllable_boundary_auxiliary": 0.5641685500741005
+      },
+      "gradient_norm_d": 44.4769172668457,
+      "gradient_norm_g": 110.70686340332031
+    },
+    {
+      "update": 153,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 22.93027114868164,
+        "duration": 2.1495619416236877,
+        "kl": 3.7125649452209473,
+        "discriminator": 4.399737119674683,
+        "feature": 11.189438104629517,
+        "generator": 2.8462348580360413,
+        "tone_auxiliary": 1.104919046163559,
+        "syllable_boundary_auxiliary": 0.7351686581969261
+      },
+      "gradient_norm_d": 74.1182632446289,
+      "gradient_norm_g": 130.65419006347656
+    },
+    {
+      "update": 154,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.771089553833008,
+        "duration": 2.042368531227112,
+        "kl": 3.505731225013733,
+        "discriminator": 2.858931839466095,
+        "feature": 11.305951476097107,
+        "generator": 2.5534070134162903,
+        "tone_auxiliary": 1.1082803905010223,
+        "syllable_boundary_auxiliary": 0.5735129937529564
+      },
+      "gradient_norm_d": 40.275733947753906,
+      "gradient_norm_g": 135.07754516601562
+    },
+    {
+      "update": 155,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 29.32316780090332,
+        "duration": 2.0764258205890656,
+        "kl": 3.164987027645111,
+        "discriminator": 4.772834748029709,
+        "feature": 13.102869033813477,
+        "generator": 3.227470874786377,
+        "tone_auxiliary": 1.1080885231494904,
+        "syllable_boundary_auxiliary": 0.6223022192716599
+      },
+      "gradient_norm_d": 122.2568359375,
+      "gradient_norm_g": 130.98675537109375
+    },
+    {
+      "update": 156,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 21.524137496948242,
+        "duration": 2.0783002078533173,
+        "kl": 3.3865479826927185,
+        "discriminator": 215.649067401886,
+        "feature": 19.26185142993927,
+        "generator": 3.1251723170280457,
+        "tone_auxiliary": 1.0993779301643372,
+        "syllable_boundary_auxiliary": 0.6503872126340866
+      },
+      "gradient_norm_d": 3548.995361328125,
+      "gradient_norm_g": 129.03622436523438
+    },
+    {
+      "update": 157,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.755797386169434,
+        "duration": 2.120482951402664,
+        "kl": 3.1973429322242737,
+        "discriminator": 2.6510396003723145,
+        "feature": 10.545459032058716,
+        "generator": 2.8807220458984375,
+        "tone_auxiliary": 1.1012108027935028,
+        "syllable_boundary_auxiliary": 0.6696521639823914
+      },
+      "gradient_norm_d": 27.0169677734375,
+      "gradient_norm_g": 153.47935485839844
+    },
+    {
+      "update": 158,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 24.468403816223145,
+        "duration": 2.1060994267463684,
+        "kl": 3.493069589138031,
+        "discriminator": 3.429786801338196,
+        "feature": 11.487125158309937,
+        "generator": 3.268672525882721,
+        "tone_auxiliary": 1.1031295359134674,
+        "syllable_boundary_auxiliary": 0.7750006914138794
+      },
+      "gradient_norm_d": 69.27703094482422,
+      "gradient_norm_g": 168.63699340820312
+    },
+    {
+      "update": 159,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 24.161964893341064,
+        "duration": 2.050071597099304,
+        "kl": 3.0341607332229614,
+        "discriminator": 2.957224667072296,
+        "feature": 11.848497152328491,
+        "generator": 3.417072594165802,
+        "tone_auxiliary": 1.1190089285373688,
+        "syllable_boundary_auxiliary": 0.6305567920207977
+      },
+      "gradient_norm_d": 58.179466247558594,
+      "gradient_norm_g": 234.12429809570312
+    },
+    {
+      "update": 160,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 23.01153063774109,
+        "duration": 2.204309403896332,
+        "kl": 3.406813144683838,
+        "discriminator": 21.674648761749268,
+        "feature": 13.284361124038696,
+        "generator": 2.8807669281959534,
+        "tone_auxiliary": 1.115392953157425,
+        "syllable_boundary_auxiliary": 0.6743725091218948
+      },
+      "gradient_norm_d": 533.9821166992188,
+      "gradient_norm_g": 162.86412048339844
+    },
+    {
+      "update": 161,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 26.27880048751831,
+        "duration": 2.0503184497356415,
+        "kl": 3.001639246940613,
+        "discriminator": 3.2339698374271393,
+        "feature": 11.721357583999634,
+        "generator": 3.2341463565826416,
+        "tone_auxiliary": 1.0926443338394165,
+        "syllable_boundary_auxiliary": 0.7732018083333969
+      },
+      "gradient_norm_d": 58.72294235229492,
+      "gradient_norm_g": 125.82013702392578
+    },
+    {
+      "update": 162,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 22.164188385009766,
+        "duration": 2.03734290599823,
+        "kl": 3.3411083817481995,
+        "discriminator": 3.1984156370162964,
+        "feature": 9.449299216270447,
+        "generator": 3.1503976583480835,
+        "tone_auxiliary": 1.0988581478595734,
+        "syllable_boundary_auxiliary": 0.6279672980308533
+      },
+      "gradient_norm_d": 59.27350997924805,
+      "gradient_norm_g": 130.8873748779297
+    },
+    {
+      "update": 163,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 21.803091049194336,
+        "duration": 2.116676688194275,
+        "kl": 3.203618884086609,
+        "discriminator": 4.229895651340485,
+        "feature": 10.153383493423462,
+        "generator": 3.5132288932800293,
+        "tone_auxiliary": 1.100592941045761,
+        "syllable_boundary_auxiliary": 0.6731979474425316
+      },
+      "gradient_norm_d": 99.46881103515625,
+      "gradient_norm_g": 110.13553619384766
+    },
+    {
+      "update": 164,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 26.241878986358643,
+        "duration": 2.2032281160354614,
+        "kl": 3.2110958099365234,
+        "discriminator": 2.844428062438965,
+        "feature": 11.39930534362793,
+        "generator": 2.8613731265068054,
+        "tone_auxiliary": 1.1007781624794006,
+        "syllable_boundary_auxiliary": 0.6578442752361298
+      },
+      "gradient_norm_d": 52.11384582519531,
+      "gradient_norm_g": 117.0765151977539
+    },
+    {
+      "update": 165,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.241449117660522,
+        "duration": 2.1411781311035156,
+        "kl": 3.0801283717155457,
+        "discriminator": 11.55073481798172,
+        "feature": 13.373554468154907,
+        "generator": 2.9647363424301147,
+        "tone_auxiliary": 1.1037035584449768,
+        "syllable_boundary_auxiliary": 0.6396613717079163
+      },
+      "gradient_norm_d": 297.0098571777344,
+      "gradient_norm_g": 165.95204162597656
+    },
+    {
+      "update": 166,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 26.348082065582275,
+        "duration": 2.163231909275055,
+        "kl": 3.315501391887665,
+        "discriminator": 2.9927132725715637,
+        "feature": 10.297154903411865,
+        "generator": 2.4275114834308624,
+        "tone_auxiliary": 1.1073922216892242,
+        "syllable_boundary_auxiliary": 0.759221151471138
+      },
+      "gradient_norm_d": 38.005943298339844,
+      "gradient_norm_g": 168.5779266357422
+    },
+    {
+      "update": 167,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 22.28535747528076,
+        "duration": 2.1859286427497864,
+        "kl": 2.8061928153038025,
+        "discriminator": 2.458752453327179,
+        "feature": 9.00662362575531,
+        "generator": 2.9215914607048035,
+        "tone_auxiliary": 1.0857077538967133,
+        "syllable_boundary_auxiliary": 0.6482766568660736
+      },
+      "gradient_norm_d": 32.21806716918945,
+      "gradient_norm_g": 122.01799774169922
+    },
+    {
+      "update": 168,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.928444385528564,
+        "duration": 2.1363540291786194,
+        "kl": 3.0625491738319397,
+        "discriminator": 10.923366218805313,
+        "feature": 11.4866464138031,
+        "generator": 3.059274971485138,
+        "tone_auxiliary": 1.1093491911888123,
+        "syllable_boundary_auxiliary": 0.5553087741136551
+      },
+      "gradient_norm_d": 293.0194396972656,
+      "gradient_norm_g": 120.34274291992188
+    },
+    {
+      "update": 169,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 21.707358837127686,
+        "duration": 2.1239628195762634,
+        "kl": 3.360312581062317,
+        "discriminator": 5.404908716678619,
+        "feature": 12.603613138198853,
+        "generator": 3.254608631134033,
+        "tone_auxiliary": 1.108951598405838,
+        "syllable_boundary_auxiliary": 0.7116627544164658
+      },
+      "gradient_norm_d": 156.5110626220703,
+      "gradient_norm_g": 143.99456787109375
+    },
+    {
+      "update": 170,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 24.341668128967285,
+        "duration": 2.222171425819397,
+        "kl": 3.249294698238373,
+        "discriminator": 2.443593680858612,
+        "feature": 9.734421253204346,
+        "generator": 3.229844391345978,
+        "tone_auxiliary": 1.1093470752239227,
+        "syllable_boundary_auxiliary": 0.7229832708835602
+      },
+      "gradient_norm_d": 33.366519927978516,
+      "gradient_norm_g": 127.79991149902344
+    },
+    {
+      "update": 171,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 21.05382537841797,
+        "duration": 1.9832466542720795,
+        "kl": 2.914522707462311,
+        "discriminator": 2.455523282289505,
+        "feature": 11.200774550437927,
+        "generator": 3.9161627292633057,
+        "tone_auxiliary": 1.1015281975269318,
+        "syllable_boundary_auxiliary": 0.5916804522275925
+      },
+      "gradient_norm_d": 52.65269088745117,
+      "gradient_norm_g": 137.94480895996094
+    },
+    {
+      "update": 172,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 27.93131923675537,
+        "duration": 2.093173027038574,
+        "kl": 3.370545446872711,
+        "discriminator": 2.3721023499965668,
+        "feature": 10.697420358657837,
+        "generator": 2.5998371839523315,
+        "tone_auxiliary": 1.1212051808834076,
+        "syllable_boundary_auxiliary": 0.6758867353200912
+      },
+      "gradient_norm_d": 22.620861053466797,
+      "gradient_norm_g": 129.64422607421875
+    },
+    {
+      "update": 173,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.152347564697266,
+        "duration": 2.2563300132751465,
+        "kl": 2.9963349103927612,
+        "discriminator": 16.427574455738068,
+        "feature": 13.50790023803711,
+        "generator": 3.33113431930542,
+        "tone_auxiliary": 1.1017134189605713,
+        "syllable_boundary_auxiliary": 0.7273675054311752
+      },
+      "gradient_norm_d": 459.0699157714844,
+      "gradient_norm_g": 119.05859375
+    },
+    {
+      "update": 174,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.621108055114746,
+        "duration": 2.0898314714431763,
+        "kl": 3.311182200908661,
+        "discriminator": 2.622928559780121,
+        "feature": 11.764215230941772,
+        "generator": 2.5896270871162415,
+        "tone_auxiliary": 1.099276751279831,
+        "syllable_boundary_auxiliary": 0.591976135969162
+      },
+      "gradient_norm_d": 17.20476531982422,
+      "gradient_norm_g": 151.21014404296875
+    },
+    {
+      "update": 175,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 20.659565925598145,
+        "duration": 2.0725808143615723,
+        "kl": 2.6198556423187256,
+        "discriminator": 3.3161331117153168,
+        "feature": 11.008365273475647,
+        "generator": 3.40560781955719,
+        "tone_auxiliary": 1.094091534614563,
+        "syllable_boundary_auxiliary": 0.6868821680545807
+      },
+      "gradient_norm_d": 79.57137298583984,
+      "gradient_norm_g": 137.94822692871094,
+      "development_metric": 35.84299914042155,
+      "improved": true,
+      "train_reconstruction_metric": 25.352002382278442,
+      "development_train_relative_gap": 0.4138133390787515,
+      "overfitting_gap_flag": true
+    },
+    {
+      "update": 176,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 24.031661987304688,
+        "duration": 2.0953952074050903,
+        "kl": 3.3310030102729797,
+        "discriminator": 2.556875705718994,
+        "feature": 9.537833213806152,
+        "generator": 3.371379017829895,
+        "tone_auxiliary": 1.1049164831638336,
+        "syllable_boundary_auxiliary": 0.7090190500020981
+      },
+      "gradient_norm_d": 61.43108367919922,
+      "gradient_norm_g": 117.21387481689453
+    },
+    {
+      "update": 177,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 23.397740840911865,
+        "duration": 2.0433958768844604,
+        "kl": 3.0680747628211975,
+        "discriminator": 6.923474669456482,
+        "feature": 10.69326901435852,
+        "generator": 3.095990300178528,
+        "tone_auxiliary": 1.0965792536735535,
+        "syllable_boundary_auxiliary": 0.5899370163679123
+      },
+      "gradient_norm_d": 194.7873077392578,
+      "gradient_norm_g": 212.64767456054688
+    },
+    {
+      "update": 178,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 27.762675762176514,
+        "duration": 2.089868426322937,
+        "kl": 3.086913049221039,
+        "discriminator": 2.415023982524872,
+        "feature": 13.999167919158936,
+        "generator": 2.973339855670929,
+        "tone_auxiliary": 1.0991772413253784,
+        "syllable_boundary_auxiliary": 0.6848322302103043
+      },
+      "gradient_norm_d": 20.16981315612793,
+      "gradient_norm_g": 169.4156951904297
+    },
+    {
+      "update": 179,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 22.719258308410645,
+        "duration": 2.1251662969589233,
+        "kl": 3.3744301795959473,
+        "discriminator": 2.334638833999634,
+        "feature": 12.020213603973389,
+        "generator": 3.4611420035362244,
+        "tone_auxiliary": 1.0981163084506989,
+        "syllable_boundary_auxiliary": 0.7074609100818634
+      },
+      "gradient_norm_d": 75.93120574951172,
+      "gradient_norm_g": 162.50726318359375
+    },
+    {
+      "update": 180,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.446656703948975,
+        "duration": 2.190555214881897,
+        "kl": 3.086709499359131,
+        "discriminator": 2.4596786499023438,
+        "feature": 11.29410469532013,
+        "generator": 3.2544962763786316,
+        "tone_auxiliary": 1.101230800151825,
+        "syllable_boundary_auxiliary": 0.6090542674064636
+      },
+      "gradient_norm_d": 24.54568862915039,
+      "gradient_norm_g": 117.82984161376953
+    },
+    {
+      "update": 181,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 24.561530590057373,
+        "duration": 2.135553479194641,
+        "kl": 3.2340290546417236,
+        "discriminator": 7.796551614999771,
+        "feature": 14.70681381225586,
+        "generator": 3.2678138613700867,
+        "tone_auxiliary": 1.0994875729084015,
+        "syllable_boundary_auxiliary": 0.7242954224348068
+      },
+      "gradient_norm_d": 230.37437438964844,
+      "gradient_norm_g": 146.21136474609375
+    },
+    {
+      "update": 182,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 27.070701599121094,
+        "duration": 2.0717496275901794,
+        "kl": 2.9624454975128174,
+        "discriminator": 1.8462795913219452,
+        "feature": 12.904709577560425,
+        "generator": 3.5220683813095093,
+        "tone_auxiliary": 1.1148346364498138,
+        "syllable_boundary_auxiliary": 0.6931027173995972
+      },
+      "gradient_norm_d": 26.756078720092773,
+      "gradient_norm_g": 196.34800720214844
+    },
+    {
+      "update": 183,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.624610424041748,
+        "duration": 2.1661071181297302,
+        "kl": 3.0618210434913635,
+        "discriminator": 2.2145234644412994,
+        "feature": 10.835579633712769,
+        "generator": 3.561170220375061,
+        "tone_auxiliary": 1.0984382331371307,
+        "syllable_boundary_auxiliary": 0.6529162675142288
+      },
+      "gradient_norm_d": 14.879377365112305,
+      "gradient_norm_g": 132.15684509277344
+    },
+    {
+      "update": 184,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 22.43747091293335,
+        "duration": 2.1253973245620728,
+        "kl": 2.5196031630039215,
+        "discriminator": 2.2922323644161224,
+        "feature": 9.337897181510925,
+        "generator": 3.3429462909698486,
+        "tone_auxiliary": 1.0977255403995514,
+        "syllable_boundary_auxiliary": 0.7311181128025055
+      },
+      "gradient_norm_d": 19.67607879638672,
+      "gradient_norm_g": 140.71241760253906
+    },
+    {
+      "update": 185,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 23.37715244293213,
+        "duration": 2.14936101436615,
+        "kl": 3.2354504466056824,
+        "discriminator": 11.148465812206268,
+        "feature": 12.249344825744629,
+        "generator": 3.7277451753616333,
+        "tone_auxiliary": 1.1107350289821625,
+        "syllable_boundary_auxiliary": 0.6813765689730644
+      },
+      "gradient_norm_d": 304.5187683105469,
+      "gradient_norm_g": 150.26971435546875
+    },
+    {
+      "update": 186,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 21.190904140472412,
+        "duration": 2.180719316005707,
+        "kl": 2.6474491953849792,
+        "discriminator": 3.3599757850170135,
+        "feature": 10.747255086898804,
+        "generator": 3.465767979621887,
+        "tone_auxiliary": 1.0951407551765442,
+        "syllable_boundary_auxiliary": 0.6147946864366531
+      },
+      "gradient_norm_d": 95.08911895751953,
+      "gradient_norm_g": 114.82806396484375
+    },
+    {
+      "update": 187,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 23.215442180633545,
+        "duration": 2.1031875908374786,
+        "kl": 3.058205723762512,
+        "discriminator": 15.802015513181686,
+        "feature": 14.346341609954834,
+        "generator": 3.4862016439437866,
+        "tone_auxiliary": 1.0942494571208954,
+        "syllable_boundary_auxiliary": 0.696079432964325
+      },
+      "gradient_norm_d": 433.3292236328125,
+      "gradient_norm_g": 153.73721313476562
+    },
+    {
+      "update": 188,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.194076538085938,
+        "duration": 2.0981146097183228,
+        "kl": 2.985748827457428,
+        "discriminator": 4.443401515483856,
+        "feature": 12.61278510093689,
+        "generator": 3.3179180026054382,
+        "tone_auxiliary": 1.0912929773330688,
+        "syllable_boundary_auxiliary": 0.6693031787872314
+      },
+      "gradient_norm_d": 111.37340545654297,
+      "gradient_norm_g": 114.28864288330078
+    },
+    {
+      "update": 189,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 23.60310173034668,
+        "duration": 2.320645272731781,
+        "kl": 2.881825089454651,
+        "discriminator": 3.434554636478424,
+        "feature": 11.029619216918945,
+        "generator": 3.2605276703834534,
+        "tone_auxiliary": 1.0911734104156494,
+        "syllable_boundary_auxiliary": 0.6088539659976959
+      },
+      "gradient_norm_d": 73.7414321899414,
+      "gradient_norm_g": 132.45237731933594
+    },
+    {
+      "update": 190,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 26.05504035949707,
+        "duration": 2.130460172891617,
+        "kl": 3.343801259994507,
+        "discriminator": 2.703657388687134,
+        "feature": 9.494158506393433,
+        "generator": 3.0092092752456665,
+        "tone_auxiliary": 1.1120179295539856,
+        "syllable_boundary_auxiliary": 0.6064391955733299
+      },
+      "gradient_norm_d": 26.616493225097656,
+      "gradient_norm_g": 218.22499084472656
+    },
+    {
+      "update": 191,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 23.56916093826294,
+        "duration": 2.112900733947754,
+        "kl": 2.8868494033813477,
+        "discriminator": 2.1765523552894592,
+        "feature": 11.703394174575806,
+        "generator": 3.240406334400177,
+        "tone_auxiliary": 1.0925059914588928,
+        "syllable_boundary_auxiliary": 0.7205171138048172
+      },
+      "gradient_norm_d": 24.91425132751465,
+      "gradient_norm_g": 154.7730255126953
+    },
+    {
+      "update": 192,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 27.022537231445312,
+        "duration": 2.221877157688141,
+        "kl": 3.1792725324630737,
+        "discriminator": 2.394309401512146,
+        "feature": 10.202348589897156,
+        "generator": 2.690640091896057,
+        "tone_auxiliary": 1.1050127148628235,
+        "syllable_boundary_auxiliary": 0.6196870654821396
+      },
+      "gradient_norm_d": 18.990610122680664,
+      "gradient_norm_g": 92.08234405517578
+    },
+    {
+      "update": 193,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 24.915000438690186,
+        "duration": 2.093734323978424,
+        "kl": 2.9509347677230835,
+        "discriminator": 14.619084358215332,
+        "feature": 13.788434505462646,
+        "generator": 3.0269081592559814,
+        "tone_auxiliary": 1.1128446757793427,
+        "syllable_boundary_auxiliary": 0.6509916484355927
+      },
+      "gradient_norm_d": 372.4685363769531,
+      "gradient_norm_g": 200.52142333984375
+    },
+    {
+      "update": 194,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.63016366958618,
+        "duration": 2.056175172328949,
+        "kl": 3.127802312374115,
+        "discriminator": 2.314407706260681,
+        "feature": 12.140587568283081,
+        "generator": 2.903854012489319,
+        "tone_auxiliary": 1.0910037755966187,
+        "syllable_boundary_auxiliary": 0.6056903600692749
+      },
+      "gradient_norm_d": 23.41659164428711,
+      "gradient_norm_g": 176.55772399902344
+    },
+    {
+      "update": 195,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 26.62984323501587,
+        "duration": 2.142076253890991,
+        "kl": 3.5269646048545837,
+        "discriminator": 2.586960792541504,
+        "feature": 9.677351236343384,
+        "generator": 3.2367348074913025,
+        "tone_auxiliary": 1.0969986319541931,
+        "syllable_boundary_auxiliary": 0.6686862856149673
+      },
+      "gradient_norm_d": 50.416419982910156,
+      "gradient_norm_g": 112.40838623046875
+    },
+    {
+      "update": 196,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.338850498199463,
+        "duration": 2.1629623770713806,
+        "kl": 2.5518197119235992,
+        "discriminator": 2.3872429728507996,
+        "feature": 10.414725542068481,
+        "generator": 2.6008530855178833,
+        "tone_auxiliary": 1.0933329164981842,
+        "syllable_boundary_auxiliary": 0.6346651315689087
+      },
+      "gradient_norm_d": 41.34697341918945,
+      "gradient_norm_g": 108.30106353759766
+    },
+    {
+      "update": 197,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.648340225219727,
+        "duration": 2.1077093482017517,
+        "kl": 2.9337008595466614,
+        "discriminator": 2.2738168239593506,
+        "feature": 12.323087930679321,
+        "generator": 3.010262429714203,
+        "tone_auxiliary": 1.0988807678222656,
+        "syllable_boundary_auxiliary": 0.6517539322376251
+      },
+      "gradient_norm_d": 26.26900291442871,
+      "gradient_norm_g": 174.79115295410156
+    },
+    {
+      "update": 198,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.33173704147339,
+        "duration": 2.1898279190063477,
+        "kl": 2.691144287586212,
+        "discriminator": 2.0872079730033875,
+        "feature": 11.55518388748169,
+        "generator": 3.4145387411117554,
+        "tone_auxiliary": 1.0900959968566895,
+        "syllable_boundary_auxiliary": 0.8241530731320381
+      },
+      "gradient_norm_d": 17.07480812072754,
+      "gradient_norm_g": 130.13291931152344
+    },
+    {
+      "update": 199,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 23.025071620941162,
+        "duration": 2.0972467064857483,
+        "kl": 2.997777581214905,
+        "discriminator": 2.1971859633922577,
+        "feature": 10.628599643707275,
+        "generator": 3.355996549129486,
+        "tone_auxiliary": 1.099122315645218,
+        "syllable_boundary_auxiliary": 0.7219832241535187
+      },
+      "gradient_norm_d": 28.588680267333984,
+      "gradient_norm_g": 129.6799774169922
+    },
+    {
+      "update": 200,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 20.951529026031494,
+        "duration": 2.0962515473365784,
+        "kl": 3.0545445680618286,
+        "discriminator": 10.673800528049469,
+        "feature": 10.840598344802856,
+        "generator": 3.3452736139297485,
+        "tone_auxiliary": 1.0963943302631378,
+        "syllable_boundary_auxiliary": 0.7029948532581329
+      },
+      "gradient_norm_d": 288.9389953613281,
+      "gradient_norm_g": 91.46891021728516,
+      "development_metric": 35.4974479675293,
+      "improved": true,
+      "train_reconstruction_metric": 26.1023251414299,
+      "development_train_relative_gap": 0.3599343267388602,
+      "overfitting_gap_flag": true
+    },
+    {
+      "update": 201,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 24.11421251296997,
+        "duration": 2.225689709186554,
+        "kl": 3.0372857451438904,
+        "discriminator": 2.149404287338257,
+        "feature": 10.863919973373413,
+        "generator": 3.4076653122901917,
+        "tone_auxiliary": 1.0944295525550842,
+        "syllable_boundary_auxiliary": 0.6618781983852386
+      },
+      "gradient_norm_d": 27.572784423828125,
+      "gradient_norm_g": 99.64689636230469
+    },
+    {
+      "update": 202,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 21.79692792892456,
+        "duration": 2.1107325553894043,
+        "kl": 3.0033207535743713,
+        "discriminator": 4.451420605182648,
+        "feature": 11.287369012832642,
+        "generator": 3.1358985900878906,
+        "tone_auxiliary": 1.0823929607868195,
+        "syllable_boundary_auxiliary": 0.6786483824253082
+      },
+      "gradient_norm_d": 152.52261352539062,
+      "gradient_norm_g": 104.72332763671875
+    },
+    {
+      "update": 203,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 20.912100315093994,
+        "duration": 2.070737361907959,
+        "kl": 3.063431143760681,
+        "discriminator": 3.351032078266144,
+        "feature": 11.075625658035278,
+        "generator": 3.800806224346161,
+        "tone_auxiliary": 1.0869090259075165,
+        "syllable_boundary_auxiliary": 0.740833654999733
+      },
+      "gradient_norm_d": 91.2383041381836,
+      "gradient_norm_g": 268.1777648925781
+    },
+    {
+      "update": 204,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.943819046020508,
+        "duration": 2.1445223689079285,
+        "kl": 2.4901616871356964,
+        "discriminator": 2.3709565699100494,
+        "feature": 11.292128324508667,
+        "generator": 3.5790730714797974,
+        "tone_auxiliary": 1.1000987887382507,
+        "syllable_boundary_auxiliary": 0.670780599117279
+      },
+      "gradient_norm_d": 28.080278396606445,
+      "gradient_norm_g": 161.1937255859375
+    },
+    {
+      "update": 205,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.212972402572632,
+        "duration": 2.120479166507721,
+        "kl": 3.0711110830307007,
+        "discriminator": 2.905280649662018,
+        "feature": 14.720963478088379,
+        "generator": 3.731215238571167,
+        "tone_auxiliary": 1.114650547504425,
+        "syllable_boundary_auxiliary": 0.7482176423072815
+      },
+      "gradient_norm_d": 73.35934448242188,
+      "gradient_norm_g": 154.2144775390625
+    },
+    {
+      "update": 206,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 23.824452877044678,
+        "duration": 2.1765432357788086,
+        "kl": 2.9274998903274536,
+        "discriminator": 1.935112625360489,
+        "feature": 9.981611728668213,
+        "generator": 3.152454972267151,
+        "tone_auxiliary": 1.0911458730697632,
+        "syllable_boundary_auxiliary": 0.6082296073436737
+      },
+      "gradient_norm_d": 22.705673217773438,
+      "gradient_norm_g": 155.01235961914062
+    },
+    {
+      "update": 207,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 21.919939517974854,
+        "duration": 2.045028030872345,
+        "kl": 3.11780321598053,
+        "discriminator": 3.300837814807892,
+        "feature": 9.194823861122131,
+        "generator": 3.395408272743225,
+        "tone_auxiliary": 1.0901689231395721,
+        "syllable_boundary_auxiliary": 0.5636743977665901
+      },
+      "gradient_norm_d": 62.671390533447266,
+      "gradient_norm_g": 143.68333435058594
+    },
+    {
+      "update": 208,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.406381130218506,
+        "duration": 2.2393497824668884,
+        "kl": 2.8308368623256683,
+        "discriminator": 2.1662943363189697,
+        "feature": 11.207801342010498,
+        "generator": 3.0182800889015198,
+        "tone_auxiliary": 1.096243679523468,
+        "syllable_boundary_auxiliary": 0.7116121053695679
+      },
+      "gradient_norm_d": 40.187522888183594,
+      "gradient_norm_g": 134.74220275878906
+    },
+    {
+      "update": 209,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 21.525413990020752,
+        "duration": 2.2003231048583984,
+        "kl": 2.841644763946533,
+        "discriminator": 2.693016529083252,
+        "feature": 10.1705801486969,
+        "generator": 3.1145256757736206,
+        "tone_auxiliary": 1.1001046001911163,
+        "syllable_boundary_auxiliary": 0.6680291891098022
+      },
+      "gradient_norm_d": 37.20978927612305,
+      "gradient_norm_g": 92.72293853759766
+    },
+    {
+      "update": 210,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 26.702206134796143,
+        "duration": 2.079358220100403,
+        "kl": 3.2484641075134277,
+        "discriminator": 10.734073996543884,
+        "feature": 13.883835792541504,
+        "generator": 2.996838092803955,
+        "tone_auxiliary": 1.1047102808952332,
+        "syllable_boundary_auxiliary": 0.6751336604356766
+      },
+      "gradient_norm_d": 291.3477783203125,
+      "gradient_norm_g": 130.45310974121094
+    },
+    {
+      "update": 211,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 22.99677801132202,
+        "duration": 2.168562203645706,
+        "kl": 3.132097005844116,
+        "discriminator": 1.9740947037935257,
+        "feature": 10.927217483520508,
+        "generator": 3.659747540950775,
+        "tone_auxiliary": 1.1080383658409119,
+        "syllable_boundary_auxiliary": 0.7947875261306763
+      },
+      "gradient_norm_d": 19.417896270751953,
+      "gradient_norm_g": 218.52540588378906
+    },
+    {
+      "update": 212,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 21.723711490631104,
+        "duration": 2.2529862821102142,
+        "kl": 2.668170690536499,
+        "discriminator": 2.1525587141513824,
+        "feature": 10.382607698440552,
+        "generator": 3.690406084060669,
+        "tone_auxiliary": 1.0914978384971619,
+        "syllable_boundary_auxiliary": 0.7095214873552322
+      },
+      "gradient_norm_d": 29.922290802001953,
+      "gradient_norm_g": 265.2983703613281
+    },
+    {
+      "update": 213,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 22.805551528930664,
+        "duration": 2.171667218208313,
+        "kl": 2.6285566687583923,
+        "discriminator": 7.347913205623627,
+        "feature": 11.038148641586304,
+        "generator": 3.2181763648986816,
+        "tone_auxiliary": 1.0831404328346252,
+        "syllable_boundary_auxiliary": 0.6379772573709488
+      },
+      "gradient_norm_d": 198.9689483642578,
+      "gradient_norm_g": 140.20437622070312
+    },
+    {
+      "update": 214,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 24.598955631256104,
+        "duration": 2.194789230823517,
+        "kl": 2.978190839290619,
+        "discriminator": 2.1311884224414825,
+        "feature": 10.983853816986084,
+        "generator": 3.650579512119293,
+        "tone_auxiliary": 1.0941166281700134,
+        "syllable_boundary_auxiliary": 0.6666584461927414
+      },
+      "gradient_norm_d": 24.332956314086914,
+      "gradient_norm_g": 164.65858459472656
+    },
+    {
+      "update": 215,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 27.457351207733154,
+        "duration": 2.1536669731140137,
+        "kl": 2.850815236568451,
+        "discriminator": 2.1430079638957977,
+        "feature": 11.148619174957275,
+        "generator": 2.675721287727356,
+        "tone_auxiliary": 1.1024629473686218,
+        "syllable_boundary_auxiliary": 0.6506464928388596
+      },
+      "gradient_norm_d": 29.95683479309082,
+      "gradient_norm_g": 114.00833892822266
+    },
+    {
+      "update": 216,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 22.727136373519897,
+        "duration": 2.1500674188137054,
+        "kl": 2.880047857761383,
+        "discriminator": 2.002477988600731,
+        "feature": 11.28913688659668,
+        "generator": 3.547252833843231,
+        "tone_auxiliary": 1.1096982657909393,
+        "syllable_boundary_auxiliary": 0.6997788846492767
+      },
+      "gradient_norm_d": 19.810150146484375,
+      "gradient_norm_g": 208.15011596679688
+    },
+    {
+      "update": 217,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 22.959646224975586,
+        "duration": 2.2287604212760925,
+        "kl": 3.019296646118164,
+        "discriminator": 2.4762488305568695,
+        "feature": 9.77238941192627,
+        "generator": 3.002841889858246,
+        "tone_auxiliary": 1.1048299372196198,
+        "syllable_boundary_auxiliary": 0.7537522315979004
+      },
+      "gradient_norm_d": 22.78272247314453,
+      "gradient_norm_g": 140.94700622558594
+    },
+    {
+      "update": 218,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 24.528192043304443,
+        "duration": 2.0488361418247223,
+        "kl": 2.7223961353302,
+        "discriminator": 2.7099866569042206,
+        "feature": 10.783445715904236,
+        "generator": 3.414135992527008,
+        "tone_auxiliary": 1.0930782556533813,
+        "syllable_boundary_auxiliary": 0.7296563237905502
+      },
+      "gradient_norm_d": 66.7520523071289,
+      "gradient_norm_g": 97.2750244140625
+    },
+    {
+      "update": 219,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 26.016746044158936,
+        "duration": 2.116797924041748,
+        "kl": 3.124124586582184,
+        "discriminator": 2.2286341190338135,
+        "feature": 10.216967105865479,
+        "generator": 3.2062506675720215,
+        "tone_auxiliary": 1.104972392320633,
+        "syllable_boundary_auxiliary": 0.6047551482915878
+      },
+      "gradient_norm_d": 28.300262451171875,
+      "gradient_norm_g": 130.6979522705078
+    },
+    {
+      "update": 220,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 22.3944034576416,
+        "duration": 2.133547067642212,
+        "kl": 2.787014901638031,
+        "discriminator": 2.0656996965408325,
+        "feature": 10.010905981063843,
+        "generator": 3.583702802658081,
+        "tone_auxiliary": 1.0875166952610016,
+        "syllable_boundary_auxiliary": 0.6916155219078064
+      },
+      "gradient_norm_d": 27.38358497619629,
+      "gradient_norm_g": 120.93980407714844
+    },
+    {
+      "update": 221,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 24.936026573181152,
+        "duration": 2.2741540670394897,
+        "kl": 2.817124664783478,
+        "discriminator": 40.32296276092529,
+        "feature": 14.495078325271606,
+        "generator": 3.3359124660491943,
+        "tone_auxiliary": 1.1012902855873108,
+        "syllable_boundary_auxiliary": 0.8070070296525955
+      },
+      "gradient_norm_d": 978.1013793945312,
+      "gradient_norm_g": 105.28752136230469
+    },
+    {
+      "update": 222,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.34094762802124,
+        "duration": 2.09624645113945,
+        "kl": 3.0148048400878906,
+        "discriminator": 2.59024715423584,
+        "feature": 10.921107053756714,
+        "generator": 2.440452069044113,
+        "tone_auxiliary": 1.0939203798770905,
+        "syllable_boundary_auxiliary": 0.681348443031311
+      },
+      "gradient_norm_d": 17.25514030456543,
+      "gradient_norm_g": 149.73707580566406
+    },
+    {
+      "update": 223,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 22.85387420654297,
+        "duration": 2.185379147529602,
+        "kl": 2.5602861642837524,
+        "discriminator": 2.2801826894283295,
+        "feature": 11.697501420974731,
+        "generator": 3.5075643062591553,
+        "tone_auxiliary": 1.1024992763996124,
+        "syllable_boundary_auxiliary": 0.5557350516319275
+      },
+      "gradient_norm_d": 35.67698287963867,
+      "gradient_norm_g": 132.31494140625
+    },
+    {
+      "update": 224,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 24.90902829170227,
+        "duration": 2.1124829947948456,
+        "kl": 2.611900269985199,
+        "discriminator": 8.27631002664566,
+        "feature": 14.165757417678833,
+        "generator": 3.490675687789917,
+        "tone_auxiliary": 1.096557080745697,
+        "syllable_boundary_auxiliary": 0.7534728571772575
+      },
+      "gradient_norm_d": 258.0504455566406,
+      "gradient_norm_g": 105.16619873046875
+    },
+    {
+      "update": 225,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 24.430901050567627,
+        "duration": 2.2087444067001343,
+        "kl": 2.6509971618652344,
+        "discriminator": 1.8128451704978943,
+        "feature": 12.79643440246582,
+        "generator": 3.6732974648475647,
+        "tone_auxiliary": 1.0934178531169891,
+        "syllable_boundary_auxiliary": 0.6439750790596008
+      },
+      "gradient_norm_d": 17.117931365966797,
+      "gradient_norm_g": 193.9025421142578,
+      "development_metric": 35.150512059529625,
+      "improved": true,
+      "train_reconstruction_metric": 29.290642619132996,
+      "development_train_relative_gap": 0.20005943592951056,
+      "overfitting_gap_flag": false
+    },
+    {
+      "update": 226,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 26.59444570541382,
+        "duration": 2.2288201451301575,
+        "kl": 3.0270373821258545,
+        "discriminator": 2.4750001430511475,
+        "feature": 10.295668363571167,
+        "generator": 3.017367899417877,
+        "tone_auxiliary": 1.1046641170978546,
+        "syllable_boundary_auxiliary": 0.7451113909482956
+      },
+      "gradient_norm_d": 41.14551544189453,
+      "gradient_norm_g": 114.97332763671875
+    },
+    {
+      "update": 227,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 28.488362312316895,
+        "duration": 2.0769717693328857,
+        "kl": 2.6184507608413696,
+        "discriminator": 2.2096263766288757,
+        "feature": 13.340213537216187,
+        "generator": 2.5661325454711914,
+        "tone_auxiliary": 1.101072758436203,
+        "syllable_boundary_auxiliary": 0.7712210789322853
+      },
+      "gradient_norm_d": 20.50252342224121,
+      "gradient_norm_g": 230.45455932617188
+    },
+    {
+      "update": 228,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 24.61167049407959,
+        "duration": 2.1185349822044373,
+        "kl": 2.3248117566108704,
+        "discriminator": 2.5826359391212463,
+        "feature": 12.823137760162354,
+        "generator": 3.849918842315674,
+        "tone_auxiliary": 1.0835033357143402,
+        "syllable_boundary_auxiliary": 0.6623002588748932
+      },
+      "gradient_norm_d": 57.07670974731445,
+      "gradient_norm_g": 308.6580810546875
+    },
+    {
+      "update": 229,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 23.533625602722168,
+        "duration": 2.1452483534812927,
+        "kl": 2.982436567544937,
+        "discriminator": 3.22162663936615,
+        "feature": 12.214496612548828,
+        "generator": 3.6964222192764282,
+        "tone_auxiliary": 1.1012864708900452,
+        "syllable_boundary_auxiliary": 0.7742798030376434
+      },
+      "gradient_norm_d": 80.14710998535156,
+      "gradient_norm_g": 212.1686553955078
+    },
+    {
+      "update": 230,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 26.450558185577393,
+        "duration": 2.2033297419548035,
+        "kl": 2.4657003581523895,
+        "discriminator": 2.218302309513092,
+        "feature": 11.308284521102905,
+        "generator": 3.0448397994041443,
+        "tone_auxiliary": 1.0887113809585571,
+        "syllable_boundary_auxiliary": 0.6415232419967651
+      },
+      "gradient_norm_d": 29.843887329101562,
+      "gradient_norm_g": 170.53692626953125
+    },
+    {
+      "update": 231,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 21.52880597114563,
+        "duration": 2.2134332060813904,
+        "kl": 3.0870972275733948,
+        "discriminator": 5.307356387376785,
+        "feature": 12.26536238193512,
+        "generator": 3.757676422595978,
+        "tone_auxiliary": 1.0901683866977692,
+        "syllable_boundary_auxiliary": 0.6985061317682266
+      },
+      "gradient_norm_d": 168.2168731689453,
+      "gradient_norm_g": 138.87513732910156
+    },
+    {
+      "update": 232,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.134675979614258,
+        "duration": 2.0844130516052246,
+        "kl": 2.8618505001068115,
+        "discriminator": 2.2923343181610107,
+        "feature": 9.384044766426086,
+        "generator": 2.580963373184204,
+        "tone_auxiliary": 1.0782361328601837,
+        "syllable_boundary_auxiliary": 0.6506211757659912
+      },
+      "gradient_norm_d": 17.184228897094727,
+      "gradient_norm_g": 93.83207702636719
+    },
+    {
+      "update": 233,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 23.847145080566406,
+        "duration": 2.0667941570281982,
+        "kl": 3.0840856432914734,
+        "discriminator": 4.170899391174316,
+        "feature": 14.571946620941162,
+        "generator": 3.8521780371665955,
+        "tone_auxiliary": 1.0942796766757965,
+        "syllable_boundary_auxiliary": 0.6347266659140587
+      },
+      "gradient_norm_d": 137.81631469726562,
+      "gradient_norm_g": 167.43423461914062
+    },
+    {
+      "update": 234,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.170557498931885,
+        "duration": 2.254896640777588,
+        "kl": 2.3380078226327896,
+        "discriminator": 2.43782439827919,
+        "feature": 9.34097695350647,
+        "generator": 3.170684337615967,
+        "tone_auxiliary": 1.1077084243297577,
+        "syllable_boundary_auxiliary": 0.5804210752248764
+      },
+      "gradient_norm_d": 41.48099899291992,
+      "gradient_norm_g": 130.88755798339844
+    },
+    {
+      "update": 235,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 23.844046115875244,
+        "duration": 2.1596771478652954,
+        "kl": 2.7225480675697327,
+        "discriminator": 2.3969381153583527,
+        "feature": 9.767482995986938,
+        "generator": 3.10247403383255,
+        "tone_auxiliary": 1.0931772589683533,
+        "syllable_boundary_auxiliary": 0.649238258600235
+      },
+      "gradient_norm_d": 20.080427169799805,
+      "gradient_norm_g": 170.02418518066406
+    },
+    {
+      "update": 236,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.34474515914917,
+        "duration": 2.0916936695575714,
+        "kl": 2.710427224636078,
+        "discriminator": 4.178204894065857,
+        "feature": 12.783451080322266,
+        "generator": 3.5761733651161194,
+        "tone_auxiliary": 1.0909574031829834,
+        "syllable_boundary_auxiliary": 0.7119638472795486
+      },
+      "gradient_norm_d": 116.53316497802734,
+      "gradient_norm_g": 195.0255126953125
+    },
+    {
+      "update": 237,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 21.122443199157715,
+        "duration": 2.1601260602474213,
+        "kl": 2.868555724620819,
+        "discriminator": 1.7514606416225433,
+        "feature": 12.922980785369873,
+        "generator": 3.409143626689911,
+        "tone_auxiliary": 1.0804622769355774,
+        "syllable_boundary_auxiliary": 0.6708270013332367
+      },
+      "gradient_norm_d": 47.35712814331055,
+      "gradient_norm_g": 152.54534912109375
+    },
+    {
+      "update": 238,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 22.8880033493042,
+        "duration": 2.221360445022583,
+        "kl": 2.510638654232025,
+        "discriminator": 1.921560823917389,
+        "feature": 11.964290618896484,
+        "generator": 3.351343959569931,
+        "tone_auxiliary": 1.1017804741859436,
+        "syllable_boundary_auxiliary": 0.6435163617134094
+      },
+      "gradient_norm_d": 39.2850341796875,
+      "gradient_norm_g": 123.53937530517578
+    },
+    {
+      "update": 239,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.775946140289307,
+        "duration": 2.1557611227035522,
+        "kl": 2.5797031223773956,
+        "discriminator": 2.1186155676841736,
+        "feature": 9.972861289978027,
+        "generator": 3.0952200889587402,
+        "tone_auxiliary": 1.074125051498413,
+        "syllable_boundary_auxiliary": 0.745380774140358
+      },
+      "gradient_norm_d": 8.273712158203125,
+      "gradient_norm_g": 133.10691833496094
+    },
+    {
+      "update": 240,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 23.52670669555664,
+        "duration": 2.2417571544647217,
+        "kl": 2.8273505866527557,
+        "discriminator": 2.0247337222099304,
+        "feature": 11.026990175247192,
+        "generator": 3.3112863898277283,
+        "tone_auxiliary": 1.0799581706523895,
+        "syllable_boundary_auxiliary": 0.7057803124189377
+      },
+      "gradient_norm_d": 16.47637367248535,
+      "gradient_norm_g": 140.97802734375
+    },
+    {
+      "update": 241,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 24.76911163330078,
+        "duration": 2.209761321544647,
+        "kl": 2.5167502760887146,
+        "discriminator": 2.048738270998001,
+        "feature": 12.376441240310669,
+        "generator": 3.2484560012817383,
+        "tone_auxiliary": 1.1118791699409485,
+        "syllable_boundary_auxiliary": 0.5929935872554779
+      },
+      "gradient_norm_d": 24.51694679260254,
+      "gradient_norm_g": 214.299560546875
+    },
+    {
+      "update": 242,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 24.732529640197754,
+        "duration": 2.1557255387306213,
+        "kl": 2.776631236076355,
+        "discriminator": 4.721153974533081,
+        "feature": 13.295612096786499,
+        "generator": 3.3740240335464478,
+        "tone_auxiliary": 1.0840352773666382,
+        "syllable_boundary_auxiliary": 0.6855065748095512
+      },
+      "gradient_norm_d": 179.63458251953125,
+      "gradient_norm_g": 112.58023071289062
+    },
+    {
+      "update": 243,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 24.5381498336792,
+        "duration": 2.328038215637207,
+        "kl": 2.744209349155426,
+        "discriminator": 2.1810110211372375,
+        "feature": 9.943904161453247,
+        "generator": 3.2827212810516357,
+        "tone_auxiliary": 1.0876370668411255,
+        "syllable_boundary_auxiliary": 0.7206438779830933
+      },
+      "gradient_norm_d": 48.139137268066406,
+      "gradient_norm_g": 138.4783935546875
+    },
+    {
+      "update": 244,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 19.245548248291016,
+        "duration": 2.1237514317035675,
+        "kl": 2.670109808444977,
+        "discriminator": 1.8672204911708832,
+        "feature": 10.83538043498993,
+        "generator": 3.875990152359009,
+        "tone_auxiliary": 1.0940936207771301,
+        "syllable_boundary_auxiliary": 0.6707987785339355
+      },
+      "gradient_norm_d": 23.033523559570312,
+      "gradient_norm_g": 184.3760986328125
+    },
+    {
+      "update": 245,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 23.126264095306396,
+        "duration": 2.1547390818595886,
+        "kl": 2.4297575056552887,
+        "discriminator": 2.385997951030731,
+        "feature": 9.208850741386414,
+        "generator": 2.5545398592948914,
+        "tone_auxiliary": 1.0747707188129425,
+        "syllable_boundary_auxiliary": 0.6758041381835938
+      },
+      "gradient_norm_d": 26.797405242919922,
+      "gradient_norm_g": 114.31038665771484
+    },
+    {
+      "update": 246,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 27.484087467193604,
+        "duration": 2.257137358188629,
+        "kl": 2.552868962287903,
+        "discriminator": 2.186299651861191,
+        "feature": 11.959001779556274,
+        "generator": 3.068852424621582,
+        "tone_auxiliary": 1.098317265510559,
+        "syllable_boundary_auxiliary": 0.6736499518156052
+      },
+      "gradient_norm_d": 9.32505989074707,
+      "gradient_norm_g": 113.30224609375
+    },
+    {
+      "update": 247,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 27.282939434051514,
+        "duration": 2.1768938302993774,
+        "kl": 3.0117750763893127,
+        "discriminator": 2.1480063796043396,
+        "feature": 12.768070220947266,
+        "generator": 3.3576529026031494,
+        "tone_auxiliary": 1.0898299813270569,
+        "syllable_boundary_auxiliary": 0.7708055078983307
+      },
+      "gradient_norm_d": 28.695911407470703,
+      "gradient_norm_g": 125.66519165039062
+    },
+    {
+      "update": 248,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 24.54122257232666,
+        "duration": 2.143638014793396,
+        "kl": 2.6303449869155884,
+        "discriminator": 2.059773236513138,
+        "feature": 9.954500913619995,
+        "generator": 3.025131404399872,
+        "tone_auxiliary": 1.0878257155418396,
+        "syllable_boundary_auxiliary": 0.5407068505883217
+      },
+      "gradient_norm_d": 23.073881149291992,
+      "gradient_norm_g": 128.57928466796875
+    },
+    {
+      "update": 249,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 24.4490704536438,
+        "duration": 2.257420599460602,
+        "kl": 2.7143900394439697,
+        "discriminator": 1.5425704717636108,
+        "feature": 12.921740293502808,
+        "generator": 3.5924088954925537,
+        "tone_auxiliary": 1.1086701154708862,
+        "syllable_boundary_auxiliary": 0.6854670643806458
+      },
+      "gradient_norm_d": 20.164783477783203,
+      "gradient_norm_g": 202.42214965820312
+    },
+    {
+      "update": 250,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 23.52694272994995,
+        "duration": 2.0864244401454926,
+        "kl": 2.873072862625122,
+        "discriminator": 1.815306693315506,
+        "feature": 11.95396113395691,
+        "generator": 3.2096728086471558,
+        "tone_auxiliary": 1.0716983377933502,
+        "syllable_boundary_auxiliary": 0.7991636395454407
+      },
+      "gradient_norm_d": 39.9835319519043,
+      "gradient_norm_g": 209.9553680419922,
+      "development_metric": 35.32130432128906,
+      "improved": false,
+      "train_reconstruction_metric": 28.486440032720566,
+      "development_train_relative_gap": 0.23993395737472714,
+      "overfitting_gap_flag": false
+    },
+    {
+      "update": 251,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 27.023171424865723,
+        "duration": 2.23370099067688,
+        "kl": 2.7950886487960815,
+        "discriminator": 2.17086723446846,
+        "feature": 10.206405878067017,
+        "generator": 2.922791600227356,
+        "tone_auxiliary": 1.0905400216579437,
+        "syllable_boundary_auxiliary": 0.6758642792701721
+      },
+      "gradient_norm_d": 18.3245849609375,
+      "gradient_norm_g": 109.9013671875
+    },
+    {
+      "update": 252,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 21.126383781433105,
+        "duration": 2.097571074962616,
+        "kl": 2.5227969884872437,
+        "discriminator": 3.572299510240555,
+        "feature": 10.449752688407898,
+        "generator": 3.424608051776886,
+        "tone_auxiliary": 1.0973800420761108,
+        "syllable_boundary_auxiliary": 0.6450663357973099
+      },
+      "gradient_norm_d": 97.31437683105469,
+      "gradient_norm_g": 132.96286010742188
+    },
+    {
+      "update": 253,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 28.271021842956543,
+        "duration": 2.074570119380951,
+        "kl": 2.316889762878418,
+        "discriminator": 2.187906563282013,
+        "feature": 11.779765367507935,
+        "generator": 3.008074641227722,
+        "tone_auxiliary": 1.0866569876670837,
+        "syllable_boundary_auxiliary": 0.5765455439686775
+      },
+      "gradient_norm_d": 24.36310577392578,
+      "gradient_norm_g": 270.6803894042969
+    },
+    {
+      "update": 254,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 24.665745973587036,
+        "duration": 2.1188149750232697,
+        "kl": 2.3952966928482056,
+        "discriminator": 1.850920557975769,
+        "feature": 12.304432392120361,
+        "generator": 3.575837016105652,
+        "tone_auxiliary": 1.0851924121379852,
+        "syllable_boundary_auxiliary": 0.6337319761514664
+      },
+      "gradient_norm_d": 14.75312328338623,
+      "gradient_norm_g": 175.12823486328125
+    },
+    {
+      "update": 255,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 24.23516273498535,
+        "duration": 2.2517663836479187,
+        "kl": 3.1472753286361694,
+        "discriminator": 7.476507604122162,
+        "feature": 12.052051901817322,
+        "generator": 3.6581403613090515,
+        "tone_auxiliary": 1.0857395231723785,
+        "syllable_boundary_auxiliary": 0.6987893059849739
+      },
+      "gradient_norm_d": 217.0381622314453,
+      "gradient_norm_g": 212.69497680664062
+    },
+    {
+      "update": 256,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 19.818203449249268,
+        "duration": 2.162307471036911,
+        "kl": 3.1352124214172363,
+        "discriminator": 5.681561186909676,
+        "feature": 14.528800964355469,
+        "generator": 4.39253568649292,
+        "tone_auxiliary": 1.077439546585083,
+        "syllable_boundary_auxiliary": 0.6500974595546722
+      },
+      "gradient_norm_d": 216.37771606445312,
+      "gradient_norm_g": 384.4037780761719
+    },
+    {
+      "update": 257,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.00213861465454,
+        "duration": 2.3113566040992737,
+        "kl": 2.5540136098861694,
+        "discriminator": 1.5683832168579102,
+        "feature": 12.064705610275269,
+        "generator": 3.724650502204895,
+        "tone_auxiliary": 1.083106279373169,
+        "syllable_boundary_auxiliary": 0.6870480179786682
+      },
+      "gradient_norm_d": 17.6260986328125,
+      "gradient_norm_g": 118.40483093261719
+    },
+    {
+      "update": 258,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.552320957183838,
+        "duration": 2.0987126529216766,
+        "kl": 2.8697259426116943,
+        "discriminator": 2.669706106185913,
+        "feature": 9.441968560218811,
+        "generator": 2.73745334148407,
+        "tone_auxiliary": 1.0855685472488403,
+        "syllable_boundary_auxiliary": 0.7476262748241425
+      },
+      "gradient_norm_d": 17.27332878112793,
+      "gradient_norm_g": 193.29489135742188
+    },
+    {
+      "update": 259,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 19.319758415222168,
+        "duration": 2.1446503400802612,
+        "kl": 2.96417236328125,
+        "discriminator": 2.3568622171878815,
+        "feature": 12.281477928161621,
+        "generator": 3.8537133932113647,
+        "tone_auxiliary": 1.0870627760887146,
+        "syllable_boundary_auxiliary": 0.6719925105571747
+      },
+      "gradient_norm_d": 45.18301773071289,
+      "gradient_norm_g": 158.0722198486328
+    },
+    {
+      "update": 260,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 22.45879030227661,
+        "duration": 2.2745819687843323,
+        "kl": 3.173438787460327,
+        "discriminator": 1.6215182095766068,
+        "feature": 11.35459578037262,
+        "generator": 4.008527636528015,
+        "tone_auxiliary": 1.0786577761173248,
+        "syllable_boundary_auxiliary": 0.6062355637550354
+      },
+      "gradient_norm_d": 25.63324546813965,
+      "gradient_norm_g": 264.075439453125
+    },
+    {
+      "update": 261,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 22.960800647735596,
+        "duration": 2.106529712677002,
+        "kl": 2.8312841653823853,
+        "discriminator": 2.505875587463379,
+        "feature": 11.789894104003906,
+        "generator": 3.068045496940613,
+        "tone_auxiliary": 1.0768937170505524,
+        "syllable_boundary_auxiliary": 0.7073834389448166
+      },
+      "gradient_norm_d": 24.208498001098633,
+      "gradient_norm_g": 207.3299560546875
+    },
+    {
+      "update": 262,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 22.771738052368164,
+        "duration": 2.128061354160309,
+        "kl": 2.0209580957889557,
+        "discriminator": 2.4291820526123047,
+        "feature": 9.121561288833618,
+        "generator": 2.9082632660865784,
+        "tone_auxiliary": 1.090285986661911,
+        "syllable_boundary_auxiliary": 0.6790490224957466
+      },
+      "gradient_norm_d": 25.070720672607422,
+      "gradient_norm_g": 208.87213134765625
+    },
+    {
+      "update": 263,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 22.68490219116211,
+        "duration": 2.180221199989319,
+        "kl": 3.109833240509033,
+        "discriminator": 2.0304213166236877,
+        "feature": 12.408651351928711,
+        "generator": 3.3781962394714355,
+        "tone_auxiliary": 1.06878462433815,
+        "syllable_boundary_auxiliary": 0.8013004213571548
+      },
+      "gradient_norm_d": 37.87539291381836,
+      "gradient_norm_g": 202.16001892089844
+    },
+    {
+      "update": 264,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 19.62589168548584,
+        "duration": 2.317611575126648,
+        "kl": 2.600731611251831,
+        "discriminator": 4.332057863473892,
+        "feature": 13.411468029022217,
+        "generator": 3.997551202774048,
+        "tone_auxiliary": 1.103505551815033,
+        "syllable_boundary_auxiliary": 0.6257378906011581
+      },
+      "gradient_norm_d": 169.6953582763672,
+      "gradient_norm_g": 196.02500915527344
+    },
+    {
+      "update": 265,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 26.279945373535156,
+        "duration": 2.07796111702919,
+        "kl": 2.924176961183548,
+        "discriminator": 2.294637054204941,
+        "feature": 12.01724660396576,
+        "generator": 2.9120872616767883,
+        "tone_auxiliary": 1.0678765773773193,
+        "syllable_boundary_auxiliary": 0.7348884642124176
+      },
+      "gradient_norm_d": 21.128686904907227,
+      "gradient_norm_g": 191.20266723632812
+    },
+    {
+      "update": 266,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 20.66749906539917,
+        "duration": 2.214612066745758,
+        "kl": 2.902212679386139,
+        "discriminator": 1.9640277922153473,
+        "feature": 11.229488849639893,
+        "generator": 4.067607223987579,
+        "tone_auxiliary": 1.0838163197040558,
+        "syllable_boundary_auxiliary": 0.6524437516927719
+      },
+      "gradient_norm_d": 23.721519470214844,
+      "gradient_norm_g": 314.05645751953125
+    },
+    {
+      "update": 267,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 29.219970703125,
+        "duration": 2.153700053691864,
+        "kl": 2.6806470155715942,
+        "discriminator": 1.817299872636795,
+        "feature": 11.874343395233154,
+        "generator": 3.3488270044326782,
+        "tone_auxiliary": 1.0924908518791199,
+        "syllable_boundary_auxiliary": 0.6844477504491806
+      },
+      "gradient_norm_d": 23.570354461669922,
+      "gradient_norm_g": 239.75062561035156
+    },
+    {
+      "update": 268,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 23.875715732574463,
+        "duration": 2.2256085872650146,
+        "kl": 2.3964968621730804,
+        "discriminator": 2.267440915107727,
+        "feature": 11.87990117073059,
+        "generator": 3.107132315635681,
+        "tone_auxiliary": 1.0842986702919006,
+        "syllable_boundary_auxiliary": 0.6567803770303726
+      },
+      "gradient_norm_d": 28.05743980407715,
+      "gradient_norm_g": 200.67208862304688
+    },
+    {
+      "update": 269,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 23.990116596221924,
+        "duration": 2.121177315711975,
+        "kl": 2.3353805541992188,
+        "discriminator": 1.4656124413013458,
+        "feature": 12.640035629272461,
+        "generator": 3.9881240725517273,
+        "tone_auxiliary": 1.0936827957630157,
+        "syllable_boundary_auxiliary": 0.6442010700702667
+      },
+      "gradient_norm_d": 8.7577486038208,
+      "gradient_norm_g": 225.68951416015625
+    },
+    {
+      "update": 270,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.063578128814697,
+        "duration": 2.259719967842102,
+        "kl": 3.0667064785957336,
+        "discriminator": 2.118408650159836,
+        "feature": 9.56907606124878,
+        "generator": 3.3458861708641052,
+        "tone_auxiliary": 1.0857518315315247,
+        "syllable_boundary_auxiliary": 0.6559440642595291
+      },
+      "gradient_norm_d": 16.74323844909668,
+      "gradient_norm_g": 290.70574951171875
+    },
+    {
+      "update": 271,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.684536933898926,
+        "duration": 2.191832482814789,
+        "kl": 2.7229084968566895,
+        "discriminator": 2.154327630996704,
+        "feature": 11.104758977890015,
+        "generator": 2.742232322692871,
+        "tone_auxiliary": 1.073938935995102,
+        "syllable_boundary_auxiliary": 0.6093593165278435
+      },
+      "gradient_norm_d": 17.368858337402344,
+      "gradient_norm_g": 251.0622100830078
+    },
+    {
+      "update": 272,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 20.592720985412598,
+        "duration": 2.1292396783828735,
+        "kl": 2.536432683467865,
+        "discriminator": 1.9468888938426971,
+        "feature": 11.202233791351318,
+        "generator": 3.953196406364441,
+        "tone_auxiliary": 1.0874243080615997,
+        "syllable_boundary_auxiliary": 0.6032237932085991
+      },
+      "gradient_norm_d": 24.37274169921875,
+      "gradient_norm_g": 163.35768127441406
+    },
+    {
+      "update": 273,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 22.32123613357544,
+        "duration": 2.2113386392593384,
+        "kl": 3.0137810111045837,
+        "discriminator": 1.8994508385658264,
+        "feature": 11.402928590774536,
+        "generator": 3.279252588748932,
+        "tone_auxiliary": 1.0878441631793976,
+        "syllable_boundary_auxiliary": 0.6819072887301445
+      },
+      "gradient_norm_d": 23.264328002929688,
+      "gradient_norm_g": 155.13101196289062
+    },
+    {
+      "update": 274,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 26.138000965118408,
+        "duration": 2.0874152183532715,
+        "kl": 2.4450765550136566,
+        "discriminator": 2.4958863258361816,
+        "feature": 9.615392684936523,
+        "generator": 3.17112797498703,
+        "tone_auxiliary": 1.0775295495986938,
+        "syllable_boundary_auxiliary": 0.6431690007448196
+      },
+      "gradient_norm_d": 49.96187210083008,
+      "gradient_norm_g": 201.52825927734375
+    },
+    {
+      "update": 275,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 27.679916858673096,
+        "duration": 2.2512394785881042,
+        "kl": 3.0473493337631226,
+        "discriminator": 1.7892107963562012,
+        "feature": 11.978711128234863,
+        "generator": 3.3199926614761353,
+        "tone_auxiliary": 1.1005809605121613,
+        "syllable_boundary_auxiliary": 0.651718407869339
+      },
+      "gradient_norm_d": 38.66749954223633,
+      "gradient_norm_g": 358.01953125,
+      "development_metric": 35.03028869628906,
+      "improved": false,
+      "train_reconstruction_metric": 32.97850567102432,
+      "development_train_relative_gap": 0.06221576701298155,
+      "overfitting_gap_flag": false
+    },
+    {
+      "update": 276,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 24.035595417022705,
+        "duration": 2.068066418170929,
+        "kl": 2.3770138025283813,
+        "discriminator": 2.2324424982070923,
+        "feature": 10.467804789543152,
+        "generator": 3.3927215337753296,
+        "tone_auxiliary": 1.0909161567687988,
+        "syllable_boundary_auxiliary": 0.7048188745975494
+      },
+      "gradient_norm_d": 14.021318435668945,
+      "gradient_norm_g": 268.4323425292969
+    },
+    {
+      "update": 277,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.398993730545044,
+        "duration": 2.0578112304210663,
+        "kl": 2.62457937002182,
+        "discriminator": 1.7910763323307037,
+        "feature": 14.05468201637268,
+        "generator": 3.848407804965973,
+        "tone_auxiliary": 1.0962233245372772,
+        "syllable_boundary_auxiliary": 0.6253010034561157
+      },
+      "gradient_norm_d": 58.0960807800293,
+      "gradient_norm_g": 176.46990966796875
+    },
+    {
+      "update": 278,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 19.34546661376953,
+        "duration": 2.2490705847740173,
+        "kl": 2.621151864528656,
+        "discriminator": 1.590200036764145,
+        "feature": 11.669816255569458,
+        "generator": 3.8372456431388855,
+        "tone_auxiliary": 1.1011402308940887,
+        "syllable_boundary_auxiliary": 0.7694451808929443
+      },
+      "gradient_norm_d": 35.951873779296875,
+      "gradient_norm_g": 151.70266723632812
+    },
+    {
+      "update": 279,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 24.944624423980713,
+        "duration": 2.176384687423706,
+        "kl": 3.0095643997192383,
+        "discriminator": 1.9352138340473175,
+        "feature": 12.109809637069702,
+        "generator": 2.983145594596863,
+        "tone_auxiliary": 1.0869651138782501,
+        "syllable_boundary_auxiliary": 0.654821403324604
+      },
+      "gradient_norm_d": 21.636402130126953,
+      "gradient_norm_g": 170.4893798828125
+    },
+    {
+      "update": 280,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 21.93281078338623,
+        "duration": 2.1455666422843933,
+        "kl": 2.251894176006317,
+        "discriminator": 2.0815131664276123,
+        "feature": 9.3788001537323,
+        "generator": 3.3741350769996643,
+        "tone_auxiliary": 1.073799192905426,
+        "syllable_boundary_auxiliary": 0.6432696729898453
+      },
+      "gradient_norm_d": 21.454387664794922,
+      "gradient_norm_g": 169.78565979003906
+    },
+    {
+      "update": 281,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 24.683071613311768,
+        "duration": 2.1750982999801636,
+        "kl": 2.3873912692070007,
+        "discriminator": 1.9506826996803284,
+        "feature": 11.471716403961182,
+        "generator": 3.4026935696601868,
+        "tone_auxiliary": 1.0771906971931458,
+        "syllable_boundary_auxiliary": 0.6295672208070755
+      },
+      "gradient_norm_d": 22.30702781677246,
+      "gradient_norm_g": 187.7490997314453
+    },
+    {
+      "update": 282,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 26.031509399414062,
+        "duration": 2.146639198064804,
+        "kl": 2.31239253282547,
+        "discriminator": 2.3505569994449615,
+        "feature": 10.36646831035614,
+        "generator": 3.0789796710014343,
+        "tone_auxiliary": 1.083237498998642,
+        "syllable_boundary_auxiliary": 0.6439868658781052
+      },
+      "gradient_norm_d": 13.840496063232422,
+      "gradient_norm_g": 190.11830139160156
+    },
+    {
+      "update": 283,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 26.59095811843872,
+        "duration": 2.072088301181793,
+        "kl": 2.511142373085022,
+        "discriminator": 2.364423304796219,
+        "feature": 11.0277259349823,
+        "generator": 2.8185384273529053,
+        "tone_auxiliary": 1.0927947163581848,
+        "syllable_boundary_auxiliary": 0.6184224337339401
+      },
+      "gradient_norm_d": 55.95094299316406,
+      "gradient_norm_g": 197.31234741210938
+    },
+    {
+      "update": 284,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 24.884839296340942,
+        "duration": 2.231311559677124,
+        "kl": 2.209297776222229,
+        "discriminator": 1.8684858977794647,
+        "feature": 12.584197998046875,
+        "generator": 3.370065450668335,
+        "tone_auxiliary": 1.09512859582901,
+        "syllable_boundary_auxiliary": 0.6372095048427582
+      },
+      "gradient_norm_d": 18.528650283813477,
+      "gradient_norm_g": 168.38589477539062
+    },
+    {
+      "update": 285,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 26.773295402526855,
+        "duration": 2.0902227759361267,
+        "kl": 2.81261283159256,
+        "discriminator": 2.442517012357712,
+        "feature": 12.21986699104309,
+        "generator": 3.1605098247528076,
+        "tone_auxiliary": 1.0841846466064453,
+        "syllable_boundary_auxiliary": 0.6109059900045395
+      },
+      "gradient_norm_d": 46.79330062866211,
+      "gradient_norm_g": 277.9326171875
+    },
+    {
+      "update": 286,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 22.8530216217041,
+        "duration": 2.185512363910675,
+        "kl": 2.892798364162445,
+        "discriminator": 2.562508314847946,
+        "feature": 9.592574954032898,
+        "generator": 2.662236750125885,
+        "tone_auxiliary": 1.0863710045814514,
+        "syllable_boundary_auxiliary": 0.7785650044679642
+      },
+      "gradient_norm_d": 39.68758773803711,
+      "gradient_norm_g": 133.86097717285156
+    },
+    {
+      "update": 287,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 25.443088054656982,
+        "duration": 2.2583661675453186,
+        "kl": 2.716355860233307,
+        "discriminator": 3.022671014070511,
+        "feature": 12.46704387664795,
+        "generator": 3.8960721492767334,
+        "tone_auxiliary": 1.070388674736023,
+        "syllable_boundary_auxiliary": 0.7297879308462143
+      },
+      "gradient_norm_d": 85.57789611816406,
+      "gradient_norm_g": 234.59982299804688
+    },
+    {
+      "update": 288,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 23.091923236846924,
+        "duration": 2.1541610956192017,
+        "kl": 2.2480518221855164,
+        "discriminator": 2.4625987112522125,
+        "feature": 9.50175952911377,
+        "generator": 3.098860502243042,
+        "tone_auxiliary": 1.0870396494865417,
+        "syllable_boundary_auxiliary": 0.603692501783371
+      },
+      "gradient_norm_d": 52.92592239379883,
+      "gradient_norm_g": 220.55844116210938
+    },
+    {
+      "update": 289,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 26.16871404647827,
+        "duration": 2.1227638721466064,
+        "kl": 2.675458550453186,
+        "discriminator": 2.023454785346985,
+        "feature": 12.83823299407959,
+        "generator": 3.3620567321777344,
+        "tone_auxiliary": 1.072491616010666,
+        "syllable_boundary_auxiliary": 0.6577489897608757
+      },
+      "gradient_norm_d": 29.76662254333496,
+      "gradient_norm_g": 167.4870147705078
+    },
+    {
+      "update": 290,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 22.64997673034668,
+        "duration": 2.101858913898468,
+        "kl": 2.011119544506073,
+        "discriminator": 2.551592230796814,
+        "feature": 8.558444380760193,
+        "generator": 2.8911375999450684,
+        "tone_auxiliary": 1.0911114513874054,
+        "syllable_boundary_auxiliary": 0.6851000487804413
+      },
+      "gradient_norm_d": 76.5457763671875,
+      "gradient_norm_g": 145.33673095703125
+    },
+    {
+      "update": 291,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 23.408997535705566,
+        "duration": 2.361563742160797,
+        "kl": 2.389588564634323,
+        "discriminator": 1.994733214378357,
+        "feature": 10.081222534179688,
+        "generator": 3.439571440219879,
+        "tone_auxiliary": 1.0860889852046967,
+        "syllable_boundary_auxiliary": 0.6455096900463104
+      },
+      "gradient_norm_d": 23.10651397705078,
+      "gradient_norm_g": 161.66160583496094
+    },
+    {
+      "update": 292,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 21.77635908126831,
+        "duration": 2.1640531420707703,
+        "kl": 3.180568516254425,
+        "discriminator": 1.562079593539238,
+        "feature": 12.755211353302002,
+        "generator": 3.8593342900276184,
+        "tone_auxiliary": 1.1003636419773102,
+        "syllable_boundary_auxiliary": 0.7060174942016602
+      },
+      "gradient_norm_d": 14.1797456741333,
+      "gradient_norm_g": 130.49026489257812
+    },
+    {
+      "update": 293,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 21.965444087982178,
+        "duration": 2.064379394054413,
+        "kl": 2.740583837032318,
+        "discriminator": 1.8385121375322342,
+        "feature": 10.834291458129883,
+        "generator": 3.448558807373047,
+        "tone_auxiliary": 1.07421213388443,
+        "syllable_boundary_auxiliary": 0.6518476754426956
+      },
+      "gradient_norm_d": 18.931198120117188,
+      "gradient_norm_g": 179.42295837402344
+    },
+    {
+      "update": 294,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 21.121493339538574,
+        "duration": 2.206526815891266,
+        "kl": 2.784252643585205,
+        "discriminator": 1.6490668058395386,
+        "feature": 11.790002584457397,
+        "generator": 3.793569564819336,
+        "tone_auxiliary": 1.0778667330741882,
+        "syllable_boundary_auxiliary": 0.7137693166732788
+      },
+      "gradient_norm_d": 12.137053489685059,
+      "gradient_norm_g": 195.73228454589844
+    },
+    {
+      "update": 295,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 27.252785205841064,
+        "duration": 2.1888471841812134,
+        "kl": 2.800570487976074,
+        "discriminator": 2.240307003259659,
+        "feature": 10.92163896560669,
+        "generator": 2.947413921356201,
+        "tone_auxiliary": 1.0904148817062378,
+        "syllable_boundary_auxiliary": 0.7267131954431534
+      },
+      "gradient_norm_d": 23.426376342773438,
+      "gradient_norm_g": 187.31011962890625
+    },
+    {
+      "update": 296,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 23.49742555618286,
+        "duration": 2.247864603996277,
+        "kl": 2.2532162070274353,
+        "discriminator": 2.1587019860744476,
+        "feature": 11.486970663070679,
+        "generator": 2.9936243295669556,
+        "tone_auxiliary": 1.0854876935482025,
+        "syllable_boundary_auxiliary": 0.6397727727890015
+      },
+      "gradient_norm_d": 18.103845596313477,
+      "gradient_norm_g": 162.6373748779297
+    },
+    {
+      "update": 297,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 26.46095848083496,
+        "duration": 2.050169289112091,
+        "kl": 2.154430538415909,
+        "discriminator": 1.923889935016632,
+        "feature": 12.4788339138031,
+        "generator": 2.949227750301361,
+        "tone_auxiliary": 1.0898206532001495,
+        "syllable_boundary_auxiliary": 0.6598655134439468
+      },
+      "gradient_norm_d": 13.192753791809082,
+      "gradient_norm_g": 159.46365356445312
+    },
+    {
+      "update": 298,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 21.602619171142578,
+        "duration": 2.1387906670570374,
+        "kl": 2.8134992122650146,
+        "discriminator": 1.941358059644699,
+        "feature": 12.326453685760498,
+        "generator": 3.488154709339142,
+        "tone_auxiliary": 1.0702497363090515,
+        "syllable_boundary_auxiliary": 0.6651995331048965
+      },
+      "gradient_norm_d": 17.673664093017578,
+      "gradient_norm_g": 127.64812469482422
+    },
+    {
+      "update": 299,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 23.996728897094727,
+        "duration": 2.127716898918152,
+        "kl": 2.7817342281341553,
+        "discriminator": 3.1126930713653564,
+        "feature": 11.931436538696289,
+        "generator": 3.3162424564361572,
+        "tone_auxiliary": 1.0701099932193756,
+        "syllable_boundary_auxiliary": 0.6331241428852081
+      },
+      "gradient_norm_d": 96.279541015625,
+      "gradient_norm_g": 148.76138305664062
+    },
+    {
+      "update": 300,
+      "microbatch_count": 4,
+      "mean_training_losses": {
+        "mel": 22.77557134628296,
+        "duration": 2.10753858089447,
+        "kl": 2.4057536721229553,
+        "discriminator": 1.7808468639850616,
+        "feature": 11.11258590221405,
+        "generator": 3.580838680267334,
+        "tone_auxiliary": 1.0961292088031769,
+        "syllable_boundary_auxiliary": 0.6174270063638687
+      },
+      "gradient_norm_d": 22.058992385864258,
+      "gradient_norm_g": 140.38233947753906,
+      "development_metric": 34.577558517456055,
+      "improved": true,
+      "train_reconstruction_metric": 27.288863599300385,
+      "development_train_relative_gap": 0.2670941166763182,
+      "overfitting_gap_flag": true
+    }
+  ]
+}

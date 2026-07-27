@@ -15,8 +15,19 @@ from pathlib import Path
 import numpy as np
 import soundfile as sf
 import torch
+import torch.nn.utils
+import torch.nn.utils.parametrizations
 import transformers
 from transformers import AutoTokenizer, VitsModel
+
+# torch>=2.1 makes transformers' VITS/MMS modeling code build WaveNet conv
+# layers with the new parametrize-based weight_norm, whose state_dict keys
+# (parametrizations.weight.original0/1) don't match the weight_g/weight_v
+# keys the public facebook/mms-tts-yor checkpoint was saved with. Without
+# this, most WaveNet weights silently fail to load and are randomly
+# reinitialized instead -- from_pretrained warns but does not raise, so this
+# must be forced back to the legacy API to get a correct pretrained load.
+torch.nn.utils.parametrizations.weight_norm = torch.nn.utils.weight_norm
 
 
 def sha256_bytes(value: bytes) -> str:
@@ -72,7 +83,17 @@ def main() -> None:
 
     torch.manual_seed(config["experiment_seed"])
     tokenizer = AutoTokenizer.from_pretrained(config["model_id"], revision=config["model_revision"])
-    model = VitsModel.from_pretrained(config["model_id"], revision=config["model_revision"])
+    model, loading_info = VitsModel.from_pretrained(
+        config["model_id"], revision=config["model_revision"], output_loading_info=True
+    )
+    if loading_info["missing_keys"] or loading_info["unexpected_keys"] or loading_info["mismatched_keys"]:
+        raise RuntimeError(
+            "Checkpoint did not load cleanly onto VitsModel "
+            f"(missing={len(loading_info['missing_keys'])}, "
+            f"unexpected={len(loading_info['unexpected_keys'])}, "
+            f"mismatched={len(loading_info['mismatched_keys'])}); "
+            "this would silently substitute random weights for part of the pretrained baseline."
+        )
     model.eval()
     if any(parameter.requires_grad is False for parameter in model.parameters()):
         # Pretrained modules may contain frozen parameters; all parameters are made explicitly non-trainable below.

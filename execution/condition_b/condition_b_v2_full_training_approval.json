@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "approved": true,
+  "status": "approved_under_delegated_authority",
+  "note": "Retry of Condition B with the stochastic duration predictor frozen, after Mary reported v1's output (already delivered via the review site) skipped syllables, and a decoding-noise diagnostic (duration_diagnostic/) confirmed it wasn't a decoding artifact. Approved by Chidi Nneji under the delegated authority granted in the signed Authorization Letter (2026-07-20).",
+  "approved_by": "Chidi Nneji",
+  "approved_under_delegated_authority_from": "Mary Adelua",
+  "delegation_source": "Authorization Letter, signed 2026-07-20",
+  "approved_at": "2026-07-23",
+  "condition": "B",
+  "scope": "full_condition_b_training",
+  "maximum_optimizer_updates": 300,
+  "full_training_approved": true,
+  "protected_test_evaluation_approved": true,
+  "recipe_sha256": "4920f601c5ae16837d2c9369e96e6756cc841135994d09c42162dc258c014cff",
+  "dataset_sha256": "4fbb4b3f977b9733245cbc4c2013245a92a0ade284001fc6d9e30f208a228946"
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "condition": "C",
+  "purpose": "protected_test_evaluation_synthesis",
+  "checkpoint_path": "work/condition_c_v4_training_output/best.pt",
+  "checkpoint_kind": "development_selected_best",
+  "decoding": {
+    "test_prompt_ids": [
+      "YT0028",
+      "YT0029",
+      "YT0030"
+    ],
+    "decoding_matches_condition_a": true,
+    "speaking_rate": 1.0,
+    "noise_scale": 0.667,
+    "noise_scale_duration": 0.8,
+    "primary_criteria_unchanged": true,
+    "condition_a_audio_and_ratings_immutable": true,
+    "condition_b_audio_and_ratings_immutable": true,
+    "listener_rating_criteria": [
+      "pronunciation",
+      "lexical_tone",
+      "intelligibility",
+      "meaning_preservation",
+      "naturalness"
+    ]
+  },
+  "evaluation_synthesis_seed": 555,
+  "model_weights_unchanged": true,
+  "outputs": [
+    {
+      "prompt_id": "YT0028",
+      "text_nfc": "Ẹlẹ́dẹ̀ náà sáré kọjá ọgbà.",
+      "english_meaning": "The pig ran across the garden.",
+      "output_audio": "condition_c_YT0028.wav",
+      "sampling_rate_hz": 16000,
+      "sample_count": 47104,
+      "duration_s": 2.944,
+      "peak": 0.19822978973388672,
+      "rms": 0.03003689832985401,
+      "silent": false,
+      "finite": true
+    },
+    {
+      "prompt_id": "YT0029",
+      "text_nfc": "Afẹ́fẹ́ tútù ń fẹ́ láti ìlà-oòrùn.",
+      "english_meaning": "A cool wind is blowing from the east.",
+      "output_audio": "condition_c_YT0029.wav",
+      "sampling_rate_hz": 16000,
+      "sample_count": 52224,
+      "duration_s": 3.264,
+      "peak": 0.3198898434638977,
+      "rms": 0.033978212624788284,
+      "silent": false,
+      "finite": true
+    },
+    {
+      "prompt_id": "YT0030",
+      "text_nfc": "Ọ̀rẹ́ rẹ̀ fi ìwé sí orí àpótí.",
+      "english_meaning": "His or her friend put the book on the box.",
+      "output_audio": "condition_c_YT0030.wav",
+      "sampling_rate_hz": 16000,
+      "sample_count": 25856,
+      "duration_s": 1.616,
+      "peak": 0.16514120995998383,
+      "rms": 0.03594791144132614,
+      "silent": false,
+      "finite": true
+    }
+  ]
+}

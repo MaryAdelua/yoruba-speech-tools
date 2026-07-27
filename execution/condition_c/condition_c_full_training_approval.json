@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "approved": true,
+  "status": "approved_under_delegated_authority",
+  "note": "Not legally required beyond the existing Voice Data Consent Addendum (which already covers 'training, fine-tuning, and evaluating machine learning models... related to the project'), but recorded here to keep the same hash-gated audit trail used for Condition A/B. v4: after Mary reported v3's output skipped syllables, and a decoding-noise diagnostic (duration_diagnostic/) showed it wasn't a decoding artifact, the stochastic duration predictor is now frozen at its pretrained state (same fix as Condition B v2); the syllable-boundary auxiliary loss remains meaningful, now training the text encoder to suit the frozen predictor rather than trying to move the predictor itself. Approval below is Chidi Nneji's own, exercised under the delegated authority granted in the signed Authorization Letter (2026-07-20).",
+  "approved_by": "Chidi Nneji",
+  "approved_under_delegated_authority_from": "Mary Adelua",
+  "delegation_source": "Authorization Letter, signed 2026-07-20",
+  "approved_at": "2026-07-23",
+  "condition": "C",
+  "scope": "full_condition_c_training",
+  "maximum_optimizer_updates": 300,
+  "full_training_approved": true,
+  "protected_test_evaluation_approved": true,
+  "recipe_sha256": "c41bee223e327a0410e8443f6614349494d0eadc48333314acc50daa0a43d77f",
+  "dataset_sha256": "4fbb4b3f977b9733245cbc4c2013245a92a0ade284001fc6d9e30f208a228946"
+}

@@ -1,0 +1,4 @@
+﻿prompt_id,audio_filename,file_present,readable,format_pass,reference_duration_s,duration_s,duration_ratio,peak_dbfs,rms_dbfs,clipped_sample_pct,automatic_flags
+YT0028,,no,no,no,2.95,,,,,,missing
+YT0029,,no,no,no,3.63,,,,,,missing
+YT0030,,no,no,no,3.51,,,,,,missing

@@ -1,0 +1,4 @@
+﻿prompt_id,audio_filename,file_present,readable,format_pass,reference_duration_s,duration_s,duration_ratio,peak_dbfs,rms_dbfs,clipped_sample_pct,automatic_flags
+YT0028,speaker01_YT0028.wav,yes,yes,no,2.95,2.944,0.998,-11.463,-28.323,0.000000,format
+YT0029,speaker01_YT0029.wav,yes,yes,no,3.63,3.008,0.829,-9.898,-27.504,0.000000,format
+YT0030,speaker01_YT0030.wav,yes,yes,no,3.51,3.104,0.884,-12.757,-29.643,0.000000,format

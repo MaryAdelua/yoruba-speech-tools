@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "purpose": "vocab_adaptation_only",
+  "training_started": false,
+  "optimizer_updates": 0,
+  "source": {
+    "archive_language": "eng",
+    "vocab_size": 38,
+    "generator_sha256": "d276cee0f8291de23c8ed4f4a2ed15e3e4cff7b2d6af43660cd6b5e6e1149110",
+    "discriminator_sha256": "04b1d7a2726b3cb27c18604ace828556d9c17c09f65eb041f690a89c99d7aea4"
+  },
+  "target": {
+    "vocab_size": 43,
+    "yoruba_vocab_sha256": "f31e5b1a80a3e6acb6497f16080b83a630627b8265e9db96d511d3e0c24b40f4"
+  },
+  "reinitialized_tensors": [
+    "enc_p.emb.weight"
+  ],
+  "reinitialized_shape": [
+    43,
+    192
+  ],
+  "reinitialization_scheme": "normal_(0.0, hidden_channels ** -0.5), matching VITS's own TextEncoder init",
+  "transferred_tensor_count": 837,
+  "transferred_tensors_verified_unchanged": true,
+  "discriminator_transferred_unmodified": true,
+  "output": {
+    "generator_sha256": "954ef6147c1e5a28c896176c622005fce27c9fda7be8c9d6ed444fddb8ac4f32",
+    "discriminator_sha256": "04b1d7a2726b3cb27c18604ace828556d9c17c09f65eb041f690a89c99d7aea4",
+    "config_sha256": "ec453d50be1976ddb3b501c7dc09128cdf360b83e5b0cf7dec68dc5caa460f49",
+    "vocab_sha256": "f31e5b1a80a3e6acb6497f16080b83a630627b8265e9db96d511d3e0c24b40f4"
+  }
+}

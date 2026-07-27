@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "condition": "B",
+  "purpose": "protected_test_evaluation_synthesis",
+  "checkpoint_path": "work/condition_b_v2_training_output/best.pt",
+  "checkpoint_kind": "development_selected_best",
+  "decoding": {
+    "test_prompt_ids": [
+      "YT0028",
+      "YT0029",
+      "YT0030"
+    ],
+    "decoding_matches_condition_a": true,
+    "speaking_rate": 1.0,
+    "noise_scale": 0.667,
+    "noise_scale_duration": 0.8,
+    "primary_criteria_unchanged": true,
+    "condition_a_audio_and_ratings_immutable": true
+  },
+  "evaluation_synthesis_seed": 555,
+  "model_weights_unchanged": true,
+  "outputs": [
+    {
+      "prompt_id": "YT0028",
+      "text_nfc": "Ẹlẹ́dẹ̀ náà sáré kọjá ọgbà.",
+      "english_meaning": "The pig ran across the garden.",
+      "output_audio": "condition_b_YT0028.wav",
+      "sampling_rate_hz": 16000,
+      "sample_count": 48384,
+      "duration_s": 3.024,
+      "peak": 0.21607547998428345,
+      "rms": 0.03134091570973396,
+      "silent": false,
+      "finite": true
+    },
+    {
+      "prompt_id": "YT0029",
+      "text_nfc": "Afẹ́fẹ́ tútù ń fẹ́ láti ìlà-oòrùn.",
+      "english_meaning": "A cool wind is blowing from the east.",
+      "output_audio": "condition_b_YT0029.wav",
+      "sampling_rate_hz": 16000,
+      "sample_count": 51456,
+      "duration_s": 3.216,
+      "peak": 0.3425844609737396,
+      "rms": 0.036031920462846756,
+      "silent": false,
+      "finite": true
+    },
+    {
+      "prompt_id": "YT0030",
+      "text_nfc": "Ọ̀rẹ́ rẹ̀ fi ìwé sí orí àpótí.",
+      "english_meaning": "His or her friend put the book on the box.",
+      "output_audio": "condition_b_YT0030.wav",
+      "sampling_rate_hz": 16000,
+      "sample_count": 25856,
+      "duration_s": 1.616,
+      "peak": 0.1619625687599182,
+      "rms": 0.033023715019226074,
+      "silent": false,
+      "finite": true
+    }
+  ]
+}

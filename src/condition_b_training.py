@@ -231,7 +231,8 @@ def frozen_parameters(module: torch.nn.Module):
 class OriginalVITSBackend:
     """Original VITS model/loss adapter. Construct only inside the approved CUDA environment."""
 
-    def __init__(self, vits_root: Path, model_dir: Path, recipe: dict, device: torch.device):
+    def __init__(self, vits_root: Path, model_dir: Path, recipe: dict, device: torch.device,
+                 embedding_learning_rate: float | None = None, freeze_duration_predictor: bool = False):
         if device.type != "cuda":
             raise RuntimeError("Frozen Condition B production training requires CUDA")
         if str(vits_root) not in sys.path:
@@ -254,9 +255,32 @@ class OriginalVITSBackend:
         self.discriminator = models.MultiPeriodDiscriminator(model_cfg["use_spectral_norm"]).to(device)
         utils.load_checkpoint(model_dir / recipe["initialization"]["generator_checkpoint"], self.generator, None)
         utils.load_checkpoint(model_dir / recipe["initialization"]["discriminator_checkpoint"], self.discriminator, None)
+        if freeze_duration_predictor:
+            # Diagnostic (duration_diagnostic/) showed skipped syllables persist
+            # regardless of decoding-time duration noise, meaning the duration
+            # predictor's learned *mean* prediction -- not sampling variance --
+            # drifted during fine-tuning on very few examples for some sounds.
+            # Freeze it at the pretrained (Condition A, known-reliable) state
+            # and let only the rest of the network adapt toward the target voice.
+            for parameter in self.generator.dp.parameters():
+                parameter.requires_grad_(False)
         opt = recipe["optimization"]
         kwargs = {"betas": tuple(opt["betas"]), "eps": opt["epsilon"], "weight_decay": opt["weight_decay"]}
-        self.optimizer_g = torch.optim.AdamW(self.generator.parameters(), lr=opt["learning_rate_generator"], **kwargs)
+        if embedding_learning_rate is None:
+            trainable_params = [p for p in self.generator.parameters() if p.requires_grad]
+            self.optimizer_g = torch.optim.AdamW(trainable_params, lr=opt["learning_rate_generator"], **kwargs)
+        else:
+            # A freshly-initialized (e.g. cross-lingual-transfer) text embedding
+            # needs to move much faster than an already-pretrained backbone; a
+            # single shared low learning rate can leave it stuck near its random
+            # initialization. Give it its own parameter group instead.
+            embedding_params = list(self.generator.enc_p.emb.parameters())
+            embedding_param_ids = {id(p) for p in embedding_params}
+            other_params = [p for p in self.generator.parameters() if p.requires_grad and id(p) not in embedding_param_ids]
+            self.optimizer_g = torch.optim.AdamW([
+                {"params": other_params, "lr": opt["learning_rate_generator"]},
+                {"params": embedding_params, "lr": embedding_learning_rate},
+            ], **kwargs)
         self.optimizer_d = torch.optim.AdamW(self.discriminator.parameters(), lr=opt["learning_rate_discriminator"], **kwargs)
         # The default 65536 scale overflows the pretrained MMS/VITS gradients
         # before the first optimizer update. The recipe freezes FP16 but does
@@ -399,7 +423,8 @@ def cycle_batches(loader: Iterable) -> Iterator:
 def run_training_controller(backend, train_loader: Iterable, development_loader: Iterable, recipe: dict,
                             output_dir: Path, recipe_hash: str, dataset_hash: str,
                             max_updates_override: int | None = None,
-                            allow_unselected_final_checkpoint: bool = False) -> dict:
+                            allow_unselected_final_checkpoint: bool = False,
+                            condition: str = "B") -> dict:
     opt = recipe["optimization"]
     select = recipe["checkpoint_selection"]
     accumulation = opt["gradient_accumulation_steps"]
@@ -429,7 +454,7 @@ def run_training_controller(backend, train_loader: Iterable, development_loader:
                           "development_train_relative_gap": gap,
                           "overfitting_gap_flag": gap > 0.25})
             state = {
-                "schema_version": "1.0", "condition": "B", "update": update,
+                "schema_version": "1.0", "condition": condition, "update": update,
                 "recipe_sha256": recipe_hash, "dataset_sha256": dataset_hash,
                 "early_stopping": early.__dict__, "backend": backend.checkpoint_state(),
                 "rng": {"python": random.getstate(), "numpy": np.random.get_state(),
@@ -454,7 +479,7 @@ def run_training_controller(backend, train_loader: Iterable, development_loader:
         # development evaluation. Preserve its final state without calling it a
         # selected/best research checkpoint or changing the evaluation schedule.
         state = {
-            "schema_version": "1.0", "condition": "B", "update": log[-1]["update"],
+            "schema_version": "1.0", "condition": condition, "update": log[-1]["update"],
             "recipe_sha256": recipe_hash, "dataset_sha256": dataset_hash,
             "early_stopping": early.__dict__, "backend": backend.checkpoint_state(),
             "rng": {"python": random.getstate(), "numpy": np.random.get_state(),

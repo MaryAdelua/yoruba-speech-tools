@@ -1,5 +1,13 @@
 #!/usr/bin/env python3
-"""Condition B entrypoint. Validation is local; production training is approval-gated."""
+"""Condition C entrypoint. Validation is local; production training is approval-gated.
+
+Condition C uses the exact same MMS/VITS Yoruba checkpoint, dataset, split,
+training budget, seed, and checkpoint-selection rules as Condition B --
+--archive and --model-dir should point at the same acquired yor.tar.gz /
+extracted directory Condition B already used. The only experimental change is
+the tone and syllable-boundary auxiliary supervision, derived at runtime from
+the verified alignment data via execution/condition_c/derive_tone_syllable_targets.py.
+"""
 
 from __future__ import annotations
 
@@ -18,20 +26,25 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
 from condition_b_training import (
-    EXPECTED_SPLITS,
     MMSVocabulary,
-    OriginalVITSBackend,
     PROTECTED_TEST_IDS,
     SplitPlan,
-    YorubaTextAudioDataset,
-    collate_text_audio,
-    load_and_validate_recipe,
     prepare_resampled_audio,
     run_training_controller,
     seed_everything,
     sha256_file,
+)
+from condition_c_training import (
+    EXPECTED_SPLITS,
+    TonalSyllableVITSBackend,
+    YorubaTextAudioDatasetWithPromptId,
+    collate_text_audio_with_prompt_ids,
+    load_and_validate_recipe,
     validate_approval,
 )
+
+sys.path.insert(0, str(ROOT / "execution/condition_c"))
+from derive_tone_syllable_targets import derive_row_targets  # noqa: E402
 
 
 def git_commit(path: Path) -> str:
@@ -117,45 +130,36 @@ def run_smoke(recipe: dict, recipe_path: Path, dataset_path: Path, output: Path)
     development = [object(), object(), object()]
     summary = run_training_controller(
         backend, train, development, recipe, output, sha256_file(recipe_path), sha256_file(dataset_path),
-        max_updates_override=150,
+        max_updates_override=150, condition="C",
     )
     summary["validation_mode"] = "synthetic_cpu_orchestration_only"
-    summary["condition_b_model_weights_loaded"] = False
-    summary["condition_b_audio_used"] = False
+    summary["condition_c_model_weights_loaded"] = False
+    summary["condition_c_audio_used"] = False
     (output / "training_summary.json").write_text(json.dumps(summary, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({key: value for key, value in summary.items() if key != "log"}, indent=2))
 
 
-def validate_approval_v2(path: Path, recipe_path: Path, dataset_path: Path, expected_scope: str) -> dict:
-    """Same checks as condition_b_training.validate_approval, except the approver
-    is Chidi Nneji acting under his own delegated authority (Authorization Letter,
-    2026-07-20) rather than a fabricated 'Mary Adelua' attestation -- see the
-    Condition C approval records for why this project moved to that pattern."""
-    approval = json.loads(path.read_text(encoding="utf-8"))
-    expected = {
-        "approved": True,
-        "approved_by": "Chidi Nneji",
-        "condition": "B",
-        "scope": expected_scope,
-        "recipe_sha256": sha256_file(recipe_path),
-        "dataset_sha256": sha256_file(dataset_path),
-    }
-    for key, value in expected.items():
-        if approval.get(key) != value:
-            raise PermissionError(f"Approval field {key!r} does not match the frozen execution")
-    if expected_scope == "full_condition_b_training":
-        if approval.get("full_training_approved") is not True:
-            raise PermissionError("Full Condition B training is not approved")
-    else:
-        raise PermissionError(f"Unsupported approval scope: {expected_scope}")
-    return approval
+def build_targets_by_prompt_id(dataset_path: Path, vocab_path: Path, recipe: dict) -> dict[str, list[dict]]:
+    """Train/development rows only -- protected test rows are never read here."""
+    from condition_b_training import load_jsonl
+
+    vocab_symbols = vocab_path.read_text(encoding="utf-8").splitlines()
+    symbol_to_id = {symbol: index for index, symbol in enumerate(vocab_symbols)}
+    cfg = recipe["acoustic_configuration"]
+    rows = load_jsonl(dataset_path)
+    result = {}
+    for row in rows:
+        if row["split"] == "test":
+            continue
+        derived = derive_row_targets(row, symbol_to_id, cfg["hop_length"], cfg["sampling_rate"])
+        result[row["prompt_id"]] = derived["syllables"]
+    return result
 
 
 def run_production(args, recipe: dict, split: SplitPlan, *, technical_validation: bool) -> None:
     recipe_path, dataset_path = args.recipe.resolve(), args.dataset.resolve()
-    scope = "ten_update_technical_validation_only" if technical_validation else "full_condition_b_training"
-    approve = validate_approval_v2 if recipe.get("condition_definition", "").startswith("v2") else validate_approval
-    approval = approve(args.approval.resolve(), recipe_path, dataset_path, scope)
+    scope = "ten_update_technical_validation_only" if technical_validation else "full_condition_c_training"
+    approval = validate_approval(args.approval.resolve(), recipe_path, dataset_path, scope)
     if not torch.cuda.is_available():
         raise RuntimeError("CUDA is required")
     memory_gb = torch.cuda.get_device_properties(0).total_memory / 1024**3
@@ -173,8 +177,11 @@ def run_production(args, recipe: dict, split: SplitPlan, *, technical_validation
     for name in ("config.json", "vocab.txt", "G_100000.pth", "D_100000.pth"):
         if not (args.model_dir / name).is_file():
             raise FileNotFoundError(args.model_dir / name)
+    vocabulary = MMSVocabulary(args.model_dir / "vocab.txt", add_blank=True)
 
-    # Test rows are deliberately not passed to preprocessing or either loader.
+    targets_by_prompt_id = build_targets_by_prompt_id(dataset_path, args.model_dir / "vocab.txt", recipe)
+
+    # Test rows are deliberately not passed to preprocessing, either loader, or target derivation.
     selected = list(split.train + split.development)
     derived = prepare_resampled_audio(selected, args.work_dir / "audio_16k", recipe)
     by_id = {row["prompt_id"]: row for row in derived}
@@ -185,19 +192,18 @@ def run_production(args, recipe: dict, split: SplitPlan, *, technical_validation
     (args.work_dir / "derived_audio_manifest.json").write_text(
         json.dumps(derived, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
-    vocabulary = MMSVocabulary(args.model_dir / "vocab.txt", add_blank=True)
-    train_dataset = YorubaTextAudioDataset(train_records, vocabulary, args.vits_root, recipe)
-    dev_dataset = YorubaTextAudioDataset(dev_records, vocabulary, args.vits_root, recipe)
+    train_dataset = YorubaTextAudioDatasetWithPromptId(train_records, vocabulary, args.vits_root, recipe)
+    dev_dataset = YorubaTextAudioDatasetWithPromptId(dev_records, vocabulary, args.vits_root, recipe)
     seed_generator = torch.Generator().manual_seed(recipe["randomness"]["training_seed"])
     batch_size = recipe["optimization"]["micro_batch_size"]
     train_loader = torch.utils.data.DataLoader(
         train_dataset, batch_size=batch_size, shuffle=True, generator=seed_generator,
-        collate_fn=collate_text_audio, num_workers=2, pin_memory=True, drop_last=True,
+        collate_fn=collate_text_audio_with_prompt_ids, num_workers=2, pin_memory=True, drop_last=True,
     )
     dev_loader = torch.utils.data.DataLoader(
         # One item per batch makes the frozen mean development metric an equal
         # average of the three clips rather than an average of unequally sized batches.
-        dev_dataset, batch_size=1, shuffle=False, collate_fn=collate_text_audio,
+        dev_dataset, batch_size=1, shuffle=False, collate_fn=collate_text_audio_with_prompt_ids,
         num_workers=2, pin_memory=True, drop_last=False,
     )
     seed_everything(recipe["randomness"]["training_seed"], True)
@@ -217,18 +223,17 @@ def run_production(args, recipe: dict, split: SplitPlan, *, technical_validation
             for item in importlib.metadata.distributions()
         ),
         "protected_test_items_seen": 0,
+        "auxiliary_targets_row_count": len(targets_by_prompt_id),
     }
     args.output.mkdir(parents=True, exist_ok=True)
     (args.output / "runtime_provenance.json").write_text(json.dumps(provenance, indent=2) + "\n", encoding="utf-8")
-    backend = OriginalVITSBackend(
-        args.vits_root, args.model_dir, recipe, torch.device("cuda:0"),
-        freeze_duration_predictor=recipe["trainable_modules"].get("freeze_duration_predictor", False),
-    )
+    backend = TonalSyllableVITSBackend(args.vits_root, args.model_dir, recipe, torch.device("cuda:0"))
+    backend.set_targets(targets_by_prompt_id)
     summary = run_training_controller(
         backend, train_loader, dev_loader, recipe, args.output,
         provenance["recipe_sha256"], provenance["dataset_sha256"],
         max_updates_override=approval["maximum_optimizer_updates"] if technical_validation else None,
-        allow_unselected_final_checkpoint=technical_validation,
+        allow_unselected_final_checkpoint=technical_validation, condition="C",
     )
     if technical_validation and summary["optimizer_updates"] != 10:
         raise RuntimeError("Technical validation did not complete exactly 10 optimizer updates")
@@ -241,15 +246,15 @@ def main() -> None:
     mode.add_argument("--orchestration-smoke-test", action="store_true")
     mode.add_argument("--technical-validation", action="store_true")
     mode.add_argument("--train", action="store_true")
-    parser.add_argument("--recipe", type=Path, default=ROOT / "experiment_01/condition_b_recipe.json")
+    parser.add_argument("--recipe", type=Path, default=ROOT / "experiment_01/condition_c_recipe.json")
     parser.add_argument("--dataset", type=Path, default=ROOT / "dataset/verified/training_batch_01_verified_alignments.jsonl")
-    parser.add_argument("--output", type=Path, default=ROOT / "artifacts/experiment_01/condition_b/training")
+    parser.add_argument("--output", type=Path, default=ROOT / "artifacts/experiment_01/condition_c/training")
     parser.add_argument("--approval", type=Path)
     parser.add_argument("--vits-root", type=Path, default=Path("/opt/vits"))
     parser.add_argument("--fairseq-root", type=Path, default=Path("/opt/fairseq"))
-    parser.add_argument("--archive", type=Path)
-    parser.add_argument("--model-dir", type=Path)
-    parser.add_argument("--work-dir", type=Path, default=ROOT / "work/condition_b_runtime")
+    parser.add_argument("--archive", type=Path, help="Same acquired yor.tar.gz Condition B used")
+    parser.add_argument("--model-dir", type=Path, help="Same extracted Yoruba model directory Condition B used")
+    parser.add_argument("--work-dir", type=Path, default=ROOT / "work/condition_c_runtime")
     args = parser.parse_args()
 
     recipe = load_and_validate_recipe(args.recipe)
@@ -258,7 +263,7 @@ def main() -> None:
     split = SplitPlan.from_manifest(args.dataset, recipe)
     if args.validate_only:
         print(json.dumps({
-            "condition": "B", "recipe_valid": True, "split_counts": EXPECTED_SPLITS,
+            "condition": "C", "recipe_valid": True, "split_counts": EXPECTED_SPLITS,
             "protected_test_ids": PROTECTED_TEST_IDS, "training_started": False,
         }, indent=2))
         return

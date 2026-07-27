@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "approved": true,
+  "approved_by": "Mary Adelua",
+  "approved_at": "2026-07-20",
+  "condition": "B",
+  "scope": "condition_b_full_training_continuation",
+  "supersedes": "PAUSE_HANDOFF.md dated 2026-07-19",
+  "derived_from": "execution/condition_b/full_training_approval.json",
+  "statement": "I approve resuming Condition B full training, superseding the pause recorded in PAUSE_HANDOFF.md dated 2026-07-19.",
+  "maximum_optimizer_updates": 300,
+  "full_training_approved": true,
+  "protected_test_evaluation_approved": true,
+  "condition_c_approved": false,
+  "frozen_parameters_unchanged": {
+    "recipe_sha256": "09c5d642bd87e8c345d03e08ef362145ca507494314ebdf2126b589519ce3cbf",
+    "dataset_sha256": "4fbb4b3f977b9733245cbc4c2013245a92a0ade284001fc6d9e30f208a228946",
+    "container_digest": "sha256:1e99ed087aa8f913405b78cb15e96ed09cd0e0105c2f131b7db986ba8a9031fe"
+  }
+}

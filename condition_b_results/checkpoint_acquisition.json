@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "purpose": "checkpoint_acquisition_only",
+  "training_started": false,
+  "optimizer_updates": 0,
+  "archive_url": "https://dl.fbaipublicfiles.com/mms/tts/full_model/yor.tar.gz",
+  "archive_bytes": 919869645,
+  "archive_expected_bytes": 919869645,
+  "archive_sha256": "90b9a983f645d0cdd9f4c0321994cfc23faafbc6916865ad75864faef8d57ba8",
+  "files": {
+    "config.json": {
+      "path": "work/mms_checkpoints/extracted/yor/config.json",
+      "sha256": "ec453d50be1976ddb3b501c7dc09128cdf360b83e5b0cf7dec68dc5caa460f49",
+      "bytes": 1887
+    },
+    "vocab.txt": {
+      "path": "work/mms_checkpoints/extracted/yor/vocab.txt",
+      "sha256": "f31e5b1a80a3e6acb6497f16080b83a630627b8265e9db96d511d3e0c24b40f4",
+      "bytes": 108
+    },
+    "G_100000.pth": {
+      "path": "work/mms_checkpoints/extracted/yor/G_100000.pth",
+      "sha256": "2752787a4274049a9e3e07f6a704071c60cbf60673828f540604d8fc16daf296",
+      "bytes": 436394053
+    },
+    "D_100000.pth": {
+      "path": "work/mms_checkpoints/extracted/yor/D_100000.pth",
+      "sha256": "83968d8f97a16940ded68694ca69480bd30e787b9e5fd2d53f81889af1ddf054",
+      "bytes": 561079264
+    }
+  }
+}

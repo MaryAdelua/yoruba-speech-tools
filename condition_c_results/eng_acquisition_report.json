@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "purpose": "checkpoint_acquisition_only",
+  "training_started": false,
+  "optimizer_updates": 0,
+  "archive_url": "https://dl.fbaipublicfiles.com/mms/tts/full_model/eng.tar.gz",
+  "archive_bytes": 919749301,
+  "archive_expected_bytes": 919749301,
+  "archive_sha256": "0194b812eea4c941c449ce7d32f67656b51f6b97ba0e1f242e12d75e942aa866",
+  "files": {
+    "config.json": {
+      "path": "work/eng_extract/eng/config.json",
+      "sha256": "ec453d50be1976ddb3b501c7dc09128cdf360b83e5b0cf7dec68dc5caa460f49",
+      "bytes": 1887
+    },
+    "vocab.txt": {
+      "path": "work/eng_extract/eng/vocab.txt",
+      "sha256": "559e812361c0b365098467f1cd7a05d8c8c8ec941a63fb6d187c7cefdfb3c81a",
+      "bytes": 78
+    },
+    "G_100000.pth": {
+      "path": "work/eng_extract/eng/G_100000.pth",
+      "sha256": "d276cee0f8291de23c8ed4f4a2ed15e3e4cff7b2d6af43660cd6b5e6e1149110",
+      "bytes": 436618116
+    },
+    "D_100000.pth": {
+      "path": "work/eng_extract/eng/D_100000.pth",
+      "sha256": "04b1d7a2726b3cb27c18604ace828556d9c17c09f65eb041f690a89c99d7aea4",
+      "bytes": 561110135
+    }
+  }
+}
