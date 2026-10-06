@@ -1,0 +1,67 @@
+{
+  "review_session_id": "p03-natural-words-001",
+  "reviewer": "current user (voice session)",
+  "annotations": [
+    {
+      "timestamp": "2026-10-05T03:42:26.145054+00:00",
+      "recording_id": "p03_natural",
+      "word_id": "w03",
+      "written_unit": "sírú",
+      "candidate_audio_sha256": "c3f7eb0daa8e81c3a8bf56f302acddfa649b5fc959c77a9aa4cecef659564f44",
+      "reported_perception": "su; repeated as su",
+      "note": "Listener reports hearing su in response to proposed sírú clip. Rendering comes from voice conversation transcription; exact phonetic interpretation not confirmed.",
+      "matches_unit": null,
+      "bad_audio_cut": null,
+      "lexical_tone": null,
+      "pronunciation": null,
+      "confidence": null,
+      "evidence_type": "human_listener_observation",
+      "cause": "undetermined",
+      "phonetic_rendering_status": "unreliable voice transcription; do not treat su as confirmed phonetic transcription"
+    },
+    {
+      "timestamp": "2026-10-05T03:42:49.329790+00:00",
+      "recording_id": "p03_natural",
+      "word_id": "w03",
+      "written_unit": "sírú",
+      "note": "Listener clarifies that the proposed clip does not contain the complete intended word and sounds incomplete. Exact heard sound is not reliably captured by voice transcription.",
+      "bad_audio_cut": true,
+      "boundary_usability": "incomplete per listener",
+      "technical_correction_required": true,
+      "lexical_tone": null,
+      "pronunciation": null,
+      "confidence": null,
+      "evidence_type": "human_listener_observation",
+      "acoustic_cause_verified": false
+    },
+    {
+      "timestamp": "2026-10-05T03:43:21.732695+00:00",
+      "recording_id": "p03_natural",
+      "word_id": "w03",
+      "written_unit": "sírú",
+      "note": "Listener explicitly spells the heard portion as S-I-R and reports not hearing the final u. This supersedes the earlier unreliable su rendering.",
+      "evidence_type": "human_listener_observation",
+      "bad_audio_cut": true,
+      "lexical_tone": null,
+      "pronunciation": null,
+      "confidence": null,
+      "technical_correction_required": true
+    },
+    {
+      "timestamp": "2026-10-05T03:44:00.199866+00:00",
+      "recording_id": "p03_natural",
+      "word_id": "w04",
+      "written_unit": "ọlọ́run",
+      "candidate_audio_sha256": "21940f619d7865e71def052b08b209ce0b2666cd48ce7b80179d7029e8585cb9",
+      "note": "Native listener reports not hearing ọlọ́run at all in the proposed clip; it sounds like something entirely different.",
+      "matches_unit": "No",
+      "boundary_usability": "unsuitable for target-word review",
+      "technical_correction_required": true,
+      "lexical_tone": null,
+      "pronunciation": null,
+      "confidence": null,
+      "evidence_type": "human_listener_observation",
+      "cause": "unresolved alignment or content mismatch; not automatically a pronunciation error"
+    }
+  ]
+}

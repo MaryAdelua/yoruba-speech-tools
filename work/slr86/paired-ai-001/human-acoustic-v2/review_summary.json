@@ -1,0 +1,69 @@
+{
+  "rating_counts": {
+    "lexical_tone_realization": {
+      "natural/acceptable": 0,
+      "somewhat unnatural": 0,
+      "clearly problematic": 12,
+      "cannot determine": 0
+    },
+    "segmental_pronunciation": {
+      "natural/acceptable": 0,
+      "somewhat unnatural": 0,
+      "clearly problematic": 12,
+      "cannot determine": 0
+    },
+    "perceived_nasality": {
+      "normal": 3,
+      "somewhat excessive/unusual": 3,
+      "clearly excessive/unusual": 6,
+      "cannot determine": 0
+    },
+    "prosody_intonation": {
+      "natural/acceptable": 0,
+      "somewhat unnatural": 0,
+      "clearly problematic": 12,
+      "cannot determine": 0
+    },
+    "rhythm_fluency": {
+      "natural/acceptable": 0,
+      "somewhat unnatural": 0,
+      "clearly problematic": 12,
+      "cannot determine": 0
+    },
+    "overall_yoruba_naturalness": {
+      "natural": 0,
+      "mostly natural": 0,
+      "noticeably unnatural": 0,
+      "very unnatural": 12,
+      "cannot determine": 0
+    },
+    "reviewer_confidence": {
+      "low": 0,
+      "medium": 0,
+      "high": 12
+    }
+  },
+  "issue_tag_counts": {
+    "e/ẹ": 2,
+    "o/ọ": 0,
+    "s/ṣ": 0,
+    "lexical tone": 12,
+    "nasal quality": 11,
+    "consonant realization": 12,
+    "vowel realization": 12,
+    "unusual duration/stretching": 9,
+    "rhythm": 12,
+    "intonation/prosody": 12,
+    "other": 0
+  },
+  "takes_with_any_tags": 12,
+  "takes_with_notes": 1,
+  "takes_with_intervals": 0,
+  "natural_references_with_new_notes": 1,
+  "cautions": [
+    "Reviewer confidence is preserved exactly as exported; no confidence weighting or reinterpretation is applied.",
+    "Unchecked optional issue tags mean not selected, not absence of the problem.",
+    "No new natural-reference ratings were supplied; prior transcript matching is not a pronunciation rating.",
+    "12 takes are clustered within 6 sentences, one listener, one model/voice; inspect category counts and variability before interpreting associations."
+  ]
+}

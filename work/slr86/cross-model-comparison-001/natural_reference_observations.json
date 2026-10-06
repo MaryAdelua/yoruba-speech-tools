@@ -1,0 +1,206 @@
+[
+  {
+    "session": "mini_tts",
+    "sentence_id": "p01",
+    "annotation": {
+      "reviewer_identifier": "Mary Adelua",
+      "sentence_id": "p01",
+      "source_clip_id": "yof_01208_01850003899",
+      "speaker_id": "yof_01208",
+      "audio_sha256": "5cd1b0b28fc48e375f329c778bd909242e8104338691287781ccba23b34f5290",
+      "ratings": {},
+      "issue_tags": [],
+      "notes": "The natural reference is good",
+      "problematic_time_intervals": [],
+      "annotation_timestamp": "2026-10-03T02:46:48.796Z",
+      "review_status": "partial"
+    }
+  },
+  {
+    "session": "mini_tts",
+    "sentence_id": "p02",
+    "annotation": {
+      "reviewer_identifier": "Mary Adelua",
+      "sentence_id": "p02",
+      "source_clip_id": "yof_02436_02038636916",
+      "speaker_id": "yof_02436",
+      "audio_sha256": "8d4f8c4c3f0c9771b64db80ca437a1a7051821ef0e8ab4e3cf2cb4c37fee02e8",
+      "ratings": {},
+      "issue_tags": [],
+      "notes": "",
+      "problematic_time_intervals": [],
+      "annotation_timestamp": null,
+      "review_status": "not_reviewed"
+    }
+  },
+  {
+    "session": "mini_tts",
+    "sentence_id": "p03",
+    "annotation": {
+      "reviewer_identifier": "Mary Adelua",
+      "sentence_id": "p03",
+      "source_clip_id": "yof_02121_01178327964",
+      "speaker_id": "yof_02121",
+      "audio_sha256": "32b32face5d0ad95f248fcbe4cb2b788daf2060c9c11f105c5e7110c7e38d936",
+      "ratings": {},
+      "issue_tags": [],
+      "notes": "",
+      "problematic_time_intervals": [],
+      "annotation_timestamp": null,
+      "review_status": "not_reviewed"
+    }
+  },
+  {
+    "session": "mini_tts",
+    "sentence_id": "p04",
+    "annotation": {
+      "reviewer_identifier": "Mary Adelua",
+      "sentence_id": "p04",
+      "source_clip_id": "yof_09697_01103354325",
+      "speaker_id": "yof_09697",
+      "audio_sha256": "ba1ecf2019d39770b3240dd81e8ebea138e4af8573075c2464f6f448475fb883",
+      "ratings": {},
+      "issue_tags": [],
+      "notes": "",
+      "problematic_time_intervals": [],
+      "annotation_timestamp": null,
+      "review_status": "not_reviewed"
+    }
+  },
+  {
+    "session": "mini_tts",
+    "sentence_id": "p05",
+    "annotation": {
+      "reviewer_identifier": "Mary Adelua",
+      "sentence_id": "p05",
+      "source_clip_id": "yom_00295_01260038205",
+      "speaker_id": "yom_00295",
+      "audio_sha256": "974ac2c0ee8c06476c3690e41f61287422fb142fa60dc17e960cf8f555782d41",
+      "ratings": {},
+      "issue_tags": [],
+      "notes": "",
+      "problematic_time_intervals": [],
+      "annotation_timestamp": null,
+      "review_status": "not_reviewed"
+    }
+  },
+  {
+    "session": "mini_tts",
+    "sentence_id": "p06",
+    "annotation": {
+      "reviewer_identifier": "Mary Adelua",
+      "sentence_id": "p06",
+      "source_clip_id": "yom_07508_00859742057",
+      "speaker_id": "yom_07508",
+      "audio_sha256": "e28c3a9c10a43b7db082aef37b9662ae40afb144c3c194bb83d847f68f9abbc0",
+      "ratings": {},
+      "issue_tags": [],
+      "notes": "",
+      "problematic_time_intervals": [],
+      "annotation_timestamp": null,
+      "review_status": "not_reviewed"
+    }
+  },
+  {
+    "session": "realtime",
+    "sentence_id": "p01",
+    "annotation": {
+      "reviewer_identifier": "Mary Adelua",
+      "sentence_id": "p01",
+      "source_clip_id": "yof_01208_01850003899",
+      "speaker_id": "yof_01208",
+      "audio_sha256": "5cd1b0b28fc48e375f329c778bd909242e8104338691287781ccba23b34f5290",
+      "ratings": {},
+      "issue_tags": [],
+      "notes": "Good",
+      "problematic_time_intervals": [],
+      "annotation_timestamp": "2026-10-03T03:35:41.661Z",
+      "review_status": "partial"
+    }
+  },
+  {
+    "session": "realtime",
+    "sentence_id": "p02",
+    "annotation": {
+      "reviewer_identifier": "Mary Adelua",
+      "sentence_id": "p02",
+      "source_clip_id": "yof_02436_02038636916",
+      "speaker_id": "yof_02436",
+      "audio_sha256": "8d4f8c4c3f0c9771b64db80ca437a1a7051821ef0e8ab4e3cf2cb4c37fee02e8",
+      "ratings": {},
+      "issue_tags": [],
+      "notes": "",
+      "problematic_time_intervals": [],
+      "annotation_timestamp": null,
+      "review_status": "not_reviewed"
+    }
+  },
+  {
+    "session": "realtime",
+    "sentence_id": "p03",
+    "annotation": {
+      "reviewer_identifier": "Mary Adelua",
+      "sentence_id": "p03",
+      "source_clip_id": "yof_02121_01178327964",
+      "speaker_id": "yof_02121",
+      "audio_sha256": "32b32face5d0ad95f248fcbe4cb2b788daf2060c9c11f105c5e7110c7e38d936",
+      "ratings": {},
+      "issue_tags": [],
+      "notes": "",
+      "problematic_time_intervals": [],
+      "annotation_timestamp": null,
+      "review_status": "not_reviewed"
+    }
+  },
+  {
+    "session": "realtime",
+    "sentence_id": "p04",
+    "annotation": {
+      "reviewer_identifier": "Mary Adelua",
+      "sentence_id": "p04",
+      "source_clip_id": "yof_09697_01103354325",
+      "speaker_id": "yof_09697",
+      "audio_sha256": "ba1ecf2019d39770b3240dd81e8ebea138e4af8573075c2464f6f448475fb883",
+      "ratings": {},
+      "issue_tags": [],
+      "notes": "",
+      "problematic_time_intervals": [],
+      "annotation_timestamp": null,
+      "review_status": "not_reviewed"
+    }
+  },
+  {
+    "session": "realtime",
+    "sentence_id": "p05",
+    "annotation": {
+      "reviewer_identifier": "Mary Adelua",
+      "sentence_id": "p05",
+      "source_clip_id": "yom_00295_01260038205",
+      "speaker_id": "yom_00295",
+      "audio_sha256": "974ac2c0ee8c06476c3690e41f61287422fb142fa60dc17e960cf8f555782d41",
+      "ratings": {},
+      "issue_tags": [],
+      "notes": "",
+      "problematic_time_intervals": [],
+      "annotation_timestamp": null,
+      "review_status": "not_reviewed"
+    }
+  },
+  {
+    "session": "realtime",
+    "sentence_id": "p06",
+    "annotation": {
+      "reviewer_identifier": "Mary Adelua",
+      "sentence_id": "p06",
+      "source_clip_id": "yom_07508_00859742057",
+      "speaker_id": "yom_07508",
+      "audio_sha256": "e28c3a9c10a43b7db082aef37b9662ae40afb144c3c194bb83d847f68f9abbc0",
+      "ratings": {},
+      "issue_tags": [],
+      "notes": "",
+      "problematic_time_intervals": [],
+      "annotation_timestamp": null,
+      "review_status": "not_reviewed"
+    }
+  }
+]

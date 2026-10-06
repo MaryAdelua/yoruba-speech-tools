@@ -1,0 +1,300 @@
+{
+  "reference": {
+    "reference_text": "ó ní ọ̀sán márùn-ún",
+    "reference_source": "User-supplied intended lexical form; not a claim of correct acoustic realization",
+    "observed_transcript_status": "Native listener recognizes the intended utterance; exact segmental and tonal realization is not certified",
+    "human_annotation": "As a native Yorùbá speaker, I perceive the entire AI-generated utterance as unnatural. The entire utterance has an unusually nasal/nasalized quality, not merely the final word. The tonal/melodic realization sounds unnatural for Yorùbá. Some consonant/nasal portions appear unusually prominent or lengthened. Although the lexical content is recognizable, recognizable/correct text must NOT be treated as evidence of correct pronunciation.",
+    "human_annotation_scope": "Entire utterance; native-listener perception, not an acoustically proven diagnosis. Specific time intervals and annotator confidence have not been supplied.",
+    "human_annotation_history": [
+      {
+        "status": "superseded_by_scope_clarification",
+        "text": "Native listener reports unnatural tonal/melodic realization and unusually prominent/lengthened n-like or nasal realization.",
+        "scope": "Earlier summary emphasized o ni and márùn-ún; do not interpret as limiting the observation to those portions."
+      }
+    ],
+    "boundary_status": "PROPOSED_REQUIRES_NATIVE_REVIEW",
+    "boundary_method": "Existing unverified local CTC token events plus waveform/spectral envelope; events are anchors, not phoneme boundaries. No duration normalization.",
+    "reference_units": [
+      {
+        "word": "ó",
+        "syllable": "ó",
+        "start_s": 0.8,
+        "end_s": 0.94,
+        "basis": "Provisional speech onset; existing o event at 0.84 s; n event at 0.94 s"
+      },
+      {
+        "word": "ní",
+        "syllable": "ní",
+        "start_s": 0.94,
+        "end_s": 1.12,
+        "basis": "Existing n/i events at 0.94/1.00 s; next o event at 1.12 s"
+      },
+      {
+        "word": "ọ̀sán",
+        "syllable": "ọ̀",
+        "start_s": 1.12,
+        "end_s": 1.22,
+        "basis": "Existing o event at 1.12 s and s event at 1.22 s"
+      },
+      {
+        "word": "ọ̀sán",
+        "syllable": "sán",
+        "start_s": 1.22,
+        "end_s": 1.46,
+        "basis": "Existing s/a/n events at 1.22/1.30/1.36 s; m event at 1.46 s; nasal duration not isolated"
+      },
+      {
+        "word": "márùn-ún",
+        "syllable": "má",
+        "start_s": 1.46,
+        "end_s": 1.64,
+        "basis": "Existing m/a events at 1.46/1.54 s; r event at 1.64 s"
+      },
+      {
+        "word": "márùn-ún",
+        "syllable": "rùn",
+        "start_s": 1.64,
+        "end_s": 1.78,
+        "basis": "r/u events at 1.64/1.72 s; end at 1.78 s is a review placeholder, not a detected syllable boundary",
+        "special_flag": "FINAL_NASAL_SEQUENCE_UNRESOLVED"
+      },
+      {
+        "word": "márùn-ún",
+        "syllable": "ún",
+        "start_s": 1.78,
+        "end_s": 1.9,
+        "basis": "Start at 1.78 s is a review placeholder; n event at 1.82 s does not prove a separate consonant or vowel nucleus; end from speech envelope",
+        "special_flag": "FINAL_NASAL_SEQUENCE_UNRESOLVED"
+      }
+    ]
+  },
+  "alignment_status": "SUPERVISED_REVIEW_DRAFT_NOT_CONFIRMED",
+  "source_audio": {
+    "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\voice_eval\\incoming\\assistant.wav",
+    "sha256": "a25a12c361c861f3795d8378ecdfcf0d8c2bbc4b6e6e96b8bdbc58a28927845b",
+    "unchanged": true
+  },
+  "measurement_source": {
+    "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\voice_eval\\measurement-validation-002\\comparison_frames.csv",
+    "sha256": "36118bf8e784ddb63d4b19e073db29105e560ce1228ec513a8d83c998a98bdb2"
+  },
+  "normalization": {
+    "equation": "12*log2(F0/estimator_full_clip_voiced_median)",
+    "pyin_baseline_hz": 99.09230651162453,
+    "praat_baseline_hz": 100.49211895725202,
+    "caution": "Separate medians can hide systematic offsets; disagreement uses raw frequency ratio instead."
+  },
+  "dimensions": {
+    "lexical_tone_accuracy": "Independent dimension; no automatic correctness finding from human perception or other dimensions.",
+    "segmental_pronunciation": "Independent dimension; no automatic correctness finding from human perception or other dimensions.",
+    "prosody_intonation": "Independent dimension; no automatic correctness finding from human perception or other dimensions.",
+    "fluency_rhythm": "Independent dimension; no automatic correctness finding from human perception or other dimensions.",
+    "semantic_content_correctness": "Independent dimension; no automatic correctness finding from human perception or other dimensions."
+  },
+  "syllables": [
+    {
+      "unit_id": 1,
+      "word": "ó",
+      "reference_syllable": "ó",
+      "expected_reference_tone": "H",
+      "tone_source": "orthographic marks in user-supplied reference; no surface-tone inference",
+      "start_s": 0.8,
+      "end_s": 0.94,
+      "duration_s": 0.14,
+      "boundary_status": "PROPOSED_REQUIRES_NATIVE_REVIEW",
+      "boundary_basis": "Provisional speech onset; existing o event at 0.84 s; n event at 0.94 s",
+      "flags": "BOUNDARY_UNVERIFIED|NOT_VERIFIED_NUCLEUS_INTERVAL|LOW_PYIN_PROBABILITY",
+      "pyin_voiced_frames": 14,
+      "pyin_median_hz": 124.12940850835416,
+      "pyin_min_hz": 116.48775344855382,
+      "pyin_max_hz": 124.84848285663055,
+      "pyin_median_relative_semitones": 3.9000000000000004,
+      "praat_voiced_frames": 13,
+      "praat_median_hz": 124.60430255312983,
+      "praat_min_hz": 116.34541160295042,
+      "praat_max_hz": 125.25460589890693,
+      "praat_median_relative_semitones": 3.7232582624483874,
+      "paired_within_half_semitone_frames": 11
+    },
+    {
+      "unit_id": 2,
+      "word": "ní",
+      "reference_syllable": "ní",
+      "expected_reference_tone": "H",
+      "tone_source": "orthographic marks in user-supplied reference; no surface-tone inference",
+      "start_s": 0.94,
+      "end_s": 1.12,
+      "duration_s": 0.18,
+      "boundary_status": "PROPOSED_REQUIRES_NATIVE_REVIEW",
+      "boundary_basis": "Existing n/i events at 0.94/1.00 s; next o event at 1.12 s",
+      "flags": "BOUNDARY_UNVERIFIED|NOT_VERIFIED_NUCLEUS_INTERVAL|LOW_PYIN_PROBABILITY",
+      "pyin_voiced_frames": 17,
+      "pyin_median_hz": 134.5844400993791,
+      "pyin_min_hz": 124.84848285663055,
+      "pyin_max_hz": 134.5844400993791,
+      "pyin_median_relative_semitones": 5.300000000000002,
+      "praat_voiced_frames": 15,
+      "praat_median_hz": 133.95419611339662,
+      "praat_min_hz": 122.22970793365087,
+      "praat_max_hz": 135.4057007179366,
+      "praat_median_relative_semitones": 4.975888932804254,
+      "paired_within_half_semitone_frames": 13
+    },
+    {
+      "unit_id": 3,
+      "word": "ọ̀sán",
+      "reference_syllable": "ọ̀",
+      "expected_reference_tone": "L",
+      "tone_source": "orthographic marks in user-supplied reference; no surface-tone inference",
+      "start_s": 1.12,
+      "end_s": 1.22,
+      "duration_s": 0.1,
+      "boundary_status": "PROPOSED_REQUIRES_NATIVE_REVIEW",
+      "boundary_basis": "Existing o event at 1.12 s and s event at 1.22 s",
+      "flags": "BOUNDARY_UNVERIFIED|NOT_VERIFIED_NUCLEUS_INTERVAL|LOW_PYIN_PROBABILITY",
+      "pyin_voiced_frames": 6,
+      "pyin_median_hz": 120.59568520237023,
+      "pyin_min_hz": 118.52392351256819,
+      "pyin_max_hz": 126.29915234996876,
+      "pyin_median_relative_semitones": 3.4000000000000004,
+      "praat_voiced_frames": 4,
+      "praat_median_hz": 118.76215637808122,
+      "praat_min_hz": 115.76801800055128,
+      "praat_max_hz": 120.70072961112508,
+      "praat_median_relative_semitones": 2.8911200768540883,
+      "paired_within_half_semitone_frames": 2
+    },
+    {
+      "unit_id": 4,
+      "word": "ọ̀sán",
+      "reference_syllable": "sán",
+      "expected_reference_tone": "H",
+      "tone_source": "orthographic marks in user-supplied reference; no surface-tone inference",
+      "start_s": 1.22,
+      "end_s": 1.46,
+      "duration_s": 0.24,
+      "boundary_status": "PROPOSED_REQUIRES_NATIVE_REVIEW",
+      "boundary_basis": "Existing s/a/n events at 1.22/1.30/1.36 s; m event at 1.46 s; nasal duration not isolated",
+      "flags": "BOUNDARY_UNVERIFIED|NOT_VERIFIED_NUCLEUS_INTERVAL|LOW_PYIN_PROBABILITY",
+      "pyin_voiced_frames": 16,
+      "pyin_median_hz": 88.28120884877589,
+      "pyin_min_hz": 85.27402678843417,
+      "pyin_max_hz": 105.59281152631061,
+      "pyin_median_relative_semitones": -2.0000000000000004,
+      "praat_voiced_frames": 13,
+      "praat_median_hz": 85.66457751745037,
+      "praat_min_hz": 84.8849840918814,
+      "praat_max_hz": 91.42923761428507,
+      "praat_median_relative_semitones": -2.7637402547420535,
+      "paired_within_half_semitone_frames": 8
+    },
+    {
+      "unit_id": 5,
+      "word": "márùn-ún",
+      "reference_syllable": "má",
+      "expected_reference_tone": "H",
+      "tone_source": "orthographic marks in user-supplied reference; no surface-tone inference",
+      "start_s": 1.46,
+      "end_s": 1.64,
+      "duration_s": 0.18,
+      "boundary_status": "PROPOSED_REQUIRES_NATIVE_REVIEW",
+      "boundary_basis": "Existing m/a events at 1.46/1.54 s; r event at 1.64 s",
+      "flags": "BOUNDARY_UNVERIFIED|NOT_VERIFIED_NUCLEUS_INTERVAL|LOW_PYIN_PROBABILITY",
+      "pyin_voiced_frames": 18,
+      "pyin_median_hz": 98.8069416674002,
+      "pyin_min_hz": 97.3899599969843,
+      "pyin_max_hz": 101.99593272657759,
+      "pyin_median_relative_semitones": -0.05000000000000129,
+      "praat_voiced_frames": 18,
+      "praat_median_hz": 98.82048222916285,
+      "praat_min_hz": 93.13833358573852,
+      "praat_max_hz": 102.3572910230466,
+      "praat_median_relative_semitones": -0.29043089089427804,
+      "paired_within_half_semitone_frames": 17
+    },
+    {
+      "unit_id": 6,
+      "word": "márùn-ún",
+      "reference_syllable": "rùn",
+      "expected_reference_tone": "L",
+      "tone_source": "orthographic marks in user-supplied reference; no surface-tone inference",
+      "start_s": 1.64,
+      "end_s": 1.78,
+      "duration_s": 0.14,
+      "boundary_status": "PROPOSED_REQUIRES_NATIVE_REVIEW",
+      "boundary_basis": "r/u events at 1.64/1.72 s; end at 1.78 s is a review placeholder, not a detected syllable boundary",
+      "flags": "BOUNDARY_UNVERIFIED|NOT_VERIFIED_NUCLEUS_INTERVAL|LOW_PYIN_PROBABILITY|FINAL_NASAL_SEQUENCE_UNRESOLVED",
+      "pyin_voiced_frames": 14,
+      "pyin_median_hz": 99.66800508157033,
+      "pyin_min_hz": 87.77274650093236,
+      "pyin_max_hz": 101.99593272657759,
+      "pyin_median_relative_semitones": 0.09999999999999844,
+      "praat_voiced_frames": 14,
+      "praat_median_hz": 95.74140365564736,
+      "praat_min_hz": 85.74110715196483,
+      "praat_max_hz": 101.84283439436975,
+      "praat_median_relative_semitones": -0.8386947388534604,
+      "paired_within_half_semitone_frames": 8
+    },
+    {
+      "unit_id": 7,
+      "word": "márùn-ún",
+      "reference_syllable": "ún",
+      "expected_reference_tone": "H",
+      "tone_source": "orthographic marks in user-supplied reference; no surface-tone inference",
+      "start_s": 1.78,
+      "end_s": 1.9,
+      "duration_s": 0.12,
+      "boundary_status": "PROPOSED_REQUIRES_NATIVE_REVIEW",
+      "boundary_basis": "Start at 1.78 s is a review placeholder; n event at 1.82 s does not prove a separate consonant or vowel nucleus; end from speech envelope",
+      "flags": "BOUNDARY_UNVERIFIED|NOT_VERIFIED_NUCLEUS_INTERVAL|LOW_PYIN_PROBABILITY|FINAL_NASAL_SEQUENCE_UNRESOLVED",
+      "pyin_voiced_frames": 10,
+      "pyin_median_hz": 79.56878961189383,
+      "pyin_min_hz": 68.8651011333542,
+      "pyin_max_hz": 85.76801420023813,
+      "pyin_median_relative_semitones": -3.799999999999999,
+      "praat_voiced_frames": 6,
+      "praat_median_hz": 78.77382108452431,
+      "praat_min_hz": 70.47394839695076,
+      "praat_max_hz": 84.37997770496209,
+      "praat_median_relative_semitones": -4.216736139818137,
+      "paired_within_half_semitone_frames": 2
+    }
+  ],
+  "scores": {
+    "lexical_tone_accuracy": {
+      "status": "UNSCORED",
+      "score": null,
+      "reason": "No validated scoring method."
+    },
+    "pronunciation_accuracy": {
+      "status": "UNSCORED",
+      "score": null,
+      "reason": "No validated scoring method."
+    },
+    "prosody": {
+      "status": "UNSCORED",
+      "score": null,
+      "reason": "No validated scoring method."
+    },
+    "fluency": {
+      "status": "UNSCORED",
+      "score": null,
+      "reason": "No validated scoring method."
+    },
+    "overall_speech": {
+      "status": "UNSCORED",
+      "score": null,
+      "reason": "No validated scoring method."
+    }
+  },
+  "limitations": [
+    "Syllables are reference hypotheses, not proof of separate realized syllables.",
+    "Final rùn/ún division at 1.78 s is a review placeholder; no independent acoustic boundary established.",
+    "Statistics include all available estimator outputs in each center-time interval; not a set of certified reliable frames.",
+    "Estimator agreement is descriptive, not proof of accuracy. Frame-level flags remain intact.",
+    "Frames span proposed boundaries: pYIN window 85.33 ms; Praat effective window about 46.15 ms.",
+    "No measurements of nasal duration, phoneme identity, or lexical-tone correctness are inferred."
+  ],
+  "annotation_schema_example": "evaluation/voice_interactions/supervised_example_001.json"
+}

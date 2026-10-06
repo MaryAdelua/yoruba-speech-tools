@@ -1,0 +1,7 @@
+{
+  "status": "USER_APPROVED",
+  "scope": "Exactly six source texts, two independent generations per sentence with fixed available configuration; no training or correctness scores",
+  "proposal_sha256": "349ea2611a9520509b05bb4f2f510e9d6ec8c5b94e41b00c21d6bccdb4aef31f",
+  "natural_reference_interpretation": "Clean paired reference items, not perfect or exclusive definitions of correct Yoruba pronunciation.",
+  "configuration_selection": "Existing API access; pinned available TTS snapshot and one fixed built-in coral voice. Existing MMS experiment config found but no runnable local model installation. Not an exhaustive voice catalog sweep."
+}

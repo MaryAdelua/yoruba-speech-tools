@@ -1,0 +1,56 @@
+SLR86 PILOT ACQUISITION REPORT
+
+Result: 120/120 acquired, 12 speakers, 10 clips each. Seed 860120.
+Six speakers from each released gender group; 60 clips per group.
+Only selected ZIP members acquired through verified HTTP 206 ranges. No full archives downloaded.
+Selected compressed audio: 29,265,521 bytes (metadata/range overhead additional).
+Original extracted audio: 44,209,312 bytes (44.21 MB decimal).
+Duration: 460.458667 seconds (7 minutes 40.46 seconds).
+Clip minimum / median / mean / maximum: 1.450667 / 3.584 / 3.837156 / 9.386667 seconds.
+Audio format: mono 48,000 Hz PCM 16-bit WAV.
+Failed clips: 0. Missing clips: 0.
+
+SOURCE
+https://www.openslr.org/86/
+Official mirror https://openslr.trmal.net/resources/86/
+CC BY-SA 4.0. Both archive licenses match the separately published LICENSE.
+Original metadata, annotation legend, HTTP provenance and hashes are retained.
+Female archive 462,033,045 bytes; male archive 445,032,517 bytes; neither fetched in full.
+Speaker IDs are extracted from released FileID prefixes; no personal identities inferred.
+
+COVERAGE / TEXT QUALITY
+1,720 written vowel units: 1,081 explicitly tone-marked (62.85%), 639 unmarked.
+This percentage is NOT tone-mark completeness or tone accuracy. Unmarked vowels
+may be mid tone or missing annotation. No tones were restored.
+e:144, ẹ:174, o:204, ọ:210. Nasal vowel spelling candidates:217;
+nasal consonant spelling candidates:221. These are orthographic proxies only.
+463 distinct written words; 337 heuristic syllable forms, not gold phonemes.
+All selected text already NFC; no replacement characters or conflicting acute/grave
+marks in the pilot. Whole source indexes contain four conflicting vowel units.
+Two selected items require unusual-underdot review:
+yof_09697_01759056954 contains ụ; yom_01523_01656064431 contains ạ.
+Source text remains unchanged. Human listening/transcript confirmation is pending.
+Retained tags:27 snap,13 breath,1 hesitation. Abrupt/external excluded before sampling.
+Source legend says 1306 annotations; its subtotals and actual indexes give 1307.
+
+VALIDATION / READINESS
+All 120 pass source-ID/speaker/transcript matching, ZIP CRC32 and SHA256 checks,
+full finite audio decoding, duration/format checks, and natural_reference schema validation.
+Filename/index pairing does not establish linguistic accuracy by listening.
+Six importer/schema unit tests passed. Existing assistant.wav SHA256 unchanged.
+All 120 acoustic bridge dry-run jobs validated. No acoustic extraction was run here.
+Ready for descriptive acoustic feature extraction, with transcript review still required
+before lexical-tone ground truth. All scoring dimensions remain UNSCORED.
+No model training, final multidimensional evaluation or AI generation occurred.
+
+FILES (relative to this directory)
+pilot_manifest.csv / pilot_manifest.jsonl: exact deterministic 120-item selection
+natural_reference.jsonl: 120 imported schema records
+transcript_quality.json: source/pilot diacritic statistics
+coverage.json: speaker, duration, orthographic coverage and syllable inventory
+validation_report.json: independent validation and transcript review flags
+audio_validation.json: per-clip hashes, durations and format
+acquisition.json: acquisition totals, missing/failure status
+acoustic_jobs.jsonl: validated descriptive extraction plan
+audio/: source-preserved WAVs
+metadata/: original source metadata, archive inventories and transfer logs

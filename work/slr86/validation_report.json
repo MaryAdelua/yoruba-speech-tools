@@ -1,0 +1,128 @@
+{
+  "status": "PASS",
+  "records": 120,
+  "speakers": {
+    "yof_01208": 10,
+    "yof_02121": 10,
+    "yof_02436": 10,
+    "yof_04310": 10,
+    "yof_06136": 10,
+    "yof_09697": 10,
+    "yom_00295": 10,
+    "yom_01208": 10,
+    "yom_01523": 10,
+    "yom_07049": 10,
+    "yom_07508": 10,
+    "yom_08421": 10
+  },
+  "schema_valid": true,
+  "full_decode_valid": true,
+  "crc_and_sha256_valid": true,
+  "deterministic_selection_valid": true,
+  "all_assessments_unscored": true,
+  "format": "mono 48000 Hz PCM_16 WAV",
+  "duration_s": {
+    "total": 460.45866666666666,
+    "min": 1.4506666666666668,
+    "max": 9.386666666666667,
+    "median": 3.584,
+    "mean": 3.8371555555555554
+  },
+  "audio_bytes": 44209312,
+  "linguistic_pairing": "source metadata only; not listening verified",
+  "unusual_transcript_review_items": [
+    {
+      "source_item_id": "yof_00295_01218799887",
+      "selected": false,
+      "transcript_original": "Kí ló dé tí àwọn kan ma ń bínú tí wọ́n bá̀ ṣàpèjúwe wọn gẹ́gẹ́ bí i è̀nìyàn sísanra?",
+      "unusual_vowels": {},
+      "conflicting_tone_units": 1,
+      "action": "human_review_no_automatic_repair"
+    },
+    {
+      "source_item_id": "yof_07049_01210522679",
+      "selected": false,
+      "transcript_original": "Ẹsẹ̀ àga náà ti kạ́n.",
+      "unusual_vowels": {
+        "ạ": 1
+      },
+      "conflicting_tone_units": 0,
+      "action": "human_review_no_automatic_repair"
+    },
+    {
+      "source_item_id": "yof_07049_01848488355",
+      "selected": false,
+      "transcript_original": "[breath] Ní ọ̀nà àkókó, wọn ò lè ní ạ̀wọn onígbá ti wá.",
+      "unusual_vowels": {
+        "ạ": 1
+      },
+      "conflicting_tone_units": 0,
+      "action": "human_review_no_automatic_repair"
+    },
+    {
+      "source_item_id": "yof_09697_01759056954",
+      "selected": true,
+      "transcript_original": "[snap] Ẹ máa sọ̀dí wùkẹ́wụ̀kẹ́.",
+      "unusual_vowels": {
+        "ụ": 1
+      },
+      "conflicting_tone_units": 0,
+      "action": "human_review_no_automatic_repair"
+    },
+    {
+      "source_item_id": "yom_07049_00404981893",
+      "selected": false,
+      "transcript_original": "Ẹsẹ̀ àga náà ti kạ́n.",
+      "unusual_vowels": {
+        "ạ": 1
+      },
+      "conflicting_tone_units": 0,
+      "action": "human_review_no_automatic_repair"
+    },
+    {
+      "source_item_id": "yom_00610_01866214145",
+      "selected": false,
+      "transcript_original": "Nínú̀ ẹ̀wọ̀n ọdún méjìlá tí wọ́n dá fún Tájù, ọdún mẹ́wàá ló lò níbẹ̀.",
+      "unusual_vowels": {},
+      "conflicting_tone_units": 1,
+      "action": "human_review_no_automatic_repair"
+    },
+    {
+      "source_item_id": "yom_01523_01171270749",
+      "selected": false,
+      "transcript_original": "[breath] Ìkejà ò jì́nà sí Ọ̀pẹ̀bí.",
+      "unusual_vowels": {},
+      "conflicting_tone_units": 1,
+      "action": "human_review_no_automatic_repair"
+    },
+    {
+      "source_item_id": "yom_01523_00380071467",
+      "selected": false,
+      "transcript_original": "[breath] [snap] Kí ló dé tí àwọn kan ma ń bínú tí wọ́n bá̀ ṣàpèjú wọn gẹ́gẹ́ bí i ènìyàn sísanra?",
+      "unusual_vowels": {},
+      "conflicting_tone_units": 1,
+      "action": "human_review_no_automatic_repair"
+    },
+    {
+      "source_item_id": "yom_01523_01656064431",
+      "selected": true,
+      "transcript_original": "Ní ọ̀nà àkọ́kọ́, wọn ò lè ní ạ̀wọn ò ní gba ti wa. [snap]",
+      "unusual_vowels": {
+        "ạ": 1
+      },
+      "conflicting_tone_units": 0,
+      "action": "human_review_no_automatic_repair"
+    },
+    {
+      "source_item_id": "yom_06136_00227150227",
+      "selected": false,
+      "transcript_original": "[snap] Ẹ máa sọ̀dí wùkẹ̀wụ̀kẹ̀.",
+      "unusual_vowels": {
+        "ụ": 1
+      },
+      "conflicting_tone_units": 0,
+      "action": "human_review_no_automatic_repair"
+    }
+  ],
+  "legend_discrepancy": "Legend says 1306; its 682+625 and released-index tag counts sum to 1307."
+}

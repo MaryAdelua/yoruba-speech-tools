@@ -1,0 +1,14 @@
+{
+  "revision_id": "interpretation_revision_002",
+  "supersedes_model_level_observation": "work\\slr86\\cross-model-comparison-001\\human_style_observation.json",
+  "original_sha256": "db7239edda4966f2244209f2d78e941d3dd237b458f20ea01a1c2ef911b6a0b2",
+  "status": "WITHDRAWN_AS_MODEL_LEVEL_FINDING",
+  "user_correction": "The calmer / less loud impression may concern one take, not Realtime generally.",
+  "clip_id": null,
+  "clip_identification_status": "UNRESOLVED: user has not identified the take; do not guess",
+  "provisional_clip_observation": null,
+  "use_as_target_variable": false,
+  "use_as_model_conclusion": false,
+  "objective_acoustic_findings": "UNCHANGED",
+  "previous_artifacts": "Preserved as audit history; this interpretation amendment takes precedence."
+}

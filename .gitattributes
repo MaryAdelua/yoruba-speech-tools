@@ -1,2 +1,6 @@
 # Preserve downloaded source bytes for provenance checksums.
 data/sources/slr86/* -text
+
+# Research snapshot byte fidelity, including review/export checksums.
+work/slr86/** -text
+work/voice_eval/** -text

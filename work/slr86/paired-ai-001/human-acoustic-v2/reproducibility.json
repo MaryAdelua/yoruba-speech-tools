@@ -1,0 +1,151 @@
+{
+  "script_snapshots": [
+    {
+      "path": "scripts/explore_human_acoustics.py",
+      "sha256": "2361dd02cad10a5f6351bab01093bae7e19e681e8015f3a309802db28ea0ae2e",
+      "snapshot": "scripts__explore_human_acoustics.py"
+    },
+    {
+      "path": "scripts/generate_paired_ai.py",
+      "sha256": "6e54b741b48d29b73d3ced2eb33107e3feae11162661fd74c10c9b73e094efd5",
+      "snapshot": "scripts__generate_paired_ai.py"
+    },
+    {
+      "path": "scripts/analyze_paired_ai.py",
+      "sha256": "0fe019e83c489e6d39148ecafae588e18cca238cb14f816b1a318ee5743eacd5",
+      "snapshot": "scripts__analyze_paired_ai.py"
+    },
+    {
+      "path": "scripts/validate_acoustic_measurements.py",
+      "sha256": "6a14c4e7352888c858ca6708ac6c3f28fcb6f82defb6b0d60b63f30095dca2d9",
+      "snapshot": "scripts__validate_acoustic_measurements.py"
+    },
+    {
+      "path": "scripts/build_natural_baseline.py",
+      "sha256": "6ab778c443b7283092da6ac43fc1174ff40acb3a2ad5952a3892250038527dbf",
+      "snapshot": "scripts__build_natural_baseline.py"
+    },
+    {
+      "path": "scripts/audit_natural_baseline.py",
+      "sha256": "a72dd8fc2542dd679240920854b430e9b3683a939d08217f2e3fd0d53899fabc",
+      "snapshot": "scripts__audit_natural_baseline.py"
+    },
+    {
+      "path": "src/acoustic_analysis.py",
+      "sha256": "392043c12f7fc320e4cbb8e93f812a4f4475e25db9602a0dd0df9c98afcb7a67",
+      "snapshot": "src__acoustic_analysis.py"
+    }
+  ],
+  "git_head": "60f4dd1b1ce2a6a6a868cf7d066e983a33f7dcd9",
+  "git_note": "Working files may be uncommitted; copied scripts and hashes are authoritative.",
+  "packages": {
+    "numpy": "2.5.3",
+    "librosa": "0.11.0",
+    "praat-parselmouth": "0.4.7",
+    "soundfile": "0.13.1",
+    "matplotlib": "3.10.7"
+  },
+  "input_artifacts": [
+    {
+      "path": "C:\\Users\\adelu\\Downloads\\paired_native_listener_review_v2.json",
+      "sha256": "0347f731fc508c5f7895c7e6fa9038474ed4e1328fb637bad7520c95c9aa3961"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\paired_comparisons.json",
+      "sha256": "41abf7f9a51adf37f150411a287a8b7ce9df8e2d9da0591b51615c1823c2ec9d"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\review_form_definition.json",
+      "sha256": "d5f75c57b8c14861866084c36717e734ff84b30025b830cc7241d386bf605725"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\generation_manifest.json",
+      "sha256": "cdddfb03492616941a2d5095e69bca2ec1910c0a48ad45add149943d4e0a1e84"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\natural-baseline-001\\clips\\yof_01208_01850003899\\raw.json",
+      "sha256": "2664e47ce2aadf525dec77142ec4b48b271b1b1111d0788af0df97c946e97362"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\measurements\\p01_coral_r01\\raw.json",
+      "sha256": "6ebefa258156f01547de6fcee6caaa7edf3e3b00b9235186017b0d8a5f8d262c"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\measurements\\p01_coral_r02\\raw.json",
+      "sha256": "59c019ab846be7f00918624d3faee68c945d03dd0cb44c6eadf8f51d9cbe7612"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\natural-baseline-001\\clips\\yof_02436_02038636916\\raw.json",
+      "sha256": "b22575ee9e16282c089d3994cb242a05ecf48e845259773c309cc4997752782c"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\measurements\\p02_coral_r01\\raw.json",
+      "sha256": "3b6f343fcda140eedf2e2dc04446d5b69b2898db9911c99d5b6e14ec0718afb1"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\measurements\\p02_coral_r02\\raw.json",
+      "sha256": "586cb7d1b6843844b36ce7147df6f98cb7643fa1dcf59f7120055dfdad40706d"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\natural-baseline-001\\clips\\yof_02121_01178327964\\raw.json",
+      "sha256": "cd035f53380265da5a95a7a3e55bc13e674456bd002906f5d90ae63d4c3aff61"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\measurements\\p03_coral_r01\\raw.json",
+      "sha256": "22146397848616d535bf85708ed2f1921c85c3261fa4ce1d462d5fab0620b5e8"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\measurements\\p03_coral_r02\\raw.json",
+      "sha256": "39f680c48cd3cc59b50f0bf34098d6e860a99f4a5448ca8e51e9e5da899f18ef"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\natural-baseline-001\\clips\\yof_09697_01103354325\\raw.json",
+      "sha256": "b8375fb6a5f2dc952cb602c1e6970dd2ed8b5d7f50533a78d506000e0836180b"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\measurements\\p04_coral_r01\\raw.json",
+      "sha256": "2943b201d5692b3d6704c51f79df152aeabe28b66f229ba1e0934746928f371f"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\measurements\\p04_coral_r02\\raw.json",
+      "sha256": "e49c049cc7710eec264ce481d41c79c2d747215b580b4cd7de866d6fbb74814b"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\natural-baseline-001\\clips\\yom_00295_01260038205\\raw.json",
+      "sha256": "e93416f680f3b11e23b74c14a468d11bbbfe5c5b8d5eab7f51ac0f19bd89f0cb"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\measurements\\p05_coral_r01\\raw.json",
+      "sha256": "bc914ef5a4e047de8c8c9c858b07a5bb33a6866b4a9aca0a2aa73c066ffc156a"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\measurements\\p05_coral_r02\\raw.json",
+      "sha256": "0fa6ee90260da1480b437f11d88b5c27f46675fedbbc039f171d843e5ef2e5ba"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\natural-baseline-001\\clips\\yom_07508_00859742057\\raw.json",
+      "sha256": "c5df8dd13fb8bc76004f3c376b3a6b8f88333837d2d3786a3e8f09f4b0680147"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\measurements\\p06_coral_r01\\raw.json",
+      "sha256": "9e1ce7af39b4f53e905ec11cff52279300eca19f1e6596446295e06bbee09073"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\measurements\\p06_coral_r02\\raw.json",
+      "sha256": "d3353644b7e56250cb255cd7b9bcec6830ef96cbfe4354d69127488bf01e6627"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\natural-baseline-001\\qc-ingest-v2\\qc_review_joined.json",
+      "sha256": "57d25cb0d1b2d502e9efeb1b7db1df33147749c43d0ab754def8b6f5e15caf45"
+    }
+  ],
+  "generated_at": "2026-10-03T03:19:31.236999+00:00",
+  "config": {
+    "version": "human-acoustic-exploration-1.0",
+    "temporal_bins": 10,
+    "contour_method": "Median own-utterance-relative pYIN F0 in 10 equal fractional-duration bins; no interpolation. Compare only bins with voiced estimates in both clips. This is not syllable alignment or tone error.",
+    "screen_method": "Existing agreement_screen_pass mask from baseline; compare same-bin medians using original unfiltered utterance F0 normalization. May be sparse or biased.",
+    "group_summary": "Per-dimension category counts and feature medians/ranges only; no correlations, p-values, fitted model or aggregate rating. No nasality/acoustic association attempted.",
+    "dependencies": "Six sentences, two repeated generations each; not twelve independent linguistic items. One listener; low confidence retained, not reinterpreted."
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "source_id": "yom_08421_01106977022",
+  "speaker_id": "yom_08421",
+  "duration_s": 9.386666666666667,
+  "peak_amplitude": 0.605255126953125,
+  "whole_clip_rms_dbfs": -22.356818076848874,
+  "digital_rail_samples": 0,
+  "all_zero": false,
+  "finite": true,
+  "voiced_runs": [
+    {
+      "start_s": 1.0350000000000001,
+      "end_s": 1.3450000000000002,
+      "duration_s": 0.31000000000000005
+    },
+    {
+      "start_s": 1.3550000000000002,
+      "end_s": 1.985,
+      "duration_s": 0.6299999999999999
+    },
+    {
+      "start_s": 2.055,
+      "end_s": 2.515,
+      "duration_s": 0.45999999999999996
+    },
+    {
+      "start_s": 2.605,
+      "end_s": 3.085,
+      "duration_s": 0.48
+    },
+    {
+      "start_s": 3.555,
+      "end_s": 3.875,
+      "duration_s": 0.31999999999999984
+    },
+    {
+      "start_s": 3.955,
+      "end_s": 4.1450000000000005,
+      "duration_s": 0.1900000000000004
+    },
+    {
+      "start_s": 4.265,
+      "end_s": 5.055,
+      "duration_s": 0.79
+    },
+    {
+      "start_s": 5.115,
+      "end_s": 5.275,
+      "duration_s": 0.16000000000000014
+    },
+    {
+      "start_s": 5.325,
+      "end_s": 5.545,
+      "duration_s": 0.21999999999999975
+    },
+    {
+      "start_s": 5.6450000000000005,
+      "end_s": 5.905,
+      "duration_s": 0.2599999999999998
+    },
+    {
+      "start_s": 6.085,
+      "end_s": 6.315,
+      "duration_s": 0.23000000000000043
+    },
+    {
+      "start_s": 6.375,
+      "end_s": 6.955,
+      "duration_s": 0.5800000000000001
+    },
+    {
+      "start_s": 7.105,
+      "end_s": 7.285,
+      "duration_s": 0.17999999999999972
+    },
+    {
+      "start_s": 7.305,
+      "end_s": 7.705,
+      "duration_s": 0.40000000000000036
+    },
+    {
+      "start_s": 7.7250000000000005,
+      "end_s": 8.055,
+      "duration_s": 0.3299999999999992
+    },
+    {
+      "start_s": 8.135,
+      "end_s": 9.084999999999999,
+      "duration_s": 0.9499999999999993
+    }
+  ],
+  "voiced_run_duration_s": {
+    "n": 16,
+    "min": 0.16000000000000014,
+    "p05": 0.17499999999999982,
+    "p25": 0.22750000000000026,
+    "median": 0.3249999999999995,
+    "p75": 0.505,
+    "p95": 0.8299999999999998,
+    "max": 0.9499999999999993,
+    "sd": 0.2235779715781498
+  },
+  "timing_interpretation": "pYIN frame-cell runs, half-hop edges, not syllables or verified speech boundaries. Window 85.33 ms; hop 10 ms."
+}

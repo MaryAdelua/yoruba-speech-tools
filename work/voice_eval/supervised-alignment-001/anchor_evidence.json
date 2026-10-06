@@ -1,0 +1,43 @@
+{
+  "source_path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\work\\yoruba_test_001_local_asr.json",
+  "sha256": "7642107ef7bfdffe2c139864af50f5755a4094eadd138b42f7e11d3b41d1d4cb",
+  "original_record": {
+    "start": 12,
+    "end": 20.8,
+    "text": "oníos an marún",
+    "tokens": [
+      "o",
+      "n",
+      "í",
+      "o",
+      "s",
+      " ",
+      "a",
+      "n",
+      " ",
+      "m",
+      "a",
+      "r",
+      "ú",
+      "n"
+    ],
+    "times": [
+      13.44,
+      13.54,
+      13.6,
+      13.72,
+      13.82,
+      13.86,
+      13.9,
+      13.96,
+      14.02,
+      14.06,
+      14.14,
+      14.24,
+      14.32,
+      14.42
+    ]
+  },
+  "conversion": "assistant_time = original_time - 12.6",
+  "status": "unverified CTC token events; not phonetic ground truth"
+}

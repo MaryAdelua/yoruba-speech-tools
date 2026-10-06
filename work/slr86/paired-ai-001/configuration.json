@@ -1,0 +1,13 @@
+{
+  "provider": "OpenAI",
+  "model": "gpt-4o-mini-tts-2025-12-15",
+  "voice": "coral",
+  "voice_version": null,
+  "voice_version_status": "not_exposed_by_provider",
+  "response_format": "wav",
+  "speed": 1.0,
+  "instructions": "Read the supplied Yoruba text exactly as written. Do not add, omit, translate, paraphrase, or correct any words.",
+  "seed": null,
+  "seed_status": "not_exposed",
+  "configuration_id": "openai-mini-tts-20251215-coral-v1"
+}

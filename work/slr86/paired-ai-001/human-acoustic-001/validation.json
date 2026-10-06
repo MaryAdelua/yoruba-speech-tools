@@ -1,0 +1,10 @@
+{
+  "joined": 12,
+  "sentences": 6,
+  "source_text_ids_provenance_audio_hashes_verified": true,
+  "original_review_preserved": true,
+  "trained_model": false,
+  "combined_score": false,
+  "new_audio_generated": false,
+  "nasality_acoustic_inference": false
+}

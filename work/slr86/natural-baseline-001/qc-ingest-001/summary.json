@@ -1,0 +1,44 @@
+{
+  "reviewer": "Mary Adelua",
+  "created_at": "2026-10-03T01:20:09.066Z",
+  "input_sha256": "2e95c62d6943f413764c433809eaf161a6d55851cc1ef49967bbefb173bc3187",
+  "validated_ids": 20,
+  "counts": {
+    "cannot determine": 0,
+    "minor uncertainty": 2,
+    "mismatch": 1,
+    "transcript matches audio": 17
+  },
+  "notes_by_issue_type": {
+    "vowel_quality_e_ẹ": [
+      {
+        "source_id": "yof_09697_00099367593",
+        "judgment": "mismatch",
+        "confidence": "high",
+        "verbatim_note": "Final “jẹ” sounds closer to “je” to me; the speaker appears to realize plain e rather than the expected ẹ vowel. Possible e/ẹ vowel-quality mismatch."
+      }
+    ],
+    "consonant_s_ṣ": [
+      {
+        "source_id": "yom_08421_00493295037",
+        "judgment": "minor uncertainty",
+        "confidence": "medium",
+        "verbatim_note": "Expected dotted consonant ṣ, but the speaker sounds closer to plain s. Possible s/ṣ pronunciation mismatch."
+      }
+    ],
+    "source_event_annotation": [
+      {
+        "source_id": "yom_01523_01346428924",
+        "judgment": "minor uncertainty",
+        "confidence": "medium",
+        "verbatim_note": "Source transcript includes [breath], but I do not hear an audible breath or other clear non-speech event before the utterance. Possible source-annotation mismatch."
+      }
+    ],
+    "other": []
+  },
+  "o_ọ_issue_reports": 0,
+  "recurrence": "Each reported issue type occurs once; no repeated specific confusion established in this 20-item sample.",
+  "baseline_policy": "Retain all original 120 audio/measurements as descriptive corpus. Withhold 3 disputed items from clean paired references; keep uncertainty annotations. Two unusual Unicode items also deferred, despite positive listening judgments.",
+  "baseline_recomputed": false,
+  "tone_completeness": "Not separately audited. Do not promote utterance-level match to exhaustive lexical-tone ground truth."
+}

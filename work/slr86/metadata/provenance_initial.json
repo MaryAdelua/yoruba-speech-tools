@@ -1,0 +1,111 @@
+[
+  {
+    "name": "LICENSE",
+    "url": "https://openslr.trmal.net/resources/86/LICENSE",
+    "bytes": 20132,
+    "sha256": "bae5ccc863235f984a52c07d011e48a86c0c12f923be2dedd8624c7abdc22c6c",
+    "headers": {
+      "Date": "Sat, 03 Oct 2026 00:30:31 GMT",
+      "Server": "Apache/2.4.68 (Debian)",
+      "Last-Modified": "Mon, 17 Feb 2020 12:55:42 GMT",
+      "ETag": "\"4ea4-59ec512ae905f\"",
+      "Accept-Ranges": "bytes",
+      "Content-Length": "20132",
+      "Connection": "close"
+    }
+  },
+  {
+    "name": "about.html",
+    "url": "https://openslr.trmal.net/resources/86/about.html",
+    "bytes": 1388,
+    "sha256": "0bf6432a5152fab2441a7c182b5c5c6e303bdfa6169881de0fbd355fbd17a140",
+    "headers": {
+      "Date": "Sat, 03 Oct 2026 00:30:32 GMT",
+      "Server": "Apache/2.4.68 (Debian)",
+      "Last-Modified": "Fri, 02 Feb 2024 08:37:27 GMT",
+      "ETag": "\"56c-6106205a7b729\"",
+      "Accept-Ranges": "bytes",
+      "Content-Length": "1388",
+      "Vary": "Accept-Encoding",
+      "Connection": "close",
+      "Content-Type": "text/html"
+    }
+  },
+  {
+    "name": "line_index_female.tsv",
+    "url": "https://openslr.trmal.net/resources/86/line_index_female.tsv",
+    "bytes": 149920,
+    "sha256": "d729f6b7d748e6aa81454fb3111433fb9c6f3c5f38ff8f5fb5407565ad2beeb0",
+    "headers": {
+      "Date": "Sat, 03 Oct 2026 00:30:33 GMT",
+      "Server": "Apache/2.4.68 (Debian)",
+      "Last-Modified": "Wed, 05 Feb 2020 15:06:32 GMT",
+      "ETag": "\"249a0-59dd580706e00\"",
+      "Accept-Ranges": "bytes",
+      "Content-Length": "149920",
+      "Connection": "close",
+      "Content-Type": "text/tab-separated-values"
+    }
+  },
+  {
+    "name": "line_index_male.tsv",
+    "url": "https://openslr.trmal.net/resources/86/line_index_male.tsv",
+    "bytes": 134722,
+    "sha256": "6948e31498d017c8875d34a962f19a611611c4842383b52e1cea823e889aa2a8",
+    "headers": {
+      "Date": "Sat, 03 Oct 2026 00:30:35 GMT",
+      "Server": "Apache/2.4.68 (Debian)",
+      "Last-Modified": "Wed, 05 Feb 2020 16:05:43 GMT",
+      "ETag": "\"20e42-59dd6541863c0\"",
+      "Accept-Ranges": "bytes",
+      "Content-Length": "134722",
+      "Connection": "close",
+      "Content-Type": "text/tab-separated-values"
+    }
+  },
+  {
+    "name": "annotation_info.txt",
+    "url": "https://openslr.trmal.net/resources/86/annotation_info.txt",
+    "bytes": 2952,
+    "sha256": "b6959c7bcf6d84e8ad270c1f60ffde9c8eae11302f5389d65532ad3311ac7c42",
+    "headers": {
+      "Date": "Sat, 03 Oct 2026 00:30:37 GMT",
+      "Server": "Apache/2.4.68 (Debian)",
+      "Last-Modified": "Fri, 20 Mar 2020 15:03:05 GMT",
+      "ETag": "\"b88-5a14a952735d6\"",
+      "Accept-Ranges": "bytes",
+      "Content-Length": "2952",
+      "Vary": "Accept-Encoding",
+      "Connection": "close",
+      "Content-Type": "text/plain"
+    }
+  },
+  {
+    "name": "yo_ng_female.zip",
+    "url": "https://openslr.trmal.net/resources/86/yo_ng_female.zip",
+    "head": {
+      "Date": "Sat, 03 Oct 2026 00:30:38 GMT",
+      "Server": "Apache/2.4.68 (Debian)",
+      "Last-Modified": "Mon, 17 Feb 2020 12:57:18 GMT",
+      "ETag": "\"1b8a1095-59ec51869fb3a\"",
+      "Accept-Ranges": "bytes",
+      "Content-Length": "462033045",
+      "Connection": "close",
+      "Content-Type": "application/zip"
+    }
+  },
+  {
+    "name": "yo_ng_male.zip",
+    "url": "https://openslr.trmal.net/resources/86/yo_ng_male.zip",
+    "head": {
+      "Date": "Sat, 03 Oct 2026 00:30:38 GMT",
+      "Server": "Apache/2.4.68 (Debian)",
+      "Last-Modified": "Mon, 17 Feb 2020 12:57:26 GMT",
+      "ETag": "\"1a86a845-59ec518e40d71\"",
+      "Accept-Ranges": "bytes",
+      "Content-Length": "445032517",
+      "Connection": "close",
+      "Content-Type": "application/zip"
+    }
+  }
+]

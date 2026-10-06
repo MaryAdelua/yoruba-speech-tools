@@ -1,0 +1,586 @@
+{
+  "schema_version": "p03-word-human-review-1.0",
+  "reviewer": "current user (voice session)",
+  "scope": "Human word-level lexical-tone and segmental-pronunciation judgments; sentence-level dimensions remain separate",
+  "annotations": [
+    {
+      "timestamp": "2026-10-06T03:44:39.189449+00:00",
+      "recording_id": "p03_natural",
+      "word_id": "w02",
+      "written_unit": "kúkú",
+      "audio_sha256": "e1a72497dcc21a8a7a30722055e3e86ebc9073c7e8a571e2933754923dbd73c0",
+      "playback_start_s": 1.185,
+      "playback_end_s": 1.48,
+      "provenance": {
+        "condition": "natural",
+        "source_id": "yof_02121_01178327964",
+        "speaker_id": "yof_02121",
+        "source_definition": {
+          "sentence_id": "p03",
+          "source_clip_id": "yof_02121_01178327964",
+          "speaker_id": "yof_02121",
+          "exact_text": "Kò kúkú sírú ọlọ́run, Ọba tí kò ṣeé pè lẹ́jọ́.",
+          "natural_audio_url": "../audio/yof_02121_01178327964.wav",
+          "natural_audio_sha256": "32b32face5d0ad95f248fcbe4cb2b788daf2060c9c11f105c5e7110c7e38d936",
+          "natural_duration_s": 4.864,
+          "ai_generations": [
+            {
+              "ai_generation_id": "p03_coral_r01",
+              "repeat_generation_id": 1,
+              "model_snapshot": "gpt-4o-mini-tts-2025-12-15",
+              "provider": "OpenAI",
+              "voice": "coral",
+              "voice_version": null,
+              "audio_url": "audio/p03_coral_r01.wav",
+              "audio_sha256": "f64cf11865c71c14c21fc0b282e0d338c63153f5dedd2bb3b326d6995044988d",
+              "duration_s": 6.9
+            },
+            {
+              "ai_generation_id": "p03_coral_r02",
+              "repeat_generation_id": 2,
+              "model_snapshot": "gpt-4o-mini-tts-2025-12-15",
+              "provider": "OpenAI",
+              "voice": "coral",
+              "voice_version": null,
+              "audio_url": "audio/p03_coral_r02.wav",
+              "audio_sha256": "245c57eb8241bf24426795ddece2f5e8aca6c46ef515180ec76703487f347021",
+              "duration_s": 5.35
+            }
+          ]
+        }
+      },
+      "lexical_tone": "Yes",
+      "segmental_pronunciation": "Yes",
+      "confidence": "High",
+      "pronunciation_issue_tags": [],
+      "note": "Listener reports kúkú sounds natural, pronunciation sounds right and tones sound right, and is very sure of the judgment. Also perceives a small breath-like continuation toward the following material.",
+      "boundary_observation": "Perceived breath-like transition beyond the word; preserved separately from positive linguistic judgments.",
+      "acoustic_diagnosis": null,
+      "prosody_rating": null,
+      "rhythm_rating": null,
+      "nasality_rating": null,
+      "evidence_type": "human_native_listener_judgment",
+      "automatic_scoring": false
+    },
+    {
+      "timestamp": "2026-10-06T03:48:50.725716+00:00",
+      "recording_id": "p03_natural",
+      "word_id": "w03",
+      "written_unit": "sírú",
+      "audio_sha256": "fe9044b9024d1486d1362a828420cb309a6d11deff19af6a66b901a6043451f5",
+      "playback_start_s": 1.4973958333333333,
+      "playback_end_s": 1.859125,
+      "provenance": {
+        "condition": "natural",
+        "source_id": "yof_02121_01178327964",
+        "speaker_id": "yof_02121",
+        "source_definition": {
+          "sentence_id": "p03",
+          "source_clip_id": "yof_02121_01178327964",
+          "speaker_id": "yof_02121",
+          "exact_text": "Kò kúkú sírú ọlọ́run, Ọba tí kò ṣeé pè lẹ́jọ́.",
+          "natural_audio_url": "../audio/yof_02121_01178327964.wav",
+          "natural_audio_sha256": "32b32face5d0ad95f248fcbe4cb2b788daf2060c9c11f105c5e7110c7e38d936",
+          "natural_duration_s": 4.864,
+          "ai_generations": [
+            {
+              "ai_generation_id": "p03_coral_r01",
+              "repeat_generation_id": 1,
+              "model_snapshot": "gpt-4o-mini-tts-2025-12-15",
+              "provider": "OpenAI",
+              "voice": "coral",
+              "voice_version": null,
+              "audio_url": "audio/p03_coral_r01.wav",
+              "audio_sha256": "f64cf11865c71c14c21fc0b282e0d338c63153f5dedd2bb3b326d6995044988d",
+              "duration_s": 6.9
+            },
+            {
+              "ai_generation_id": "p03_coral_r02",
+              "repeat_generation_id": 2,
+              "model_snapshot": "gpt-4o-mini-tts-2025-12-15",
+              "provider": "OpenAI",
+              "voice": "coral",
+              "voice_version": null,
+              "audio_url": "audio/p03_coral_r02.wav",
+              "audio_sha256": "245c57eb8241bf24426795ddece2f5e8aca6c46ef515180ec76703487f347021",
+              "duration_s": 5.35
+            }
+          ]
+        }
+      },
+      "lexical_tone": "Yes",
+      "segmental_pronunciation": "Yes",
+      "confidence": "High",
+      "pronunciation_issue_tags": [],
+      "note": "Listener reports natural sírú is pretty good, pronunciation and tones sound right, and is sure of the judgment.",
+      "prosody_rating": null,
+      "rhythm_rating": null,
+      "nasality_rating": null,
+      "evidence_type": "human_native_listener_judgment",
+      "automatic_scoring": false
+    },
+    {
+      "timestamp": "2026-10-06T03:50:14.729053+00:00",
+      "recording_id": "p03_natural",
+      "word_id": "w04",
+      "written_unit": "ọlọ́run",
+      "audio_sha256": "093d53a277c54023986ef7fb1a44444a6fb212d96dced1b695888fff63c61ec1",
+      "playback_start_s": 1.8893125,
+      "playback_end_s": 2.371395833333333,
+      "provenance": {
+        "condition": "natural",
+        "source_id": "yof_02121_01178327964",
+        "speaker_id": "yof_02121",
+        "source_definition": {
+          "sentence_id": "p03",
+          "source_clip_id": "yof_02121_01178327964",
+          "speaker_id": "yof_02121",
+          "exact_text": "Kò kúkú sírú ọlọ́run, Ọba tí kò ṣeé pè lẹ́jọ́.",
+          "natural_audio_url": "../audio/yof_02121_01178327964.wav",
+          "natural_audio_sha256": "32b32face5d0ad95f248fcbe4cb2b788daf2060c9c11f105c5e7110c7e38d936",
+          "natural_duration_s": 4.864,
+          "ai_generations": [
+            {
+              "ai_generation_id": "p03_coral_r01",
+              "repeat_generation_id": 1,
+              "model_snapshot": "gpt-4o-mini-tts-2025-12-15",
+              "provider": "OpenAI",
+              "voice": "coral",
+              "voice_version": null,
+              "audio_url": "audio/p03_coral_r01.wav",
+              "audio_sha256": "f64cf11865c71c14c21fc0b282e0d338c63153f5dedd2bb3b326d6995044988d",
+              "duration_s": 6.9
+            },
+            {
+              "ai_generation_id": "p03_coral_r02",
+              "repeat_generation_id": 2,
+              "model_snapshot": "gpt-4o-mini-tts-2025-12-15",
+              "provider": "OpenAI",
+              "voice": "coral",
+              "voice_version": null,
+              "audio_url": "audio/p03_coral_r02.wav",
+              "audio_sha256": "245c57eb8241bf24426795ddece2f5e8aca6c46ef515180ec76703487f347021",
+              "duration_s": 5.35
+            }
+          ]
+        }
+      },
+      "lexical_tone": "Yes",
+      "segmental_pronunciation": "Yes",
+      "confidence": "High",
+      "pronunciation_issue_tags": [],
+      "note": "Listener reports pronunciation and tones sound right and is sure of the judgment.",
+      "prosody_rating": null,
+      "rhythm_rating": null,
+      "nasality_rating": null,
+      "evidence_type": "human_native_listener_judgment",
+      "automatic_scoring": false
+    },
+    {
+      "timestamp": "2026-10-06T03:52:01.833446+00:00",
+      "recording_id": "p03_natural",
+      "word_id": "w05",
+      "written_unit": "Ọba",
+      "audio_sha256": "34dc92502fd04ea8e73f512fede4534162d04195b8cc070d302cad23ea021512",
+      "playback_start_s": 2.693583333333333,
+      "playback_end_s": 2.9746875,
+      "provenance": {
+        "condition": "natural",
+        "source_id": "yof_02121_01178327964",
+        "speaker_id": "yof_02121",
+        "source_definition": {
+          "sentence_id": "p03",
+          "source_clip_id": "yof_02121_01178327964",
+          "speaker_id": "yof_02121",
+          "exact_text": "Kò kúkú sírú ọlọ́run, Ọba tí kò ṣeé pè lẹ́jọ́.",
+          "natural_audio_url": "../audio/yof_02121_01178327964.wav",
+          "natural_audio_sha256": "32b32face5d0ad95f248fcbe4cb2b788daf2060c9c11f105c5e7110c7e38d936",
+          "natural_duration_s": 4.864,
+          "ai_generations": [
+            {
+              "ai_generation_id": "p03_coral_r01",
+              "repeat_generation_id": 1,
+              "model_snapshot": "gpt-4o-mini-tts-2025-12-15",
+              "provider": "OpenAI",
+              "voice": "coral",
+              "voice_version": null,
+              "audio_url": "audio/p03_coral_r01.wav",
+              "audio_sha256": "f64cf11865c71c14c21fc0b282e0d338c63153f5dedd2bb3b326d6995044988d",
+              "duration_s": 6.9
+            },
+            {
+              "ai_generation_id": "p03_coral_r02",
+              "repeat_generation_id": 2,
+              "model_snapshot": "gpt-4o-mini-tts-2025-12-15",
+              "provider": "OpenAI",
+              "voice": "coral",
+              "voice_version": null,
+              "audio_url": "audio/p03_coral_r02.wav",
+              "audio_sha256": "245c57eb8241bf24426795ddece2f5e8aca6c46ef515180ec76703487f347021",
+              "duration_s": 5.35
+            }
+          ]
+        }
+      },
+      "lexical_tone": "Yes",
+      "segmental_pronunciation": "Yes",
+      "confidence": "High",
+      "pronunciation_issue_tags": [],
+      "note": "Listener explicitly reports pronunciation and tones sound right, with certainty in the judgment.",
+      "prosody_rating": null,
+      "rhythm_rating": null,
+      "nasality_rating": null,
+      "evidence_type": "human_native_listener_judgment",
+      "automatic_scoring": false
+    },
+    {
+      "timestamp": "2026-10-06T03:53:00.390556+00:00",
+      "recording_id": "p03_natural",
+      "word_id": "w06",
+      "written_unit": "tí",
+      "audio_sha256": "eb65a1d9bb83c1c1dbbfbfc19185a4dba1f5a4ed96d5b48eafe9f403108b8d12",
+      "playback_start_s": 2.9746875,
+      "playback_end_s": 3.1454791666666666,
+      "provenance": {
+        "condition": "natural",
+        "source_id": "yof_02121_01178327964",
+        "speaker_id": "yof_02121",
+        "source_definition": {
+          "sentence_id": "p03",
+          "source_clip_id": "yof_02121_01178327964",
+          "speaker_id": "yof_02121",
+          "exact_text": "Kò kúkú sírú ọlọ́run, Ọba tí kò ṣeé pè lẹ́jọ́.",
+          "natural_audio_url": "../audio/yof_02121_01178327964.wav",
+          "natural_audio_sha256": "32b32face5d0ad95f248fcbe4cb2b788daf2060c9c11f105c5e7110c7e38d936",
+          "natural_duration_s": 4.864,
+          "ai_generations": [
+            {
+              "ai_generation_id": "p03_coral_r01",
+              "repeat_generation_id": 1,
+              "model_snapshot": "gpt-4o-mini-tts-2025-12-15",
+              "provider": "OpenAI",
+              "voice": "coral",
+              "voice_version": null,
+              "audio_url": "audio/p03_coral_r01.wav",
+              "audio_sha256": "f64cf11865c71c14c21fc0b282e0d338c63153f5dedd2bb3b326d6995044988d",
+              "duration_s": 6.9
+            },
+            {
+              "ai_generation_id": "p03_coral_r02",
+              "repeat_generation_id": 2,
+              "model_snapshot": "gpt-4o-mini-tts-2025-12-15",
+              "provider": "OpenAI",
+              "voice": "coral",
+              "voice_version": null,
+              "audio_url": "audio/p03_coral_r02.wav",
+              "audio_sha256": "245c57eb8241bf24426795ddece2f5e8aca6c46ef515180ec76703487f347021",
+              "duration_s": 5.35
+            }
+          ]
+        }
+      },
+      "lexical_tone": "Yes",
+      "segmental_pronunciation": "Yes",
+      "confidence": "High",
+      "pronunciation_issue_tags": [],
+      "note": "Listener reports pronunciation and tones sound right and is sure of the judgment. Also hears something possibly like background noise or a breath-like transition toward the next word, while still finding the clip okay.",
+      "boundary_observation": "Possible noise or breath-like transition; cause uncertain.",
+      "acoustic_diagnosis": null,
+      "prosody_rating": null,
+      "rhythm_rating": null,
+      "nasality_rating": null,
+      "evidence_type": "human_native_listener_judgment",
+      "automatic_scoring": false
+    },
+    {
+      "timestamp": "2026-10-06T03:54:00.152210+00:00",
+      "recording_id": "p03_natural",
+      "word_id": "w07",
+      "written_unit": "kò",
+      "audio_sha256": "e8221a9ce65fb0300c1a6913ed6d41bfd33c1fdc8a8d7643bd728cfe3d016a2a",
+      "playback_start_s": 3.175666666666667,
+      "playback_end_s": 3.3062708333333335,
+      "provenance": {
+        "condition": "natural",
+        "source_id": "yof_02121_01178327964",
+        "speaker_id": "yof_02121",
+        "source_definition": {
+          "sentence_id": "p03",
+          "source_clip_id": "yof_02121_01178327964",
+          "speaker_id": "yof_02121",
+          "exact_text": "Kò kúkú sírú ọlọ́run, Ọba tí kò ṣeé pè lẹ́jọ́.",
+          "natural_audio_url": "../audio/yof_02121_01178327964.wav",
+          "natural_audio_sha256": "32b32face5d0ad95f248fcbe4cb2b788daf2060c9c11f105c5e7110c7e38d936",
+          "natural_duration_s": 4.864,
+          "ai_generations": [
+            {
+              "ai_generation_id": "p03_coral_r01",
+              "repeat_generation_id": 1,
+              "model_snapshot": "gpt-4o-mini-tts-2025-12-15",
+              "provider": "OpenAI",
+              "voice": "coral",
+              "voice_version": null,
+              "audio_url": "audio/p03_coral_r01.wav",
+              "audio_sha256": "f64cf11865c71c14c21fc0b282e0d338c63153f5dedd2bb3b326d6995044988d",
+              "duration_s": 6.9
+            },
+            {
+              "ai_generation_id": "p03_coral_r02",
+              "repeat_generation_id": 2,
+              "model_snapshot": "gpt-4o-mini-tts-2025-12-15",
+              "provider": "OpenAI",
+              "voice": "coral",
+              "voice_version": null,
+              "audio_url": "audio/p03_coral_r02.wav",
+              "audio_sha256": "245c57eb8241bf24426795ddece2f5e8aca6c46ef515180ec76703487f347021",
+              "duration_s": 5.35
+            }
+          ]
+        }
+      },
+      "lexical_tone": "Yes",
+      "segmental_pronunciation": "Yes",
+      "confidence": "High",
+      "pronunciation_issue_tags": [],
+      "note": "Listener reports pronunciation and tone sound right and is sure of the judgment. Reports background-noise-like sound and a breath-like transition separately.",
+      "boundary_observation": "Perceived background noise and breath-like transition; not acoustically verified.",
+      "acoustic_diagnosis": null,
+      "prosody_rating": null,
+      "rhythm_rating": null,
+      "nasality_rating": null,
+      "evidence_type": "human_native_listener_judgment",
+      "automatic_scoring": false
+    },
+    {
+      "timestamp": "2026-10-06T03:54:52.152190+00:00",
+      "recording_id": "p03_natural",
+      "word_id": "w08",
+      "written_unit": "ṣeé",
+      "audio_sha256": "4be2817d4a4abd98189004a3cec99398954d93043889520bca0365c0a4c82e28",
+      "playback_start_s": 3.3465208333333334,
+      "playback_end_s": 3.6376458333333335,
+      "provenance": {
+        "condition": "natural",
+        "source_id": "yof_02121_01178327964",
+        "speaker_id": "yof_02121",
+        "source_definition": {
+          "sentence_id": "p03",
+          "source_clip_id": "yof_02121_01178327964",
+          "speaker_id": "yof_02121",
+          "exact_text": "Kò kúkú sírú ọlọ́run, Ọba tí kò ṣeé pè lẹ́jọ́.",
+          "natural_audio_url": "../audio/yof_02121_01178327964.wav",
+          "natural_audio_sha256": "32b32face5d0ad95f248fcbe4cb2b788daf2060c9c11f105c5e7110c7e38d936",
+          "natural_duration_s": 4.864,
+          "ai_generations": [
+            {
+              "ai_generation_id": "p03_coral_r01",
+              "repeat_generation_id": 1,
+              "model_snapshot": "gpt-4o-mini-tts-2025-12-15",
+              "provider": "OpenAI",
+              "voice": "coral",
+              "voice_version": null,
+              "audio_url": "audio/p03_coral_r01.wav",
+              "audio_sha256": "f64cf11865c71c14c21fc0b282e0d338c63153f5dedd2bb3b326d6995044988d",
+              "duration_s": 6.9
+            },
+            {
+              "ai_generation_id": "p03_coral_r02",
+              "repeat_generation_id": 2,
+              "model_snapshot": "gpt-4o-mini-tts-2025-12-15",
+              "provider": "OpenAI",
+              "voice": "coral",
+              "voice_version": null,
+              "audio_url": "audio/p03_coral_r02.wav",
+              "audio_sha256": "245c57eb8241bf24426795ddece2f5e8aca6c46ef515180ec76703487f347021",
+              "duration_s": 5.35
+            }
+          ]
+        }
+      },
+      "lexical_tone": "Yes",
+      "segmental_pronunciation": "Yes",
+      "confidence": "High",
+      "pronunciation_issue_tags": [],
+      "note": "Listener reports pronunciation and tone sound right and is sure of the judgment.",
+      "prosody_rating": null,
+      "rhythm_rating": null,
+      "nasality_rating": null,
+      "evidence_type": "human_native_listener_judgment",
+      "automatic_scoring": false
+    },
+    {
+      "timestamp": "2026-10-06T03:55:28.247244+00:00",
+      "recording_id": "p03_natural",
+      "word_id": "w09",
+      "written_unit": "pè",
+      "audio_sha256": "ad4c031d1c44f0129caf1da9a2bbf8dcd725d9f5e01f35e547c2617aa2a8f895",
+      "playback_start_s": 3.698541666666667,
+      "playback_end_s": 3.8891875,
+      "provenance": {
+        "condition": "natural",
+        "source_id": "yof_02121_01178327964",
+        "speaker_id": "yof_02121",
+        "source_definition": {
+          "sentence_id": "p03",
+          "source_clip_id": "yof_02121_01178327964",
+          "speaker_id": "yof_02121",
+          "exact_text": "Kò kúkú sírú ọlọ́run, Ọba tí kò ṣeé pè lẹ́jọ́.",
+          "natural_audio_url": "../audio/yof_02121_01178327964.wav",
+          "natural_audio_sha256": "32b32face5d0ad95f248fcbe4cb2b788daf2060c9c11f105c5e7110c7e38d936",
+          "natural_duration_s": 4.864,
+          "ai_generations": [
+            {
+              "ai_generation_id": "p03_coral_r01",
+              "repeat_generation_id": 1,
+              "model_snapshot": "gpt-4o-mini-tts-2025-12-15",
+              "provider": "OpenAI",
+              "voice": "coral",
+              "voice_version": null,
+              "audio_url": "audio/p03_coral_r01.wav",
+              "audio_sha256": "f64cf11865c71c14c21fc0b282e0d338c63153f5dedd2bb3b326d6995044988d",
+              "duration_s": 6.9
+            },
+            {
+              "ai_generation_id": "p03_coral_r02",
+              "repeat_generation_id": 2,
+              "model_snapshot": "gpt-4o-mini-tts-2025-12-15",
+              "provider": "OpenAI",
+              "voice": "coral",
+              "voice_version": null,
+              "audio_url": "audio/p03_coral_r02.wav",
+              "audio_sha256": "245c57eb8241bf24426795ddece2f5e8aca6c46ef515180ec76703487f347021",
+              "duration_s": 5.35
+            }
+          ]
+        }
+      },
+      "lexical_tone": "Yes",
+      "segmental_pronunciation": "Yes",
+      "confidence": "High",
+      "pronunciation_issue_tags": [],
+      "note": "Listener reports pronunciation and tone sound right and is sure of the judgment.",
+      "prosody_rating": null,
+      "rhythm_rating": null,
+      "nasality_rating": null,
+      "evidence_type": "human_native_listener_judgment",
+      "automatic_scoring": false
+    },
+    {
+      "timestamp": "2026-10-06T03:56:13.151936+00:00",
+      "recording_id": "p03_natural",
+      "word_id": "w10",
+      "written_unit": "lẹ́jọ́",
+      "audio_sha256": "eaa57e519d8d5503de644e557a9ea4623046a19521bc864f62ce0eef9fb2fab6",
+      "playback_start_s": 3.8891875,
+      "playback_end_s": 4.300916666666667,
+      "provenance": {
+        "condition": "natural",
+        "source_id": "yof_02121_01178327964",
+        "speaker_id": "yof_02121",
+        "source_definition": {
+          "sentence_id": "p03",
+          "source_clip_id": "yof_02121_01178327964",
+          "speaker_id": "yof_02121",
+          "exact_text": "Kò kúkú sírú ọlọ́run, Ọba tí kò ṣeé pè lẹ́jọ́.",
+          "natural_audio_url": "../audio/yof_02121_01178327964.wav",
+          "natural_audio_sha256": "32b32face5d0ad95f248fcbe4cb2b788daf2060c9c11f105c5e7110c7e38d936",
+          "natural_duration_s": 4.864,
+          "ai_generations": [
+            {
+              "ai_generation_id": "p03_coral_r01",
+              "repeat_generation_id": 1,
+              "model_snapshot": "gpt-4o-mini-tts-2025-12-15",
+              "provider": "OpenAI",
+              "voice": "coral",
+              "voice_version": null,
+              "audio_url": "audio/p03_coral_r01.wav",
+              "audio_sha256": "f64cf11865c71c14c21fc0b282e0d338c63153f5dedd2bb3b326d6995044988d",
+              "duration_s": 6.9
+            },
+            {
+              "ai_generation_id": "p03_coral_r02",
+              "repeat_generation_id": 2,
+              "model_snapshot": "gpt-4o-mini-tts-2025-12-15",
+              "provider": "OpenAI",
+              "voice": "coral",
+              "voice_version": null,
+              "audio_url": "audio/p03_coral_r02.wav",
+              "audio_sha256": "245c57eb8241bf24426795ddece2f5e8aca6c46ef515180ec76703487f347021",
+              "duration_s": 5.35
+            }
+          ]
+        }
+      },
+      "lexical_tone": "Yes",
+      "segmental_pronunciation": "Yes",
+      "confidence": "High",
+      "pronunciation_issue_tags": [],
+      "note": "Listener reports pronunciation sounds good, tones sound right, and is sure.",
+      "prosody_rating": null,
+      "rhythm_rating": null,
+      "nasality_rating": null,
+      "evidence_type": "human_native_listener_judgment",
+      "automatic_scoring": false
+    },
+    {
+      "timestamp": "2026-10-05T03:26:19.629484+00:00",
+      "recording_id": "p03_natural",
+      "word_id": "w01",
+      "written_unit": "Kò",
+      "audio_sha256": "6d451202cb31107683dbb746642288d8d9904fcd51f6f3d383750e7fe57c4437",
+      "playback_start_s": 0.995,
+      "playback_end_s": 1.185,
+      "provenance": {
+        "condition": "natural",
+        "source_id": "yof_02121_01178327964",
+        "speaker_id": "yof_02121",
+        "source_definition": {
+          "sentence_id": "p03",
+          "source_clip_id": "yof_02121_01178327964",
+          "speaker_id": "yof_02121",
+          "exact_text": "Kò kúkú sírú ọlọ́run, Ọba tí kò ṣeé pè lẹ́jọ́.",
+          "natural_audio_url": "../audio/yof_02121_01178327964.wav",
+          "natural_audio_sha256": "32b32face5d0ad95f248fcbe4cb2b788daf2060c9c11f105c5e7110c7e38d936",
+          "natural_duration_s": 4.864,
+          "ai_generations": [
+            {
+              "ai_generation_id": "p03_coral_r01",
+              "repeat_generation_id": 1,
+              "model_snapshot": "gpt-4o-mini-tts-2025-12-15",
+              "provider": "OpenAI",
+              "voice": "coral",
+              "voice_version": null,
+              "audio_url": "audio/p03_coral_r01.wav",
+              "audio_sha256": "f64cf11865c71c14c21fc0b282e0d338c63153f5dedd2bb3b326d6995044988d",
+              "duration_s": 6.9
+            },
+            {
+              "ai_generation_id": "p03_coral_r02",
+              "repeat_generation_id": 2,
+              "model_snapshot": "gpt-4o-mini-tts-2025-12-15",
+              "provider": "OpenAI",
+              "voice": "coral",
+              "voice_version": null,
+              "audio_url": "audio/p03_coral_r02.wav",
+              "audio_sha256": "245c57eb8241bf24426795ddece2f5e8aca6c46ef515180ec76703487f347021",
+              "duration_s": 5.35
+            }
+          ]
+        }
+      },
+      "lexical_tone": "Yes",
+      "segmental_pronunciation": "Yes",
+      "confidence": "High",
+      "note": "Native listener explicitly clarifies that the first Kò part sounds very natural in tone and pronunciation. Earlier observation that the cut includes part of the following syllable remains preserved separately.",
+      "evidence_type": "human_native_listener_judgment",
+      "source_annotation": "../p03-listening-001/voice_review_annotations.json#p03_natural:u01:natural-realization",
+      "transfer_limitation": "Original judgment was made on the earlier automatic interval (0.97–1.17 s); carried forward in conversation, not independently re-rated on current accepted cut (0.995–1.185 s).",
+      "original_judged_interval": {
+        "start_s": 0.97,
+        "end_s": 1.17
+      },
+      "direct_rating_of_current_cut": false,
+      "automatic_scoring": false
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "review_version": 2,
+  "review_session_id": "natural_qc_review_v2",
+  "confidence_definition": "certainty about what was heard and the selected judgment, not certainty about technical/acoustic cause",
+  "reviewer": "Mary Adelua",
+  "created_at": "2026-10-03T02:44:28.073Z",
+  "items": [
+    {
+      "source_id": "yof_01208_00712661610",
+      "review_status": "reviewed",
+      "judgment": "transcript matches audio",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "source_id": "yof_01208_01850003899",
+      "review_status": "reviewed",
+      "judgment": "transcript matches audio",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "source_id": "yof_02121_01178327964",
+      "review_status": "reviewed",
+      "judgment": "transcript matches audio",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "source_id": "yof_02436_02038636916",
+      "review_status": "reviewed",
+      "judgment": "transcript matches audio",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "source_id": "yof_04310_00141945315",
+      "review_status": "reviewed",
+      "judgment": "transcript matches audio",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "source_id": "yof_06136_01151773106",
+      "review_status": "reviewed",
+      "judgment": "transcript matches audio",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "source_id": "yof_09697_00099367593",
+      "review_status": "reviewed",
+      "judgment": "transcript matches audio",
+      "confidence": "medium",
+      "notes": ""
+    },
+    {
+      "source_id": "yof_09697_01103354325",
+      "review_status": "reviewed",
+      "judgment": "transcript matches audio",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "source_id": "yof_09697_01759056954",
+      "review_status": "reviewed",
+      "judgment": "transcript matches audio",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "source_id": "yom_00295_01260038205",
+      "review_status": "reviewed",
+      "judgment": "transcript matches audio",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "source_id": "yom_01208_01404835296",
+      "review_status": "reviewed",
+      "judgment": "transcript matches audio",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "source_id": "yom_01523_01346428924",
+      "review_status": "reviewed",
+      "judgment": "transcript matches audio",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "source_id": "yom_01523_01656064431",
+      "review_status": "reviewed",
+      "judgment": "transcript matches audio",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "source_id": "yom_07049_00985777771",
+      "review_status": "reviewed",
+      "judgment": "transcript matches audio",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "source_id": "yom_07049_01002258700",
+      "review_status": "reviewed",
+      "judgment": "transcript matches audio",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "source_id": "yom_07508_00242160806",
+      "review_status": "reviewed",
+      "judgment": "transcript matches audio",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "source_id": "yom_07508_00859742057",
+      "review_status": "reviewed",
+      "judgment": "transcript matches audio",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "source_id": "yom_07508_01795437934",
+      "review_status": "reviewed",
+      "judgment": "transcript matches audio",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "source_id": "yom_08421_00493295037",
+      "review_status": "reviewed",
+      "judgment": "minor uncertainty",
+      "confidence": "high",
+      "notes": "The \"S\" with the dot isnt pronounced, the speaker pronounced it as \"S\" omitting the real pronunciation"
+    },
+    {
+      "source_id": "yom_08421_01106977022",
+      "review_status": "reviewed",
+      "judgment": "transcript matches audio",
+      "confidence": "high",
+      "notes": ""
+    }
+  ]
+}

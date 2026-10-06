@@ -1,0 +1,32 @@
+{
+  "generation_id": "p02_coral_r01",
+  "repeat_generation_id": 1,
+  "source_id": "yof_02436_02038636916",
+  "speaker_id": "yof_02436",
+  "request": {
+    "model": "gpt-4o-mini-tts-2025-12-15",
+    "voice": "coral",
+    "response_format": "wav",
+    "speed": 1.0,
+    "instructions": "Read the supplied Yoruba text exactly as written. Do not add, omit, translate, paraphrase, or correct any words.",
+    "input": "Àwọn ọmọ ogun orí ilẹ̀ ń bọ̀."
+  },
+  "input_utf8_sha256": "e6de5e4ff55648a0808dab87742c8d7859290f788981bc4a01082824fc601a29",
+  "provider": "OpenAI",
+  "voice_version": null,
+  "resolved_model_version": null,
+  "requested_model_snapshot": "gpt-4o-mini-tts-2025-12-15",
+  "client_request_id": "68382286-7cc6-43ee-b6e9-a7ef8fe81766",
+  "generation_started_at": "2026-10-03T01:28:42.900930+00:00",
+  "status": "complete",
+  "audio_path": "work/slr86/paired-ai-001/audio/p02_coral_r01.wav",
+  "provider_request_id": "req_947ab78f3c724cb6b4b439be61d67f4d",
+  "content_type": "audio/wav",
+  "generation_completed_at": "2026-10-03T01:28:44.803266+00:00",
+  "audio_sha256": "360e87ddac0d1049eb417cfdc621a6173e87224dbd5ff6f0662b62f8a223b1f7",
+  "audio_bytes": 213644,
+  "sample_rate_hz": 24000,
+  "duration_s": 4.45,
+  "channels": 1,
+  "raw_provider_response_preserved": true
+}

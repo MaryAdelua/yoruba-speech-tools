@@ -1,0 +1,98 @@
+[
+  {
+    "url": "https://openslr.trmal.net/resources/86/yo_ng_female.zip",
+    "start": 462033023,
+    "end": 462033044,
+    "bytes": 22,
+    "etag": "\"1b8a1095-59ec51869fb3a\"",
+    "sha256": "155e5e4d1cdb31f9fb2e9a5109ceb8c2617dffe74ffd022dda8f57299ae8d8c6"
+  },
+  {
+    "url": "https://openslr.trmal.net/resources/86/yo_ng_female.zip",
+    "start": 462033003,
+    "end": 462033022,
+    "bytes": 20,
+    "etag": "\"1b8a1095-59ec51869fb3a\"",
+    "sha256": "65f46361567c90ebf8b951008e5cd67f3fc6fcfce74442850690fd1106f0ac7a"
+  },
+  {
+    "url": "https://openslr.trmal.net/resources/86/yo_ng_female.zip",
+    "start": 461853122,
+    "end": 462033022,
+    "bytes": 179901,
+    "etag": "\"1b8a1095-59ec51869fb3a\"",
+    "sha256": "ba850c003b4dbedf2392241211d525fe9bc52b20374364f719eabbb1023e97b8"
+  },
+  {
+    "url": "https://openslr.trmal.net/resources/86/yo_ng_female.zip",
+    "start": 0,
+    "end": 29,
+    "bytes": 30,
+    "etag": "\"1b8a1095-59ec51869fb3a\"",
+    "sha256": "1f2c83209af45f31491459fae85edafd106884cbc02262fe292d72dc45729a77"
+  },
+  {
+    "url": "https://openslr.trmal.net/resources/86/yo_ng_female.zip",
+    "start": 30,
+    "end": 36,
+    "bytes": 7,
+    "etag": "\"1b8a1095-59ec51869fb3a\"",
+    "sha256": "c693279643b8cd5d248172d9c22cb7cf4ed163a3c98c8a3f69c2717edd3eacb7"
+  },
+  {
+    "url": "https://openslr.trmal.net/resources/86/yo_ng_female.zip",
+    "start": 65,
+    "end": 6268,
+    "bytes": 6204,
+    "etag": "\"1b8a1095-59ec51869fb3a\"",
+    "sha256": "a1002ecc7d36a51a6de89e7beaa08d71a4b1e08f7b39f1d42991626fa7cf994b"
+  },
+  {
+    "url": "https://openslr.trmal.net/resources/86/yo_ng_male.zip",
+    "start": 445032495,
+    "end": 445032516,
+    "bytes": 22,
+    "etag": "\"1a86a845-59ec518e40d71\"",
+    "sha256": "b8e2d8a9b5af0c39a9e1c0750866890770e58a9d55855315dbd474044ca989fc"
+  },
+  {
+    "url": "https://openslr.trmal.net/resources/86/yo_ng_male.zip",
+    "start": 445032475,
+    "end": 445032494,
+    "bytes": 20,
+    "etag": "\"1a86a845-59ec518e40d71\"",
+    "sha256": "61c316f94fd03d2bf06ef033fc49e956c72c13b535b28f75de2202c01d815406"
+  },
+  {
+    "url": "https://openslr.trmal.net/resources/86/yo_ng_male.zip",
+    "start": 444871689,
+    "end": 445032494,
+    "bytes": 160806,
+    "etag": "\"1a86a845-59ec518e40d71\"",
+    "sha256": "51282c105bd5a85dbd75ae4363a05bd02c58581772aa0d058e55480f687d87ab"
+  },
+  {
+    "url": "https://openslr.trmal.net/resources/86/yo_ng_male.zip",
+    "start": 0,
+    "end": 29,
+    "bytes": 30,
+    "etag": "\"1a86a845-59ec518e40d71\"",
+    "sha256": "cda60106353079caa2bba9bd84c6598c607047761e1306b36308586f5fb8fdaf"
+  },
+  {
+    "url": "https://openslr.trmal.net/resources/86/yo_ng_male.zip",
+    "start": 30,
+    "end": 36,
+    "bytes": 7,
+    "etag": "\"1a86a845-59ec518e40d71\"",
+    "sha256": "c693279643b8cd5d248172d9c22cb7cf4ed163a3c98c8a3f69c2717edd3eacb7"
+  },
+  {
+    "url": "https://openslr.trmal.net/resources/86/yo_ng_male.zip",
+    "start": 65,
+    "end": 6268,
+    "bytes": 6204,
+    "etag": "\"1a86a845-59ec518e40d71\"",
+    "sha256": "a1002ecc7d36a51a6de89e7beaa08d71a4b1e08f7b39f1d42991626fa7cf994b"
+  }
+]

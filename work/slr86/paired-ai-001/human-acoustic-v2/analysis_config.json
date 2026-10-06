@@ -1,0 +1,8 @@
+{
+  "version": "human-acoustic-exploration-1.0",
+  "temporal_bins": 10,
+  "contour_method": "Median own-utterance-relative pYIN F0 in 10 equal fractional-duration bins; no interpolation. Compare only bins with voiced estimates in both clips. This is not syllable alignment or tone error.",
+  "screen_method": "Existing agreement_screen_pass mask from baseline; compare same-bin medians using original unfiltered utterance F0 normalization. May be sparse or biased.",
+  "group_summary": "Per-dimension category counts and feature medians/ranges only; no correlations, p-values, fitted model or aggregate rating. No nasality/acoustic association attempted.",
+  "dependencies": "Six sentences, two repeated generations each; not twelve independent linguistic items. One listener; low confidence retained, not reinterpreted."
+}

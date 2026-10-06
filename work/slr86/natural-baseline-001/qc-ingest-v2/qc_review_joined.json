@@ -1,0 +1,686 @@
+[
+  {
+    "source_id": "yof_01208_00712661610",
+    "speaker_id": "yof_01208",
+    "duration_s": 5.034666666666666,
+    "audio": "../audio/yof_01208_00712661610.wav",
+    "sha256": "3c956b66d53253ff616a9c4c6482cb06ad2fc80600850dc3ca9df5cddfb3de53",
+    "exact_transcript": "[snap] Kí ni ká fi ṣe yín l’álejò báyìí, ṣé ẹ ó jẹ àmàlà tàbí iyán ni ká gún?",
+    "flags": [
+      "unmarked_vowels_mid_or_unspecified",
+      "source_annotation:snap"
+    ],
+    "selection_reasons": [
+      "seeded_balanced_fill"
+    ],
+    "explicit_mark_rate": 0.6923076923076923,
+    "vowel_counts": {
+      "i": 9,
+      "a": 9,
+      "e": 3,
+      "o": 2,
+      "ẹ": 2,
+      "u": 1
+    },
+    "nasal_spelling_candidates": 3,
+    "review_status": "reviewed",
+    "judgment": "transcript matches audio",
+    "reviewer": "Mary Adelua",
+    "confidence": "high",
+    "notes": "",
+    "problem_intervals": [],
+    "review_created_at": "2026-10-03T02:44:28.073Z",
+    "evidence_type": "human_listener_judgment_not_acoustic_diagnosis",
+    "orthographic_flags_resolved": false,
+    "note_on_flags": "Audio/text match does not automatically resolve unusual Unicode or establish exhaustive tone completeness."
+  },
+  {
+    "source_id": "yof_01208_01850003899",
+    "speaker_id": "yof_01208",
+    "duration_s": 2.304,
+    "audio": "../audio/yof_01208_01850003899.wav",
+    "sha256": "5cd1b0b28fc48e375f329c778bd909242e8104338691287781ccba23b34f5290",
+    "exact_transcript": "Wọ́n na Àdùnní játijàti.",
+    "flags": [
+      "unmarked_vowels_mid_or_unspecified"
+    ],
+    "selection_reasons": [
+      "seeded_speaker_coverage"
+    ],
+    "explicit_mark_rate": 0.6666666666666666,
+    "vowel_counts": {
+      "ọ": 1,
+      "a": 4,
+      "u": 1,
+      "i": 3
+    },
+    "nasal_spelling_candidates": 2,
+    "review_status": "reviewed",
+    "judgment": "transcript matches audio",
+    "reviewer": "Mary Adelua",
+    "confidence": "high",
+    "notes": "",
+    "problem_intervals": [],
+    "review_created_at": "2026-10-03T02:44:28.073Z",
+    "evidence_type": "human_listener_judgment_not_acoustic_diagnosis",
+    "orthographic_flags_resolved": false,
+    "note_on_flags": "Audio/text match does not automatically resolve unusual Unicode or establish exhaustive tone completeness."
+  },
+  {
+    "source_id": "yof_02121_01178327964",
+    "speaker_id": "yof_02121",
+    "duration_s": 4.864,
+    "audio": "../audio/yof_02121_01178327964.wav",
+    "sha256": "32b32face5d0ad95f248fcbe4cb2b788daf2060c9c11f105c5e7110c7e38d936",
+    "exact_transcript": "Kò kúkú sírú ọlọ́run, Ọba tí kò ṣeé pè lẹ́jọ́.",
+    "flags": [
+      "unmarked_vowels_mid_or_unspecified"
+    ],
+    "selection_reasons": [
+      "seeded_speaker_coverage"
+    ],
+    "explicit_mark_rate": 0.7058823529411765,
+    "vowel_counts": {
+      "o": 2,
+      "u": 4,
+      "i": 2,
+      "ọ": 4,
+      "a": 1,
+      "e": 3,
+      "ẹ": 1
+    },
+    "nasal_spelling_candidates": 1,
+    "review_status": "reviewed",
+    "judgment": "transcript matches audio",
+    "reviewer": "Mary Adelua",
+    "confidence": "high",
+    "notes": "",
+    "problem_intervals": [],
+    "review_created_at": "2026-10-03T02:44:28.073Z",
+    "evidence_type": "human_listener_judgment_not_acoustic_diagnosis",
+    "orthographic_flags_resolved": false,
+    "note_on_flags": "Audio/text match does not automatically resolve unusual Unicode or establish exhaustive tone completeness."
+  },
+  {
+    "source_id": "yof_02436_02038636916",
+    "speaker_id": "yof_02436",
+    "duration_s": 2.304,
+    "audio": "../audio/yof_02436_02038636916.wav",
+    "sha256": "8d4f8c4c3f0c9771b64db80ca437a1a7051821ef0e8ab4e3cf2cb4c37fee02e8",
+    "exact_transcript": "Àwọn ọmọ ogun orí ilẹ̀ ń bọ̀.",
+    "flags": [
+      "unmarked_vowels_mid_or_unspecified"
+    ],
+    "selection_reasons": [
+      "seeded_speaker_coverage"
+    ],
+    "explicit_mark_rate": 0.36363636363636365,
+    "vowel_counts": {
+      "a": 1,
+      "ọ": 4,
+      "o": 2,
+      "u": 1,
+      "i": 2,
+      "ẹ": 1
+    },
+    "nasal_spelling_candidates": 2,
+    "review_status": "reviewed",
+    "judgment": "transcript matches audio",
+    "reviewer": "Mary Adelua",
+    "confidence": "high",
+    "notes": "",
+    "problem_intervals": [],
+    "review_created_at": "2026-10-03T02:44:28.073Z",
+    "evidence_type": "human_listener_judgment_not_acoustic_diagnosis",
+    "orthographic_flags_resolved": false,
+    "note_on_flags": "Audio/text match does not automatically resolve unusual Unicode or establish exhaustive tone completeness."
+  },
+  {
+    "source_id": "yof_04310_00141945315",
+    "speaker_id": "yof_04310",
+    "duration_s": 3.925333333333333,
+    "audio": "../audio/yof_04310_00141945315.wav",
+    "sha256": "2b90c0fa0590972f1c0f08ef7479644cdd233a92f788a6805ed21aaae6adc8b7",
+    "exact_transcript": "Tí ọwọ́ rẹ́ bá kàn mí, mo ma yí omi yìí dà sí ẹ lórí.",
+    "flags": [
+      "unmarked_vowels_mid_or_unspecified"
+    ],
+    "selection_reasons": [
+      "seeded_speaker_coverage"
+    ],
+    "explicit_mark_rate": 0.6842105263157895,
+    "vowel_counts": {
+      "i": 8,
+      "ọ": 2,
+      "ẹ": 2,
+      "a": 4,
+      "o": 3
+    },
+    "nasal_spelling_candidates": 1,
+    "review_status": "reviewed",
+    "judgment": "transcript matches audio",
+    "reviewer": "Mary Adelua",
+    "confidence": "high",
+    "notes": "",
+    "problem_intervals": [],
+    "review_created_at": "2026-10-03T02:44:28.073Z",
+    "evidence_type": "human_listener_judgment_not_acoustic_diagnosis",
+    "orthographic_flags_resolved": false,
+    "note_on_flags": "Audio/text match does not automatically resolve unusual Unicode or establish exhaustive tone completeness."
+  },
+  {
+    "source_id": "yof_06136_01151773106",
+    "speaker_id": "yof_06136",
+    "duration_s": 3.498666666666667,
+    "audio": "../audio/yof_06136_01151773106.wav",
+    "sha256": "15469b97544b75e324d46652da36b90bcc78fd2c935f3d10bad2d61c0d00b063",
+    "exact_transcript": "Jẹ́ ki mọ̀ mọ tí ó bá ti ń lọ sí ilé yin.",
+    "flags": [
+      "unmarked_vowels_mid_or_unspecified"
+    ],
+    "selection_reasons": [
+      "seeded_speaker_coverage"
+    ],
+    "explicit_mark_rate": 0.5384615384615384,
+    "vowel_counts": {
+      "ẹ": 1,
+      "i": 6,
+      "ọ": 3,
+      "o": 1,
+      "a": 1,
+      "e": 1
+    },
+    "nasal_spelling_candidates": 1,
+    "review_status": "reviewed",
+    "judgment": "transcript matches audio",
+    "reviewer": "Mary Adelua",
+    "confidence": "high",
+    "notes": "",
+    "problem_intervals": [],
+    "review_created_at": "2026-10-03T02:44:28.073Z",
+    "evidence_type": "human_listener_judgment_not_acoustic_diagnosis",
+    "orthographic_flags_resolved": false,
+    "note_on_flags": "Audio/text match does not automatically resolve unusual Unicode or establish exhaustive tone completeness."
+  },
+  {
+    "source_id": "yof_09697_00099367593",
+    "speaker_id": "yof_09697",
+    "duration_s": 3.328,
+    "audio": "../audio/yof_09697_00099367593.wav",
+    "sha256": "cddd361acb16c4a6690a3b786d402a9838ca5cb45402f21535f5d8f9664ee087",
+    "exact_transcript": "Ẹnu ẹni la fi ń kọ mé jẹ.",
+    "flags": [
+      "unmarked_vowels_mid_or_unspecified"
+    ],
+    "selection_reasons": [
+      "lowest_explicit_mark_density_not_proven_incomplete"
+    ],
+    "explicit_mark_rate": 0.1111111111111111,
+    "vowel_counts": {
+      "ẹ": 3,
+      "u": 1,
+      "i": 2,
+      "a": 1,
+      "ọ": 1,
+      "e": 1
+    },
+    "nasal_spelling_candidates": 2,
+    "review_status": "reviewed",
+    "judgment": "transcript matches audio",
+    "reviewer": "Mary Adelua",
+    "confidence": "medium",
+    "notes": "",
+    "problem_intervals": [],
+    "review_created_at": "2026-10-03T02:44:28.073Z",
+    "evidence_type": "human_listener_judgment_not_acoustic_diagnosis",
+    "orthographic_flags_resolved": false,
+    "note_on_flags": "Audio/text match does not automatically resolve unusual Unicode or establish exhaustive tone completeness."
+  },
+  {
+    "source_id": "yof_09697_01103354325",
+    "speaker_id": "yof_09697",
+    "duration_s": 5.461333333333333,
+    "audio": "../audio/yof_09697_01103354325.wav",
+    "sha256": "ba1ecf2019d39770b3240dd81e8ebea138e4af8573075c2464f6f448475fb883",
+    "exact_transcript": "Ata ni Bọ́láfadé ń tà láti rán ara rẹ̀ lọ sí ilé-ìwé.",
+    "flags": [
+      "unmarked_vowels_mid_or_unspecified"
+    ],
+    "selection_reasons": [
+      "seeded_speaker_coverage"
+    ],
+    "explicit_mark_rate": 0.55,
+    "vowel_counts": {
+      "a": 9,
+      "i": 5,
+      "ọ": 2,
+      "e": 3,
+      "ẹ": 1
+    },
+    "nasal_spelling_candidates": 1,
+    "review_status": "reviewed",
+    "judgment": "transcript matches audio",
+    "reviewer": "Mary Adelua",
+    "confidence": "high",
+    "notes": "",
+    "problem_intervals": [],
+    "review_created_at": "2026-10-03T02:44:28.073Z",
+    "evidence_type": "human_listener_judgment_not_acoustic_diagnosis",
+    "orthographic_flags_resolved": false,
+    "note_on_flags": "Audio/text match does not automatically resolve unusual Unicode or establish exhaustive tone completeness."
+  },
+  {
+    "source_id": "yof_09697_01759056954",
+    "speaker_id": "yof_09697",
+    "duration_s": 3.328,
+    "audio": "../audio/yof_09697_01759056954.wav",
+    "sha256": "51266a7630f334184027a46bd30c24e55ad7f102212f3e905e45284e75dda474",
+    "exact_transcript": "[snap] Ẹ máa sọ̀dí wùkẹ́wụ̀kẹ́.",
+    "flags": [
+      "unusual_underdot_requires_review",
+      "unmarked_vowels_mid_or_unspecified",
+      "source_annotation:snap"
+    ],
+    "selection_reasons": [
+      "flagged_unicode"
+    ],
+    "explicit_mark_rate": 0.7777777777777778,
+    "vowel_counts": {
+      "ẹ": 3,
+      "a": 2,
+      "ọ": 1,
+      "i": 1,
+      "u": 1,
+      "ụ": 1
+    },
+    "nasal_spelling_candidates": 0,
+    "review_status": "reviewed",
+    "judgment": "transcript matches audio",
+    "reviewer": "Mary Adelua",
+    "confidence": "high",
+    "notes": "",
+    "problem_intervals": [],
+    "review_created_at": "2026-10-03T02:44:28.073Z",
+    "evidence_type": "human_listener_judgment_not_acoustic_diagnosis",
+    "orthographic_flags_resolved": false,
+    "note_on_flags": "Audio/text match does not automatically resolve unusual Unicode or establish exhaustive tone completeness."
+  },
+  {
+    "source_id": "yom_00295_01260038205",
+    "speaker_id": "yom_00295",
+    "duration_s": 2.9013333333333335,
+    "audio": "../audio/yom_00295_01260038205.wav",
+    "sha256": "974ac2c0ee8c06476c3690e41f61287422fb142fa60dc17e960cf8f555782d41",
+    "exact_transcript": "Ẹlẹ́dẹ̀ náà bí ọmọ mẹ́fà péré.",
+    "flags": [
+      "unmarked_vowels_mid_or_unspecified"
+    ],
+    "selection_reasons": [
+      "seeded_speaker_coverage"
+    ],
+    "explicit_mark_rate": 0.75,
+    "vowel_counts": {
+      "ẹ": 4,
+      "a": 3,
+      "i": 1,
+      "ọ": 2,
+      "e": 2
+    },
+    "nasal_spelling_candidates": 0,
+    "review_status": "reviewed",
+    "judgment": "transcript matches audio",
+    "reviewer": "Mary Adelua",
+    "confidence": "high",
+    "notes": "",
+    "problem_intervals": [],
+    "review_created_at": "2026-10-03T02:44:28.073Z",
+    "evidence_type": "human_listener_judgment_not_acoustic_diagnosis",
+    "orthographic_flags_resolved": false,
+    "note_on_flags": "Audio/text match does not automatically resolve unusual Unicode or establish exhaustive tone completeness."
+  },
+  {
+    "source_id": "yom_01208_01404835296",
+    "speaker_id": "yom_01208",
+    "duration_s": 3.328,
+    "audio": "../audio/yom_01208_01404835296.wav",
+    "sha256": "6abf53b825e8e777c751ad1b6bcd1e2c496545c59ce43fe4e664013c8fcbf501",
+    "exact_transcript": "Ẹ ò ká aṣọ wọ’lé kí òjò tó bẹ̀rẹ̀.",
+    "flags": [
+      "unmarked_vowels_mid_or_unspecified"
+    ],
+    "selection_reasons": [
+      "seeded_speaker_coverage"
+    ],
+    "explicit_mark_rate": 0.6923076923076923,
+    "vowel_counts": {
+      "ẹ": 3,
+      "o": 4,
+      "a": 2,
+      "ọ": 2,
+      "e": 1,
+      "i": 1
+    },
+    "nasal_spelling_candidates": 0,
+    "review_status": "reviewed",
+    "judgment": "transcript matches audio",
+    "reviewer": "Mary Adelua",
+    "confidence": "high",
+    "notes": "",
+    "problem_intervals": [],
+    "review_created_at": "2026-10-03T02:44:28.073Z",
+    "evidence_type": "human_listener_judgment_not_acoustic_diagnosis",
+    "orthographic_flags_resolved": false,
+    "note_on_flags": "Audio/text match does not automatically resolve unusual Unicode or establish exhaustive tone completeness."
+  },
+  {
+    "source_id": "yom_01523_01346428924",
+    "speaker_id": "yom_01523",
+    "duration_s": 4.266666666666667,
+    "audio": "../audio/yom_01523_01346428924.wav",
+    "sha256": "4cecb7035e0d949eaa6b9ab447a027075acc2b5d275d1dd84dabf1575c510e19",
+    "exact_transcript": "[breath] Àwọn iwin inú igbó ti ń jíròrò.",
+    "flags": [
+      "unmarked_vowels_mid_or_unspecified",
+      "source_annotation:breath"
+    ],
+    "selection_reasons": [
+      "seeded_speaker_coverage"
+    ],
+    "explicit_mark_rate": 0.5,
+    "vowel_counts": {
+      "a": 1,
+      "ọ": 1,
+      "i": 6,
+      "u": 1,
+      "o": 3
+    },
+    "nasal_spelling_candidates": 3,
+    "review_status": "reviewed",
+    "judgment": "transcript matches audio",
+    "reviewer": "Mary Adelua",
+    "confidence": "high",
+    "notes": "",
+    "problem_intervals": [],
+    "review_created_at": "2026-10-03T02:44:28.073Z",
+    "evidence_type": "human_listener_judgment_not_acoustic_diagnosis",
+    "orthographic_flags_resolved": false,
+    "note_on_flags": "Audio/text match does not automatically resolve unusual Unicode or establish exhaustive tone completeness."
+  },
+  {
+    "source_id": "yom_01523_01656064431",
+    "speaker_id": "yom_01523",
+    "duration_s": 5.12,
+    "audio": "../audio/yom_01523_01656064431.wav",
+    "sha256": "359573ab04eb63271b1c2a0fd1a1cacc27a0930b494685594364dc75e2826f8a",
+    "exact_transcript": "Ní ọ̀nà àkọ́kọ́, wọn ò lè ní ạ̀wọn ò ní gba ti wa. [snap]",
+    "flags": [
+      "unusual_underdot_requires_review",
+      "unmarked_vowels_mid_or_unspecified",
+      "source_annotation:snap"
+    ],
+    "selection_reasons": [
+      "flagged_unicode"
+    ],
+    "explicit_mark_rate": 0.7058823529411765,
+    "vowel_counts": {
+      "i": 4,
+      "ọ": 5,
+      "a": 4,
+      "o": 2,
+      "e": 1,
+      "ạ": 1
+    },
+    "nasal_spelling_candidates": 3,
+    "review_status": "reviewed",
+    "judgment": "transcript matches audio",
+    "reviewer": "Mary Adelua",
+    "confidence": "high",
+    "notes": "",
+    "problem_intervals": [],
+    "review_created_at": "2026-10-03T02:44:28.073Z",
+    "evidence_type": "human_listener_judgment_not_acoustic_diagnosis",
+    "orthographic_flags_resolved": false,
+    "note_on_flags": "Audio/text match does not automatically resolve unusual Unicode or establish exhaustive tone completeness."
+  },
+  {
+    "source_id": "yom_07049_00985777771",
+    "speaker_id": "yom_07049",
+    "duration_s": 4.352,
+    "audio": "../audio/yom_07049_00985777771.wav",
+    "sha256": "8f12fb63d4f0a70df4d532119d7012bcab733ce14f712014a9fa7537dce9dfa1",
+    "exact_transcript": "Ìdí ni wípé èdè pọ̀ láwùjọ jáńtìrẹrẹ.",
+    "flags": [
+      "unmarked_vowels_mid_or_unspecified"
+    ],
+    "selection_reasons": [
+      "seeded_balanced_fill"
+    ],
+    "explicit_mark_rate": 0.7333333333333333,
+    "vowel_counts": {
+      "i": 5,
+      "e": 3,
+      "ọ": 2,
+      "a": 2,
+      "u": 1,
+      "ẹ": 2
+    },
+    "nasal_spelling_candidates": 1,
+    "review_status": "reviewed",
+    "judgment": "transcript matches audio",
+    "reviewer": "Mary Adelua",
+    "confidence": "high",
+    "notes": "",
+    "problem_intervals": [],
+    "review_created_at": "2026-10-03T02:44:28.073Z",
+    "evidence_type": "human_listener_judgment_not_acoustic_diagnosis",
+    "orthographic_flags_resolved": false,
+    "note_on_flags": "Audio/text match does not automatically resolve unusual Unicode or establish exhaustive tone completeness."
+  },
+  {
+    "source_id": "yom_07049_01002258700",
+    "speaker_id": "yom_07049",
+    "duration_s": 4.266666666666667,
+    "audio": "../audio/yom_07049_01002258700.wav",
+    "sha256": "7162771c78246be6964977be808c63a215fa2a3a2490479f3c59b4c843a02c82",
+    "exact_transcript": "[snap] Bí òní ti rí ọ̀la ò lè rí bẹ́ẹ̀.",
+    "flags": [
+      "unmarked_vowels_mid_or_unspecified",
+      "source_annotation:snap"
+    ],
+    "selection_reasons": [
+      "seeded_speaker_coverage"
+    ],
+    "explicit_mark_rate": 0.8333333333333334,
+    "vowel_counts": {
+      "i": 5,
+      "o": 2,
+      "ọ": 1,
+      "a": 1,
+      "e": 1,
+      "ẹ": 2
+    },
+    "nasal_spelling_candidates": 1,
+    "review_status": "reviewed",
+    "judgment": "transcript matches audio",
+    "reviewer": "Mary Adelua",
+    "confidence": "high",
+    "notes": "",
+    "problem_intervals": [],
+    "review_created_at": "2026-10-03T02:44:28.073Z",
+    "evidence_type": "human_listener_judgment_not_acoustic_diagnosis",
+    "orthographic_flags_resolved": false,
+    "note_on_flags": "Audio/text match does not automatically resolve unusual Unicode or establish exhaustive tone completeness."
+  },
+  {
+    "source_id": "yom_07508_00242160806",
+    "speaker_id": "yom_07508",
+    "duration_s": 1.4506666666666668,
+    "audio": "../audio/yom_07508_00242160806.wav",
+    "sha256": "e7fa61f3687e3da85f30019e54be571a143ccc8769c367accbb7b5d888b2893d",
+    "exact_transcript": "Ta ló mọ̀ ẹ́?",
+    "flags": [
+      "unmarked_vowels_mid_or_unspecified"
+    ],
+    "selection_reasons": [
+      "shortest"
+    ],
+    "explicit_mark_rate": 0.75,
+    "vowel_counts": {
+      "a": 1,
+      "o": 1,
+      "ọ": 1,
+      "ẹ": 1
+    },
+    "nasal_spelling_candidates": 0,
+    "review_status": "reviewed",
+    "judgment": "transcript matches audio",
+    "reviewer": "Mary Adelua",
+    "confidence": "high",
+    "notes": "",
+    "problem_intervals": [],
+    "review_created_at": "2026-10-03T02:44:28.073Z",
+    "evidence_type": "human_listener_judgment_not_acoustic_diagnosis",
+    "orthographic_flags_resolved": false,
+    "note_on_flags": "Audio/text match does not automatically resolve unusual Unicode or establish exhaustive tone completeness."
+  },
+  {
+    "source_id": "yom_07508_00859742057",
+    "speaker_id": "yom_07508",
+    "duration_s": 2.474666666666667,
+    "audio": "../audio/yom_07508_00859742057.wav",
+    "sha256": "e28c3a9c10a43b7db082aef37b9662ae40afb144c3c194bb83d847f68f9abbc0",
+    "exact_transcript": "Ọmọ tí a bí tí ó ń súnkún tọ̀san tòru.",
+    "flags": [
+      "unmarked_vowels_mid_or_unspecified"
+    ],
+    "selection_reasons": [
+      "seeded_speaker_coverage"
+    ],
+    "explicit_mark_rate": 0.6153846153846154,
+    "vowel_counts": {
+      "ọ": 3,
+      "i": 3,
+      "a": 2,
+      "o": 2,
+      "u": 3
+    },
+    "nasal_spelling_candidates": 3,
+    "review_status": "reviewed",
+    "judgment": "transcript matches audio",
+    "reviewer": "Mary Adelua",
+    "confidence": "high",
+    "notes": "",
+    "problem_intervals": [],
+    "review_created_at": "2026-10-03T02:44:28.073Z",
+    "evidence_type": "human_listener_judgment_not_acoustic_diagnosis",
+    "orthographic_flags_resolved": false,
+    "note_on_flags": "Audio/text match does not automatically resolve unusual Unicode or establish exhaustive tone completeness."
+  },
+  {
+    "source_id": "yom_07508_01795437934",
+    "speaker_id": "yom_07508",
+    "duration_s": 4.010666666666666,
+    "audio": "../audio/yom_07508_01795437934.wav",
+    "sha256": "79535ad08a44d83862f1f3c500ee0018e77cb4c2fa70d7a1558ca017db06d123",
+    "exact_transcript": "Nínú yàrá náà, ènìyàn márùn-ún ló ń sùn síbẹ̀. Ọ̀rẹ́ làwọn máràrùn.",
+    "flags": [
+      "unmarked_vowels_mid_or_unspecified"
+    ],
+    "selection_reasons": [
+      "highest_explicit_mark_density"
+    ],
+    "explicit_mark_rate": 0.9565217391304348,
+    "vowel_counts": {
+      "i": 3,
+      "u": 5,
+      "a": 9,
+      "e": 1,
+      "o": 1,
+      "ẹ": 2,
+      "ọ": 2
+    },
+    "nasal_spelling_candidates": 8,
+    "review_status": "reviewed",
+    "judgment": "transcript matches audio",
+    "reviewer": "Mary Adelua",
+    "confidence": "high",
+    "notes": "",
+    "problem_intervals": [],
+    "review_created_at": "2026-10-03T02:44:28.073Z",
+    "evidence_type": "human_listener_judgment_not_acoustic_diagnosis",
+    "orthographic_flags_resolved": false,
+    "note_on_flags": "Audio/text match does not automatically resolve unusual Unicode or establish exhaustive tone completeness."
+  },
+  {
+    "source_id": "yom_08421_00493295037",
+    "speaker_id": "yom_08421",
+    "duration_s": 4.778666666666667,
+    "audio": "../audio/yom_08421_00493295037.wav",
+    "sha256": "5fe9ad293279c11137b2fa5948bf97c34ba25fd5f5588f77b2c7d103ddf9b79d",
+    "exact_transcript": "Lọ wo ẹ̀wà tí mò ń sè nínú kíṣìnì.",
+    "flags": [
+      "unmarked_vowels_mid_or_unspecified"
+    ],
+    "selection_reasons": [
+      "seeded_speaker_coverage"
+    ],
+    "explicit_mark_rate": 0.8333333333333334,
+    "vowel_counts": {
+      "ọ": 1,
+      "o": 2,
+      "ẹ": 1,
+      "a": 1,
+      "i": 5,
+      "e": 1,
+      "u": 1
+    },
+    "nasal_spelling_candidates": 2,
+    "review_status": "reviewed",
+    "judgment": "minor uncertainty",
+    "reviewer": "Mary Adelua",
+    "confidence": "high",
+    "notes": "The \"S\" with the dot isnt pronounced, the speaker pronounced it as \"S\" omitting the real pronunciation",
+    "problem_intervals": [],
+    "review_created_at": "2026-10-03T02:44:28.073Z",
+    "evidence_type": "human_listener_judgment_not_acoustic_diagnosis",
+    "orthographic_flags_resolved": false,
+    "note_on_flags": "Audio/text match does not automatically resolve unusual Unicode or establish exhaustive tone completeness."
+  },
+  {
+    "source_id": "yom_08421_01106977022",
+    "speaker_id": "yom_08421",
+    "duration_s": 9.386666666666667,
+    "audio": "../audio/yom_08421_01106977022.wav",
+    "sha256": "9d3c163827679bdf2648c69f5bec78fe23156c19ebaa51c88dc4c2ea29275b39",
+    "exact_transcript": "[snap] Ìwádìí fi hàn pé Ò [hesitation] gún ni ẹni àkókò tí ó ṣe ọ̀rò ìṣípa òde ní ìlú Ìrè.",
+    "flags": [
+      "unmarked_vowels_mid_or_unspecified",
+      "source_annotation:snap",
+      "source_annotation:hesitation"
+    ],
+    "selection_reasons": [
+      "longest"
+    ],
+    "explicit_mark_rate": 0.7666666666666667,
+    "vowel_counts": {
+      "i": 12,
+      "a": 4,
+      "e": 4,
+      "o": 6,
+      "u": 2,
+      "ẹ": 1,
+      "ọ": 1
+    },
+    "nasal_spelling_candidates": 3,
+    "review_status": "reviewed",
+    "judgment": "transcript matches audio",
+    "reviewer": "Mary Adelua",
+    "confidence": "high",
+    "notes": "",
+    "problem_intervals": [],
+    "review_created_at": "2026-10-03T02:44:28.073Z",
+    "evidence_type": "human_listener_judgment_not_acoustic_diagnosis",
+    "orthographic_flags_resolved": false,
+    "note_on_flags": "Audio/text match does not automatically resolve unusual Unicode or establish exhaustive tone completeness."
+  }
+]

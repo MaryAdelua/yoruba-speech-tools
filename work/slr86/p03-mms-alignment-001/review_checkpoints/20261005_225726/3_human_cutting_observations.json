@@ -1,0 +1,27 @@
+{
+  "schema_version": "human-cutting-observations-1.0",
+  "observations": [
+    {
+      "recorded_at": "2026-10-06T03:47:15.547250+00:00",
+      "observer": "current user, native Yoruba listener (voice session)",
+      "evidence_type": "human_listener_observation",
+      "scope": "This p03 pilot: one natural reference, two mini-TTS takes, two Realtime takes; not a general model-level finding",
+      "observation": "The AI-generated recordings were cut more cleanly and were easier to accept as usable. Cuts in the natural human reference more often seemed to extend into neighboring material, sometimes perceived as a breath-like transition, and required more adjustment.",
+      "subject": "word-cut / segmentation usability only",
+      "pronunciation_comparison_claim": false,
+      "causal_explanation": "Not established. Coarticulation, word spacing, alignment behavior and playback margins are possible explanations, not findings.",
+      "limitations": [
+        "Earlier natural cuts included unsuccessful visual estimates, then speech-model proposals and revisions.",
+        "Review history and adjustment methods were not identical across conditions; this is not a controlled alignment benchmark.",
+        "Breath-like quality is a perceptual description, not an acoustically verified diagnosis."
+      ],
+      "confidence": null,
+      "use_as_automatic_scoring_target": false,
+      "supporting_records": [
+        "voice_boundary_review.json",
+        "../p03-three-cut-revision-001/voice_boundary_review.json",
+        "accepted_word_cuts.json"
+      ]
+    }
+  ]
+}

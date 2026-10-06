@@ -1,0 +1,9 @@
+{
+  "review_version": 2,
+  "session_id": "paired_native_listener_review_v2",
+  "status": "awaiting_review",
+  "ratings_initialized": "blank",
+  "draft_storage": "new v2 namespace; no old draft migration",
+  "definition_source": "review_form_definition.json",
+  "definition_sha256": "d5f75c57b8c14861866084c36717e734ff84b30025b830cc7241d386bf605725"
+}

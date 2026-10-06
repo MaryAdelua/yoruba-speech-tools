@@ -1,0 +1,116 @@
+MILESTONE 2: MEASUREMENT VALIDATION
+
+Conclusion: suitable for provisional, manually reviewed pitch-contour inspection
+and later supervised alignment of stable voiced regions; NOT validated for fully
+automatic natural-speech F0 acceptance, speech boundary detection or Yoruba scores.
+No alignment, native-speaker comparison or linguistic scoring was performed.
+
+Original assistant.wav remains unchanged. No trimming, denoising, normalization,
+smoothing or outlier deletion was applied. Milestone 1 artifacts are preserved.
+
+SPEECH REGION
+Waveform and spectrogram support retaining approximately 0.8–1.9 s, corresponding
+to 13.4–14.5 s of the original combined recording. This is provisional, not a
+listening-verified or human-verified boundary. No clear additional speech-like
+harmonic structure is evident outside it. Meaningful speech content cannot be
+proved absent from signal plots alone. Outside sounds cannot be identified with
+certainty as microphone noise versus playback/codec artifacts.
+Regional RMS: before -75.00 dBFS, speech -43.95 dBFS, after -78.39 dBFS.
+The clip therefore appears mostly low-level background, not missed voiced speech.
+14.15% is pYIN's whole-clip voiced-frame percentage, not percentage of speech.
+95/110 frames within the provisional region are pYIN-voiced (86.36%).
+
+INDEPENDENT COMPARISON
+Praat raw autocorrelation through Parselmouth 0.4.7, embedded Praat 6.1.38.
+This is NOT the newer filtered-autocorrelation algorithm.
+Nearest Praat frame within 5 ms, with actual timestamps retained, no interpolation.
+Before 0.8 s: pYIN 21 voiced frames; Praat 0. Two pYIN frames at 0 and 0.01 s
+lack a matched Praat center; the matched-grid disagreement count is therefore 19.
+0.8–1.9 s: pYIN 95, Praat 83, both 81; 16 voicing disagreements.
+After 1.9 s: neither estimator reports voiced frames.
+During common voiced speech frames, median difference is 0.63024 Hz / 0.10023
+semitones. 61/81 pairs (75.31%) differ by <=0.5 semitone; 4 exceed 1 semitone.
+The larger differences occur at 1.33, 1.74, 1.82 and 1.83 s, around an internal
+transition and the declining utterance tail. Strong agreement is visible around
+0.85–1.05 and 1.50–1.65 s. No simultaneous estimates meet the flagged 11–13
+semitone octave-disagreement criterion. Shared octave errors cannot be excluded
+merely from agreement between two estimators.
+
+65 HZ AND PRE-SPEECH INVESTIGATION
+Exactly 65 Hz occurs in 10 frames, 0.31–0.40 s. All have pYIN probability 0.01,
+RMS about -72.4 to -73.9 dBFS, and no voiced Praat counterpart. Lowering the floor
+to 50 Hz moves these estimates to about 50–53.3 Hz; raising it to 80 Hz makes
+them unvoiced. This is strong evidence of low-level non-speech being assigned
+floor-sensitive F0, not a stable 65 Hz vocal fundamental and not a Yoruba tone.
+Other early detections, 0–0.08 s near 70 Hz, also have probability 0.01 and lack
+Praat voicing. Noise/tracking artifacts are likely; start-edge padding may also
+contribute at the beginning. Their physical source remains undetermined.
+The 0.78–0.79 s detections are different: centered 85.33 ms windows overlap the
+speech onset. They are consistent with window-related onset spread.
+Every suspicious frame remains in comparison_frames.csv and flagged_frames.csv.
+
+SETTINGS SENSITIVITY AND ESTIMATOR CHOICE
+At 50 Hz floor, speech agreement remains similar (80 common frames, median
+0.5353 Hz difference), but pre-speech false detections remain. At 80 Hz floor,
+pYIN speech coverage falls from 95 to 50 frames. Raising the floor is not a
+justified cleanup. Preserve the 65–500 Hz baseline and both estimates.
+Praat appears more selective for this recording's background and more precise
+on clean sines. pYIN has broader temporal support and boundary spread. These
+observations justify using Praat as a cross-check, not declaring a universal winner.
+All 95 pYIN-voiced speech frames have probability below 0.5. This diagnostic
+threshold cannot be treated as a calibrated acceptance/rejection rule.
+
+SYNTHETIC CHECKS
+20/20 checks passed: 10 signals evaluated by two estimators.
+Constant sines: 80, 100, 150, 220, 350 and 450 Hz, amplitude 0.2, 2 s at 24 kHz.
+Other signals: digital silence; 150 Hz with amplitude 0.2 to 0.02; 100 to 220 Hz
+step; 150 Hz burst at 0.8–1.2 s surrounded by silence. Exact WAVs and frame CSVs
+are in synthetic/. Float WAV storage preserves the generated signal precision.
+All steady voiced intervals have 100% coverage. Worst constant-sine p95 error:
+pYIN 10.53 cents (0.1053 semitone), Praat 0.55 cents. No false voicing in steady
+digital silence. Checks require >=95% coverage, <=50 cents p95 error, and zero
+false voicing in steady silence. +/-100 ms around transitions and file edges
+are excluded from these steady checks, not deleted from outputs.
+Important boundary failures: pYIN's short burst spans frame centers 0.77–1.23 s
+despite true support 0.8–1.2 s; Praat spans 0.81–1.19 s. At the F0 step, pYIN
+has six unvoiced frames 0.98–1.03 s; Praat produces an intermediate 109.24 Hz at
+1.0 s. Neither estimator should be treated as an exact boundary detector.
+Clean-signal success does not establish robustness to real capture noise,
+breathiness, creaky voice, or all speaker ranges. No such general claim is made.
+The four original acoustic unit tests were rerun and passed. git diff --check
+passed. Matplotlib's older unit-test plotting path fell back to temporary cache;
+the new validation runner uses a writable local plotting cache.
+
+NORMALIZATION
+12*log2(F0 / estimator-specific full-clip voiced median).
+pYIN baseline 99.0923 Hz; Praat baseline 100.4921 Hz. These are provisional and
+content-dependent. Separate normalization may conceal systematic offsets, so
+agreement statistics use raw-Hz ratios. No H/M/L labels are assigned.
+
+NEXT-STEP ASSESSMENT (NO NEXT STEP EXECUTED)
+Stable portions are promising enough for a supervised alignment pilot after
+listening confirmation of speech boundaries. The whole pipeline is NOT yet
+validated as an unattended measurement instrument. A separate lightweight VAD
+or manually reviewed waveform/spectrogram boundaries should define speech;
+voicing masks should not substitute for that. No heavy ASR model was added.
+All lexical-tone, pronunciation, prosody, fluency and overall speech scores remain
+UNSCORED, with null values in validation.json.
+
+OUTPUT INVENTORY (relative to this directory)
+REPORT.txt: this interpretation and validation limitations.
+validation.json: settings, versions, hashes, thresholds, comparisons and null scores.
+comparison_frames.csv: complete baseline aligned measurements and flags.
+praat_native_frames.csv: independent original Praat time grid and strength.
+flagged_frames.csv: retained questionable measurements, not an exclusion list.
+comparison_floor_50.csv, comparison_floor_80.csv: complete sensitivity runs.
+waveform.png: full waveform, RMS and spectrogram with provisional region.
+f0_overlay.png: raw and relative F0 contours; no smoothing or filled gaps.
+synthetic_results.csv: all 20 acceptance-check outcomes.
+synthetic/: ten known-signal WAVs and ten per-frame result CSVs.
+environment-lock.txt: installed dependency versions for reproduction.
+plot_cache/: Matplotlib font cache, not research output.
+
+Reproduce using the command documented in evaluation/ACOUSTIC_ANALYSIS.md with a
+new output directory. The earlier measurement-validation-001 is retained as a
+development run; measurement-validation-002 is the final run. Library algorithm
+documentation: https://parselmouth.readthedocs.io/en/stable/api_reference.html

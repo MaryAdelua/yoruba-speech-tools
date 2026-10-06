@@ -1,0 +1,41 @@
+Public research snapshot — authorized by project owner
+
+The project owner explicitly authorized publishing recordings and review exports
+after being informed this repository is public. This snapshot adds files without
+removing or rewriting existing work. It does not include unrelated historical
+participant-data release candidates elsewhere in this repository.
+
+Included scope: work/slr86 and work/voice_eval research outputs, raw/source audio,
+AI-generated takes, exact transcripts, source metadata, acoustic frames, plots,
+versioned human reviews (including superseded exports), pages and checkpoints.
+Excluded: credentials, runtime environments, downloaded alignment model weights,
+Python/plot caches and server logs. The model is reproducibly downloadable using
+the documented model URL/hash in model_provenance.json.
+
+SLR86 natural recordings retain their original CC BY-SA 4.0 license, attribution
+and source IDs. See data/sources/slr86/LICENSE, about.html, and metadata checksums;
+also work/slr86/metadata/LICENSE and archive license snapshots. Audio is provided
+under its original terms; the repository code license does not replace them.
+AI recordings are identified as generated, not human references. Human comments
+are perceptual judgments, not acoustically proven diagnoses.
+
+Do not treat superseded v1 reviews as current. Preserve review revision policy
+files. All correctness scoring and training remain unimplemented in this pilot.
+The earliest visual alignment proposals are retained for audit, not use as
+verified word boundaries. Current accepted word versions are explicitly listed
+in work/slr86/p03-mms-alignment-001/accepted_word_cuts.json.
+
+Restore:
+1. Clone this branch to a new folder.
+2. Run python scripts/verify_public_snapshot.py from the repository root.
+3. Run python -m http.server 8776 --bind 127.0.0.1 --directory work/slr86
+4. Open http://127.0.0.1:8776/p03-mms-alignment-001/mini-one-ko-review.html
+   Resume at mini-TTS take one, opening Ko. No AI word-level linguistic rating
+   has been recorded yet. Natural review is saved; opening Ko has an explicit
+   carry-forward interval caveat. Boundary usability is not correctness.
+
+The browser review pages need no Python acoustic dependencies to play existing
+WAVs. Re-extraction requires requirements-acoustics.txt and the other documented
+dependencies. Some historic reports contain machine-specific absolute paths;
+those are provenance, not portable entry points. Exact-frame output may vary
+with environment, and full clean-machine analysis reproduction is not yet proven.

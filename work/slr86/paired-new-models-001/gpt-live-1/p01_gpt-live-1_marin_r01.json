@@ -1,0 +1,25 @@
+{
+  "generation_id": "p01_gpt-live-1_marin_r01",
+  "sentence_id": "p01",
+  "source_id": "yof_01208_01850003899",
+  "repeat_generation_id": 1,
+  "generation_attempt_id": "5f7434cd-4afa-4687-afde-704873dd6cf4",
+  "provider": "OpenAI",
+  "requested_model_snapshot": "gpt-live-1",
+  "voice_version": null,
+  "endpoint": "wss://api.openai.com/v1/live/sessions",
+  "api_mode": "Live WebSocket",
+  "request": {
+    "input": "Wọ́n na Àdùnní játijàti.",
+    "voice": "marin",
+    "instructions": "Read the supplied Yoruba sentence exactly as written, preserving every word. Speak only that sentence once in Yoruba. Do not add greetings, explanations, translations, paraphrases, repetitions, or corrections. After the sentence, remain silent. Do not delegate or call tools."
+  },
+  "generation_started_at": "2026-10-03T03:25:28.672607+00:00",
+  "status": "failed_or_ambiguous",
+  "output_format": "raw signed little-endian PCM16, mono 24000 Hz; lossless WAV container copy",
+  "content_verification": "PENDING_NATIVE_LISTENING; provider transcript is not audio ground truth",
+  "session_events": [],
+  "error_type": "WebSocketBadStatusException",
+  "http_status": 403,
+  "connection_diagnostic": "Forbidden before WebSocket upgrade; second connection-only check also returned HTTP 403. No session created."
+}

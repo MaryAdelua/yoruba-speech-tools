@@ -1,0 +1,69 @@
+{
+  "rating_counts": {
+    "lexical_tone_realization": {
+      "natural/acceptable": 0,
+      "somewhat unnatural": 0,
+      "clearly problematic": 12,
+      "cannot determine": 0
+    },
+    "segmental_pronunciation": {
+      "natural/acceptable": 0,
+      "somewhat unnatural": 1,
+      "clearly problematic": 11,
+      "cannot determine": 0
+    },
+    "perceived_nasality": {
+      "normal": 1,
+      "somewhat excessive/unusual": 3,
+      "clearly excessive/unusual": 8,
+      "cannot determine": 0
+    },
+    "prosody_intonation": {
+      "natural/acceptable": 0,
+      "somewhat unnatural": 0,
+      "clearly problematic": 12,
+      "cannot determine": 0
+    },
+    "rhythm_fluency": {
+      "natural/acceptable": 0,
+      "somewhat unnatural": 0,
+      "clearly problematic": 12,
+      "cannot determine": 0
+    },
+    "overall_yoruba_naturalness": {
+      "natural": 0,
+      "mostly natural": 0,
+      "noticeably unnatural": 2,
+      "very unnatural": 10,
+      "cannot determine": 0
+    },
+    "reviewer_confidence": {
+      "low": 12,
+      "medium": 0,
+      "high": 0
+    }
+  },
+  "issue_tag_counts": {
+    "e/ẹ": 0,
+    "o/ọ": 0,
+    "s/ṣ": 0,
+    "lexical tone": 3,
+    "nasal quality": 2,
+    "consonant realization": 3,
+    "vowel realization": 3,
+    "unusual duration/stretching": 3,
+    "rhythm": 3,
+    "intonation/prosody": 3,
+    "other": 0
+  },
+  "takes_with_any_tags": 3,
+  "takes_with_notes": 0,
+  "takes_with_intervals": 0,
+  "natural_references_with_new_notes": 0,
+  "cautions": [
+    "All 12 reviewer confidence entries are low, preserved verbatim. No confidence-weighting applied.",
+    "Unchecked optional issue tags mean not selected, not absence of the problem.",
+    "No new natural-reference ratings were supplied; prior transcript matching is not a pronunciation rating.",
+    "12 takes are clustered within 6 sentences, one listener, one model/voice; category imbalance and saturated ratings prevent predictive validation."
+  ]
+}

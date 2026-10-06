@@ -1,0 +1,32 @@
+{
+  "generation_id": "p06_coral_r02",
+  "repeat_generation_id": 2,
+  "source_id": "yom_07508_00859742057",
+  "speaker_id": "yom_07508",
+  "request": {
+    "model": "gpt-4o-mini-tts-2025-12-15",
+    "voice": "coral",
+    "response_format": "wav",
+    "speed": 1.0,
+    "instructions": "Read the supplied Yoruba text exactly as written. Do not add, omit, translate, paraphrase, or correct any words.",
+    "input": "Ọmọ tí a bí tí ó ń súnkún tọ̀san tòru."
+  },
+  "input_utf8_sha256": "9cf96c92eb4f82a36c825085bf3ab3b3ab27387e4f0b21289b0c6654b6f508c5",
+  "provider": "OpenAI",
+  "voice_version": null,
+  "resolved_model_version": null,
+  "requested_model_snapshot": "gpt-4o-mini-tts-2025-12-15",
+  "client_request_id": "7707d628-ec07-49b9-b5a9-b1773e6ab55f",
+  "generation_started_at": "2026-10-03T01:29:01.818052+00:00",
+  "status": "complete",
+  "audio_path": "work/slr86/paired-ai-001/audio/p06_coral_r02.wav",
+  "provider_request_id": "req_38cd4fb851234883b9337e9aa99f4207",
+  "content_type": "audio/wav",
+  "generation_completed_at": "2026-10-03T01:29:03.273741+00:00",
+  "audio_sha256": "b5c9119549599c1bea03f59da2098cb32d3182a9f3d3aeee3cc09b48c506ee5a",
+  "audio_bytes": 192044,
+  "sample_rate_hz": 24000,
+  "duration_s": 4.0,
+  "channels": 1,
+  "raw_provider_response_preserved": true
+}

@@ -1,0 +1,69 @@
+{
+  "source_id": "yom_07508_01340339424",
+  "speaker_id": "yom_07508",
+  "duration_s": 4.181333333333333,
+  "peak_amplitude": 0.3232421875,
+  "whole_clip_rms_dbfs": -27.899268312689806,
+  "digital_rail_samples": 0,
+  "all_zero": false,
+  "finite": true,
+  "voiced_runs": [
+    {
+      "start_s": 0.11499999999999999,
+      "end_s": 0.415,
+      "duration_s": 0.3
+    },
+    {
+      "start_s": 0.425,
+      "end_s": 0.575,
+      "duration_s": 0.14999999999999997
+    },
+    {
+      "start_s": 0.585,
+      "end_s": 0.815,
+      "duration_s": 0.22999999999999998
+    },
+    {
+      "start_s": 0.825,
+      "end_s": 1.8550000000000002,
+      "duration_s": 1.0300000000000002
+    },
+    {
+      "start_s": 1.8650000000000002,
+      "end_s": 2.1750000000000003,
+      "duration_s": 0.31000000000000005
+    },
+    {
+      "start_s": 2.1950000000000003,
+      "end_s": 2.525,
+      "duration_s": 0.3299999999999996
+    },
+    {
+      "start_s": 2.535,
+      "end_s": 2.995,
+      "duration_s": 0.45999999999999996
+    },
+    {
+      "start_s": 3.005,
+      "end_s": 3.685,
+      "duration_s": 0.6800000000000002
+    },
+    {
+      "start_s": 3.705,
+      "end_s": 3.9450000000000003,
+      "duration_s": 0.2400000000000002
+    }
+  ],
+  "voiced_run_duration_s": {
+    "n": 9,
+    "min": 0.14999999999999997,
+    "p05": 0.18199999999999997,
+    "p25": 0.2400000000000002,
+    "median": 0.31000000000000005,
+    "p75": 0.45999999999999996,
+    "p95": 0.8900000000000001,
+    "max": 1.0300000000000002,
+    "sd": 0.26183587357609744
+  },
+  "timing_interpretation": "pYIN frame-cell runs, half-hop edges, not syllables or verified speech boundaries. Window 85.33 ms; hop 10 ms."
+}

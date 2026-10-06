@@ -1,0 +1,7 @@
+{
+  "http_checks_passed": 51,
+  "original_audio_hash_checks": "passed in test_p03_mms_output",
+  "exact_slice_checks": "passed in test_p03_mms_output",
+  "human_alignment_verification": "pending except original accepted natural first two cuts",
+  "automatic_correctness_scores": false
+}

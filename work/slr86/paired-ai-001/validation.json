@@ -1,0 +1,36 @@
+{
+  "approved_texts": 6,
+  "independent_requests": 12,
+  "audio_files": 12,
+  "analyzed": 12,
+  "natural_hashes_unchanged": true,
+  "raw_audio_preserved": true,
+  "text_verified_against_approved_proposals": true,
+  "distinct_audio_hashes": 12,
+  "scores": {
+    "lexical_tone": {
+      "status": "UNIMPLEMENTED",
+      "value": null
+    },
+    "pronunciation": {
+      "status": "UNIMPLEMENTED",
+      "value": null
+    },
+    "nasality": {
+      "status": "UNIMPLEMENTED",
+      "value": null
+    },
+    "prosody": {
+      "status": "UNIMPLEMENTED",
+      "value": null
+    },
+    "fluency": {
+      "status": "UNIMPLEMENTED",
+      "value": null
+    },
+    "overall": {
+      "status": "UNIMPLEMENTED",
+      "value": null
+    }
+  }
+}

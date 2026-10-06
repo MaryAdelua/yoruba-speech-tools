@@ -1,0 +1,14 @@
+{
+  "clips": 120,
+  "source_hashes_preserved": true,
+  "linked_schema_records_valid": true,
+  "qc_pending": 20,
+  "linguistic_mismatches": "NOT_DETERMINED",
+  "scores": "UNSCORED",
+  "first_paired_comparison_ready": false,
+  "remaining_gates": [
+    "Native listening review of bounded QC sample",
+    "Review problematic measurements and intended paired sentences",
+    "User approval before AI generation"
+  ]
+}

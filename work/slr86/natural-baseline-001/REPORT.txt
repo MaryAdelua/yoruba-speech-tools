@@ -1,0 +1,64 @@
+NATURAL YORUBA BASELINE — DESCRIPTIVE, PROVISIONAL
+
+Acoustic extraction: complete for 120 clips / 12 speakers / 460.458667 seconds.
+Listening QC: 20-item review interface prepared and playback tested. Linguistic review NOT performed by automation; all 20 judgments pending. No mismatch finding can be asserted.
+Original recordings and transcripts preserved. No correctness scores, training, nasality interpretation or AI generation.
+
+MEASUREMENTS
+pYIN voiced: 69.30% of 46110 frames; Praat native voiced: 57.47%.
+Pooled raw pYIN F0 median: 158.21 Hz; range 65.00–450.08 Hz.
+Clip duration: median 3.584 s; range 1.451–9.387 s.
+Speaker medians range 113.83–213.64 Hz. These are sampled speaker properties, not correctness targets.
+Pooled speaker-relative pitch: median 0; 5th–95th percentile −9.2 to +5.0 semitones. Includes tracking uncertainty; tails are not established natural linguistic variation.
+Normalization: 12*log2(F0 / own speaker pooled voiced-frame median), separately for pYIN and Praat. Ten clips per speaker. Longer voiced clips weigh more; raw data never filtered away.
+Within-speaker variation is reported through frame quantiles and the distribution of ten clip medians; these also depend on text/content and recording conditions.
+
+ESTIMATOR RELIABILITY
+Both voiced: 25550 frames; 82.83% within 0.5 semitones.
+Median absolute pitch disagreement: 0.149 semitones; 95th percentile 1.177.
+Voicing disagreement: 15.20% of 45553 matched frames.
+22,116 voiced pYIN frames have probability below 0.5. 313 frames near lower pYIN limit (19 clips); 70 octave-like disagreement frames (21 clips).
+20.13% of all frames pass the strict agreement screen. This screen is a heuristic, NOT calibrated confidence or correctness. Separate screened summaries complement raw baselines.
+Native Praat frame times preserved; nearest center matched within 5 ms without interpolation. Edge/unmatched/unvoiced frames preserved.
+
+SPEAKER TABLE (10 clips each): speaker | pYIN median Hz | Praat median Hz | pYIN 5–95% Hz | pYIN voiced %
+yof_01208 | 203.99 | 201.87 | 146.72–270.73 | 67.70
+yof_02121 | 190.33 | 186.50 | 146.77–252.60 | 57.26
+yof_02436 | 190.33 | 189.33 | 158.21–232.98 | 65.65
+yof_04310 | 213.64 | 214.68 | 148.47–258.50 | 77.40
+yof_06136 | 206.36 | 209.90 | 75.10–285.17 | 78.73
+yof_09697 | 205.17 | 207.07 | 78.83–251.14 | 66.32
+yom_00295 | 129.25 | 128.61 | 104.38–172.53 | 66.26
+yom_01208 | 137.73 | 138.04 | 81.10–173.53 | 66.96
+yom_01523 | 113.83 | 116.02 | 88.28–151.07 | 71.97
+yom_07049 | 146.77 | 148.79 | 75.97–226.80 | 56.41
+yom_07508 | 115.82 | 114.99 | 79.11–160.05 | 80.61
+yom_08421 | 128.51 | 134.89 | 74.67–174.53 | 79.85
+
+TRANSCRIPT SUITABILITY
+{"suitable_for_lexical_tone_analysis": 0, "partially_marked_or_uncertain": 118, "unsuitable_without_additional_review": 2}
+42 clips have >=70% explicitly marked written vowels: review-priority candidates only. Density is not completeness. Unmarked vowels may represent mid tone, and syllabic nasals need linguistic review. None promoted to ground truth.
+Unusual orthography: yof_09697_01759056954 (ụ), yom_01523_01656064431 (ạ). Preserved without correction.
+
+PRIORITY MEASUREMENT REVIEW (not diagnoses of faulty recordings)
+yom_07508_00242160806: 48.23% voicing disagreement
+yom_08421_01497838425: 47.81% voicing disagreement
+yom_08421_01191226543: 45.00% voicing disagreement
+yof_06136_00877626961: 40.98% voicing disagreement
+yom_08421_00321336704: 40.59% voicing disagreement
+
+ARTIFACTS
+qc_review.html: 20 playback cards, exact text/IDs/duration/flags, four judgments plus pending, confidence and notes. Export review JSON before closing. Can open locally; current loopback server serves the same page.
+qc_sample.json / qc_signal_checks.json: deterministic sample and nonlinguistic signal QC. No digital rail samples in QC sample.
+corpus_summary.json / natural_baseline.png: corpus measurements and plot.
+speaker_baselines.json / speaker_summary.csv: speaker distributions and concise table.
+clip_summary.csv / reliability_detail.json / problematic_recordings.json: all clip summaries, screening sensitivity and flags.
+clips/<source_id>/: raw.json, frames.csv, praat_native_frames.csv, analysis.json, signal_timing.json, contour.png.
+timing_summary.json: contiguous voiced-frame runs, NOT syllables or verified speech boundaries.
+natural_reference_with_features.jsonl: schema-validated records linking the new artifacts; original import manifest unchanged.
+future_segmental_features.json: planned A1-P0/A1-P1, F1 bandwidth, tilt, segment durations/trajectories; not executed.
+baseline_validation.json: source hashes, schema validation and readiness gates.
+
+READINESS: Descriptive natural baseline available. Not yet ready for approved paired AI test: native listening QC, review of flagged measurements and paired sentence approval remain. No AI generation until user approval.
+Validation: three targeted baseline tests passed, including 48 kHz synthetic pitch and unchanged input. All 120 source hashes and linked schema records checked. All 120 CSVs, raw Praat files and contours present.
+Plotting used a temporary cache when the default Matplotlib cache was unwritable; no measurement loss. Future runs set a writable local cache explicitly.

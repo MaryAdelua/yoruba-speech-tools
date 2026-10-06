@@ -1,0 +1,23 @@
+{
+  "recording_id": "p03_natural",
+  "usable_word_cuts": 10,
+  "scope": "Native listener acceptance of playback cut usability only; not exact phonetic boundary verification or pronunciation correctness",
+  "accepted_original_word_ids": [
+    "w01",
+    "w02",
+    "w04",
+    "w05",
+    "w08",
+    "w09",
+    "w10"
+  ],
+  "accepted_revised_word_ids": [
+    "w03",
+    "w06",
+    "w07"
+  ],
+  "original_feedback": "../p03-mms-alignment-001/voice_boundary_review.json",
+  "revision_feedback": "voice_boundary_review.json",
+  "AI_recording_cut_review": "pending",
+  "scores": "UNIMPLEMENTED"
+}

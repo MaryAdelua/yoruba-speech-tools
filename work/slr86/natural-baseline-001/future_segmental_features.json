@@ -1,0 +1,43 @@
+{
+  "status": "PLANNED_NOT_RUN",
+  "features": [
+    {
+      "name": "A1-P0",
+      "value": null,
+      "validated_for_yoruba_nasality": false
+    },
+    {
+      "name": "A1-P1",
+      "value": null,
+      "validated_for_yoruba_nasality": false
+    },
+    {
+      "name": "F1 bandwidth",
+      "value": null,
+      "validated_for_yoruba_nasality": false
+    },
+    {
+      "name": "spectral tilt",
+      "value": null,
+      "validated_for_yoruba_nasality": false
+    },
+    {
+      "name": "segment duration",
+      "value": null,
+      "validated_for_yoruba_nasality": false
+    },
+    {
+      "name": "spectral trajectories",
+      "value": null,
+      "validated_for_yoruba_nasality": false
+    }
+  ],
+  "required_context": [
+    "speaker and recording conditions",
+    "vowel identity and segment boundaries",
+    "formant/harmonic estimation reliability",
+    "native-listener nasality annotations",
+    "phonetic confounds and validation"
+  ],
+  "no_automatic_diagnosis": true
+}

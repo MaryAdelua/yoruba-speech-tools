@@ -1,0 +1,71 @@
+{
+  "recording_id": "p03_natural",
+  "feedback": [
+    {
+      "timestamp": "2026-10-05T03:34:39.402691+00:00",
+      "evidence_type": "human_listener_boundary_review",
+      "segments": [
+        {
+          "segment_id": "u01",
+          "judgment": "cut sounds clean"
+        },
+        {
+          "segment_id": "u02",
+          "judgment": "cut sounds clean"
+        },
+        {
+          "segment_id": "u03",
+          "judgment": "includes following s sound"
+        }
+      ],
+      "scope": "Boundary usability only, not pronunciation or tone correctness",
+      "confidence": null
+    },
+    {
+      "timestamp": "2026-10-05T03:35:23.080627+00:00",
+      "evidence_type": "human_listener_boundary_review",
+      "segment_id": "u03",
+      "candidate_audio": "u03_candidate_v2.wav",
+      "judgment": "unsure",
+      "note": "Listener says slightly, or maybe it is their listening; uncertain whether the following s remains.",
+      "confidence": null,
+      "boundary_confirmed": false,
+      "scope": "Boundary usability only; no tone or pronunciation judgment."
+    },
+    {
+      "timestamp": "2026-10-05T03:39:22.254932+00:00",
+      "evidence_type": "human_listener_boundary_review",
+      "reference_ids": [
+        "u02",
+        "u03"
+      ],
+      "written_unit": "kúkú",
+      "candidate_audio": "kuku_word_candidate.wav",
+      "judgment": "tentatively unusable",
+      "note": "Listener reports the whole-word cut is also bad, with uncertainty (I guess). Specific boundary defect not established.",
+      "confidence": null,
+      "boundary_confirmed": false,
+      "scope": "Boundary usability only; no pronunciation or tone finding.",
+      "status": "superseded",
+      "superseded_reason": "Listener immediately corrected the judgment: the whole-word cut is usable.",
+      "superseded_at": "2026-10-05T03:39:46.616618+00:00"
+    },
+    {
+      "timestamp": "2026-10-05T03:39:46.616618+00:00",
+      "evidence_type": "human_listener_boundary_review",
+      "reference_ids": [
+        "u02",
+        "u03"
+      ],
+      "written_unit": "kúkú",
+      "candidate_audio": "kuku_word_candidate.wav",
+      "judgment": "usable",
+      "status": "current",
+      "note": "Listener explicitly corrects previous tentative judgment: the whole-word cut is pretty usable and okay.",
+      "confidence": null,
+      "boundary_usability_confirmed": true,
+      "exact_boundary_verified": false,
+      "scope": "Whole-word cut usability only; no pronunciation or tone finding; individual syllable boundaries remain unverified."
+    }
+  ]
+}

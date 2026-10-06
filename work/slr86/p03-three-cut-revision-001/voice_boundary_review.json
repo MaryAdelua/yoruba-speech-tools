@@ -1,0 +1,48 @@
+{
+  "session": "p03-three-cut-revision-001",
+  "reviewer": "current user (voice session)",
+  "annotations": [
+    {
+      "timestamp": "2026-10-06T03:32:18.429165+00:00",
+      "recording_id": "p03_natural",
+      "word_id": "w03",
+      "written_unit": "sírú",
+      "audio_sha256": "fe9044b9024d1486d1362a828420cb309a6d11deff19af6a66b901a6043451f5",
+      "playback_start_s": 1.4973958333333333,
+      "playback_end_s": 1.859125,
+      "judgment": "usable",
+      "note": "Listener says: I think sírú is fine.",
+      "confidence": null,
+      "scope": "cut usability only; no tone or pronunciation rating",
+      "supersedes_for_current_cut": "Earlier overlap observation applies to preceding audio version, preserved separately."
+    },
+    {
+      "timestamp": "2026-10-06T03:32:56.908169+00:00",
+      "recording_id": "p03_natural",
+      "word_id": "w06",
+      "written_unit": "tí",
+      "audio_sha256": "eb65a1d9bb83c1c1dbbfbfc19185a4dba1f5a4ed96d5b48eafe9f403108b8d12",
+      "playback_start_s": 2.9746875,
+      "playback_end_s": 3.1454791666666666,
+      "judgment": "usable",
+      "note": "Listener considers revised tí usable and reports not hearing the following kò, only a perceived breath-like transition toward the next word.",
+      "confidence": null,
+      "scope": "cut usability only; no tone or pronunciation rating",
+      "acoustic_diagnosis": null
+    },
+    {
+      "timestamp": "2026-10-06T03:33:27.899063+00:00",
+      "recording_id": "p03_natural",
+      "word_id": "w07",
+      "written_unit": "kò",
+      "audio_sha256": "e8221a9ce65fb0300c1a6913ed6d41bfd33c1fdc8a8d7643bd728cfe3d016a2a",
+      "playback_start_s": 3.175666666666667,
+      "playback_end_s": 3.3062708333333335,
+      "judgment": "usable",
+      "note": "Listener considers revised later kò pretty usable, with a perceived breath-like transition toward the following word.",
+      "confidence": null,
+      "scope": "cut usability only; no tone or pronunciation rating",
+      "acoustic_diagnosis": null
+    }
+  ]
+}

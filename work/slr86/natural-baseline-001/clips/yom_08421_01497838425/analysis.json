@@ -1,0 +1,147 @@
+{
+  "schema_version": "acoustic-measurements-0.1",
+  "source": {
+    "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\audio\\yom_08421_01497838425.wav",
+    "sha256": "5938294633ecd65ebaffd9e08feb07e213a8357007fe7d8bf0f3fefb6140fe3a",
+    "unchanged": true,
+    "sample_rate_hz": 48000,
+    "channels": 1,
+    "subtype": "PCM_16",
+    "samples": 155648
+  },
+  "preprocessing": {
+    "analysis_copy": null,
+    "operations": [],
+    "note": "Decoded to floating-point samples in memory; no resampling, trimming, denoising or gain changes."
+  },
+  "method": {
+    "estimator": "librosa.pyin",
+    "fmin_hz": 65.0,
+    "fmax_hz": 500.0,
+    "frame_length_samples": 4096,
+    "window_duration_s": 0.08533333333333333,
+    "hop_length_samples": 480,
+    "hop_duration_s": 0.01,
+    "center": true,
+    "pitch_edge_padding": "constant zero",
+    "timestamps": "Window centers in seconds relative to input file; centers at/after EOF excluded.",
+    "rms": "Same centered window, clipped to actual samples at edges; 20*log10(RMS), full scale=1. Silence dBFS=null (-infinity).",
+    "dependencies": {
+      "librosa": "0.11.0",
+      "numpy": "2.5.3",
+      "scipy": "1.18.1",
+      "soundfile": "0.13.1",
+      "matplotlib": "3.10.7"
+    }
+  },
+  "normalization": {
+    "method": "12 * log2(f0_hz / reference_f0_hz)",
+    "reference_f0_hz": 94.34497865918337,
+    "reference_scope": "median of voiced F0 frames in this utterance",
+    "note": "Provisional speaker-relative representation, not a Yoruba tone label or score. Short-utterance medians depend on spoken content; cross-speaker comparisons require alignment and stronger baselines."
+  },
+  "summary": {
+    "duration_s": 3.2426666666666666,
+    "frame_count": 325,
+    "voiced_frame_count": 266,
+    "voiced_frames_percent": 81.84615384615384,
+    "median_f0_hz": 94.34497865918337,
+    "f0_min_hz": 72.53981427096451,
+    "f0_max_hz": 199.33268480704808,
+    "f0_range_hz": 126.79287053608357,
+    "f0_p05_hz": 74.66539307480728,
+    "f0_p95_hz": 187.87409200078852
+  },
+  "scores": {
+    "lexical_tone_accuracy": {
+      "status": "UNSCORED",
+      "score": null,
+      "reason": "No validated scoring method."
+    },
+    "pronunciation_accuracy": {
+      "status": "UNSCORED",
+      "score": null,
+      "reason": "No validated scoring method."
+    },
+    "prosody": {
+      "status": "UNSCORED",
+      "score": null,
+      "reason": "No validated scoring method."
+    },
+    "fluency": {
+      "status": "UNSCORED",
+      "score": null,
+      "reason": "No validated scoring method."
+    },
+    "overall_speech": {
+      "status": "UNSCORED",
+      "score": null,
+      "reason": "No validated scoring method."
+    }
+  },
+  "warnings": [],
+  "limitations": [
+    "F0 and voicing are estimates, not linguistic correctness judgments.",
+    "Unvoiced frames may contain consonants, silence or tracking failures.",
+    "Voicing probability is not calibrated pronunciation confidence.",
+    "dBFS is digital amplitude, not calibrated sound pressure or perceived loudness.",
+    "10 ms frame spacing does not imply 10 ms independent temporal resolution; consult window duration."
+  ],
+  "speaker_id": "yom_08421",
+  "praat_method": {
+    "settings": {
+      "time_step": 0.01,
+      "pitch_floor": 65.0,
+      "pitch_ceiling": 500.0,
+      "max_number_of_candidates": 15,
+      "very_accurate": false,
+      "silence_threshold": 0.03,
+      "voicing_threshold": 0.45,
+      "octave_cost": 0.01,
+      "octave_jump_cost": 0.35,
+      "voiced_unvoiced_cost": 0.14
+    },
+    "parselmouth_version": "0.4.7",
+    "praat_version": "6.1.38",
+    "algorithm": "raw autocorrelation"
+  },
+  "alignment": "Nearest native Praat center within 5 ms, no interpolation. Native grid preserved. Missing match is not unvoiced.",
+  "speaker_normalization": {
+    "pyin_reference_hz": 128.5068226458765,
+    "praat_reference_hz": 134.8873754760367,
+    "equation": "12*log2(F0 / speaker_estimator_pooled_voiced_median)",
+    "scope": "ten clips, pooled frames; no outlier removal"
+  },
+  "agreement": {
+    "start_s": 0,
+    "end_s": 3.2426666666666666,
+    "frames": 325,
+    "pyin_voiced": 266,
+    "praat_voiced": 110,
+    "both_voiced": 109,
+    "matched_frames": 320,
+    "voicing_disagreements": 153,
+    "median_absolute_hz": 1.9380489648228973,
+    "median_absolute_semitones": 0.2598262939629865,
+    "both_within_half_semitone": 81,
+    "over_one_semitone": 7
+  },
+  "frame_flag_counts": {
+    "pyin_probability_below_0.5": 253,
+    "edge_window": 9,
+    "voicing_disagreement": 153,
+    "pitch_difference_over_1_semitone": 7
+  },
+  "rms_dbfs_distribution": {
+    "n": 325,
+    "min": -72.86582051902512,
+    "p05": -71.84814814234933,
+    "p25": -69.47993590882953,
+    "median": -61.78486298357634,
+    "p75": -26.9482180504337,
+    "p95": -20.240843910765342,
+    "max": -17.456291874080218,
+    "sd": 21.015090053580387
+  },
+  "agreement_screen_pass_percent": 2.769230769230769
+}

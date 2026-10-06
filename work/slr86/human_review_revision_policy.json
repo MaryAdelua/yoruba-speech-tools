@@ -1,0 +1,35 @@
+{
+  "active_review_version": 2,
+  "reason": "User misunderstood confidence; both human-review stages must be redone from blank sessions.",
+  "confidence_definition": "Certainty about what was heard and the selected judgment, not certainty about technical/acoustic cause.",
+  "superseded_reviews": [
+    {
+      "path": "work\\slr86\\natural-baseline-001\\qc-ingest-001\\qc_human_review.original.json",
+      "sha256": "2e95c62d6943f413764c433809eaf161a6d55851cc1ef49967bbefb173bc3187",
+      "status": "superseded",
+      "use_in_subsequent_analysis": false
+    },
+    {
+      "path": "work\\slr86\\paired-ai-001\\human-acoustic-001\\review.original.json",
+      "sha256": "4af3a3b1f0f289996b70dd69a064ff1ab8a5b80e61fdef72b9344939a6180cdb",
+      "status": "superseded",
+      "use_in_subsequent_analysis": false
+    }
+  ],
+  "active_sessions": {
+    "natural": "natural_qc_review_v2",
+    "paired": "paired_native_listener_review_v2"
+  },
+  "new_exports_received": true,
+  "analysis_policy": "Use only completed v2 exports from BOTH stages; earlier exports and human-derived conclusions are audit history only unless explicitly requested. Audio, measurements and approved sentence identities remain unchanged.",
+  "received_exports": {
+    "natural": {
+      "status": "validated_and_ingested",
+      "path": "work/slr86/natural-baseline-001/qc-ingest-v2/qc_human_review.original.json"
+    },
+    "paired": {
+      "status": "validated_and_analyzed",
+      "path": "work/slr86/paired-ai-001/human-acoustic-v2/review.original.json"
+    }
+  }
+}

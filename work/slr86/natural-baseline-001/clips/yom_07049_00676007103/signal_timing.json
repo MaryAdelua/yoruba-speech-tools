@@ -1,0 +1,89 @@
+{
+  "source_id": "yom_07049_00676007103",
+  "speaker_id": "yom_07049",
+  "duration_s": 6.144,
+  "peak_amplitude": 0.5545654296875,
+  "whole_clip_rms_dbfs": -24.08039645236297,
+  "digital_rail_samples": 0,
+  "all_zero": false,
+  "finite": true,
+  "voiced_runs": [
+    {
+      "start_s": 1.2550000000000001,
+      "end_s": 1.415,
+      "duration_s": 0.15999999999999992
+    },
+    {
+      "start_s": 1.5050000000000001,
+      "end_s": 2.055,
+      "duration_s": 0.55
+    },
+    {
+      "start_s": 2.065,
+      "end_s": 2.295,
+      "duration_s": 0.22999999999999998
+    },
+    {
+      "start_s": 2.305,
+      "end_s": 3.4450000000000003,
+      "duration_s": 1.1400000000000001
+    },
+    {
+      "start_s": 3.555,
+      "end_s": 3.815,
+      "duration_s": 0.2599999999999998
+    },
+    {
+      "start_s": 4.125,
+      "end_s": 4.255,
+      "duration_s": 0.1299999999999999
+    },
+    {
+      "start_s": 4.285,
+      "end_s": 4.365,
+      "duration_s": 0.08000000000000007
+    },
+    {
+      "start_s": 4.3950000000000005,
+      "end_s": 4.785,
+      "duration_s": 0.3899999999999997
+    },
+    {
+      "start_s": 4.815,
+      "end_s": 4.995,
+      "duration_s": 0.17999999999999972
+    },
+    {
+      "start_s": 5.015,
+      "end_s": 5.215,
+      "duration_s": 0.20000000000000018
+    },
+    {
+      "start_s": 5.235,
+      "end_s": 5.515,
+      "duration_s": 0.27999999999999936
+    },
+    {
+      "start_s": 5.535,
+      "end_s": 5.815,
+      "duration_s": 0.28000000000000025
+    },
+    {
+      "start_s": 5.955,
+      "end_s": 6.144,
+      "duration_s": 0.18900000000000006
+    }
+  ],
+  "voiced_run_duration_s": {
+    "n": 13,
+    "min": 0.08000000000000007,
+    "p05": 0.10999999999999997,
+    "p25": 0.17999999999999972,
+    "median": 0.22999999999999998,
+    "p75": 0.28000000000000025,
+    "p95": 0.7859999999999993,
+    "max": 1.1400000000000001,
+    "sd": 0.26528997197551446
+  },
+  "timing_interpretation": "pYIN frame-cell runs, half-hop edges, not syllables or verified speech boundaries. Window 85.33 ms; hop 10 ms."
+}

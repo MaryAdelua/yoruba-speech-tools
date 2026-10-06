@@ -1,0 +1,36 @@
+[
+  {
+    "archive": "yo_ng_female.zip",
+    "range_headers": {
+      "Date": "Sat, 03 Oct 2026 00:31:03 GMT",
+      "Server": "Apache/2.4.68 (Debian)",
+      "Last-Modified": "Mon, 17 Feb 2020 12:57:18 GMT",
+      "ETag": "\"1b8a1095-59ec51869fb3a\"",
+      "Accept-Ranges": "bytes",
+      "Content-Length": "65557",
+      "Content-Range": "bytes 461967488-462033044/462033045",
+      "Connection": "close",
+      "Content-Type": "application/zip"
+    },
+    "zip_entries": 1894,
+    "central_directory_size": 179901,
+    "central_directory_offset": 461853122
+  },
+  {
+    "archive": "yo_ng_male.zip",
+    "range_headers": {
+      "Date": "Sat, 03 Oct 2026 00:31:04 GMT",
+      "Server": "Apache/2.4.68 (Debian)",
+      "Last-Modified": "Mon, 17 Feb 2020 12:57:26 GMT",
+      "ETag": "\"1a86a845-59ec518e40d71\"",
+      "Accept-Ranges": "bytes",
+      "Content-Length": "65557",
+      "Content-Range": "bytes 444966960-445032516/445032517",
+      "Connection": "close",
+      "Content-Type": "application/zip"
+    },
+    "zip_entries": 1693,
+    "central_directory_size": 160806,
+    "central_directory_offset": 444871689
+  }
+]

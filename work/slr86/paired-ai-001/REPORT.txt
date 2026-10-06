@@ -1,0 +1,35 @@
+PAIRED NATURAL / AI PILOT 001
+
+Completed: six approved texts, two independent API requests each, one fixed voice configuration. Twelve distinct provider request IDs and twelve distinct audio hashes.
+Provider: OpenAI. Requested model snapshot: gpt-4o-mini-tts-2025-12-15. Voice: coral. Voice version and resolved backend revision not exposed. Speed 1.0. WAV output.
+Exact text and diacritics preserved in every request, verified against approved proposals. No input normalization or repair. This is API TTS, not a ChatGPT Voice session capture.
+Raw provider audio: 12 mono 24 kHz WAV files, 57.30 seconds total, 2,750,928 bytes. No gain normalization, trimming, denoising or resampling.
+Each request records timestamp, settings/instructions, source ID, repeat ID, client/provider request IDs, input hash, output hash and format. Credentials are never written to artifacts.
+Acoustics: same pYIN/Praat settings as natural baseline, 65–500 Hz, 10 ms hop, 85.33 ms pYIN window (2048 samples at 24 kHz versus 4096 at 48 kHz). Praat raw AC, native timestamps retained, nearest centers within 5 ms without interpolation.
+Comparative relative pitch uses each utterance/estimator own voiced median: 12*log2(F0/median). Raw Hz preserved. Existing natural speaker baselines remain unchanged. No alignment or time warping imposed.
+
+DURATIONS (seconds): source | natural | AI 1 | AI 2
+yof_01208_01850003899 | 2.304 | 3.100 | 3.250
+yof_02436_02038636916 | 2.304 | 4.450 | 4.600
+yof_02121_01178327964 | 4.864 | 6.900 | 5.350
+yof_09697_01103354325 | 5.461 | 6.400 | 7.150
+yom_00295_01260038205 | 2.901 | 3.250 | 4.500
+yom_07508_00859742057 | 2.475 | 4.350 | 4.000
+
+FILES
+configuration.json, approval.json: run configuration and approved scope
+generation_manifest.json and requests/: exact requests and provenance
+audio/: raw provider WAV response bytes
+measurements/<generation ID>/: raw.json, analysis.json, frames.csv, praat_native_frames.csv
+paired_comparisons.json / paired_summary.csv: descriptive duration, F0, relative pitch, voicing, RMS, timing and estimator differences
+pair_01.png through pair_06.png: raw and utterance-relative contours; full file-time axes, no syllable alignment
+listening_review.html: natural and two AI recordings, exact text and neutral notes export
+validation.json: completed artifact/text/hash checks
+
+LIMITATIONS
+Exact submitted text does not certify exact spoken realization; listening verification is pending. API requests are separate; latent random seeds/internal generation settings and voice revisions are not exposed. Bit-exact regeneration is not guaranteed.
+Natural speakers and the AI voice have different pitch ranges; absolute Hz differences are not errors. Different capture paths also affect amplitude. Duration includes leading/trailing audio. Unvoiced frames are not necessarily silence. Search-limit, low-probability and disagreement flags remain in frames.
+Natural clips are clean paired references, not perfect or exclusive definitions of correct Yoruba pronunciation. No automated lexical-tone, pronunciation, nasality, prosody, fluency or overall scoring: UNIMPLEMENTED.
+No model training performed. No additional voices or models swept.
+
+Official API documentation consulted: https://developers.openai.com/api/docs/guides/text-to-speech

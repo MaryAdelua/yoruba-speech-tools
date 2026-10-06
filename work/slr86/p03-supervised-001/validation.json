@@ -1,0 +1,10 @@
+{
+  "recordings": 5,
+  "initial_reference_units_per_recording": 17,
+  "human_verified_segments": 0,
+  "previous_comparison_inputs_unchanged": true,
+  "raw_audio_preserved": true,
+  "no_predictor_training": true,
+  "no_correctness_labels": true,
+  "spectrogram_warning": "Exact zero-power bins yield negative infinity on log display; display only, raw audio unchanged."
+}

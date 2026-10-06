@@ -1,0 +1,10 @@
+{
+  "status": "PAUSED_PENDING_ALIGNMENT_REPAIR",
+  "reason": "Listener reports incomplete w03 and nonmatching w04. Visual word-association proposals are not dependable enough for linguistic judgments.",
+  "retain_accepted_cut_usability": [
+    "w01",
+    "w02"
+  ],
+  "do_not_infer_pronunciation_errors": true,
+  "timestamp": "2026-10-05T03:44:00.199866+00:00"
+}

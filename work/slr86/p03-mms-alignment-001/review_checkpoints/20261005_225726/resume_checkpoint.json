@@ -1,0 +1,45 @@
+{
+  "saved_at": "2026-10-06T03:57:26.689468+00:00",
+  "status": "PAUSED_AT_USER_REQUEST",
+  "word_cut_usability": "All 50 accepted; three natural clips use revised versions",
+  "natural_word_review": "Nine current word clips directly rated Yes for tone and pronunciation, High confidence; opening Kò rating carried forward from earlier slightly different interval with explicit provenance caveat",
+  "next_recording_id": "p03_coral_r01",
+  "next_word_id": "w01",
+  "next_word": "Kò",
+  "next_page": "http://127.0.0.1:8776/p03-mms-alignment-001/mini-one-ko-review.html",
+  "AI_word_linguistic_ratings_started": false,
+  "do_not_confuse_AI_cut_acceptance_with_pronunciation_ratings": true,
+  "scores": "UNIMPLEMENTED",
+  "backups": [
+    {
+      "source": "work\\slr86\\p03-mms-alignment-001\\voice_linguistic_review.json",
+      "backup": "work\\slr86\\p03-mms-alignment-001\\review_checkpoints\\20261005_225726\\0_voice_linguistic_review.json",
+      "sha256": "19cb659783264f2ac64404c7fd6dea83b88eb0547e0c7b8f88bdd75ad14aa0b0"
+    },
+    {
+      "source": "work\\slr86\\p03-mms-alignment-001\\voice_boundary_review.json",
+      "backup": "work\\slr86\\p03-mms-alignment-001\\review_checkpoints\\20261005_225726\\1_voice_boundary_review.json",
+      "sha256": "1e80faebbd9dbef429eeca436da21c9574efad4f0aaee7cc6973af83a7e707dc"
+    },
+    {
+      "source": "work\\slr86\\p03-mms-alignment-001\\accepted_word_cuts.json",
+      "backup": "work\\slr86\\p03-mms-alignment-001\\review_checkpoints\\20261005_225726\\2_accepted_word_cuts.json",
+      "sha256": "9c353b68d68c78f272d77e03d535ae0c61d8f5bb1790d39149d25d528af7a309"
+    },
+    {
+      "source": "work\\slr86\\p03-mms-alignment-001\\human_cutting_observations.json",
+      "backup": "work\\slr86\\p03-mms-alignment-001\\review_checkpoints\\20261005_225726\\3_human_cutting_observations.json",
+      "sha256": "90a66c67b15771253a48b616e2e0316125dd9a63ad611b2e28366dc0c3d49a29"
+    },
+    {
+      "source": "work\\slr86\\p03-three-cut-revision-001\\voice_boundary_review.json",
+      "backup": "work\\slr86\\p03-mms-alignment-001\\review_checkpoints\\20261005_225726\\4_voice_boundary_review.json",
+      "sha256": "d619a3674f7a3f93122269dd51fa764a0c93e0d7208d54be9c3fb91b92e45d29"
+    },
+    {
+      "source": "work\\slr86\\p03-listening-001\\voice_review_annotations.json",
+      "backup": "work\\slr86\\p03-mms-alignment-001\\review_checkpoints\\20261005_225726\\5_voice_review_annotations.json",
+      "sha256": "23d9250e4c5b440123235e9d44fc8cb8b0a21ce8731d74a8d4a39420b9dc1c33"
+    }
+  ]
+}

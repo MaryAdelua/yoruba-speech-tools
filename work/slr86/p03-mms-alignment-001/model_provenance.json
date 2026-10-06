@@ -1,0 +1,8 @@
+{
+  "source_url": "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt",
+  "bytes": 1262047414,
+  "sha256": "20ef12963ab4924bef49ac4fc7f58ad5da2ee43b2c11bc8c853c9b90ecdbc680",
+  "documentation": "https://docs.pytorch.org/audio/2.8/tutorials/forced_alignment_for_multilingual_data_tutorial.html",
+  "model": "TorchAudio MMS_FA",
+  "use": "local inference only; no training; alignment proposals only"
+}

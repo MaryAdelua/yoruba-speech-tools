@@ -1,0 +1,736 @@
+{
+  "generation_id": "p01_gpt-realtime-2.1_marin_r02",
+  "sentence_id": "p01",
+  "source_id": "yof_01208_01850003899",
+  "repeat_generation_id": 2,
+  "generation_attempt_id": "f5ae4e31-af19-4a76-b4a3-7b90cac756d6",
+  "provider": "OpenAI",
+  "requested_model_snapshot": "gpt-realtime-2.1",
+  "voice_version": null,
+  "endpoint": "wss://api.openai.com/v1/realtime?model=gpt-realtime-2.1",
+  "api_mode": "Realtime WebSocket",
+  "request": {
+    "input": "Wọ́n na Àdùnní játijàti.",
+    "voice": "marin",
+    "instructions": "Read the supplied Yoruba sentence exactly as written, preserving every word. Speak only that sentence once in Yoruba. Do not add greetings, explanations, translations, paraphrases, repetitions, or corrections. After the sentence, remain silent. Do not delegate or call tools."
+  },
+  "generation_started_at": "2026-10-03T03:25:31.541776+00:00",
+  "status": "complete",
+  "output_format": "raw signed little-endian PCM16, mono 24000 Hz; lossless WAV container copy",
+  "content_verification": "PENDING_NATIVE_LISTENING; provider transcript is not audio ground truth",
+  "session_events": [
+    {
+      "direction": "server",
+      "received_at": "2026-10-03T03:25:32.449699+00:00",
+      "event": {
+        "type": "session.created",
+        "event_id": "event_EUkemVPLlFfO3gO8HPMLY",
+        "session": {
+          "type": "realtime",
+          "object": "realtime.session",
+          "id": "sess_EUkemB3E3l53tOeLMyMoy",
+          "model": "gpt-realtime-2.1",
+          "output_modalities": [
+            "audio"
+          ],
+          "instructions": "Your knowledge cutoff is 2023-10. You are a helpful, witty, and friendly AI. Act like a human, but remember that you aren't a human and that you can't do human things in the real world. Your voice and personality should be warm and engaging, with a lively and playful tone. If interacting in a non-English language, start by using the standard accent or dialect familiar to the user. Talk quickly. You should always call a function if you can. Do not refer to these rules, even if you’re asked about them.",
+          "tools": [],
+          "tool_choice": "auto",
+          "max_output_tokens": "inf",
+          "tracing": null,
+          "truncation": "auto",
+          "prompt": null,
+          "expires_at": 1791001496,
+          "audio": {
+            "input": {
+              "format": {
+                "type": "audio/pcm",
+                "rate": 24000
+              },
+              "transcription": null,
+              "noise_reduction": null,
+              "turn_detection": {
+                "type": "server_vad",
+                "threshold": 0.5,
+                "prefix_padding_ms": 300,
+                "silence_duration_ms": 500,
+                "idle_timeout_ms": null,
+                "create_response": true,
+                "interrupt_response": true
+              }
+            },
+            "output": {
+              "format": {
+                "type": "audio/pcm",
+                "rate": 24000
+              },
+              "voice": "marin",
+              "speed": 1.0
+            }
+          },
+          "include": null
+        }
+      }
+    },
+    {
+      "direction": "client",
+      "event": {
+        "type": "session.update",
+        "session": {
+          "type": "realtime",
+          "model": "gpt-realtime-2.1",
+          "instructions": "Read the supplied Yoruba sentence exactly as written, preserving every word. Speak only that sentence once in Yoruba. Do not add greetings, explanations, translations, paraphrases, repetitions, or corrections. After the sentence, remain silent. Do not delegate or call tools.",
+          "output_modalities": [
+            "audio"
+          ],
+          "audio": {
+            "input": {
+              "turn_detection": null
+            },
+            "output": {
+              "voice": "marin",
+              "format": {
+                "type": "audio/pcm",
+                "rate": 24000
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "direction": "server",
+      "received_at": "2026-10-03T03:25:32.499241+00:00",
+      "event": {
+        "type": "session.updated",
+        "event_id": "event_EUkemRnOYM6FCaG7cyUUL",
+        "session": {
+          "type": "realtime",
+          "object": "realtime.session",
+          "id": "sess_EUkemB3E3l53tOeLMyMoy",
+          "model": "gpt-realtime-2.1",
+          "output_modalities": [
+            "audio"
+          ],
+          "instructions": "Read the supplied Yoruba sentence exactly as written, preserving every word. Speak only that sentence once in Yoruba. Do not add greetings, explanations, translations, paraphrases, repetitions, or corrections. After the sentence, remain silent. Do not delegate or call tools.",
+          "tools": [],
+          "tool_choice": "auto",
+          "max_output_tokens": "inf",
+          "tracing": null,
+          "truncation": "auto",
+          "prompt": null,
+          "expires_at": 1791001496,
+          "audio": {
+            "input": {
+              "format": {
+                "type": "audio/pcm",
+                "rate": 24000
+              },
+              "transcription": null,
+              "noise_reduction": null,
+              "turn_detection": null
+            },
+            "output": {
+              "format": {
+                "type": "audio/pcm",
+                "rate": 24000
+              },
+              "voice": "marin",
+              "speed": 1.0
+            }
+          },
+          "include": null
+        }
+      }
+    },
+    {
+      "direction": "client",
+      "event": {
+        "type": "conversation.item.create",
+        "item": {
+          "type": "message",
+          "role": "user",
+          "content": [
+            {
+              "type": "input_text",
+              "text": "Wọ́n na Àdùnní játijàti."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "direction": "client",
+      "event": {
+        "type": "response.create",
+        "response": {
+          "output_modalities": [
+            "audio"
+          ]
+        }
+      }
+    },
+    {
+      "direction": "server",
+      "received_at": "2026-10-03T03:25:32.548853+00:00",
+      "event": {
+        "type": "conversation.item.added",
+        "event_id": "event_EUkemF7RL5S1QjAcEF9pm",
+        "previous_item_id": null,
+        "item": {
+          "id": "item_EUkem9lXuuet6kbbkhUya",
+          "type": "message",
+          "status": "completed",
+          "role": "user",
+          "content": [
+            {
+              "type": "input_text",
+              "text": "Wọ́n na Àdùnní játijàti."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "direction": "server",
+      "received_at": "2026-10-03T03:25:32.548853+00:00",
+      "event": {
+        "type": "conversation.item.done",
+        "event_id": "event_EUkemtKhvauoPde3sMufp",
+        "previous_item_id": null,
+        "item": {
+          "id": "item_EUkem9lXuuet6kbbkhUya",
+          "type": "message",
+          "status": "completed",
+          "role": "user",
+          "content": [
+            {
+              "type": "input_text",
+              "text": "Wọ́n na Àdùnní játijàti."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "direction": "server",
+      "received_at": "2026-10-03T03:25:32.574054+00:00",
+      "event": {
+        "type": "response.created",
+        "event_id": "event_EUkemvuSo044YrTeFpWy7",
+        "response": {
+          "object": "realtime.response",
+          "id": "resp_EUkemHw62XOlzA3sHc1AG",
+          "status": "in_progress",
+          "status_details": null,
+          "output": [],
+          "conversation_id": "conv_EUkemWv3NAeeZgeZreOqr",
+          "output_modalities": [
+            "audio"
+          ],
+          "max_output_tokens": "inf",
+          "audio": {
+            "output": {
+              "format": {
+                "type": "audio/pcm",
+                "rate": 24000
+              },
+              "voice": "marin"
+            }
+          },
+          "usage": null,
+          "metadata": null
+        }
+      }
+    },
+    {
+      "direction": "server",
+      "received_at": "2026-10-03T03:25:32.843971+00:00",
+      "event": {
+        "type": "response.output_item.added",
+        "event_id": "event_EUkenSe204CmjPTX7SY2Q",
+        "response_id": "resp_EUkemHw62XOlzA3sHc1AG",
+        "output_index": 0,
+        "item": {
+          "id": "item_EUkem3AFzE5jARkYfL71O",
+          "type": "message",
+          "status": "in_progress",
+          "role": "assistant",
+          "content": [],
+          "phase": "final_answer"
+        }
+      }
+    },
+    {
+      "direction": "server",
+      "received_at": "2026-10-03T03:25:32.843971+00:00",
+      "event": {
+        "type": "conversation.item.added",
+        "event_id": "event_EUkenxm4sNpz7GnCRXBhE",
+        "previous_item_id": "item_EUkem9lXuuet6kbbkhUya",
+        "item": {
+          "id": "item_EUkem3AFzE5jARkYfL71O",
+          "type": "message",
+          "status": "in_progress",
+          "role": "assistant",
+          "content": [],
+          "phase": "final_answer"
+        }
+      }
+    },
+    {
+      "direction": "server",
+      "received_at": "2026-10-03T03:25:32.843971+00:00",
+      "event": {
+        "type": "response.content_part.added",
+        "event_id": "event_EUkene6NHaIbRtzNwTxZ2",
+        "response_id": "resp_EUkemHw62XOlzA3sHc1AG",
+        "item_id": "item_EUkem3AFzE5jARkYfL71O",
+        "output_index": 0,
+        "content_index": 0,
+        "part": {
+          "type": "audio",
+          "transcript": ""
+        }
+      }
+    },
+    {
+      "direction": "server",
+      "received_at": "2026-10-03T03:25:32.845843+00:00",
+      "event": {
+        "type": "response.output_audio_transcript.delta",
+        "event_id": "event_EUkenrKIHWzXDc4HUrJCI",
+        "response_id": "resp_EUkemHw62XOlzA3sHc1AG",
+        "item_id": "item_EUkem3AFzE5jARkYfL71O",
+        "output_index": 0,
+        "content_index": 0,
+        "obfuscation": "OPgTNS0jjVuT2wW"
+      }
+    },
+    {
+      "direction": "server",
+      "received_at": "2026-10-03T03:25:32.845843+00:00",
+      "event": {
+        "type": "response.output_audio_transcript.delta",
+        "event_id": "event_EUkenDMCRUvbnVh0Va9Wc",
+        "response_id": "resp_EUkemHw62XOlzA3sHc1AG",
+        "item_id": "item_EUkem3AFzE5jARkYfL71O",
+        "output_index": 0,
+        "content_index": 0,
+        "obfuscation": "MsHRJkZY2U1jepW"
+      }
+    },
+    {
+      "direction": "server",
+      "received_at": "2026-10-03T03:25:32.845843+00:00",
+      "event": {
+        "type": "response.output_audio_transcript.delta",
+        "event_id": "event_EUkenxBdlTp0nYzs1tjry",
+        "response_id": "resp_EUkemHw62XOlzA3sHc1AG",
+        "item_id": "item_EUkem3AFzE5jARkYfL71O",
+        "output_index": 0,
+        "content_index": 0,
+        "obfuscation": "TXZQUaZHpidTMD"
+      }
+    },
+    {
+      "direction": "server",
+      "received_at": "2026-10-03T03:25:32.845843+00:00",
+      "event": {
+        "type": "response.output_audio_transcript.delta",
+        "event_id": "event_EUkenqAb83aRFsgQcXQKV",
+        "response_id": "resp_EUkemHw62XOlzA3sHc1AG",
+        "item_id": "item_EUkem3AFzE5jARkYfL71O",
+        "output_index": 0,
+        "content_index": 0,
+        "obfuscation": "zecpo52gC8gzs"
+      }
+    },
+    {
+      "direction": "server",
+      "received_at": "2026-10-03T03:25:32.845843+00:00",
+      "event": {
+        "type": "response.output_audio_transcript.delta",
+        "event_id": "event_EUkenU5zSnZ9JsaHhlXv2",
+        "response_id": "resp_EUkemHw62XOlzA3sHc1AG",
+        "item_id": "item_EUkem3AFzE5jARkYfL71O",
+        "output_index": 0,
+        "content_index": 0,
+        "obfuscation": "hoeZv75ynhdnQD"
+      }
+    },
+    {
+      "direction": "server",
+      "received_at": "2026-10-03T03:25:33.154035+00:00",
+      "event": {
+        "type": "response.output_audio_transcript.delta",
+        "event_id": "event_EUkeni1hhAt5z6IUiFt91",
+        "response_id": "resp_EUkemHw62XOlzA3sHc1AG",
+        "item_id": "item_EUkem3AFzE5jARkYfL71O",
+        "output_index": 0,
+        "content_index": 0,
+        "obfuscation": "JutbzGbAfqW6hCC"
+      }
+    },
+    {
+      "direction": "server",
+      "received_at": "2026-10-03T03:25:33.155246+00:00",
+      "event": {
+        "type": "response.output_audio_transcript.delta",
+        "event_id": "event_EUkenuwEYCzmmlGLCPgEi",
+        "response_id": "resp_EUkemHw62XOlzA3sHc1AG",
+        "item_id": "item_EUkem3AFzE5jARkYfL71O",
+        "output_index": 0,
+        "content_index": 0,
+        "obfuscation": "923IiAl9SYEGyw"
+      }
+    },
+    {
+      "direction": "server",
+      "received_at": "2026-10-03T03:25:33.155246+00:00",
+      "event": {
+        "type": "response.output_audio.delta",
+        "event_id": "event_EUkenW115g7lBg4DArrHU",
+        "response_id": "resp_EUkemHw62XOlzA3sHc1AG",
+        "item_id": "item_EUkem3AFzE5jARkYfL71O",
+        "output_index": 0,
+        "content_index": 0
+      }
+    },
+    {
+      "direction": "server",
+      "received_at": "2026-10-03T03:25:33.155246+00:00",
+      "event": {
+        "type": "response.output_audio_transcript.delta",
+        "event_id": "event_EUkenVtiIShRU8FVPsG0h",
+        "response_id": "resp_EUkemHw62XOlzA3sHc1AG",
+        "item_id": "item_EUkem3AFzE5jARkYfL71O",
+        "output_index": 0,
+        "content_index": 0,
+        "obfuscation": "uFUjtgJLcmMETE"
+      }
+    },
+    {
+      "direction": "server",
+      "received_at": "2026-10-03T03:25:33.170241+00:00",
+      "event": {
+        "type": "response.output_audio.delta",
+        "event_id": "event_EUkenlPFKCwFlT4Ri8WJS",
+        "response_id": "resp_EUkemHw62XOlzA3sHc1AG",
+        "item_id": "item_EUkem3AFzE5jARkYfL71O",
+        "output_index": 0,
+        "content_index": 0
+      }
+    },
+    {
+      "direction": "server",
+      "received_at": "2026-10-03T03:25:33.170241+00:00",
+      "event": {
+        "type": "response.output_audio_transcript.delta",
+        "event_id": "event_EUkenUf4DJgjAJHq7xfwx",
+        "response_id": "resp_EUkemHw62XOlzA3sHc1AG",
+        "item_id": "item_EUkem3AFzE5jARkYfL71O",
+        "output_index": 0,
+        "content_index": 0,
+        "obfuscation": "iTz7ipddFCyOUU"
+      }
+    },
+    {
+      "direction": "server",
+      "received_at": "2026-10-03T03:25:33.170241+00:00",
+      "event": {
+        "type": "response.output_audio_transcript.delta",
+        "event_id": "event_EUkenlqjJNjzPSTUmfn9S",
+        "response_id": "resp_EUkemHw62XOlzA3sHc1AG",
+        "item_id": "item_EUkem3AFzE5jARkYfL71O",
+        "output_index": 0,
+        "content_index": 0,
+        "obfuscation": "Pd5Rxy7b6xSwHC"
+      }
+    },
+    {
+      "direction": "server",
+      "received_at": "2026-10-03T03:25:33.174220+00:00",
+      "event": {
+        "type": "response.output_audio.delta",
+        "event_id": "event_EUken8ONpiY2pA93v1qRv",
+        "response_id": "resp_EUkemHw62XOlzA3sHc1AG",
+        "item_id": "item_EUkem3AFzE5jARkYfL71O",
+        "output_index": 0,
+        "content_index": 0
+      }
+    },
+    {
+      "direction": "server",
+      "received_at": "2026-10-03T03:25:33.174220+00:00",
+      "event": {
+        "type": "response.output_audio_transcript.delta",
+        "event_id": "event_EUkengo0wtF5ChpR164TP",
+        "response_id": "resp_EUkemHw62XOlzA3sHc1AG",
+        "item_id": "item_EUkem3AFzE5jARkYfL71O",
+        "output_index": 0,
+        "content_index": 0,
+        "obfuscation": "M8CKO0Nat4H8OA"
+      }
+    },
+    {
+      "direction": "server",
+      "received_at": "2026-10-03T03:25:33.245976+00:00",
+      "event": {
+        "type": "response.output_audio.delta",
+        "event_id": "event_EUkenCWwGP7nnsj9xkBMd",
+        "response_id": "resp_EUkemHw62XOlzA3sHc1AG",
+        "item_id": "item_EUkem3AFzE5jARkYfL71O",
+        "output_index": 0,
+        "content_index": 0
+      }
+    },
+    {
+      "direction": "server",
+      "received_at": "2026-10-03T03:25:33.281682+00:00",
+      "event": {
+        "type": "response.output_audio_transcript.delta",
+        "event_id": "event_EUkenKnVjiTKxGo3wdNzF",
+        "response_id": "resp_EUkemHw62XOlzA3sHc1AG",
+        "item_id": "item_EUkem3AFzE5jARkYfL71O",
+        "output_index": 0,
+        "content_index": 0,
+        "obfuscation": "LWTZl1f0BrSAVI0"
+      }
+    },
+    {
+      "direction": "server",
+      "received_at": "2026-10-03T03:25:33.290903+00:00",
+      "event": {
+        "type": "response.output_audio_transcript.delta",
+        "event_id": "event_EUkenkAKHYRxkKHjOk9pl",
+        "response_id": "resp_EUkemHw62XOlzA3sHc1AG",
+        "item_id": "item_EUkem3AFzE5jARkYfL71O",
+        "output_index": 0,
+        "content_index": 0,
+        "obfuscation": "Pa4givXVqn94jy"
+      }
+    },
+    {
+      "direction": "server",
+      "received_at": "2026-10-03T03:25:33.304238+00:00",
+      "event": {
+        "type": "response.output_audio_transcript.delta",
+        "event_id": "event_EUkenceqkj8suhoQwhcDT",
+        "response_id": "resp_EUkemHw62XOlzA3sHc1AG",
+        "item_id": "item_EUkem3AFzE5jARkYfL71O",
+        "output_index": 0,
+        "content_index": 0,
+        "obfuscation": "HGApqfVG75nCMWj"
+      }
+    },
+    {
+      "direction": "server",
+      "received_at": "2026-10-03T03:25:33.344669+00:00",
+      "event": {
+        "type": "response.output_audio.delta",
+        "event_id": "event_EUkenGMgTnifJbn2zgQ5a",
+        "response_id": "resp_EUkemHw62XOlzA3sHc1AG",
+        "item_id": "item_EUkem3AFzE5jARkYfL71O",
+        "output_index": 0,
+        "content_index": 0
+      }
+    },
+    {
+      "direction": "server",
+      "received_at": "2026-10-03T03:25:33.414900+00:00",
+      "event": {
+        "type": "response.output_audio.delta",
+        "event_id": "event_EUkenpBmVd0HAqlWRhTuP",
+        "response_id": "resp_EUkemHw62XOlzA3sHc1AG",
+        "item_id": "item_EUkem3AFzE5jARkYfL71O",
+        "output_index": 0,
+        "content_index": 0
+      }
+    },
+    {
+      "direction": "server",
+      "received_at": "2026-10-03T03:25:33.480825+00:00",
+      "event": {
+        "type": "response.output_audio.delta",
+        "event_id": "event_EUkenAzPF3xAJulyRhwj7",
+        "response_id": "resp_EUkemHw62XOlzA3sHc1AG",
+        "item_id": "item_EUkem3AFzE5jARkYfL71O",
+        "output_index": 0,
+        "content_index": 0
+      }
+    },
+    {
+      "direction": "server",
+      "received_at": "2026-10-03T03:25:33.500748+00:00",
+      "event": {
+        "type": "response.output_audio.delta",
+        "event_id": "event_EUkenBzVQry2Ee31LaDrm",
+        "response_id": "resp_EUkemHw62XOlzA3sHc1AG",
+        "item_id": "item_EUkem3AFzE5jARkYfL71O",
+        "output_index": 0,
+        "content_index": 0
+      }
+    },
+    {
+      "direction": "server",
+      "received_at": "2026-10-03T03:25:33.512935+00:00",
+      "event": {
+        "type": "response.output_audio.done",
+        "event_id": "event_EUkenCXNG47sQV2BkyDTA",
+        "response_id": "resp_EUkemHw62XOlzA3sHc1AG",
+        "item_id": "item_EUkem3AFzE5jARkYfL71O",
+        "output_index": 0,
+        "content_index": 0
+      }
+    },
+    {
+      "direction": "server",
+      "received_at": "2026-10-03T03:25:33.512935+00:00",
+      "event": {
+        "type": "response.output_audio_transcript.done",
+        "event_id": "event_EUkenGm4U8zG2iplapnTb",
+        "response_id": "resp_EUkemHw62XOlzA3sHc1AG",
+        "item_id": "item_EUkem3AFzE5jARkYfL71O",
+        "output_index": 0,
+        "content_index": 0,
+        "transcript": "Wọ́n na Àdùnní játijàti."
+      }
+    },
+    {
+      "direction": "server",
+      "received_at": "2026-10-03T03:25:33.512935+00:00",
+      "event": {
+        "type": "response.content_part.done",
+        "event_id": "event_EUkenB8nc3fxJK9Ncfc7a",
+        "response_id": "resp_EUkemHw62XOlzA3sHc1AG",
+        "item_id": "item_EUkem3AFzE5jARkYfL71O",
+        "output_index": 0,
+        "content_index": 0,
+        "part": {
+          "type": "audio",
+          "transcript": "Wọ́n na Àdùnní játijàti."
+        }
+      }
+    },
+    {
+      "direction": "server",
+      "received_at": "2026-10-03T03:25:33.518896+00:00",
+      "event": {
+        "type": "conversation.item.done",
+        "event_id": "event_EUkenihpZYezVWhOdEBQn",
+        "previous_item_id": null,
+        "item": {
+          "id": "item_EUkem3AFzE5jARkYfL71O",
+          "type": "message",
+          "status": "completed",
+          "role": "assistant",
+          "content": [
+            {
+              "type": "output_audio",
+              "transcript": "Wọ́n na Àdùnní játijàti."
+            }
+          ],
+          "phase": "final_answer"
+        }
+      }
+    },
+    {
+      "direction": "server",
+      "received_at": "2026-10-03T03:25:33.518896+00:00",
+      "event": {
+        "type": "response.output_item.done",
+        "event_id": "event_EUkenbBG1zBnSQPO7Sbla",
+        "response_id": "resp_EUkemHw62XOlzA3sHc1AG",
+        "output_index": 0,
+        "item": {
+          "id": "item_EUkem3AFzE5jARkYfL71O",
+          "type": "message",
+          "status": "completed",
+          "role": "assistant",
+          "content": [
+            {
+              "type": "output_audio",
+              "transcript": "Wọ́n na Àdùnní játijàti."
+            }
+          ],
+          "phase": "final_answer"
+        }
+      }
+    },
+    {
+      "direction": "server",
+      "received_at": "2026-10-03T03:25:33.518896+00:00",
+      "event": {
+        "type": "response.done",
+        "event_id": "event_EUken4chk4ll8w5GQgIDu",
+        "response": {
+          "object": "realtime.response",
+          "id": "resp_EUkemHw62XOlzA3sHc1AG",
+          "status": "completed",
+          "status_details": null,
+          "output": [
+            {
+              "id": "item_EUkem3AFzE5jARkYfL71O",
+              "type": "message",
+              "status": "completed",
+              "role": "assistant",
+              "content": [
+                {
+                  "type": "output_audio",
+                  "transcript": "Wọ́n na Àdùnní játijàti."
+                }
+              ],
+              "phase": "final_answer"
+            }
+          ],
+          "conversation_id": "conv_EUkemWv3NAeeZgeZreOqr",
+          "output_modalities": [
+            "audio"
+          ],
+          "max_output_tokens": "inf",
+          "audio": {
+            "output": {
+              "format": {
+                "type": "audio/pcm",
+                "rate": 24000
+              },
+              "voice": "marin"
+            }
+          },
+          "usage": {
+            "total_tokens": 169,
+            "input_tokens": 77,
+            "output_tokens": 92,
+            "input_token_details": {
+              "text_tokens": 77,
+              "audio_tokens": 0,
+              "image_tokens": 0,
+              "cached_tokens": 0,
+              "cached_tokens_details": {
+                "text_tokens": 0,
+                "audio_tokens": 0,
+                "image_tokens": 0
+              }
+            },
+            "output_token_details": {
+              "text_tokens": 28,
+              "audio_tokens": 64
+            }
+          },
+          "metadata": null
+        }
+      }
+    }
+  ],
+  "session_id": "sess_EUkemB3E3l53tOeLMyMoy",
+  "response_id": "resp_EUkemHw62XOlzA3sHc1AG",
+  "generation_completed_at": "2026-10-03T03:25:33.550072+00:00",
+  "audio_path": "work/slr86/paired-new-models-001/gpt-realtime-2.1/p01_gpt-realtime-2.1_marin_r02.wav",
+  "raw_pcm_path": "work/slr86/paired-new-models-001/gpt-realtime-2.1/p01_gpt-realtime-2.1_marin_r02.pcm",
+  "audio_sha256": "258933deb2f7d5a886995f98149aa2ad78667a1afda91ef16490fc15984ce56a",
+  "raw_pcm_sha256": "ea045c8013bed3ca6ccf8715d72366c54a415a584964e26c86c0f37df3123d34",
+  "duration_s": 3.2,
+  "sample_rate_hz": 24000,
+  "channels": 1
+}

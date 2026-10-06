@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "full_archives_downloaded": false,
+  "selected_compressed_audio_bytes": 29265521,
+  "archive_sizes_bytes": {
+    "female": 462033045,
+    "male": 445032517
+  },
+  "method": "Only selected member payloads and ZIP metadata via HTTP Range; never fall back to full archive",
+  "index_inventory_matches": true,
+  "failed": [],
+  "acquired": 120,
+  "audio_bytes": 44209312,
+  "audio_duration_s": 460.45866666666666,
+  "missing_ids": [],
+  "ready_for_descriptive_acoustic_extraction": true,
+  "linguistic_transcript_pairing": "Source metadata matched; human listening verification not performed."
+}

@@ -1,0 +1,89 @@
+{
+  "clips": 120,
+  "speakers": 12,
+  "total_duration_s": 460.45866666666666,
+  "clip_duration_s": {
+    "n": 120,
+    "min": 1.4506666666666668,
+    "p05": 1.9584,
+    "p25": 2.816,
+    "median": 3.584,
+    "p75": 4.522666666666667,
+    "p95": 6.3232,
+    "max": 9.386666666666667,
+    "sd": 1.4050202363992335
+  },
+  "pooled_pyin_hz": {
+    "n": 31956,
+    "min": 65.0,
+    "p05": 75.97052115648096,
+    "p25": 123.4144757235675,
+    "median": 158.21045677717683,
+    "p75": 200.48740730303228,
+    "p95": 246.828951447135,
+    "max": 450.07901172319436,
+    "sd": 51.18631589978697
+  },
+  "between_speaker_median_hz": {
+    "n": 12,
+    "min": 113.82716948276507,
+    "p05": 114.92148461427854,
+    "p25": 129.06514698368,
+    "median": 168.54825654886417,
+    "p75": 204.28729366687807,
+    "p95": 209.63694202226372,
+    "max": 213.63948179230545,
+    "sd": 37.87864729061291
+  },
+  "speaker_relative_pyin_st": {
+    "n": 31956,
+    "min": -19.900000000000002,
+    "p05": -9.199999999999996,
+    "p25": -2.000000000000005,
+    "median": 0.0,
+    "p75": 1.900000000000004,
+    "p95": 5.0,
+    "max": 14.9,
+    "sd": 4.160358711668635
+  },
+  "frame_count": 46110,
+  "pyin_voiced_percent": 69.30383864671438,
+  "matched_frames": 45553,
+  "both_voiced_frames": 25550,
+  "voicing_disagreement_percent_matched": 15.202072311373565,
+  "absolute_disagreement_st": {
+    "n": 25550,
+    "min": 1.7503646285684747e-05,
+    "p05": 0.011741537774776918,
+    "p25": 0.0608081368864301,
+    "median": 0.14878097095746573,
+    "p75": 0.35323240120858,
+    "p95": 1.1766240123063822,
+    "max": 16.51671427847748,
+    "sd": 0.9246345550146156
+  },
+  "both_voiced_within_half_semitone_percent": 82.82583170254404,
+  "agreement_screen_percent_all_frames": 20.13229234439384,
+  "frame_flag_counts": {
+    "edge_window": 1113,
+    "pyin_probability_below_0.5": 22116,
+    "voicing_disagreement": 6925,
+    "pitch_difference_over_1_semitone": 1676,
+    "possible_octave_disagreement": 70,
+    "praat_near_search_limit": 9,
+    "near_pyin_floor": 313
+  },
+  "qc_status": "20 supplied for human listening; no linguistic judgments invented",
+  "limitations": [
+    "Small read-speech pilot, not normative Yoruba correctness distributions.",
+    "Estimator agreement is not ground truth.",
+    "Voicing is not speech activity; unvoiced consonants and silence are not separated.",
+    "pYIN probability and Praat strength are different uncalibrated quantities.",
+    "RMS is digital amplitude, not calibrated loudness.",
+    "Speaker baselines pool voiced frames; longer clips carry more weight.",
+    "65–500 Hz search limits can censor extremes; flags retained.",
+    "No syllable alignment or validated nasality measures."
+  ],
+  "scores": "UNSCORED",
+  "sources_preserved": true
+}

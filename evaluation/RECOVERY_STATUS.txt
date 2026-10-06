@@ -1,3 +1,8 @@
+UPDATE: This was the code-only checkpoint. The subsequent authorized public
+research snapshot includes the study data listed in public_snapshot_manifest.json.
+See PUBLIC_RESEARCH_SNAPSHOT.txt for the current restore procedure. A local
+commit does not establish remote upload; verify the research-data commit on GitHub.
+
 Yoruba voice evaluation: code recovery checkpoint
 
 This branch extends the existing project; earlier Yoruba work is preserved.

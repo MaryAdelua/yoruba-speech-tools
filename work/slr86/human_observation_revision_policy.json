@@ -1,0 +1,11 @@
+{
+  "observation": "Realtime calmer / less loud at model level",
+  "status": "withdrawn",
+  "relevant_clip_id": null,
+  "unresolved_clip_observation_is_not_a_training_target": true,
+  "current_revision": "cross-model-comparison-001/interpretation_revision_002.json",
+  "do_not_use_as_model_finding_or_target": [
+    "cross-model-comparison-001/human_style_observation.json"
+  ],
+  "objective_acoustic_results_unchanged": true
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.1",
+  "evaluator_version": "0.1.0",
+  "created_at_utc": "2026-10-01T18:14:36.594635+00:00",
+  "mode": "fixture_replay",
+  "case_id": "yo-interaction-001",
+  "case": {
+    "schema_version": "0.1",
+    "case_id": "yo-interaction-001",
+    "task_type": "conversational_reply",
+    "reference_reviewed": false,
+    "reference_user_text": "Mo ní ọsàn mẹ́ta, mo sì ra méjì sí i. Ọsàn mélòó ni mo ní lápapọ̀? Dá mi lóhùn ní èdè Yorùbá nínú gbólóhùn kan.",
+    "expected_intent": "The user has three oranges, buys two more, and asks how many oranges they now have. They request one sentence in Yoruba.",
+    "expected_language": "yo",
+    "acceptance_criteria": [
+      "State that the user now has five oranges; accept equivalent Yoruba phrasing and either a number word or digit.",
+      "Answer in one sentence without an unrelated explanation, question, or change of task."
+    ],
+    "example_acceptable_response": "O ní ọsàn márùn-ún lápapọ̀.",
+    "review_note": "Draft recording script. A fluent speaker must confirm wording and intended meaning before reference_reviewed is set true. This is one development interaction, not a benchmark."
+  },
+  "case_sha256": "4471403284c3de25d3636189f24fa198b33339c20bdb78054ab8c3bfeaf791e0",
+  "product": "unspecified",
+  "audio": {},
+  "transcripts": {
+    "user": {
+      "text": "Mo ní ọsàn mẹ́ta, mo sì ra méjì sí i. Ọsàn mélòó ni mo ní lápapọ̀? Dá mi lóhùn ní èdè Yorùbá nínú gbólóhùn kan.",
+      "source": "fixture"
+    },
+    "assistant": {
+      "text": "O ní ọsàn márùn-ún lápapọ̀.",
+      "source": "fixture"
+    }
+  },
+  "rubric_version": "yoruba-interaction-0.1",
+  "rubric_sha256": "d8c97b21cc0d5b30e54655a1eb3fac84a6fee895575c5c01c377c945bbca2e7b",
+  "validation_status": "not_human_validated",
+  "not_scored": {
+    "pronunciation": "Not implemented; transcript text cannot establish pronunciation or tones.",
+    "naturalness": "Deferred pending native-speaker calibration.",
+    "speech_understanding": "Internal product recognition is unobserved; request match only checks evaluator evidence.",
+    "multi_turn_understanding": "Single-turn V0.1."
+  },
+  "limitations": [
+    "ASR errors may affect scores; compare transcripts with the recordings.",
+    "Automated scores are provisional, not validated Yoruba capability measurements.",
+    "No overall score; the three dimensions are independent."
+  ],
+  "diagnostics": {
+    "assistant_word_count": 5
+  },
+  "request_match": "matches",
+  "request_match_reason": "Fixture input is the draft reference request.",
+  "dimensions": {
+    "semantic_correctness": {
+      "status": "scored",
+      "score": 4,
+      "evidence": "márùn-ún",
+      "reason": "Fixture label: three plus two is five."
+    },
+    "task_completion": {
+      "status": "scored",
+      "score": 4,
+      "evidence": "O ní ọsàn márùn-ún lápapọ̀.",
+      "reason": "Fixture label: gives the requested count in one sentence."
+    },
+    "language_adherence": {
+      "status": "scored",
+      "score": 4,
+      "evidence": "O ní ọsàn márùn-ún lápapọ̀.",
+      "reason": "Fixture label: the response is in Yoruba."
+    }
+  },
+  "uncertainties": [],
+  "judge": {
+    "provider": "fixture_replay",
+    "model": null
+  },
+  "status": "fixture_replay_not_a_model_evaluation"
+}

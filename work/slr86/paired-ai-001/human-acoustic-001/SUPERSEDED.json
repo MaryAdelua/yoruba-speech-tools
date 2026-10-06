@@ -1,0 +1,6 @@
+{
+  "status": "superseded",
+  "scope": "Human review and human-derived findings; raw acoustic artifacts remain valid historical measurements.",
+  "replacement": "v2 reviews pending",
+  "reason": "User misunderstood confidence; both human-review stages must be redone from blank sessions."
+}

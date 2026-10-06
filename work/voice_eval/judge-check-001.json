@@ -1,0 +1,321 @@
+{
+  "status": "preliminary_pass",
+  "limitations": "Three draft response variants, one case, one pass. Not a reliability estimate.",
+  "results": [
+    {
+      "variant": "correct_yoruba",
+      "checks": {
+        "semantic_correctness": true,
+        "task_completion": true,
+        "language_adherence": true,
+        "request_match": true
+      },
+      "report": {
+        "schema_version": "0.1",
+        "evaluator_version": "0.1.0",
+        "created_at_utc": "2026-10-02T00:00:08.117583+00:00",
+        "mode": "text_only",
+        "case_id": "yo-interaction-001",
+        "case": {
+          "schema_version": "0.1",
+          "case_id": "yo-interaction-001",
+          "task_type": "conversational_reply",
+          "reference_reviewed": false,
+          "reference_user_text": "Mo ní ọsàn mẹ́ta, mo sì ra méjì sí i. Ọsàn mélòó ni mo ní lápapọ̀? Dá mi lóhùn ní èdè Yorùbá nínú gbólóhùn kan.",
+          "expected_intent": "The user has three oranges, buys two more, and asks how many oranges they now have. They request one sentence in Yoruba.",
+          "expected_language": "yo",
+          "acceptance_criteria": [
+            "State that the user now has five oranges; accept equivalent Yoruba phrasing and either a number word or digit.",
+            "Answer in one sentence without an unrelated explanation, question, or change of task."
+          ],
+          "example_acceptable_response": "O ní ọsàn márùn-ún lápapọ̀.",
+          "review_note": "Draft recording script. A fluent speaker must confirm wording and intended meaning before reference_reviewed is set true. This is one development interaction, not a benchmark."
+        },
+        "case_sha256": "4471403284c3de25d3636189f24fa198b33339c20bdb78054ab8c3bfeaf791e0",
+        "product": "unspecified",
+        "audio": {},
+        "transcripts": {
+          "user": {
+            "text": "Mo ní ọsàn mẹ́ta, mo sì ra méjì sí i. Ọsàn mélòó ni mo ní lápapọ̀? Dá mi lóhùn ní èdè Yorùbá nínú gbólóhùn kan.",
+            "source": "draft_reference",
+            "raw_text": "Mo ní ọsàn mẹ́ta, mo sì ra méjì sí i. Ọsàn mélòó ni mo ní lápapọ̀? Dá mi lóhùn ní èdè Yorùbá nínú gbólóhùn kan."
+          },
+          "assistant": {
+            "text": "O ní ọsàn márùn-ún lápapọ̀.",
+            "source": "draft_response_variant",
+            "raw_text": "O ní ọsàn márùn-ún lápapọ̀."
+          }
+        },
+        "rubric_version": "yoruba-interaction-0.1",
+        "rubric_sha256": "d8c97b21cc0d5b30e54655a1eb3fac84a6fee895575c5c01c377c945bbca2e7b",
+        "validation_status": "not_human_validated",
+        "not_scored": {
+          "pronunciation": "Not implemented; transcript text cannot establish pronunciation or tones.",
+          "naturalness": "Deferred pending native-speaker calibration.",
+          "speech_understanding": "Internal product recognition is unobserved; request match only checks evaluator evidence.",
+          "multi_turn_understanding": "Single-turn V0.1."
+        },
+        "limitations": [
+          "ASR errors may affect scores; compare transcripts with the recordings.",
+          "Automated scores are provisional, not validated Yoruba capability measurements.",
+          "No overall score; the three dimensions are independent."
+        ],
+        "diagnostics": {
+          "assistant_word_count": 5
+        },
+        "request_match": "matches",
+        "request_match_reason": "The observed user transcript matches the expected intent: the user describes having three oranges, buying two more, and asks for the total (in one Yoruba sentence).",
+        "dimensions": {
+          "semantic_correctness": {
+            "status": "scored",
+            "score": 4,
+            "evidence": "O ní ọsàn márùn-ún lápapọ̀.",
+            "reason": "The assistant answers that the user has five oranges, which is factually and semantically correct for the user's question."
+          },
+          "task_completion": {
+            "status": "scored",
+            "score": 4,
+            "evidence": "O ní ọsàn márùn-ún lápapọ̀.",
+            "reason": "The answer is in one Yoruba sentence, states the correct total (five oranges), and does not provide unrelated information."
+          },
+          "language_adherence": {
+            "status": "scored",
+            "score": 4,
+            "evidence": "O ní ọsàn márùn-ún lápapọ̀.",
+            "reason": "The entire response is in Yoruba, with no unnecessary language switching."
+          }
+        },
+        "uncertainties": [],
+        "judge": {
+          "provider": "openai",
+          "requested_model": "gpt-4.1",
+          "returned_model": "gpt-4.1-2025-04-14",
+          "response_id": "resp_00343c007de7ba40016abef3e57a8c87d1b581abab54bff5a8",
+          "usage": {
+            "input_tokens": 1018,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens": 205,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 1223
+          }
+        },
+        "status": "needs_review"
+      }
+    },
+    {
+      "variant": "wrong_number",
+      "checks": {
+        "semantic_correctness": true,
+        "task_completion": true,
+        "language_adherence": true,
+        "request_match": true
+      },
+      "report": {
+        "schema_version": "0.1",
+        "evaluator_version": "0.1.0",
+        "created_at_utc": "2026-10-02T00:00:11.032387+00:00",
+        "mode": "text_only",
+        "case_id": "yo-interaction-001",
+        "case": {
+          "schema_version": "0.1",
+          "case_id": "yo-interaction-001",
+          "task_type": "conversational_reply",
+          "reference_reviewed": false,
+          "reference_user_text": "Mo ní ọsàn mẹ́ta, mo sì ra méjì sí i. Ọsàn mélòó ni mo ní lápapọ̀? Dá mi lóhùn ní èdè Yorùbá nínú gbólóhùn kan.",
+          "expected_intent": "The user has three oranges, buys two more, and asks how many oranges they now have. They request one sentence in Yoruba.",
+          "expected_language": "yo",
+          "acceptance_criteria": [
+            "State that the user now has five oranges; accept equivalent Yoruba phrasing and either a number word or digit.",
+            "Answer in one sentence without an unrelated explanation, question, or change of task."
+          ],
+          "example_acceptable_response": "O ní ọsàn márùn-ún lápapọ̀.",
+          "review_note": "Draft recording script. A fluent speaker must confirm wording and intended meaning before reference_reviewed is set true. This is one development interaction, not a benchmark."
+        },
+        "case_sha256": "4471403284c3de25d3636189f24fa198b33339c20bdb78054ab8c3bfeaf791e0",
+        "product": "unspecified",
+        "audio": {},
+        "transcripts": {
+          "user": {
+            "text": "Mo ní ọsàn mẹ́ta, mo sì ra méjì sí i. Ọsàn mélòó ni mo ní lápapọ̀? Dá mi lóhùn ní èdè Yorùbá nínú gbólóhùn kan.",
+            "source": "draft_reference",
+            "raw_text": "Mo ní ọsàn mẹ́ta, mo sì ra méjì sí i. Ọsàn mélòó ni mo ní lápapọ̀? Dá mi lóhùn ní èdè Yorùbá nínú gbólóhùn kan."
+          },
+          "assistant": {
+            "text": "O ní ọsàn mẹ́fà lápapọ̀.",
+            "source": "draft_response_variant",
+            "raw_text": "O ní ọsàn mẹ́fà lápapọ̀."
+          }
+        },
+        "rubric_version": "yoruba-interaction-0.1",
+        "rubric_sha256": "d8c97b21cc0d5b30e54655a1eb3fac84a6fee895575c5c01c377c945bbca2e7b",
+        "validation_status": "not_human_validated",
+        "not_scored": {
+          "pronunciation": "Not implemented; transcript text cannot establish pronunciation or tones.",
+          "naturalness": "Deferred pending native-speaker calibration.",
+          "speech_understanding": "Internal product recognition is unobserved; request match only checks evaluator evidence.",
+          "multi_turn_understanding": "Single-turn V0.1."
+        },
+        "limitations": [
+          "ASR errors may affect scores; compare transcripts with the recordings.",
+          "Automated scores are provisional, not validated Yoruba capability measurements.",
+          "No overall score; the three dimensions are independent."
+        ],
+        "diagnostics": {
+          "assistant_word_count": 5
+        },
+        "request_match": "matches",
+        "request_match_reason": "The observed user transcript is identical to the reference_user_text. The task is clear: sum three oranges with two more, answer in Yoruba, one sentence.",
+        "dimensions": {
+          "semantic_correctness": {
+            "status": "scored",
+            "score": 0,
+            "evidence": "O ní ọsàn mẹ́fà lápapọ̀.",
+            "reason": "The assistant incorrectly states the user has six oranges instead of five; this is a factual error."
+          },
+          "task_completion": {
+            "status": "scored",
+            "score": 1,
+            "evidence": "O ní ọsàn mẹ́fà lápapọ̀.",
+            "reason": "Despite answering in one sentence as asked, the core task (correct total) is not accomplished. Minimal progress as it responds to the format only."
+          },
+          "language_adherence": {
+            "status": "scored",
+            "score": 4,
+            "evidence": "O ní ọsàn mẹ́fà lápapọ̀.",
+            "reason": "The sentence is fully in Yoruba with proper structure; no code-switching or loanwords outside acceptable bounds."
+          }
+        },
+        "uncertainties": [],
+        "judge": {
+          "provider": "openai",
+          "requested_model": "gpt-4.1",
+          "returned_model": "gpt-4.1-2025-04-14",
+          "response_id": "resp_003317197b1bb618016abef3e7c5fc87d19f854a9c939ef448",
+          "usage": {
+            "input_tokens": 1018,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens": 214,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 1232
+          }
+        },
+        "status": "needs_review"
+      }
+    },
+    {
+      "variant": "correct_english",
+      "checks": {
+        "semantic_correctness": true,
+        "task_completion": true,
+        "language_adherence": true,
+        "request_match": true
+      },
+      "report": {
+        "schema_version": "0.1",
+        "evaluator_version": "0.1.0",
+        "created_at_utc": "2026-10-02T00:00:13.707962+00:00",
+        "mode": "text_only",
+        "case_id": "yo-interaction-001",
+        "case": {
+          "schema_version": "0.1",
+          "case_id": "yo-interaction-001",
+          "task_type": "conversational_reply",
+          "reference_reviewed": false,
+          "reference_user_text": "Mo ní ọsàn mẹ́ta, mo sì ra méjì sí i. Ọsàn mélòó ni mo ní lápapọ̀? Dá mi lóhùn ní èdè Yorùbá nínú gbólóhùn kan.",
+          "expected_intent": "The user has three oranges, buys two more, and asks how many oranges they now have. They request one sentence in Yoruba.",
+          "expected_language": "yo",
+          "acceptance_criteria": [
+            "State that the user now has five oranges; accept equivalent Yoruba phrasing and either a number word or digit.",
+            "Answer in one sentence without an unrelated explanation, question, or change of task."
+          ],
+          "example_acceptable_response": "O ní ọsàn márùn-ún lápapọ̀.",
+          "review_note": "Draft recording script. A fluent speaker must confirm wording and intended meaning before reference_reviewed is set true. This is one development interaction, not a benchmark."
+        },
+        "case_sha256": "4471403284c3de25d3636189f24fa198b33339c20bdb78054ab8c3bfeaf791e0",
+        "product": "unspecified",
+        "audio": {},
+        "transcripts": {
+          "user": {
+            "text": "Mo ní ọsàn mẹ́ta, mo sì ra méjì sí i. Ọsàn mélòó ni mo ní lápapọ̀? Dá mi lóhùn ní èdè Yorùbá nínú gbólóhùn kan.",
+            "source": "draft_reference",
+            "raw_text": "Mo ní ọsàn mẹ́ta, mo sì ra méjì sí i. Ọsàn mélòó ni mo ní lápapọ̀? Dá mi lóhùn ní èdè Yorùbá nínú gbólóhùn kan."
+          },
+          "assistant": {
+            "text": "You have five oranges in total.",
+            "source": "draft_response_variant",
+            "raw_text": "You have five oranges in total."
+          }
+        },
+        "rubric_version": "yoruba-interaction-0.1",
+        "rubric_sha256": "d8c97b21cc0d5b30e54655a1eb3fac84a6fee895575c5c01c377c945bbca2e7b",
+        "validation_status": "not_human_validated",
+        "not_scored": {
+          "pronunciation": "Not implemented; transcript text cannot establish pronunciation or tones.",
+          "naturalness": "Deferred pending native-speaker calibration.",
+          "speech_understanding": "Internal product recognition is unobserved; request match only checks evaluator evidence.",
+          "multi_turn_understanding": "Single-turn V0.1."
+        },
+        "limitations": [
+          "ASR errors may affect scores; compare transcripts with the recordings.",
+          "Automated scores are provisional, not validated Yoruba capability measurements.",
+          "No overall score; the three dimensions are independent."
+        ],
+        "diagnostics": {
+          "assistant_word_count": 6
+        },
+        "request_match": "matches",
+        "request_match_reason": "The assistant's reply directly addresses the user's question about the total number of oranges after adding two to three, with the correct total. However, the response is not in Yoruba, as requested by the user.",
+        "dimensions": {
+          "semantic_correctness": {
+            "status": "scored",
+            "score": 4,
+            "evidence": "You have five oranges in total.",
+            "reason": "The assistant gives the correct total (five oranges) in response to the user's question."
+          },
+          "task_completion": {
+            "status": "scored",
+            "score": 4,
+            "evidence": "You have five oranges in total.",
+            "reason": "The assistant answers the arithmetic question and keeps the response as one sentence, as requested. There is no unrelated information."
+          },
+          "language_adherence": {
+            "status": "scored",
+            "score": 0,
+            "evidence": "You have five oranges in total.",
+            "reason": "The response is in English, not Yoruba as explicitly requested by the user."
+          }
+        },
+        "uncertainties": [],
+        "judge": {
+          "provider": "openai",
+          "requested_model": "gpt-4.1",
+          "returned_model": "gpt-4.1-2025-04-14",
+          "response_id": "resp_08dcf675c0b6f223016abef3ea54f487d1b37bda9e21aeae3b",
+          "usage": {
+            "input_tokens": 1012,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens": 192,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 1204
+          }
+        },
+        "status": "needs_review"
+      }
+    }
+  ]
+}

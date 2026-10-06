@@ -1,0 +1,3109 @@
+{
+  "whole_corpus": {
+    "items": 3583,
+    "speakers": 36,
+    "totals": {
+      "vowel_units": 50589,
+      "explicit_tone_units": 32633,
+      "unmarked_vowel_units": 17956,
+      "conflicting_tone_units": 4,
+      "replacement_characters": 0,
+      "nasal_vowel_spelling_candidates": 5546,
+      "nasal_consonant_spelling_candidates": 6599,
+      "n_letters": 9052,
+      "m_letters": 2970
+    },
+    "vowel_counts": {
+      "ọ": 6205,
+      "a": 12738,
+      "i": 12433,
+      "u": 4050,
+      "ẹ": 4377,
+      "o": 6549,
+      "e": 4231,
+      "ạ": 4,
+      "ụ": 2
+    },
+    "annotation_counts": {
+      "snap": 700,
+      "external": 192,
+      "abrupt": 16,
+      "breath": 395,
+      "hesitation": 4
+    },
+    "non_nfc_items": 0,
+    "no_explicit_tone_items": 0,
+    "explicit_tone_mark_rate": 0.6450611793077546,
+    "interpretation": "Explicit-mark rate is NOT completeness. Unmarked vowels can represent mid tone or missing annotation; no automatic restoration or correctness inference.",
+    "nasal_proxy_limit": "Spelling candidates only; n can mark nasalization or a consonant. Counts do not establish phonetic realization."
+  },
+  "selected": {
+    "items": 120,
+    "speakers": 12,
+    "totals": {
+      "vowel_units": 1720,
+      "explicit_tone_units": 1081,
+      "unmarked_vowel_units": 639,
+      "conflicting_tone_units": 0,
+      "replacement_characters": 0,
+      "nasal_vowel_spelling_candidates": 217,
+      "nasal_consonant_spelling_candidates": 221,
+      "n_letters": 336,
+      "m_letters": 101
+    },
+    "vowel_counts": {
+      "ọ": 210,
+      "a": 430,
+      "u": 139,
+      "i": 417,
+      "o": 204,
+      "e": 144,
+      "ẹ": 174,
+      "ụ": 1,
+      "ạ": 1
+    },
+    "annotation_counts": {
+      "snap": 27,
+      "breath": 13,
+      "hesitation": 1
+    },
+    "non_nfc_items": 0,
+    "no_explicit_tone_items": 0,
+    "explicit_tone_mark_rate": 0.6284883720930232,
+    "interpretation": "Explicit-mark rate is NOT completeness. Unmarked vowels can represent mid tone or missing annotation; no automatic restoration or correctness inference.",
+    "nasal_proxy_limit": "Spelling candidates only; n can mark nasalization or a consonant. Counts do not establish phonetic realization."
+  },
+  "per_selected_item": [
+    {
+      "source_item_id": "yof_01208_00284398735",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 10,
+        "explicit_tone_units": 7,
+        "unmarked_vowel_units": 3,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "ọ": 2,
+          "a": 6,
+          "u": 1,
+          "i": 1
+        },
+        "nasal_vowel_spelling_candidates": 2,
+        "nasal_consonant_spelling_candidates": 2,
+        "n_letters": 3,
+        "m_letters": 1,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_01208_00601301614",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 24,
+        "explicit_tone_units": 11,
+        "unmarked_vowel_units": 13,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "a": 11,
+          "i": 5,
+          "o": 4,
+          "e": 2,
+          "u": 1,
+          "ẹ": 1
+        },
+        "nasal_vowel_spelling_candidates": 3,
+        "nasal_consonant_spelling_candidates": 3,
+        "n_letters": 4,
+        "m_letters": 2,
+        "annotations": [
+          "snap"
+        ]
+      }
+    },
+    {
+      "source_item_id": "yof_01208_00638640400",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 10,
+        "explicit_tone_units": 6,
+        "unmarked_vowel_units": 4,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "ọ": 2,
+          "u": 1,
+          "a": 2,
+          "ẹ": 1,
+          "o": 2,
+          "e": 1,
+          "i": 1
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 2,
+        "n_letters": 1,
+        "m_letters": 2,
+        "annotations": [
+          "breath",
+          "snap"
+        ]
+      }
+    },
+    {
+      "source_item_id": "yof_01208_00712661610",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 26,
+        "explicit_tone_units": 18,
+        "unmarked_vowel_units": 8,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "i": 9,
+          "a": 9,
+          "e": 3,
+          "o": 2,
+          "ẹ": 2,
+          "u": 1
+        },
+        "nasal_vowel_spelling_candidates": 3,
+        "nasal_consonant_spelling_candidates": 3,
+        "n_letters": 5,
+        "m_letters": 1,
+        "annotations": [
+          "snap"
+        ]
+      }
+    },
+    {
+      "source_item_id": "yof_01208_01099449672",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 12,
+        "explicit_tone_units": 7,
+        "unmarked_vowel_units": 5,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "ọ": 2,
+          "o": 2,
+          "e": 2,
+          "i": 2,
+          "u": 1,
+          "ẹ": 3
+        },
+        "nasal_vowel_spelling_candidates": 2,
+        "nasal_consonant_spelling_candidates": 3,
+        "n_letters": 3,
+        "m_letters": 2,
+        "annotations": [
+          "snap"
+        ]
+      }
+    },
+    {
+      "source_item_id": "yof_01208_01304309543",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 19,
+        "explicit_tone_units": 11,
+        "unmarked_vowel_units": 8,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "a": 4,
+          "e": 4,
+          "o": 6,
+          "i": 3,
+          "ẹ": 2
+        },
+        "nasal_vowel_spelling_candidates": 0,
+        "nasal_consonant_spelling_candidates": 1,
+        "n_letters": 0,
+        "m_letters": 1,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_01208_01348944590",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 22,
+        "explicit_tone_units": 14,
+        "unmarked_vowel_units": 8,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "i": 6,
+          "a": 7,
+          "ọ": 1,
+          "e": 2,
+          "o": 2,
+          "ẹ": 2,
+          "u": 2
+        },
+        "nasal_vowel_spelling_candidates": 2,
+        "nasal_consonant_spelling_candidates": 1,
+        "n_letters": 4,
+        "m_letters": 0,
+        "annotations": [
+          "snap",
+          "breath"
+        ]
+      }
+    },
+    {
+      "source_item_id": "yof_01208_01740136044",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 10,
+        "explicit_tone_units": 6,
+        "unmarked_vowel_units": 4,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "ẹ": 2,
+          "u": 1,
+          "i": 2,
+          "e": 3,
+          "a": 1,
+          "o": 1
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 0,
+        "n_letters": 1,
+        "m_letters": 0,
+        "annotations": [
+          "breath"
+        ]
+      }
+    },
+    {
+      "source_item_id": "yof_01208_01850003899",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 9,
+        "explicit_tone_units": 6,
+        "unmarked_vowel_units": 3,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "ọ": 1,
+          "a": 4,
+          "u": 1,
+          "i": 3
+        },
+        "nasal_vowel_spelling_candidates": 2,
+        "nasal_consonant_spelling_candidates": 2,
+        "n_letters": 4,
+        "m_letters": 0,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_01208_01947924185",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 4,
+        "explicit_tone_units": 3,
+        "unmarked_vowel_units": 1,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "ẹ": 1,
+          "a": 1,
+          "ọ": 1,
+          "o": 1
+        },
+        "nasal_vowel_spelling_candidates": 0,
+        "nasal_consonant_spelling_candidates": 0,
+        "n_letters": 0,
+        "m_letters": 0,
+        "annotations": [
+          "snap"
+        ]
+      }
+    },
+    {
+      "source_item_id": "yof_02121_00334458563",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 17,
+        "explicit_tone_units": 7,
+        "unmarked_vowel_units": 10,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "o": 4,
+          "a": 3,
+          "e": 1,
+          "ọ": 2,
+          "i": 5,
+          "ẹ": 1,
+          "u": 1
+        },
+        "nasal_vowel_spelling_candidates": 0,
+        "nasal_consonant_spelling_candidates": 1,
+        "n_letters": 1,
+        "m_letters": 1,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_02121_00443892123",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 7,
+        "explicit_tone_units": 5,
+        "unmarked_vowel_units": 2,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "ọ": 1,
+          "ẹ": 1,
+          "a": 5
+        },
+        "nasal_vowel_spelling_candidates": 2,
+        "nasal_consonant_spelling_candidates": 1,
+        "n_letters": 3,
+        "m_letters": 0,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_02121_00460996262",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 19,
+        "explicit_tone_units": 16,
+        "unmarked_vowel_units": 3,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "i": 6,
+          "e": 4,
+          "a": 2,
+          "u": 2,
+          "o": 2,
+          "ẹ": 2,
+          "ọ": 1
+        },
+        "nasal_vowel_spelling_candidates": 3,
+        "nasal_consonant_spelling_candidates": 3,
+        "n_letters": 4,
+        "m_letters": 2,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_02121_00907251659",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 9,
+        "explicit_tone_units": 8,
+        "unmarked_vowel_units": 1,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "o": 2,
+          "i": 3,
+          "e": 1,
+          "a": 2,
+          "u": 1
+        },
+        "nasal_vowel_spelling_candidates": 0,
+        "nasal_consonant_spelling_candidates": 1,
+        "n_letters": 0,
+        "m_letters": 1,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_02121_00930959735",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 13,
+        "explicit_tone_units": 10,
+        "unmarked_vowel_units": 3,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "o": 2,
+          "u": 1,
+          "a": 4,
+          "e": 3,
+          "i": 2,
+          "ọ": 1
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 2,
+        "n_letters": 3,
+        "m_letters": 0,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_02121_00956906502",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 22,
+        "explicit_tone_units": 10,
+        "unmarked_vowel_units": 12,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "a": 3,
+          "ọ": 8,
+          "o": 2,
+          "u": 3,
+          "i": 3,
+          "ẹ": 3
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 2,
+        "n_letters": 1,
+        "m_letters": 2,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_02121_01178327964",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 17,
+        "explicit_tone_units": 12,
+        "unmarked_vowel_units": 5,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "o": 2,
+          "u": 4,
+          "i": 2,
+          "ọ": 4,
+          "a": 1,
+          "e": 3,
+          "ẹ": 1
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 0,
+        "n_letters": 1,
+        "m_letters": 0,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_02121_01204042551",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 19,
+        "explicit_tone_units": 14,
+        "unmarked_vowel_units": 5,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "ẹ": 4,
+          "i": 7,
+          "u": 1,
+          "a": 5,
+          "o": 2
+        },
+        "nasal_vowel_spelling_candidates": 2,
+        "nasal_consonant_spelling_candidates": 2,
+        "n_letters": 4,
+        "m_letters": 1,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_02121_01888276578",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 14,
+        "explicit_tone_units": 12,
+        "unmarked_vowel_units": 2,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "i": 7,
+          "o": 2,
+          "e": 1,
+          "a": 3,
+          "ọ": 1
+        },
+        "nasal_vowel_spelling_candidates": 0,
+        "nasal_consonant_spelling_candidates": 0,
+        "n_letters": 0,
+        "m_letters": 0,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_02121_02015408040",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 12,
+        "explicit_tone_units": 5,
+        "unmarked_vowel_units": 7,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "ọ": 4,
+          "u": 1,
+          "i": 2,
+          "o": 1,
+          "a": 3,
+          "ẹ": 1
+        },
+        "nasal_vowel_spelling_candidates": 2,
+        "nasal_consonant_spelling_candidates": 1,
+        "n_letters": 2,
+        "m_letters": 1,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_02436_00053848547",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 12,
+        "explicit_tone_units": 5,
+        "unmarked_vowel_units": 7,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "ẹ": 2,
+          "i": 2,
+          "a": 8
+        },
+        "nasal_vowel_spelling_candidates": 0,
+        "nasal_consonant_spelling_candidates": 1,
+        "n_letters": 1,
+        "m_letters": 0,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_02436_00111533593",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 12,
+        "explicit_tone_units": 7,
+        "unmarked_vowel_units": 5,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "o": 1,
+          "ọ": 2,
+          "a": 3,
+          "i": 5,
+          "u": 1
+        },
+        "nasal_vowel_spelling_candidates": 2,
+        "nasal_consonant_spelling_candidates": 2,
+        "n_letters": 3,
+        "m_letters": 1,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_02436_00554684236",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 8,
+        "explicit_tone_units": 3,
+        "unmarked_vowel_units": 5,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "ẹ": 1,
+          "u": 1,
+          "ọ": 1,
+          "a": 3,
+          "i": 1,
+          "e": 1
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 1,
+        "n_letters": 2,
+        "m_letters": 0,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_02436_00656157829",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 9,
+        "explicit_tone_units": 7,
+        "unmarked_vowel_units": 2,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "a": 1,
+          "i": 1,
+          "ẹ": 2,
+          "u": 5
+        },
+        "nasal_vowel_spelling_candidates": 2,
+        "nasal_consonant_spelling_candidates": 0,
+        "n_letters": 2,
+        "m_letters": 0,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_02436_00691876145",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 9,
+        "explicit_tone_units": 5,
+        "unmarked_vowel_units": 4,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "e": 1,
+          "ẹ": 2,
+          "i": 2,
+          "o": 2,
+          "a": 2
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 1,
+        "n_letters": 2,
+        "m_letters": 0,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_02436_01200814924",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 19,
+        "explicit_tone_units": 8,
+        "unmarked_vowel_units": 11,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "ẹ": 2,
+          "i": 4,
+          "a": 4,
+          "o": 2,
+          "ọ": 4,
+          "u": 3
+        },
+        "nasal_vowel_spelling_candidates": 6,
+        "nasal_consonant_spelling_candidates": 2,
+        "n_letters": 6,
+        "m_letters": 1,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_02436_01208289328",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 14,
+        "explicit_tone_units": 11,
+        "unmarked_vowel_units": 3,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "a": 6,
+          "i": 4,
+          "u": 1,
+          "e": 2,
+          "o": 1
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 1,
+        "n_letters": 3,
+        "m_letters": 0,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_02436_01809127750",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 19,
+        "explicit_tone_units": 13,
+        "unmarked_vowel_units": 6,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "o": 2,
+          "a": 6,
+          "i": 5,
+          "u": 2,
+          "e": 1,
+          "ẹ": 3
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 2,
+        "n_letters": 1,
+        "m_letters": 2,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_02436_02010584865",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 23,
+        "explicit_tone_units": 15,
+        "unmarked_vowel_units": 8,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "i": 8,
+          "e": 2,
+          "ẹ": 4,
+          "ọ": 1,
+          "a": 5,
+          "o": 2,
+          "u": 1
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 3,
+        "n_letters": 3,
+        "m_letters": 1,
+        "annotations": [
+          "breath"
+        ]
+      }
+    },
+    {
+      "source_item_id": "yof_02436_02038636916",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 11,
+        "explicit_tone_units": 4,
+        "unmarked_vowel_units": 7,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "a": 1,
+          "ọ": 4,
+          "o": 2,
+          "u": 1,
+          "i": 2,
+          "ẹ": 1
+        },
+        "nasal_vowel_spelling_candidates": 2,
+        "nasal_consonant_spelling_candidates": 1,
+        "n_letters": 3,
+        "m_letters": 1,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_04310_00141945315",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 19,
+        "explicit_tone_units": 13,
+        "unmarked_vowel_units": 6,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "i": 8,
+          "ọ": 2,
+          "ẹ": 2,
+          "a": 4,
+          "o": 3
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 4,
+        "n_letters": 1,
+        "m_letters": 4,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_04310_00338359348",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 7,
+        "explicit_tone_units": 4,
+        "unmarked_vowel_units": 3,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "o": 1,
+          "a": 3,
+          "i": 1,
+          "u": 1,
+          "ẹ": 1
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 2,
+        "n_letters": 1,
+        "m_letters": 2,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_04310_00896135803",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 11,
+        "explicit_tone_units": 4,
+        "unmarked_vowel_units": 7,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "a": 5,
+          "ọ": 4,
+          "i": 1,
+          "o": 1
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 0,
+        "n_letters": 1,
+        "m_letters": 0,
+        "annotations": [
+          "breath"
+        ]
+      }
+    },
+    {
+      "source_item_id": "yof_04310_00904609684",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 14,
+        "explicit_tone_units": 9,
+        "unmarked_vowel_units": 5,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "a": 8,
+          "ọ": 1,
+          "e": 1,
+          "i": 2,
+          "ẹ": 1,
+          "u": 1
+        },
+        "nasal_vowel_spelling_candidates": 3,
+        "nasal_consonant_spelling_candidates": 0,
+        "n_letters": 3,
+        "m_letters": 0,
+        "annotations": [
+          "snap",
+          "breath"
+        ]
+      }
+    },
+    {
+      "source_item_id": "yof_04310_00967300235",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 7,
+        "explicit_tone_units": 2,
+        "unmarked_vowel_units": 5,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "o": 2,
+          "a": 2,
+          "i": 1,
+          "u": 1,
+          "ọ": 1
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 0,
+        "n_letters": 1,
+        "m_letters": 0,
+        "annotations": [
+          "breath",
+          "snap"
+        ]
+      }
+    },
+    {
+      "source_item_id": "yof_04310_01165246344",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 12,
+        "explicit_tone_units": 9,
+        "unmarked_vowel_units": 3,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "ẹ": 5,
+          "a": 1,
+          "e": 1,
+          "u": 1,
+          "ọ": 1,
+          "i": 3
+        },
+        "nasal_vowel_spelling_candidates": 2,
+        "nasal_consonant_spelling_candidates": 1,
+        "n_letters": 3,
+        "m_letters": 0,
+        "annotations": [
+          "snap"
+        ]
+      }
+    },
+    {
+      "source_item_id": "yof_04310_01174196641",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 9,
+        "explicit_tone_units": 4,
+        "unmarked_vowel_units": 5,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "o": 2,
+          "e": 1,
+          "i": 2,
+          "ẹ": 2,
+          "a": 2
+        },
+        "nasal_vowel_spelling_candidates": 0,
+        "nasal_consonant_spelling_candidates": 2,
+        "n_letters": 2,
+        "m_letters": 1,
+        "annotations": [
+          "snap"
+        ]
+      }
+    },
+    {
+      "source_item_id": "yof_04310_01265456913",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 11,
+        "explicit_tone_units": 8,
+        "unmarked_vowel_units": 3,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "a": 3,
+          "o": 2,
+          "e": 1,
+          "ọ": 2,
+          "u": 1,
+          "i": 2
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 1,
+        "n_letters": 1,
+        "m_letters": 1,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_04310_01491615865",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 10,
+        "explicit_tone_units": 5,
+        "unmarked_vowel_units": 5,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "a": 3,
+          "o": 2,
+          "i": 2,
+          "ẹ": 2,
+          "u": 1
+        },
+        "nasal_vowel_spelling_candidates": 2,
+        "nasal_consonant_spelling_candidates": 2,
+        "n_letters": 3,
+        "m_letters": 1,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_04310_01892910806",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 13,
+        "explicit_tone_units": 7,
+        "unmarked_vowel_units": 6,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "ẹ": 2,
+          "u": 3,
+          "ọ": 2,
+          "a": 3,
+          "i": 2,
+          "e": 1
+        },
+        "nasal_vowel_spelling_candidates": 3,
+        "nasal_consonant_spelling_candidates": 2,
+        "n_letters": 4,
+        "m_letters": 0,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_06136_00616155826",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 8,
+        "explicit_tone_units": 4,
+        "unmarked_vowel_units": 4,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "ọ": 1,
+          "a": 1,
+          "i": 1,
+          "u": 2,
+          "ẹ": 1,
+          "o": 2
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 0,
+        "n_letters": 1,
+        "m_letters": 0,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_06136_00877626961",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 25,
+        "explicit_tone_units": 16,
+        "unmarked_vowel_units": 9,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "a": 5,
+          "i": 7,
+          "ọ": 4,
+          "e": 2,
+          "o": 3,
+          "u": 1,
+          "ẹ": 3
+        },
+        "nasal_vowel_spelling_candidates": 6,
+        "nasal_consonant_spelling_candidates": 3,
+        "n_letters": 7,
+        "m_letters": 1,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_06136_00931220222",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 11,
+        "explicit_tone_units": 7,
+        "unmarked_vowel_units": 4,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "i": 3,
+          "ẹ": 2,
+          "o": 1,
+          "ọ": 1,
+          "u": 1,
+          "e": 1,
+          "a": 2
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 2,
+        "n_letters": 2,
+        "m_letters": 0,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_06136_00981963925",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 16,
+        "explicit_tone_units": 12,
+        "unmarked_vowel_units": 4,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "a": 5,
+          "u": 3,
+          "ẹ": 1,
+          "ọ": 2,
+          "i": 2,
+          "o": 2,
+          "e": 1
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 3,
+        "n_letters": 4,
+        "m_letters": 1,
+        "annotations": [
+          "snap"
+        ]
+      }
+    },
+    {
+      "source_item_id": "yof_06136_01063669619",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 13,
+        "explicit_tone_units": 8,
+        "unmarked_vowel_units": 5,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "i": 2,
+          "o": 2,
+          "e": 3,
+          "a": 6
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 1,
+        "n_letters": 1,
+        "m_letters": 1,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_06136_01085823195",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 24,
+        "explicit_tone_units": 12,
+        "unmarked_vowel_units": 12,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "ọ": 6,
+          "u": 1,
+          "i": 6,
+          "ẹ": 4,
+          "o": 2,
+          "e": 1,
+          "a": 4
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 3,
+        "n_letters": 2,
+        "m_letters": 2,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_06136_01151773106",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 13,
+        "explicit_tone_units": 7,
+        "unmarked_vowel_units": 6,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "ẹ": 1,
+          "i": 6,
+          "ọ": 3,
+          "o": 1,
+          "a": 1,
+          "e": 1
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 2,
+        "n_letters": 2,
+        "m_letters": 2,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_06136_01387293319",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 17,
+        "explicit_tone_units": 12,
+        "unmarked_vowel_units": 5,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "e": 4,
+          "o": 2,
+          "i": 8,
+          "ọ": 1,
+          "ẹ": 1,
+          "u": 1
+        },
+        "nasal_vowel_spelling_candidates": 2,
+        "nasal_consonant_spelling_candidates": 1,
+        "n_letters": 3,
+        "m_letters": 0,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_06136_01760701628",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 23,
+        "explicit_tone_units": 13,
+        "unmarked_vowel_units": 10,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "o": 1,
+          "ẹ": 3,
+          "i": 7,
+          "e": 1,
+          "a": 7,
+          "ọ": 4
+        },
+        "nasal_vowel_spelling_candidates": 3,
+        "nasal_consonant_spelling_candidates": 6,
+        "n_letters": 5,
+        "m_letters": 4,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_06136_01956124024",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 17,
+        "explicit_tone_units": 12,
+        "unmarked_vowel_units": 5,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "u": 1,
+          "e": 1,
+          "i": 5,
+          "ẹ": 4,
+          "a": 4,
+          "ọ": 2
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 2,
+        "n_letters": 2,
+        "m_letters": 1,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_09697_00041565012",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 12,
+        "explicit_tone_units": 7,
+        "unmarked_vowel_units": 5,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "a": 5,
+          "ọ": 3,
+          "i": 1,
+          "u": 2,
+          "ẹ": 1
+        },
+        "nasal_vowel_spelling_candidates": 2,
+        "nasal_consonant_spelling_candidates": 1,
+        "n_letters": 3,
+        "m_letters": 0,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_09697_00099367593",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 9,
+        "explicit_tone_units": 1,
+        "unmarked_vowel_units": 8,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "ẹ": 3,
+          "u": 1,
+          "i": 2,
+          "a": 1,
+          "ọ": 1,
+          "e": 1
+        },
+        "nasal_vowel_spelling_candidates": 2,
+        "nasal_consonant_spelling_candidates": 3,
+        "n_letters": 3,
+        "m_letters": 1,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_09697_00132648621",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 20,
+        "explicit_tone_units": 13,
+        "unmarked_vowel_units": 7,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "i": 3,
+          "a": 5,
+          "o": 4,
+          "e": 3,
+          "u": 2,
+          "ọ": 1,
+          "ẹ": 2
+        },
+        "nasal_vowel_spelling_candidates": 4,
+        "nasal_consonant_spelling_candidates": 0,
+        "n_letters": 6,
+        "m_letters": 0,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_09697_00498508152",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 10,
+        "explicit_tone_units": 7,
+        "unmarked_vowel_units": 3,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "a": 4,
+          "ọ": 2,
+          "ẹ": 4
+        },
+        "nasal_vowel_spelling_candidates": 0,
+        "nasal_consonant_spelling_candidates": 0,
+        "n_letters": 0,
+        "m_letters": 0,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_09697_00503862354",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 12,
+        "explicit_tone_units": 9,
+        "unmarked_vowel_units": 3,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "ọ": 3,
+          "i": 3,
+          "e": 1,
+          "a": 4,
+          "ẹ": 1
+        },
+        "nasal_vowel_spelling_candidates": 3,
+        "nasal_consonant_spelling_candidates": 2,
+        "n_letters": 4,
+        "m_letters": 1,
+        "annotations": [
+          "snap"
+        ]
+      }
+    },
+    {
+      "source_item_id": "yof_09697_00984469114",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 11,
+        "explicit_tone_units": 6,
+        "unmarked_vowel_units": 5,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "a": 2,
+          "i": 4,
+          "o": 2,
+          "ẹ": 2,
+          "u": 1
+        },
+        "nasal_vowel_spelling_candidates": 2,
+        "nasal_consonant_spelling_candidates": 4,
+        "n_letters": 4,
+        "m_letters": 3,
+        "annotations": [
+          "snap"
+        ]
+      }
+    },
+    {
+      "source_item_id": "yof_09697_01103354325",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 20,
+        "explicit_tone_units": 11,
+        "unmarked_vowel_units": 9,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "a": 9,
+          "i": 5,
+          "ọ": 2,
+          "e": 3,
+          "ẹ": 1
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 1,
+        "n_letters": 3,
+        "m_letters": 0,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_09697_01599872597",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 21,
+        "explicit_tone_units": 16,
+        "unmarked_vowel_units": 5,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "i": 5,
+          "a": 10,
+          "ọ": 3,
+          "o": 2,
+          "e": 1
+        },
+        "nasal_vowel_spelling_candidates": 2,
+        "nasal_consonant_spelling_candidates": 3,
+        "n_letters": 4,
+        "m_letters": 2,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yof_09697_01759056954",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 9,
+        "explicit_tone_units": 7,
+        "unmarked_vowel_units": 2,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "ẹ": 3,
+          "a": 2,
+          "ọ": 1,
+          "i": 1,
+          "u": 1,
+          "ụ": 1
+        },
+        "nasal_vowel_spelling_candidates": 0,
+        "nasal_consonant_spelling_candidates": 1,
+        "n_letters": 0,
+        "m_letters": 1,
+        "annotations": [
+          "snap"
+        ]
+      }
+    },
+    {
+      "source_item_id": "yof_09697_01906894462",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 14,
+        "explicit_tone_units": 7,
+        "unmarked_vowel_units": 7,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "a": 5,
+          "ọ": 5,
+          "ẹ": 1,
+          "o": 1,
+          "e": 1,
+          "i": 1
+        },
+        "nasal_vowel_spelling_candidates": 2,
+        "nasal_consonant_spelling_candidates": 2,
+        "n_letters": 2,
+        "m_letters": 1,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_00295_00169173375",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 24,
+        "explicit_tone_units": 15,
+        "unmarked_vowel_units": 9,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "e": 2,
+          "i": 4,
+          "o": 5,
+          "u": 5,
+          "a": 4,
+          "ọ": 4
+        },
+        "nasal_vowel_spelling_candidates": 4,
+        "nasal_consonant_spelling_candidates": 4,
+        "n_letters": 5,
+        "m_letters": 1,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_00295_00263338725",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 11,
+        "explicit_tone_units": 4,
+        "unmarked_vowel_units": 7,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "o": 1,
+          "i": 5,
+          "ẹ": 2,
+          "ọ": 1,
+          "a": 2
+        },
+        "nasal_vowel_spelling_candidates": 2,
+        "nasal_consonant_spelling_candidates": 4,
+        "n_letters": 4,
+        "m_letters": 1,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_00295_00358190062",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 14,
+        "explicit_tone_units": 13,
+        "unmarked_vowel_units": 1,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "ọ": 4,
+          "e": 2,
+          "a": 2,
+          "i": 4,
+          "u": 1,
+          "ẹ": 1
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 3,
+        "n_letters": 2,
+        "m_letters": 1,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_00295_00999748557",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 15,
+        "explicit_tone_units": 12,
+        "unmarked_vowel_units": 3,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "e": 1,
+          "i": 3,
+          "ẹ": 2,
+          "u": 2,
+          "a": 3,
+          "ọ": 4
+        },
+        "nasal_vowel_spelling_candidates": 0,
+        "nasal_consonant_spelling_candidates": 1,
+        "n_letters": 0,
+        "m_letters": 1,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_00295_01090465200",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 12,
+        "explicit_tone_units": 7,
+        "unmarked_vowel_units": 5,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "u": 2,
+          "i": 2,
+          "ẹ": 2,
+          "a": 3,
+          "o": 1,
+          "e": 2
+        },
+        "nasal_vowel_spelling_candidates": 3,
+        "nasal_consonant_spelling_candidates": 2,
+        "n_letters": 3,
+        "m_letters": 2,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_00295_01100371474",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 18,
+        "explicit_tone_units": 7,
+        "unmarked_vowel_units": 11,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "o": 4,
+          "ọ": 4,
+          "u": 2,
+          "i": 4,
+          "a": 1,
+          "ẹ": 2,
+          "e": 1
+        },
+        "nasal_vowel_spelling_candidates": 2,
+        "nasal_consonant_spelling_candidates": 4,
+        "n_letters": 3,
+        "m_letters": 3,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_00295_01260038205",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 12,
+        "explicit_tone_units": 9,
+        "unmarked_vowel_units": 3,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "ẹ": 4,
+          "a": 3,
+          "i": 1,
+          "ọ": 2,
+          "e": 2
+        },
+        "nasal_vowel_spelling_candidates": 0,
+        "nasal_consonant_spelling_candidates": 3,
+        "n_letters": 1,
+        "m_letters": 2,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_00295_01634346315",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 13,
+        "explicit_tone_units": 8,
+        "unmarked_vowel_units": 5,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "a": 4,
+          "i": 3,
+          "ẹ": 2,
+          "u": 2,
+          "o": 1,
+          "ọ": 1
+        },
+        "nasal_vowel_spelling_candidates": 3,
+        "nasal_consonant_spelling_candidates": 3,
+        "n_letters": 4,
+        "m_letters": 2,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_00295_01761232169",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 8,
+        "explicit_tone_units": 6,
+        "unmarked_vowel_units": 2,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "a": 3,
+          "ẹ": 1,
+          "o": 1,
+          "i": 2,
+          "ọ": 1
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 1,
+        "n_letters": 1,
+        "m_letters": 0,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_00295_01894974080",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 13,
+        "explicit_tone_units": 4,
+        "unmarked_vowel_units": 9,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "o": 4,
+          "i": 3,
+          "ẹ": 2,
+          "ọ": 2,
+          "e": 1,
+          "u": 1
+        },
+        "nasal_vowel_spelling_candidates": 5,
+        "nasal_consonant_spelling_candidates": 2,
+        "n_letters": 7,
+        "m_letters": 0,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_01208_00480893374",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 20,
+        "explicit_tone_units": 12,
+        "unmarked_vowel_units": 8,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "o": 1,
+          "i": 8,
+          "a": 7,
+          "u": 1,
+          "e": 3
+        },
+        "nasal_vowel_spelling_candidates": 2,
+        "nasal_consonant_spelling_candidates": 2,
+        "n_letters": 3,
+        "m_letters": 0,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_01208_00587267142",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 11,
+        "explicit_tone_units": 8,
+        "unmarked_vowel_units": 3,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "o": 2,
+          "u": 1,
+          "ọ": 3,
+          "i": 2,
+          "a": 3
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 1,
+        "n_letters": 1,
+        "m_letters": 1,
+        "annotations": [
+          "snap"
+        ]
+      }
+    },
+    {
+      "source_item_id": "yom_01208_00717404914",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 10,
+        "explicit_tone_units": 7,
+        "unmarked_vowel_units": 3,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "a": 2,
+          "u": 3,
+          "o": 2,
+          "ọ": 1,
+          "ẹ": 2
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 0,
+        "n_letters": 3,
+        "m_letters": 0,
+        "annotations": [
+          "snap"
+        ]
+      }
+    },
+    {
+      "source_item_id": "yom_01208_00740667051",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 19,
+        "explicit_tone_units": 8,
+        "unmarked_vowel_units": 11,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "ẹ": 2,
+          "i": 4,
+          "a": 4,
+          "o": 2,
+          "ọ": 4,
+          "u": 3
+        },
+        "nasal_vowel_spelling_candidates": 6,
+        "nasal_consonant_spelling_candidates": 2,
+        "n_letters": 6,
+        "m_letters": 1,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_01208_00784200761",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 7,
+        "explicit_tone_units": 3,
+        "unmarked_vowel_units": 4,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "a": 2,
+          "o": 1,
+          "e": 1,
+          "i": 1,
+          "ẹ": 2
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 0,
+        "n_letters": 2,
+        "m_letters": 0,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_01208_00896307834",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 7,
+        "explicit_tone_units": 5,
+        "unmarked_vowel_units": 2,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "o": 1,
+          "ọ": 1,
+          "a": 1,
+          "i": 2,
+          "ẹ": 1,
+          "u": 1
+        },
+        "nasal_vowel_spelling_candidates": 2,
+        "nasal_consonant_spelling_candidates": 2,
+        "n_letters": 2,
+        "m_letters": 1,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_01208_01142657335",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 15,
+        "explicit_tone_units": 8,
+        "unmarked_vowel_units": 7,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "o": 4,
+          "u": 2,
+          "a": 2,
+          "i": 4,
+          "e": 2,
+          "ẹ": 1
+        },
+        "nasal_vowel_spelling_candidates": 2,
+        "nasal_consonant_spelling_candidates": 2,
+        "n_letters": 2,
+        "m_letters": 2,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_01208_01278650394",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 7,
+        "explicit_tone_units": 6,
+        "unmarked_vowel_units": 1,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "a": 3,
+          "u": 1,
+          "ọ": 1,
+          "i": 1,
+          "o": 1
+        },
+        "nasal_vowel_spelling_candidates": 0,
+        "nasal_consonant_spelling_candidates": 1,
+        "n_letters": 2,
+        "m_letters": 0,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_01208_01404835296",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 13,
+        "explicit_tone_units": 9,
+        "unmarked_vowel_units": 4,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "ẹ": 3,
+          "o": 4,
+          "a": 2,
+          "ọ": 2,
+          "e": 1,
+          "i": 1
+        },
+        "nasal_vowel_spelling_candidates": 0,
+        "nasal_consonant_spelling_candidates": 0,
+        "n_letters": 0,
+        "m_letters": 0,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_01208_01663739947",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 16,
+        "explicit_tone_units": 12,
+        "unmarked_vowel_units": 4,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "i": 3,
+          "o": 2,
+          "a": 10,
+          "u": 1
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 3,
+        "n_letters": 2,
+        "m_letters": 3,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_01523_00116259153",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 9,
+        "explicit_tone_units": 5,
+        "unmarked_vowel_units": 4,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "i": 2,
+          "o": 1,
+          "a": 2,
+          "ẹ": 2,
+          "ọ": 1,
+          "u": 1
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 3,
+        "n_letters": 3,
+        "m_letters": 1,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_01523_00312896002",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 10,
+        "explicit_tone_units": 7,
+        "unmarked_vowel_units": 3,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "a": 1,
+          "e": 1,
+          "o": 2,
+          "i": 6
+        },
+        "nasal_vowel_spelling_candidates": 0,
+        "nasal_consonant_spelling_candidates": 1,
+        "n_letters": 1,
+        "m_letters": 0,
+        "annotations": [
+          "snap"
+        ]
+      }
+    },
+    {
+      "source_item_id": "yom_01523_00387763688",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 33,
+        "explicit_tone_units": 18,
+        "unmarked_vowel_units": 15,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "o": 7,
+          "i": 5,
+          "a": 11,
+          "e": 4,
+          "u": 2,
+          "ọ": 2,
+          "ẹ": 2
+        },
+        "nasal_vowel_spelling_candidates": 5,
+        "nasal_consonant_spelling_candidates": 3,
+        "n_letters": 8,
+        "m_letters": 0,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_01523_00447820718",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 10,
+        "explicit_tone_units": 4,
+        "unmarked_vowel_units": 6,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "ọ": 3,
+          "a": 2,
+          "o": 1,
+          "u": 1,
+          "e": 1,
+          "ẹ": 2
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 1,
+        "n_letters": 1,
+        "m_letters": 1,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_01523_00762007073",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 32,
+        "explicit_tone_units": 24,
+        "unmarked_vowel_units": 8,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "i": 8,
+          "u": 4,
+          "e": 5,
+          "o": 6,
+          "a": 7,
+          "ẹ": 1,
+          "ọ": 1
+        },
+        "nasal_vowel_spelling_candidates": 5,
+        "nasal_consonant_spelling_candidates": 7,
+        "n_letters": 8,
+        "m_letters": 2,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_01523_01346428924",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 12,
+        "explicit_tone_units": 6,
+        "unmarked_vowel_units": 6,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "a": 1,
+          "ọ": 1,
+          "i": 6,
+          "u": 1,
+          "o": 3
+        },
+        "nasal_vowel_spelling_candidates": 3,
+        "nasal_consonant_spelling_candidates": 1,
+        "n_letters": 4,
+        "m_letters": 0,
+        "annotations": [
+          "breath"
+        ]
+      }
+    },
+    {
+      "source_item_id": "yom_01523_01458350798",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 15,
+        "explicit_tone_units": 9,
+        "unmarked_vowel_units": 6,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "a": 5,
+          "ọ": 3,
+          "i": 6,
+          "u": 1
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 0,
+        "n_letters": 2,
+        "m_letters": 0,
+        "annotations": [
+          "breath"
+        ]
+      }
+    },
+    {
+      "source_item_id": "yom_01523_01656064431",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 17,
+        "explicit_tone_units": 12,
+        "unmarked_vowel_units": 5,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "i": 4,
+          "ọ": 5,
+          "a": 4,
+          "o": 2,
+          "e": 1,
+          "ạ": 1
+        },
+        "nasal_vowel_spelling_candidates": 3,
+        "nasal_consonant_spelling_candidates": 4,
+        "n_letters": 6,
+        "m_letters": 0,
+        "annotations": [
+          "snap"
+        ]
+      }
+    },
+    {
+      "source_item_id": "yom_01523_02042697707",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 20,
+        "explicit_tone_units": 14,
+        "unmarked_vowel_units": 6,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "u": 3,
+          "e": 4,
+          "i": 6,
+          "a": 2,
+          "o": 2,
+          "ọ": 2,
+          "ẹ": 1
+        },
+        "nasal_vowel_spelling_candidates": 0,
+        "nasal_consonant_spelling_candidates": 1,
+        "n_letters": 2,
+        "m_letters": 0,
+        "annotations": [
+          "breath"
+        ]
+      }
+    },
+    {
+      "source_item_id": "yom_01523_02091535034",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 30,
+        "explicit_tone_units": 25,
+        "unmarked_vowel_units": 5,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "e": 2,
+          "i": 8,
+          "a": 9,
+          "ẹ": 1,
+          "u": 4,
+          "ọ": 2,
+          "o": 4
+        },
+        "nasal_vowel_spelling_candidates": 8,
+        "nasal_consonant_spelling_candidates": 2,
+        "n_letters": 10,
+        "m_letters": 1,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_07049_00667014222",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 12,
+        "explicit_tone_units": 5,
+        "unmarked_vowel_units": 7,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "ọ": 4,
+          "a": 3,
+          "e": 2,
+          "i": 2,
+          "ẹ": 1
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 3,
+        "n_letters": 2,
+        "m_letters": 2,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_07049_00676007103",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 21,
+        "explicit_tone_units": 15,
+        "unmarked_vowel_units": 6,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "a": 5,
+          "i": 7,
+          "u": 2,
+          "e": 2,
+          "ẹ": 2,
+          "o": 2,
+          "ọ": 1
+        },
+        "nasal_vowel_spelling_candidates": 8,
+        "nasal_consonant_spelling_candidates": 3,
+        "n_letters": 11,
+        "m_letters": 0,
+        "annotations": [
+          "snap"
+        ]
+      }
+    },
+    {
+      "source_item_id": "yom_07049_00727404490",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 27,
+        "explicit_tone_units": 18,
+        "unmarked_vowel_units": 9,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "i": 9,
+          "ẹ": 1,
+          "e": 4,
+          "a": 7,
+          "ọ": 2,
+          "u": 2,
+          "o": 2
+        },
+        "nasal_vowel_spelling_candidates": 4,
+        "nasal_consonant_spelling_candidates": 6,
+        "n_letters": 8,
+        "m_letters": 1,
+        "annotations": [
+          "snap"
+        ]
+      }
+    },
+    {
+      "source_item_id": "yom_07049_00866136075",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 9,
+        "explicit_tone_units": 6,
+        "unmarked_vowel_units": 3,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "i": 1,
+          "a": 1,
+          "ọ": 4,
+          "ẹ": 1,
+          "o": 1,
+          "e": 1
+        },
+        "nasal_vowel_spelling_candidates": 0,
+        "nasal_consonant_spelling_candidates": 0,
+        "n_letters": 1,
+        "m_letters": 0,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_07049_00939672341",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 10,
+        "explicit_tone_units": 6,
+        "unmarked_vowel_units": 4,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "i": 1,
+          "a": 5,
+          "ẹ": 1,
+          "e": 1,
+          "ọ": 2
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 1,
+        "n_letters": 1,
+        "m_letters": 1,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_07049_00985777771",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 15,
+        "explicit_tone_units": 11,
+        "unmarked_vowel_units": 4,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "i": 5,
+          "e": 3,
+          "ọ": 2,
+          "a": 2,
+          "u": 1,
+          "ẹ": 2
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 1,
+        "n_letters": 2,
+        "m_letters": 0,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_07049_01002258700",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 12,
+        "explicit_tone_units": 10,
+        "unmarked_vowel_units": 2,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "i": 5,
+          "o": 2,
+          "ọ": 1,
+          "a": 1,
+          "e": 1,
+          "ẹ": 2
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 1,
+        "n_letters": 1,
+        "m_letters": 0,
+        "annotations": [
+          "snap"
+        ]
+      }
+    },
+    {
+      "source_item_id": "yom_07049_01135577802",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 12,
+        "explicit_tone_units": 5,
+        "unmarked_vowel_units": 7,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "a": 4,
+          "i": 3,
+          "o": 2,
+          "e": 3
+        },
+        "nasal_vowel_spelling_candidates": 0,
+        "nasal_consonant_spelling_candidates": 1,
+        "n_letters": 2,
+        "m_letters": 0,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_07049_01273855916",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 12,
+        "explicit_tone_units": 7,
+        "unmarked_vowel_units": 5,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "ẹ": 3,
+          "e": 1,
+          "i": 4,
+          "o": 2,
+          "a": 1,
+          "ọ": 1
+        },
+        "nasal_vowel_spelling_candidates": 0,
+        "nasal_consonant_spelling_candidates": 1,
+        "n_letters": 0,
+        "m_letters": 1,
+        "annotations": [
+          "breath",
+          "breath"
+        ]
+      }
+    },
+    {
+      "source_item_id": "yom_07049_01994824495",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 7,
+        "explicit_tone_units": 3,
+        "unmarked_vowel_units": 4,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "e": 1,
+          "u": 1,
+          "ẹ": 2,
+          "o": 2,
+          "i": 1
+        },
+        "nasal_vowel_spelling_candidates": 0,
+        "nasal_consonant_spelling_candidates": 0,
+        "n_letters": 1,
+        "m_letters": 0,
+        "annotations": [
+          "snap"
+        ]
+      }
+    },
+    {
+      "source_item_id": "yom_07508_00242160806",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 4,
+        "explicit_tone_units": 3,
+        "unmarked_vowel_units": 1,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "a": 1,
+          "o": 1,
+          "ọ": 1,
+          "ẹ": 1
+        },
+        "nasal_vowel_spelling_candidates": 0,
+        "nasal_consonant_spelling_candidates": 1,
+        "n_letters": 0,
+        "m_letters": 1,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_07508_00813365935",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 10,
+        "explicit_tone_units": 6,
+        "unmarked_vowel_units": 4,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "a": 4,
+          "ọ": 3,
+          "i": 2,
+          "o": 1
+        },
+        "nasal_vowel_spelling_candidates": 2,
+        "nasal_consonant_spelling_candidates": 0,
+        "n_letters": 2,
+        "m_letters": 0,
+        "annotations": [
+          "snap"
+        ]
+      }
+    },
+    {
+      "source_item_id": "yom_07508_00859742057",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 13,
+        "explicit_tone_units": 8,
+        "unmarked_vowel_units": 5,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "ọ": 3,
+          "i": 3,
+          "a": 2,
+          "o": 2,
+          "u": 3
+        },
+        "nasal_vowel_spelling_candidates": 3,
+        "nasal_consonant_spelling_candidates": 1,
+        "n_letters": 4,
+        "m_letters": 1,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_07508_00965345335",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 10,
+        "explicit_tone_units": 4,
+        "unmarked_vowel_units": 6,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "ọ": 2,
+          "ẹ": 2,
+          "i": 3,
+          "a": 3
+        },
+        "nasal_vowel_spelling_candidates": 2,
+        "nasal_consonant_spelling_candidates": 4,
+        "n_letters": 4,
+        "m_letters": 2,
+        "annotations": [
+          "snap"
+        ]
+      }
+    },
+    {
+      "source_item_id": "yom_07508_00981058538",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 14,
+        "explicit_tone_units": 9,
+        "unmarked_vowel_units": 5,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "o": 3,
+          "i": 4,
+          "a": 4,
+          "u": 1,
+          "ẹ": 1,
+          "ọ": 1
+        },
+        "nasal_vowel_spelling_candidates": 4,
+        "nasal_consonant_spelling_candidates": 3,
+        "n_letters": 5,
+        "m_letters": 0,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_07508_01340339424",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 28,
+        "explicit_tone_units": 25,
+        "unmarked_vowel_units": 3,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "ọ": 4,
+          "a": 6,
+          "e": 2,
+          "o": 5,
+          "i": 8,
+          "ẹ": 2,
+          "u": 1
+        },
+        "nasal_vowel_spelling_candidates": 3,
+        "nasal_consonant_spelling_candidates": 3,
+        "n_letters": 5,
+        "m_letters": 0,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_07508_01439327770",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 8,
+        "explicit_tone_units": 4,
+        "unmarked_vowel_units": 4,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "ọ": 3,
+          "a": 1,
+          "e": 1,
+          "o": 2,
+          "i": 1
+        },
+        "nasal_vowel_spelling_candidates": 0,
+        "nasal_consonant_spelling_candidates": 2,
+        "n_letters": 1,
+        "m_letters": 1,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_07508_01795437934",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 23,
+        "explicit_tone_units": 22,
+        "unmarked_vowel_units": 1,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "i": 3,
+          "u": 5,
+          "a": 9,
+          "e": 1,
+          "o": 1,
+          "ẹ": 2,
+          "ọ": 2
+        },
+        "nasal_vowel_spelling_candidates": 8,
+        "nasal_consonant_spelling_candidates": 6,
+        "n_letters": 11,
+        "m_letters": 2,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_07508_01950161981",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 7,
+        "explicit_tone_units": 6,
+        "unmarked_vowel_units": 1,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "i": 1,
+          "ọ": 1,
+          "o": 1,
+          "a": 2,
+          "ẹ": 2
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 0,
+        "n_letters": 1,
+        "m_letters": 0,
+        "annotations": [
+          "breath",
+          "snap"
+        ]
+      }
+    },
+    {
+      "source_item_id": "yom_07508_01963431820",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 13,
+        "explicit_tone_units": 8,
+        "unmarked_vowel_units": 5,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "a": 5,
+          "i": 4,
+          "o": 2,
+          "e": 2
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 2,
+        "n_letters": 1,
+        "m_letters": 1,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_08421_00307169252",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 11,
+        "explicit_tone_units": 7,
+        "unmarked_vowel_units": 4,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "i": 3,
+          "ẹ": 4,
+          "a": 2,
+          "o": 1,
+          "u": 1
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 1,
+        "n_letters": 1,
+        "m_letters": 0,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_08421_00321336704",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 8,
+        "explicit_tone_units": 5,
+        "unmarked_vowel_units": 3,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "ọ": 2,
+          "a": 2,
+          "ẹ": 1,
+          "i": 1,
+          "u": 1,
+          "e": 1
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 4,
+        "n_letters": 2,
+        "m_letters": 3,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_08421_00493295037",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 12,
+        "explicit_tone_units": 10,
+        "unmarked_vowel_units": 2,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "ọ": 1,
+          "o": 2,
+          "ẹ": 1,
+          "a": 1,
+          "i": 5,
+          "e": 1,
+          "u": 1
+        },
+        "nasal_vowel_spelling_candidates": 2,
+        "nasal_consonant_spelling_candidates": 4,
+        "n_letters": 4,
+        "m_letters": 1,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_08421_00603010627",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 18,
+        "explicit_tone_units": 8,
+        "unmarked_vowel_units": 10,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "i": 6,
+          "a": 4,
+          "e": 1,
+          "u": 2,
+          "ọ": 4,
+          "o": 1
+        },
+        "nasal_vowel_spelling_candidates": 2,
+        "nasal_consonant_spelling_candidates": 4,
+        "n_letters": 5,
+        "m_letters": 1,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_08421_01106977022",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 30,
+        "explicit_tone_units": 23,
+        "unmarked_vowel_units": 7,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "i": 12,
+          "a": 4,
+          "e": 4,
+          "o": 6,
+          "u": 2,
+          "ẹ": 1,
+          "ọ": 1
+        },
+        "nasal_vowel_spelling_candidates": 3,
+        "nasal_consonant_spelling_candidates": 3,
+        "n_letters": 5,
+        "m_letters": 0,
+        "annotations": [
+          "snap",
+          "hesitation"
+        ]
+      }
+    },
+    {
+      "source_item_id": "yom_08421_01180079847",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 24,
+        "explicit_tone_units": 14,
+        "unmarked_vowel_units": 10,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "o": 5,
+          "ọ": 6,
+          "i": 6,
+          "a": 4,
+          "e": 2,
+          "u": 1
+        },
+        "nasal_vowel_spelling_candidates": 5,
+        "nasal_consonant_spelling_candidates": 3,
+        "n_letters": 5,
+        "m_letters": 3,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_08421_01191226543",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 9,
+        "explicit_tone_units": 4,
+        "unmarked_vowel_units": 5,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "o": 1,
+          "ẹ": 2,
+          "ọ": 1,
+          "a": 3,
+          "u": 1,
+          "i": 1
+        },
+        "nasal_vowel_spelling_candidates": 1,
+        "nasal_consonant_spelling_candidates": 2,
+        "n_letters": 2,
+        "m_letters": 1,
+        "annotations": [
+          "snap"
+        ]
+      }
+    },
+    {
+      "source_item_id": "yom_08421_01200800536",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 13,
+        "explicit_tone_units": 6,
+        "unmarked_vowel_units": 7,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "a": 5,
+          "e": 1,
+          "ọ": 1,
+          "ẹ": 3,
+          "u": 2,
+          "i": 1
+        },
+        "nasal_vowel_spelling_candidates": 2,
+        "nasal_consonant_spelling_candidates": 0,
+        "n_letters": 2,
+        "m_letters": 0,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_08421_01373096942",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 18,
+        "explicit_tone_units": 12,
+        "unmarked_vowel_units": 6,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "ẹ": 2,
+          "i": 6,
+          "a": 3,
+          "e": 3,
+          "o": 3,
+          "u": 1
+        },
+        "nasal_vowel_spelling_candidates": 0,
+        "nasal_consonant_spelling_candidates": 0,
+        "n_letters": 1,
+        "m_letters": 0,
+        "annotations": []
+      }
+    },
+    {
+      "source_item_id": "yom_08421_01497838425",
+      "text_quality": {
+        "nfc_changed": false,
+        "nfd_changed": true,
+        "vowel_units": 8,
+        "explicit_tone_units": 6,
+        "unmarked_vowel_units": 2,
+        "conflicting_tone_units": 0,
+        "replacement_characters": 0,
+        "vowel_counts": {
+          "e": 3,
+          "i": 2,
+          "u": 2,
+          "ọ": 1
+        },
+        "nasal_vowel_spelling_candidates": 0,
+        "nasal_consonant_spelling_candidates": 0,
+        "n_letters": 0,
+        "m_letters": 0,
+        "annotations": []
+      }
+    }
+  ],
+  "limitations": [
+    "Underdot presence does not prove lexical correctness. e and ẹ / o and ọ are distinct and retained.",
+    "Missing tone marks cannot be inferred from unmarked vowels alone. Do not label all unmarked vowels M without review.",
+    "NFC normalization is canonical encoding only; original transcripts and metadata bytes retained.",
+    "Bracketed recording annotations retained; excluded from orthographic coverage counts."
+  ]
+}

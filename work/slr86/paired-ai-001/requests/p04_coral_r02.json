@@ -1,0 +1,32 @@
+{
+  "generation_id": "p04_coral_r02",
+  "repeat_generation_id": 2,
+  "source_id": "yof_09697_01103354325",
+  "speaker_id": "yof_09697",
+  "request": {
+    "model": "gpt-4o-mini-tts-2025-12-15",
+    "voice": "coral",
+    "response_format": "wav",
+    "speed": 1.0,
+    "instructions": "Read the supplied Yoruba text exactly as written. Do not add, omit, translate, paraphrase, or correct any words.",
+    "input": "Ata ni Bọ́láfadé ń tà láti rán ara rẹ̀ lọ sí ilé-ìwé."
+  },
+  "input_utf8_sha256": "52450999beeff5c69af0820d74620954e5ed7c46b0d7898761c315b5de66d326",
+  "provider": "OpenAI",
+  "voice_version": null,
+  "resolved_model_version": null,
+  "requested_model_snapshot": "gpt-4o-mini-tts-2025-12-15",
+  "client_request_id": "fd61a6f7-0290-46b2-bd2f-3f730ffcdb37",
+  "generation_started_at": "2026-10-03T01:28:53.851172+00:00",
+  "status": "complete",
+  "audio_path": "work/slr86/paired-ai-001/audio/p04_coral_r02.wav",
+  "provider_request_id": "req_357f68208e1a4c7e8d5f0263b944e7f1",
+  "content_type": "audio/wav",
+  "generation_completed_at": "2026-10-03T01:28:57.380614+00:00",
+  "audio_sha256": "c7e5c65b94bd1945d6c26c9b76d4a75cdfd5d5d0815b046d96e3c40d2a5ee01a",
+  "audio_bytes": 343244,
+  "sample_rate_hz": 24000,
+  "duration_s": 7.15,
+  "channels": 1,
+  "raw_provider_response_preserved": true
+}

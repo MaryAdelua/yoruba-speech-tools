@@ -1,0 +1,64 @@
+{
+  "created_at_utc": "2026-10-01T18:32:30.974510+00:00",
+  "source_file": "Yoruba_test_001.m4a.m4a",
+  "source_sha256": "fc7839e6e478596f00730eb161d7cf4588a068198aa1684a1aec0730202c2185",
+  "source_unchanged": true,
+  "split_time_s": 12.6,
+  "format": {
+    "sample_rate_hz": 24000,
+    "channels": 1,
+    "sample_width_bits": 16
+  },
+  "method": "Original decoded to mono 24kHz PCM; exact partition at 12.6s. No silence removed, denoising, gain adjustment, or linguistic correction.",
+  "boundary_evidence": {
+    "user_speech_approx_s": [
+      4.76,
+      11.85
+    ],
+    "assistant_speech_approx_s": [
+      13.4,
+      14.5
+    ],
+    "method": "silence detection plus local Omnilingual CTC ASR timestamps",
+    "human_verified": false
+  },
+  "recognition_note": "Raw local ASR used for segmentation only; not a validated transcript or evaluation score.",
+  "asr_segments": [
+    {
+      "start_s": 0,
+      "end_s": 20.8,
+      "raw_text": "mo ní ọsàn mẹ́ta mo sì ra méjì sí ọsàn mélò ni mo nílá papọ̀ dá mi lóhùn ní èdè yo orùba ní gbóló nkan"
+    },
+    {
+      "start_s": 0,
+      "end_s": 4.78,
+      "raw_text": ""
+    },
+    {
+      "start_s": 4.78,
+      "end_s": 11.95,
+      "raw_text": "mo ní ọsàn mẹ́ta mo sì ra méjì sí ọsàn mélò ni mo nílá papọ̀ dá mi lóhùn ní èdeye orùba ní gbóló nkan"
+    },
+    {
+      "start_s": 12,
+      "end_s": 20.8,
+      "raw_text": "oníos an marún"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "user.wav",
+      "source_start_s": 0,
+      "source_end_s": 12.6,
+      "duration_s": 12.6,
+      "sha256": "64038d5ea9f45d8c7ac5cd97a813f1c1b986d38cdc50d1dc0205736d12a3f151"
+    },
+    {
+      "file": "assistant.wav",
+      "source_start_s": 12.6,
+      "source_end_s": 20.799999999999997,
+      "duration_s": 8.2,
+      "sha256": "a25a12c361c861f3795d8378ecdfcf0d8c2bbc4b6e6e96b8bdbc58a28927845b"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "schema_version": "voice-review-notes-1.0",
+  "review_session_id": "p03-listening-001",
+  "reviewer": "current user (voice session)",
+  "annotations": [
+    {
+      "annotation_id": "p03_natural:u01:boundary-overlap",
+      "recording_id": "p03_natural",
+      "audio_sha256": "32b32face5d0ad95f248fcbe4cb2b788daf2060c9c11f105c5e7110c7e38d936",
+      "segment_id": "u01",
+      "written_unit": "Kò",
+      "automatic_interval": {
+        "start_s": 0.97,
+        "end_s": 1.17
+      },
+      "bad_audio_cut": true,
+      "note": "Native listener reports that the cut for Kò includes part of the following syllable, sounding like kokuk; the cut extends into the next unit.",
+      "matches_unit": null,
+      "lexical_tone": null,
+      "pronunciation_issues": null,
+      "confidence": null,
+      "evidence_type": "human_listener_observation",
+      "technical_correction_required": true,
+      "linguistic_interpretation_eligible": false,
+      "annotation_timestamp": "2026-10-05T03:25:04.685855+00:00",
+      "capture_method": "spoken judgment recorded by assistant",
+      "browser_form_sync": false
+    },
+    {
+      "annotation_id": "p03_natural:u01:natural-realization",
+      "recording_id": "p03_natural",
+      "segment_id": "u01",
+      "written_unit": "Kò",
+      "lexical_tone": "Yes",
+      "segmental_pronunciation": "natural/acceptable",
+      "matches_unit": null,
+      "confidence": "High",
+      "note": "Native listener explicitly clarifies that the first Kò part sounds very natural in tone and pronunciation. Earlier observation that the cut includes part of the following syllable remains preserved separately.",
+      "evidence_type": "human_listener_observation",
+      "boundary_flag_remains": true,
+      "technical_correction_required": true,
+      "automatic_correctness_inference": false,
+      "annotation_timestamp": "2026-10-05T03:26:19.629484+00:00",
+      "capture_method": "spoken judgment recorded by assistant",
+      "browser_form_sync": false,
+      "confidence_confirmed_at": "2026-10-05T03:26:36.414065+00:00"
+    },
+    {
+      "annotation_id": "p03_natural:u02:boundary-overlap",
+      "recording_id": "p03_natural",
+      "audio_sha256": "32b32face5d0ad95f248fcbe4cb2b788daf2060c9c11f105c5e7110c7e38d936",
+      "segment_id": "u02",
+      "written_unit": "kú",
+      "reference_word": "kúkú",
+      "automatic_interval": {
+        "start_s": 1.17,
+        "end_s": 1.37
+      },
+      "bad_audio_cut": true,
+      "note": "Native listener reports that the first kú after Kò sounds like kukuk and includes part of the following syllable rather than isolating the displayed unit.",
+      "matches_unit": null,
+      "lexical_tone": null,
+      "pronunciation_issues": null,
+      "confidence": null,
+      "evidence_type": "human_listener_observation",
+      "technical_correction_required": true,
+      "linguistic_interpretation_eligible": false,
+      "annotation_timestamp": "2026-10-05T03:28:04.941269+00:00",
+      "capture_method": "spoken judgment recorded by assistant",
+      "browser_form_sync": false
+    }
+  ]
+}

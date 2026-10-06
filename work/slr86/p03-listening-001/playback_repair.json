@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-10-05T03:30:59.425012+00:00",
+  "change": "Wait for audio metadata and seek completion before interval playback; reject invalid intervals.",
+  "boundaries_changed": false,
+  "audio_changed": false,
+  "review_storage_key_changed": false,
+  "linguistic_alignment_status": "UNVERIFIED: existing intervals are uniformly spaced placeholders; not ready for reliable isolated syllable judgments."
+}

@@ -1,0 +1,37 @@
+{
+  "recording_id": "p03_natural",
+  "source_audio_sha256": "32b32face5d0ad95f248fcbe4cb2b788daf2060c9c11f105c5e7110c7e38d936",
+  "created_at": "2026-10-05T03:32:42.294700+00:00",
+  "processing": "Exact PCM sample slices; no resampling, gain change, denoising or silence removal. Original intact.",
+  "segments": [
+    {
+      "segment_id": "u01",
+      "written_unit": "Kò",
+      "start_s": 0.995,
+      "end_s": 1.185,
+      "audio_file": "u01_candidate.wav",
+      "status": "ACOUSTICALLY_PROPOSED_NOT_LISTENING_VERIFIED",
+      "method": "Manual inspection of waveform and spectrogram transitions; sequential association to first three reference units remains provisional."
+    },
+    {
+      "segment_id": "u02",
+      "written_unit": "kú",
+      "start_s": 1.185,
+      "end_s": 1.375,
+      "audio_file": "u02_candidate.wav",
+      "status": "ACOUSTICALLY_PROPOSED_NOT_LISTENING_VERIFIED",
+      "method": "Manual inspection of waveform and spectrogram transitions; sequential association to first three reference units remains provisional."
+    },
+    {
+      "segment_id": "u03",
+      "written_unit": "kú",
+      "start_s": 1.375,
+      "end_s": 1.505,
+      "audio_file": "u03_candidate.wav",
+      "status": "ACOUSTICALLY_PROPOSED_NOT_LISTENING_VERIFIED",
+      "method": "Manual inspection of waveform and spectrogram transitions; sequential association to first three reference units remains provisional."
+    }
+  ],
+  "remaining_segments": "Not realigned",
+  "scores": "UNIMPLEMENTED"
+}

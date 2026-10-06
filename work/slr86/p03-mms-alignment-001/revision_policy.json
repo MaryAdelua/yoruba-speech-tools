@@ -1,0 +1,7 @@
+{
+  "previous_visual_proposals": "retained for audit; unsuitable for linguistic analysis",
+  "previous_human_feedback": "preserved, not transferred to different cuts",
+  "accepted_natural_first_two": "identical PCM retained with usability acceptance only",
+  "new_proposals": "require listening verification",
+  "future_analysis_must_use_verified_intervals": true
+}

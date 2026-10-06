@@ -1,0 +1,114 @@
+{
+  "source_id": "yom_01523_00387763688",
+  "speaker_id": "yom_01523",
+  "duration_s": 7.594666666666667,
+  "peak_amplitude": 0.7772216796875,
+  "whole_clip_rms_dbfs": -23.517694341542906,
+  "digital_rail_samples": 0,
+  "all_zero": false,
+  "finite": true,
+  "voiced_runs": [
+    {
+      "start_s": 0,
+      "end_s": 0.035,
+      "duration_s": 0.035
+    },
+    {
+      "start_s": 0.415,
+      "end_s": 0.515,
+      "duration_s": 0.10000000000000003
+    },
+    {
+      "start_s": 1.145,
+      "end_s": 1.405,
+      "duration_s": 0.26
+    },
+    {
+      "start_s": 1.415,
+      "end_s": 1.955,
+      "duration_s": 0.54
+    },
+    {
+      "start_s": 1.965,
+      "end_s": 2.1950000000000003,
+      "duration_s": 0.2300000000000002
+    },
+    {
+      "start_s": 2.2150000000000003,
+      "end_s": 3.205,
+      "duration_s": 0.9899999999999998
+    },
+    {
+      "start_s": 3.355,
+      "end_s": 3.4850000000000003,
+      "duration_s": 0.13000000000000034
+    },
+    {
+      "start_s": 3.495,
+      "end_s": 3.6750000000000003,
+      "duration_s": 0.18000000000000016
+    },
+    {
+      "start_s": 3.775,
+      "end_s": 4.035,
+      "duration_s": 0.26000000000000023
+    },
+    {
+      "start_s": 4.115,
+      "end_s": 4.285,
+      "duration_s": 0.16999999999999993
+    },
+    {
+      "start_s": 4.315,
+      "end_s": 4.7250000000000005,
+      "duration_s": 0.41000000000000014
+    },
+    {
+      "start_s": 4.745,
+      "end_s": 4.865,
+      "duration_s": 0.1200000000000001
+    },
+    {
+      "start_s": 4.885,
+      "end_s": 5.015,
+      "duration_s": 0.1299999999999999
+    },
+    {
+      "start_s": 5.035,
+      "end_s": 5.215,
+      "duration_s": 0.17999999999999972
+    },
+    {
+      "start_s": 5.245,
+      "end_s": 5.535,
+      "duration_s": 0.29000000000000004
+    },
+    {
+      "start_s": 5.845,
+      "end_s": 6.445,
+      "duration_s": 0.6000000000000005
+    },
+    {
+      "start_s": 6.515,
+      "end_s": 6.995,
+      "duration_s": 0.4800000000000004
+    },
+    {
+      "start_s": 7.005,
+      "end_s": 7.485,
+      "duration_s": 0.4800000000000004
+    }
+  ],
+  "voiced_run_duration_s": {
+    "n": 18,
+    "min": 0.035,
+    "p05": 0.09025000000000004,
+    "p25": 0.14000000000000024,
+    "median": 0.2450000000000001,
+    "p75": 0.46250000000000036,
+    "p95": 0.6584999999999999,
+    "max": 0.9899999999999998,
+    "sd": 0.230099448440972
+  },
+  "timing_interpretation": "pYIN frame-cell runs, half-hop edges, not syllables or verified speech boundaries. Window 85.33 ms; hop 10 ms."
+}

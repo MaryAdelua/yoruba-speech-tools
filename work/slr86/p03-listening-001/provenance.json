@@ -1,0 +1,8 @@
+{
+  "source_package_sha256": "45b8d37ada62888dfa9d1ca2b240a24caaf23fa9bbf196ecaac76a8d8592c5f1",
+  "source_package": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\p03-supervised-001\\annotation_package.json",
+  "technical_interface_unchanged": true,
+  "audio_modified": false,
+  "boundary_method": "Uniform intervals within a rough energy-active extent. These are editor placeholders, NOT linguistic alignment. Confirm/correct by listening; split/merge as appropriate. No interval is verified initially.",
+  "automatic_correctness_scoring": false
+}

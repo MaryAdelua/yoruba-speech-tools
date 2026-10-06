@@ -1,0 +1,14 @@
+{
+  "new_takes": 12,
+  "distinct_sessions": 12,
+  "distinct_audio_hashes": 12,
+  "wav_pcm_identical": true,
+  "baseline_audio_hashes_unchanged": true,
+  "alignment_boundaries_ordered": true,
+  "alignment_reference_reconstructs_exact_text": true,
+  "live_generated": 0,
+  "live_blocker": "HTTP 403",
+  "total_new_audio_seconds": 55.05,
+  "previous_975_files_unchanged": true,
+  "accepted_v2_exports_unchanged": true
+}

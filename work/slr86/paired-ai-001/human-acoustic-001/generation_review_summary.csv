@@ -1,0 +1,13 @@
+sentence_id,ai_generation_id,lexical_tone_realization,segmental_pronunciation,perceived_nasality,prosody_intonation,rhythm_fluency,overall_yoruba_naturalness,reviewer_confidence,issue_tags,notes,time_intervals
+p01,p01_coral_r01,clearly problematic,clearly problematic,normal,clearly problematic,clearly problematic,very unnatural,low,"[""lexical tone"", ""consonant realization"", ""vowel realization"", ""unusual duration/stretching"", ""rhythm"", ""intonation/prosody""]",,[]
+p01,p01_coral_r02,clearly problematic,clearly problematic,clearly excessive/unusual,clearly problematic,clearly problematic,very unnatural,low,"[""lexical tone"", ""nasal quality"", ""consonant realization"", ""vowel realization"", ""unusual duration/stretching"", ""rhythm"", ""intonation/prosody""]",,[]
+p02,p02_coral_r01,clearly problematic,clearly problematic,clearly excessive/unusual,clearly problematic,clearly problematic,noticeably unnatural,low,"[""lexical tone"", ""nasal quality"", ""consonant realization"", ""vowel realization"", ""unusual duration/stretching"", ""rhythm"", ""intonation/prosody""]",,[]
+p02,p02_coral_r02,clearly problematic,clearly problematic,clearly excessive/unusual,clearly problematic,clearly problematic,very unnatural,low,[],,[]
+p03,p03_coral_r01,clearly problematic,clearly problematic,somewhat excessive/unusual,clearly problematic,clearly problematic,very unnatural,low,[],,[]
+p03,p03_coral_r02,clearly problematic,somewhat unnatural,clearly excessive/unusual,clearly problematic,clearly problematic,very unnatural,low,[],,[]
+p04,p04_coral_r01,clearly problematic,clearly problematic,clearly excessive/unusual,clearly problematic,clearly problematic,very unnatural,low,[],,[]
+p04,p04_coral_r02,clearly problematic,clearly problematic,clearly excessive/unusual,clearly problematic,clearly problematic,very unnatural,low,[],,[]
+p05,p05_coral_r01,clearly problematic,clearly problematic,somewhat excessive/unusual,clearly problematic,clearly problematic,very unnatural,low,[],,[]
+p05,p05_coral_r02,clearly problematic,clearly problematic,somewhat excessive/unusual,clearly problematic,clearly problematic,very unnatural,low,[],,[]
+p06,p06_coral_r01,clearly problematic,clearly problematic,clearly excessive/unusual,clearly problematic,clearly problematic,noticeably unnatural,low,[],,[]
+p06,p06_coral_r02,clearly problematic,clearly problematic,clearly excessive/unusual,clearly problematic,clearly problematic,very unnatural,low,[],,[]

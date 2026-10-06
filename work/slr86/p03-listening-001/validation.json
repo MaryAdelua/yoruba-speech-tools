@@ -1,0 +1,10 @@
+{
+  "recordings": 5,
+  "proposed_segments": 85,
+  "technical_package_and_interface_unchanged": true,
+  "five_audio_and_measurement_hashes_unchanged": true,
+  "no_timestamp_edit_controls": true,
+  "ratings_initially_blank": true,
+  "bad_cuts_excluded_from_linguistic_interpretation": true,
+  "automatic_scores": false
+}

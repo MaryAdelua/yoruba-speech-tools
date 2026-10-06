@@ -1,0 +1,54 @@
+{
+  "source_id": "yof_04310_00141945315",
+  "speaker_id": "yof_04310",
+  "duration_s": 3.925333333333333,
+  "peak_amplitude": 0.48052978515625,
+  "whole_clip_rms_dbfs": -21.198045068361147,
+  "digital_rail_samples": 0,
+  "all_zero": false,
+  "finite": true,
+  "voiced_runs": [
+    {
+      "start_s": 0.335,
+      "end_s": 0.755,
+      "duration_s": 0.42
+    },
+    {
+      "start_s": 0.785,
+      "end_s": 1.0750000000000002,
+      "duration_s": 0.29000000000000015
+    },
+    {
+      "start_s": 1.135,
+      "end_s": 1.475,
+      "duration_s": 0.3400000000000001
+    },
+    {
+      "start_s": 1.5250000000000001,
+      "end_s": 1.685,
+      "duration_s": 0.15999999999999992
+    },
+    {
+      "start_s": 1.915,
+      "end_s": 3.105,
+      "duration_s": 1.19
+    },
+    {
+      "start_s": 3.1750000000000003,
+      "end_s": 3.845,
+      "duration_s": 0.6699999999999999
+    }
+  ],
+  "voiced_run_duration_s": {
+    "n": 6,
+    "min": 0.15999999999999992,
+    "p05": 0.19249999999999998,
+    "p25": 0.3025000000000001,
+    "median": 0.38,
+    "p75": 0.6074999999999999,
+    "p95": 1.06,
+    "max": 1.19,
+    "sd": 0.3405591806948618
+  },
+  "timing_interpretation": "pYIN frame-cell runs, half-hop edges, not syllables or verified speech boundaries. Window 85.33 ms; hop 10 ms."
+}

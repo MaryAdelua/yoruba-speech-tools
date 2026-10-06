@@ -1,0 +1,89 @@
+{
+  "source_id": "yof_06136_00877626961",
+  "speaker_id": "yof_06136",
+  "duration_s": 8.021333333333333,
+  "peak_amplitude": 0.753662109375,
+  "whole_clip_rms_dbfs": -18.387426376698233,
+  "digital_rail_samples": 0,
+  "all_zero": false,
+  "finite": true,
+  "voiced_runs": [
+    {
+      "start_s": 0,
+      "end_s": 0.475,
+      "duration_s": 0.475
+    },
+    {
+      "start_s": 0.565,
+      "end_s": 0.605,
+      "duration_s": 0.040000000000000036
+    },
+    {
+      "start_s": 0.645,
+      "end_s": 2.275,
+      "duration_s": 1.63
+    },
+    {
+      "start_s": 2.4050000000000002,
+      "end_s": 2.505,
+      "duration_s": 0.09999999999999964
+    },
+    {
+      "start_s": 2.585,
+      "end_s": 2.755,
+      "duration_s": 0.16999999999999993
+    },
+    {
+      "start_s": 2.825,
+      "end_s": 2.935,
+      "duration_s": 0.10999999999999988
+    },
+    {
+      "start_s": 3.015,
+      "end_s": 3.345,
+      "duration_s": 0.33000000000000007
+    },
+    {
+      "start_s": 3.415,
+      "end_s": 3.815,
+      "duration_s": 0.3999999999999999
+    },
+    {
+      "start_s": 3.845,
+      "end_s": 4.595,
+      "duration_s": 0.7499999999999996
+    },
+    {
+      "start_s": 4.675,
+      "end_s": 4.755,
+      "duration_s": 0.08000000000000007
+    },
+    {
+      "start_s": 4.945,
+      "end_s": 5.665,
+      "duration_s": 0.7199999999999998
+    },
+    {
+      "start_s": 5.775,
+      "end_s": 6.535,
+      "duration_s": 0.7599999999999998
+    },
+    {
+      "start_s": 6.595,
+      "end_s": 8.021333333333333,
+      "duration_s": 1.426333333333333
+    }
+  ],
+  "voiced_run_duration_s": {
+    "n": 13,
+    "min": 0.040000000000000036,
+    "p05": 0.06400000000000006,
+    "p25": 0.10999999999999988,
+    "median": 0.3999999999999999,
+    "p75": 0.7499999999999996,
+    "p95": 1.5077999999999996,
+    "max": 1.63,
+    "sd": 0.49173543262632313
+  },
+  "timing_interpretation": "pYIN frame-cell runs, half-hop edges, not syllables or verified speech boundaries. Window 85.33 ms; hop 10 ms."
+}

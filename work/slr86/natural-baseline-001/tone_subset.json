@@ -1,0 +1,970 @@
+{
+  "categories": {
+    "suitable_for_lexical_tone_analysis": 0,
+    "partially_marked_or_uncertain": 118,
+    "unsuitable_without_additional_review": 2
+  },
+  "criterion": "Conservative ground-truth eligibility, not tone correctness. Explicit density >=70% is only a review-priority heuristic, not a suitability test.",
+  "items": [
+    {
+      "source_id": "yof_01208_00284398735",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.7,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_01208_00601301614",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.4583333333333333,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_01208_00638640400",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.6,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_01208_00712661610",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.6923076923076923,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_01208_01099449672",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.5833333333333334,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_01208_01304309543",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.5789473684210527,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_01208_01348944590",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.6363636363636364,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_01208_01740136044",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.6,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_01208_01850003899",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.6666666666666666,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_01208_01947924185",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.75,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_02121_00334458563",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.4117647058823529,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_02121_00443892123",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.7142857142857143,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_02121_00460996262",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.8421052631578947,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_02121_00907251659",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.8888888888888888,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_02121_00930959735",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.7692307692307693,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_02121_00956906502",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.45454545454545453,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_02121_01178327964",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.7058823529411765,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_02121_01204042551",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.7368421052631579,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_02121_01888276578",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.8571428571428571,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_02121_02015408040",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.4166666666666667,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_02436_00053848547",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.4166666666666667,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_02436_00111533593",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.5833333333333334,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_02436_00554684236",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.375,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_02436_00656157829",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.7777777777777778,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_02436_00691876145",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.5555555555555556,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_02436_01200814924",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.42105263157894735,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_02436_01208289328",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.7857142857142857,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_02436_01809127750",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.6842105263157895,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_02436_02010584865",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.6521739130434783,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_02436_02038636916",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.36363636363636365,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_04310_00141945315",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.6842105263157895,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_04310_00338359348",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.5714285714285714,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_04310_00896135803",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.36363636363636365,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_04310_00904609684",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.6428571428571429,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_04310_00967300235",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.2857142857142857,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_04310_01165246344",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.75,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_04310_01174196641",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.4444444444444444,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_04310_01265456913",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.7272727272727273,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_04310_01491615865",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.5,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_04310_01892910806",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.5384615384615384,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_06136_00616155826",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.5,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_06136_00877626961",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.64,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_06136_00931220222",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.6363636363636364,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_06136_00981963925",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.75,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_06136_01063669619",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.6153846153846154,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_06136_01085823195",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.5,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_06136_01151773106",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.5384615384615384,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_06136_01387293319",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.7058823529411765,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_06136_01760701628",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.5652173913043478,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_06136_01956124024",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.7058823529411765,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_09697_00041565012",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.5833333333333334,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_09697_00099367593",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.1111111111111111,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_09697_00132648621",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.65,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_09697_00498508152",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.7,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_09697_00503862354",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.75,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_09697_00984469114",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.5454545454545454,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_09697_01103354325",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.55,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_09697_01599872597",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.7619047619047619,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_09697_01759056954",
+      "category": "unsuitable_without_additional_review",
+      "explicit_mark_rate": 0.7777777777777778,
+      "strong_marking_candidate": false,
+      "reason": "Unusual orthography requires review",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yof_09697_01906894462",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.5,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_00295_00169173375",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.625,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_00295_00263338725",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.36363636363636365,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_00295_00358190062",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.9285714285714286,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_00295_00999748557",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.8,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_00295_01090465200",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.5833333333333334,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_00295_01100371474",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.3888888888888889,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_00295_01260038205",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.75,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_00295_01634346315",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.6153846153846154,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_00295_01761232169",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.75,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_00295_01894974080",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.3076923076923077,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_01208_00480893374",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.6,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_01208_00587267142",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.7272727272727273,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_01208_00717404914",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.7,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_01208_00740667051",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.42105263157894735,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_01208_00784200761",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.42857142857142855,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_01208_00896307834",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.7142857142857143,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_01208_01142657335",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.5333333333333333,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_01208_01278650394",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.8571428571428571,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_01208_01404835296",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.6923076923076923,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_01208_01663739947",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.75,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_01523_00116259153",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.5555555555555556,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_01523_00312896002",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.7,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_01523_00387763688",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.5454545454545454,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_01523_00447820718",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.4,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_01523_00762007073",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.75,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_01523_01346428924",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.5,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_01523_01458350798",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.6,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_01523_01656064431",
+      "category": "unsuitable_without_additional_review",
+      "explicit_mark_rate": 0.7058823529411765,
+      "strong_marking_candidate": false,
+      "reason": "Unusual orthography requires review",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_01523_02042697707",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.7,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_01523_02091535034",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.8333333333333334,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_07049_00667014222",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.4166666666666667,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_07049_00676007103",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.7142857142857143,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_07049_00727404490",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.6666666666666666,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_07049_00866136075",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.6666666666666666,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_07049_00939672341",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.6,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_07049_00985777771",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.7333333333333333,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_07049_01002258700",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.8333333333333334,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_07049_01135577802",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.4166666666666667,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_07049_01273855916",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.5833333333333334,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_07049_01994824495",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.42857142857142855,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_07508_00242160806",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.75,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_07508_00813365935",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.6,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_07508_00859742057",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.6153846153846154,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_07508_00965345335",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.4,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_07508_00981058538",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.6428571428571429,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_07508_01340339424",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.8928571428571429,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_07508_01439327770",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.5,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_07508_01795437934",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.9565217391304348,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_07508_01950161981",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.8571428571428571,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_07508_01963431820",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.6153846153846154,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_08421_00307169252",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.6363636363636364,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_08421_00321336704",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.625,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_08421_00493295037",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.8333333333333334,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_08421_00603010627",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.4444444444444444,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_08421_01106977022",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.7666666666666667,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_08421_01180079847",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.5833333333333334,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_08421_01191226543",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.4444444444444444,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_08421_01200800536",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.46153846153846156,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_08421_01373096942",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.6666666666666666,
+      "strong_marking_candidate": false,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    },
+    {
+      "source_id": "yom_08421_01497838425",
+      "category": "partially_marked_or_uncertain",
+      "explicit_mark_rate": 0.75,
+      "strong_marking_candidate": true,
+      "reason": "Source-provided; lexical tone and audio alignment not human verified. Unmarked vowels may be mid tone.",
+      "suitable_confirmed": false
+    }
+  ]
+}

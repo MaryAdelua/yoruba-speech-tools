@@ -1,0 +1,22 @@
+{
+  "version": "cross-model-descriptive-1.0",
+  "conditions": [
+    "natural",
+    "mini_tts",
+    "realtime"
+  ],
+  "amplitude": "Whole-file digital RMS = 20 log10(sqrt(mean(sample^2))); no gain normalization. Not calibrated SPL or perceptual loudness.",
+  "active_proxy": "Nonoverlapping 20-ms blocks above -50/-40/-30 dBFS; sample-weighted duration and RMS, no trimming of audio. Not validated speech activity detection.",
+  "speaking_duration": "Unavailable without verified speech boundaries; report voiced frame-cell duration and threshold sensitivity only.",
+  "normalization": "Existing 12*log2(F0/own-utterance voiced median), separately per estimator. Not speaker population normalization or lexical-tone correctness.",
+  "aggregation": "Six sentence means per AI condition (two takes each); natural has one recording per sentence. No independent N=24 claim.",
+  "confounds": [
+    "Model and voice change together: coral versus marin",
+    "Different endpoint/instructions and uncontrolled synthesis calibration",
+    "Natural speakers/channels differ",
+    "One unblinded listener, six repeated texts",
+    "Matching repeat numbers across models is bookkeeping, not shared seeds"
+  ],
+  "no_training": true,
+  "no_combined_or_correctness_score": true
+}

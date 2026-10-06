@@ -1,0 +1,540 @@
+{
+  "review_version": 2,
+  "review_session_id": "paired_native_listener_review_v2",
+  "confidence_definition": "certainty about what was heard and the selected judgment, not certainty about technical/acoustic cause",
+  "schema_version": "paired-native-review-1.0",
+  "study_type": "exploratory_unblinded_paired_review",
+  "evidence_type": "human_native_listener_perception_not_acoustic_diagnosis",
+  "reviewer_identifier": "Mary Adelua",
+  "export_timestamp": "2026-10-03T03:18:46.511Z",
+  "dimensions_combined": false,
+  "training_use": false,
+  "items": [
+    {
+      "sentence_id": "p01",
+      "source_clip_id": "yof_01208_01850003899",
+      "exact_yoruba_text": "Wọ́n na Àdùnní játijàti.",
+      "natural_reference": {
+        "reviewer_identifier": "Mary Adelua",
+        "sentence_id": "p01",
+        "source_clip_id": "yof_01208_01850003899",
+        "speaker_id": "yof_01208",
+        "audio_sha256": "5cd1b0b28fc48e375f329c778bd909242e8104338691287781ccba23b34f5290",
+        "ratings": {},
+        "issue_tags": [],
+        "notes": "The natural reference is good",
+        "problematic_time_intervals": [],
+        "annotation_timestamp": "2026-10-03T02:46:48.796Z",
+        "review_status": "partial"
+      },
+      "ai_annotations": [
+        {
+          "reviewer_identifier": "Mary Adelua",
+          "sentence_id": "p01",
+          "source_clip_id": "yof_01208_01850003899",
+          "ai_generation_id": "p01_coral_r01",
+          "repeat_generation_id": 1,
+          "provider": "OpenAI",
+          "model_snapshot": "gpt-4o-mini-tts-2025-12-15",
+          "voice": "coral",
+          "voice_version": null,
+          "audio_sha256": "c710f198219021fa8553b78f58bd5b46a4f72ea371d806e06723fba10530d729",
+          "ratings": {
+            "lexical_tone_realization": "clearly problematic",
+            "segmental_pronunciation": "clearly problematic",
+            "perceived_nasality": "normal",
+            "prosody_intonation": "clearly problematic",
+            "rhythm_fluency": "clearly problematic",
+            "overall_yoruba_naturalness": "very unnatural",
+            "reviewer_confidence": "high"
+          },
+          "issue_tags": [
+            "lexical tone",
+            "consonant realization",
+            "vowel realization",
+            "unusual duration/stretching",
+            "rhythm",
+            "intonation/prosody"
+          ],
+          "notes": "It sounds very unnatural. Na sounds like english not the yoruba, i think it pronoucnes words as they appear in english",
+          "problematic_time_intervals": [],
+          "annotation_timestamp": "2026-10-03T02:52:50.578Z",
+          "review_status": "dimensions_completed"
+        },
+        {
+          "reviewer_identifier": "Mary Adelua",
+          "sentence_id": "p01",
+          "source_clip_id": "yof_01208_01850003899",
+          "ai_generation_id": "p01_coral_r02",
+          "repeat_generation_id": 2,
+          "provider": "OpenAI",
+          "model_snapshot": "gpt-4o-mini-tts-2025-12-15",
+          "voice": "coral",
+          "voice_version": null,
+          "audio_sha256": "7c6a3cdb9db37d1ae57a6d4eea1ca9883022be17af2b0b0301fc43eb0bf3b721",
+          "ratings": {
+            "lexical_tone_realization": "clearly problematic",
+            "segmental_pronunciation": "clearly problematic",
+            "perceived_nasality": "somewhat excessive/unusual",
+            "prosody_intonation": "clearly problematic",
+            "rhythm_fluency": "clearly problematic",
+            "overall_yoruba_naturalness": "very unnatural",
+            "reviewer_confidence": "high"
+          },
+          "issue_tags": [
+            "lexical tone",
+            "nasal quality",
+            "consonant realization",
+            "vowel realization",
+            "unusual duration/stretching",
+            "rhythm",
+            "intonation/prosody"
+          ],
+          "notes": "",
+          "problematic_time_intervals": [],
+          "annotation_timestamp": "2026-10-03T02:53:27.073Z",
+          "review_status": "dimensions_completed"
+        }
+      ]
+    },
+    {
+      "sentence_id": "p02",
+      "source_clip_id": "yof_02436_02038636916",
+      "exact_yoruba_text": "Àwọn ọmọ ogun orí ilẹ̀ ń bọ̀.",
+      "natural_reference": {
+        "reviewer_identifier": "Mary Adelua",
+        "sentence_id": "p02",
+        "source_clip_id": "yof_02436_02038636916",
+        "speaker_id": "yof_02436",
+        "audio_sha256": "8d4f8c4c3f0c9771b64db80ca437a1a7051821ef0e8ab4e3cf2cb4c37fee02e8",
+        "ratings": {},
+        "issue_tags": [],
+        "notes": "",
+        "problematic_time_intervals": [],
+        "annotation_timestamp": null,
+        "review_status": "not_reviewed"
+      },
+      "ai_annotations": [
+        {
+          "reviewer_identifier": "Mary Adelua",
+          "sentence_id": "p02",
+          "source_clip_id": "yof_02436_02038636916",
+          "ai_generation_id": "p02_coral_r01",
+          "repeat_generation_id": 1,
+          "provider": "OpenAI",
+          "model_snapshot": "gpt-4o-mini-tts-2025-12-15",
+          "voice": "coral",
+          "voice_version": null,
+          "audio_sha256": "360e87ddac0d1049eb417cfdc621a6173e87224dbd5ff6f0662b62f8a223b1f7",
+          "ratings": {
+            "lexical_tone_realization": "clearly problematic",
+            "segmental_pronunciation": "clearly problematic",
+            "perceived_nasality": "clearly excessive/unusual",
+            "prosody_intonation": "clearly problematic",
+            "rhythm_fluency": "clearly problematic",
+            "overall_yoruba_naturalness": "very unnatural",
+            "reviewer_confidence": "high"
+          },
+          "issue_tags": [
+            "lexical tone",
+            "nasal quality",
+            "consonant realization",
+            "vowel realization",
+            "unusual duration/stretching",
+            "rhythm",
+            "intonation/prosody"
+          ],
+          "notes": "",
+          "problematic_time_intervals": [],
+          "annotation_timestamp": "2026-10-03T02:54:52.845Z",
+          "review_status": "dimensions_completed"
+        },
+        {
+          "reviewer_identifier": "Mary Adelua",
+          "sentence_id": "p02",
+          "source_clip_id": "yof_02436_02038636916",
+          "ai_generation_id": "p02_coral_r02",
+          "repeat_generation_id": 2,
+          "provider": "OpenAI",
+          "model_snapshot": "gpt-4o-mini-tts-2025-12-15",
+          "voice": "coral",
+          "voice_version": null,
+          "audio_sha256": "8cb779a2b0788232a8869b6d48ff1399cac7d694a75826977ff0cf92f775ad2c",
+          "ratings": {
+            "lexical_tone_realization": "clearly problematic",
+            "segmental_pronunciation": "clearly problematic",
+            "perceived_nasality": "clearly excessive/unusual",
+            "prosody_intonation": "clearly problematic",
+            "rhythm_fluency": "clearly problematic",
+            "overall_yoruba_naturalness": "very unnatural",
+            "reviewer_confidence": "high"
+          },
+          "issue_tags": [
+            "lexical tone",
+            "nasal quality",
+            "consonant realization",
+            "vowel realization",
+            "unusual duration/stretching",
+            "rhythm",
+            "intonation/prosody"
+          ],
+          "notes": "",
+          "problematic_time_intervals": [],
+          "annotation_timestamp": "2026-10-03T02:57:27.826Z",
+          "review_status": "dimensions_completed"
+        }
+      ]
+    },
+    {
+      "sentence_id": "p03",
+      "source_clip_id": "yof_02121_01178327964",
+      "exact_yoruba_text": "Kò kúkú sírú ọlọ́run, Ọba tí kò ṣeé pè lẹ́jọ́.",
+      "natural_reference": {
+        "reviewer_identifier": "Mary Adelua",
+        "sentence_id": "p03",
+        "source_clip_id": "yof_02121_01178327964",
+        "speaker_id": "yof_02121",
+        "audio_sha256": "32b32face5d0ad95f248fcbe4cb2b788daf2060c9c11f105c5e7110c7e38d936",
+        "ratings": {},
+        "issue_tags": [],
+        "notes": "",
+        "problematic_time_intervals": [],
+        "annotation_timestamp": null,
+        "review_status": "not_reviewed"
+      },
+      "ai_annotations": [
+        {
+          "reviewer_identifier": "Mary Adelua",
+          "sentence_id": "p03",
+          "source_clip_id": "yof_02121_01178327964",
+          "ai_generation_id": "p03_coral_r01",
+          "repeat_generation_id": 1,
+          "provider": "OpenAI",
+          "model_snapshot": "gpt-4o-mini-tts-2025-12-15",
+          "voice": "coral",
+          "voice_version": null,
+          "audio_sha256": "f64cf11865c71c14c21fc0b282e0d338c63153f5dedd2bb3b326d6995044988d",
+          "ratings": {
+            "lexical_tone_realization": "clearly problematic",
+            "segmental_pronunciation": "clearly problematic",
+            "perceived_nasality": "somewhat excessive/unusual",
+            "prosody_intonation": "clearly problematic",
+            "rhythm_fluency": "clearly problematic",
+            "overall_yoruba_naturalness": "very unnatural",
+            "reviewer_confidence": "high"
+          },
+          "issue_tags": [
+            "lexical tone",
+            "nasal quality",
+            "consonant realization",
+            "vowel realization",
+            "unusual duration/stretching",
+            "rhythm",
+            "intonation/prosody"
+          ],
+          "notes": "",
+          "problematic_time_intervals": [],
+          "annotation_timestamp": "2026-10-03T02:58:16.304Z",
+          "review_status": "dimensions_completed"
+        },
+        {
+          "reviewer_identifier": "Mary Adelua",
+          "sentence_id": "p03",
+          "source_clip_id": "yof_02121_01178327964",
+          "ai_generation_id": "p03_coral_r02",
+          "repeat_generation_id": 2,
+          "provider": "OpenAI",
+          "model_snapshot": "gpt-4o-mini-tts-2025-12-15",
+          "voice": "coral",
+          "voice_version": null,
+          "audio_sha256": "245c57eb8241bf24426795ddece2f5e8aca6c46ef515180ec76703487f347021",
+          "ratings": {
+            "lexical_tone_realization": "clearly problematic",
+            "segmental_pronunciation": "clearly problematic",
+            "perceived_nasality": "clearly excessive/unusual",
+            "prosody_intonation": "clearly problematic",
+            "rhythm_fluency": "clearly problematic",
+            "overall_yoruba_naturalness": "very unnatural",
+            "reviewer_confidence": "high"
+          },
+          "issue_tags": [
+            "lexical tone",
+            "nasal quality",
+            "consonant realization",
+            "vowel realization",
+            "unusual duration/stretching",
+            "rhythm",
+            "intonation/prosody"
+          ],
+          "notes": "",
+          "problematic_time_intervals": [],
+          "annotation_timestamp": "2026-10-03T02:59:08.684Z",
+          "review_status": "dimensions_completed"
+        }
+      ]
+    },
+    {
+      "sentence_id": "p04",
+      "source_clip_id": "yof_09697_01103354325",
+      "exact_yoruba_text": "Ata ni Bọ́láfadé ń tà láti rán ara rẹ̀ lọ sí ilé-ìwé.",
+      "natural_reference": {
+        "reviewer_identifier": "Mary Adelua",
+        "sentence_id": "p04",
+        "source_clip_id": "yof_09697_01103354325",
+        "speaker_id": "yof_09697",
+        "audio_sha256": "ba1ecf2019d39770b3240dd81e8ebea138e4af8573075c2464f6f448475fb883",
+        "ratings": {},
+        "issue_tags": [],
+        "notes": "",
+        "problematic_time_intervals": [],
+        "annotation_timestamp": null,
+        "review_status": "not_reviewed"
+      },
+      "ai_annotations": [
+        {
+          "reviewer_identifier": "Mary Adelua",
+          "sentence_id": "p04",
+          "source_clip_id": "yof_09697_01103354325",
+          "ai_generation_id": "p04_coral_r01",
+          "repeat_generation_id": 1,
+          "provider": "OpenAI",
+          "model_snapshot": "gpt-4o-mini-tts-2025-12-15",
+          "voice": "coral",
+          "voice_version": null,
+          "audio_sha256": "f28b56ce9930758850895ec7d8f3bbf59520101ed0b33c31fa06f332561079bc",
+          "ratings": {
+            "lexical_tone_realization": "clearly problematic",
+            "segmental_pronunciation": "clearly problematic",
+            "perceived_nasality": "clearly excessive/unusual",
+            "prosody_intonation": "clearly problematic",
+            "rhythm_fluency": "clearly problematic",
+            "overall_yoruba_naturalness": "very unnatural",
+            "reviewer_confidence": "high"
+          },
+          "issue_tags": [
+            "lexical tone",
+            "nasal quality",
+            "consonant realization",
+            "vowel realization",
+            "unusual duration/stretching",
+            "rhythm",
+            "intonation/prosody"
+          ],
+          "notes": "",
+          "problematic_time_intervals": [],
+          "annotation_timestamp": "2026-10-03T03:05:27.540Z",
+          "review_status": "dimensions_completed"
+        },
+        {
+          "reviewer_identifier": "Mary Adelua",
+          "sentence_id": "p04",
+          "source_clip_id": "yof_09697_01103354325",
+          "ai_generation_id": "p04_coral_r02",
+          "repeat_generation_id": 2,
+          "provider": "OpenAI",
+          "model_snapshot": "gpt-4o-mini-tts-2025-12-15",
+          "voice": "coral",
+          "voice_version": null,
+          "audio_sha256": "c7e5c65b94bd1945d6c26c9b76d4a75cdfd5d5d0815b046d96e3c40d2a5ee01a",
+          "ratings": {
+            "lexical_tone_realization": "clearly problematic",
+            "segmental_pronunciation": "clearly problematic",
+            "perceived_nasality": "clearly excessive/unusual",
+            "prosody_intonation": "clearly problematic",
+            "rhythm_fluency": "clearly problematic",
+            "overall_yoruba_naturalness": "very unnatural",
+            "reviewer_confidence": "high"
+          },
+          "issue_tags": [
+            "lexical tone",
+            "nasal quality",
+            "consonant realization",
+            "vowel realization",
+            "unusual duration/stretching",
+            "rhythm",
+            "intonation/prosody"
+          ],
+          "notes": "",
+          "problematic_time_intervals": [],
+          "annotation_timestamp": "2026-10-03T03:07:02.997Z",
+          "review_status": "dimensions_completed"
+        }
+      ]
+    },
+    {
+      "sentence_id": "p05",
+      "source_clip_id": "yom_00295_01260038205",
+      "exact_yoruba_text": "Ẹlẹ́dẹ̀ náà bí ọmọ mẹ́fà péré.",
+      "natural_reference": {
+        "reviewer_identifier": "Mary Adelua",
+        "sentence_id": "p05",
+        "source_clip_id": "yom_00295_01260038205",
+        "speaker_id": "yom_00295",
+        "audio_sha256": "974ac2c0ee8c06476c3690e41f61287422fb142fa60dc17e960cf8f555782d41",
+        "ratings": {},
+        "issue_tags": [],
+        "notes": "",
+        "problematic_time_intervals": [],
+        "annotation_timestamp": null,
+        "review_status": "not_reviewed"
+      },
+      "ai_annotations": [
+        {
+          "reviewer_identifier": "Mary Adelua",
+          "sentence_id": "p05",
+          "source_clip_id": "yom_00295_01260038205",
+          "ai_generation_id": "p05_coral_r01",
+          "repeat_generation_id": 1,
+          "provider": "OpenAI",
+          "model_snapshot": "gpt-4o-mini-tts-2025-12-15",
+          "voice": "coral",
+          "voice_version": null,
+          "audio_sha256": "4e1019c329598452c507a6d148ffffd15b70718f869b53ac23ba7865eadf5afa",
+          "ratings": {
+            "lexical_tone_realization": "clearly problematic",
+            "segmental_pronunciation": "clearly problematic",
+            "perceived_nasality": "normal",
+            "prosody_intonation": "clearly problematic",
+            "rhythm_fluency": "clearly problematic",
+            "overall_yoruba_naturalness": "very unnatural",
+            "reviewer_confidence": "high"
+          },
+          "issue_tags": [
+            "e/ẹ",
+            "lexical tone",
+            "nasal quality",
+            "consonant realization",
+            "vowel realization",
+            "rhythm",
+            "intonation/prosody"
+          ],
+          "notes": "",
+          "problematic_time_intervals": [],
+          "annotation_timestamp": "2026-10-03T03:12:28.755Z",
+          "review_status": "dimensions_completed"
+        },
+        {
+          "reviewer_identifier": "Mary Adelua",
+          "sentence_id": "p05",
+          "source_clip_id": "yom_00295_01260038205",
+          "ai_generation_id": "p05_coral_r02",
+          "repeat_generation_id": 2,
+          "provider": "OpenAI",
+          "model_snapshot": "gpt-4o-mini-tts-2025-12-15",
+          "voice": "coral",
+          "voice_version": null,
+          "audio_sha256": "906fba6d9f86581c917262409890c7f0f833591cc642f37d1920ca8c347c27ac",
+          "ratings": {
+            "lexical_tone_realization": "clearly problematic",
+            "segmental_pronunciation": "clearly problematic",
+            "perceived_nasality": "normal",
+            "prosody_intonation": "clearly problematic",
+            "rhythm_fluency": "clearly problematic",
+            "overall_yoruba_naturalness": "very unnatural",
+            "reviewer_confidence": "high"
+          },
+          "issue_tags": [
+            "e/ẹ",
+            "lexical tone",
+            "nasal quality",
+            "consonant realization",
+            "vowel realization",
+            "rhythm",
+            "intonation/prosody"
+          ],
+          "notes": "",
+          "problematic_time_intervals": [],
+          "annotation_timestamp": "2026-10-03T03:13:20.758Z",
+          "review_status": "dimensions_completed"
+        }
+      ]
+    },
+    {
+      "sentence_id": "p06",
+      "source_clip_id": "yom_07508_00859742057",
+      "exact_yoruba_text": "Ọmọ tí a bí tí ó ń súnkún tọ̀san tòru.",
+      "natural_reference": {
+        "reviewer_identifier": "Mary Adelua",
+        "sentence_id": "p06",
+        "source_clip_id": "yom_07508_00859742057",
+        "speaker_id": "yom_07508",
+        "audio_sha256": "e28c3a9c10a43b7db082aef37b9662ae40afb144c3c194bb83d847f68f9abbc0",
+        "ratings": {},
+        "issue_tags": [],
+        "notes": "",
+        "problematic_time_intervals": [],
+        "annotation_timestamp": null,
+        "review_status": "not_reviewed"
+      },
+      "ai_annotations": [
+        {
+          "reviewer_identifier": "Mary Adelua",
+          "sentence_id": "p06",
+          "source_clip_id": "yom_07508_00859742057",
+          "ai_generation_id": "p06_coral_r01",
+          "repeat_generation_id": 1,
+          "provider": "OpenAI",
+          "model_snapshot": "gpt-4o-mini-tts-2025-12-15",
+          "voice": "coral",
+          "voice_version": null,
+          "audio_sha256": "968341f463a31fb60539b9309b43b040b52e859ec021b7e6014578f074bfa50e",
+          "ratings": {
+            "lexical_tone_realization": "clearly problematic",
+            "segmental_pronunciation": "clearly problematic",
+            "perceived_nasality": "somewhat excessive/unusual",
+            "prosody_intonation": "clearly problematic",
+            "rhythm_fluency": "clearly problematic",
+            "overall_yoruba_naturalness": "very unnatural",
+            "reviewer_confidence": "high"
+          },
+          "issue_tags": [
+            "lexical tone",
+            "nasal quality",
+            "consonant realization",
+            "vowel realization",
+            "unusual duration/stretching",
+            "rhythm",
+            "intonation/prosody"
+          ],
+          "notes": "",
+          "problematic_time_intervals": [],
+          "annotation_timestamp": "2026-10-03T03:16:54.053Z",
+          "review_status": "dimensions_completed"
+        },
+        {
+          "reviewer_identifier": "Mary Adelua",
+          "sentence_id": "p06",
+          "source_clip_id": "yom_07508_00859742057",
+          "ai_generation_id": "p06_coral_r02",
+          "repeat_generation_id": 2,
+          "provider": "OpenAI",
+          "model_snapshot": "gpt-4o-mini-tts-2025-12-15",
+          "voice": "coral",
+          "voice_version": null,
+          "audio_sha256": "b5c9119549599c1bea03f59da2098cb32d3182a9f3d3aeee3cc09b48c506ee5a",
+          "ratings": {
+            "lexical_tone_realization": "clearly problematic",
+            "segmental_pronunciation": "clearly problematic",
+            "perceived_nasality": "clearly excessive/unusual",
+            "prosody_intonation": "clearly problematic",
+            "rhythm_fluency": "clearly problematic",
+            "overall_yoruba_naturalness": "very unnatural",
+            "reviewer_confidence": "high"
+          },
+          "issue_tags": [
+            "lexical tone",
+            "nasal quality",
+            "consonant realization",
+            "vowel realization",
+            "rhythm",
+            "intonation/prosody"
+          ],
+          "notes": "",
+          "problematic_time_intervals": [],
+          "annotation_timestamp": "2026-10-03T03:17:28.878Z",
+          "review_status": "dimensions_completed"
+        }
+      ]
+    }
+  ]
+}

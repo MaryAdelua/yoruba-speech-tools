@@ -1,0 +1,1222 @@
+{
+  "clips": [
+    {
+      "source_id": "yof_01208_00284398735",
+      "speaker_id": "yof_01208",
+      "voicing_disagreement_percent_matched": 11.152416356877323,
+      "median_absolute_pitch_difference_st": 0.1284135694743267,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 8.02919708029197
+    },
+    {
+      "source_id": "yof_01208_00601301614",
+      "speaker_id": "yof_01208",
+      "voicing_disagreement_percent_matched": 17.36111111111111,
+      "median_absolute_pitch_difference_st": 0.16670092362961478,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 33.39070567986231
+    },
+    {
+      "source_id": "yof_01208_00638640400",
+      "speaker_id": "yof_01208",
+      "voicing_disagreement_percent_matched": 15.0,
+      "median_absolute_pitch_difference_st": 0.2077650904477569,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 13.584905660377359
+    },
+    {
+      "source_id": "yof_01208_00712661610",
+      "speaker_id": "yof_01208",
+      "voicing_disagreement_percent_matched": 14.629258517034069,
+      "median_absolute_pitch_difference_st": 0.2282009703969619,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 18.452380952380953
+    },
+    {
+      "source_id": "yof_01208_01099449672",
+      "speaker_id": "yof_01208",
+      "voicing_disagreement_percent_matched": 13.191489361702128,
+      "median_absolute_pitch_difference_st": 0.15720680067085724,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 20.502092050209207
+    },
+    {
+      "source_id": "yof_01208_01304309543",
+      "speaker_id": "yof_01208",
+      "voicing_disagreement_percent_matched": 1.8561484918793503,
+      "median_absolute_pitch_difference_st": 0.09912216023401574,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 33.25688073394495
+    },
+    {
+      "source_id": "yof_01208_01348944590",
+      "speaker_id": "yof_01208",
+      "voicing_disagreement_percent_matched": 12.529550827423169,
+      "median_absolute_pitch_difference_st": 0.17381770354933548,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 28.10304449648712
+    },
+    {
+      "source_id": "yof_01208_01740136044",
+      "speaker_id": "yof_01208",
+      "voicing_disagreement_percent_matched": 17.689530685920577,
+      "median_absolute_pitch_difference_st": 0.1398981911058687,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 22.340425531914892
+    },
+    {
+      "source_id": "yof_01208_01850003899",
+      "speaker_id": "yof_01208",
+      "voicing_disagreement_percent_matched": 11.946902654867257,
+      "median_absolute_pitch_difference_st": 0.1273946705297651,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 15.584415584415584
+    },
+    {
+      "source_id": "yof_01208_01947924185",
+      "speaker_id": "yof_01208",
+      "voicing_disagreement_percent_matched": 11.956521739130435,
+      "median_absolute_pitch_difference_st": 0.22222317418874743,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 9.042553191489361
+    },
+    {
+      "source_id": "yof_02121_00334458563",
+      "speaker_id": "yof_02121",
+      "voicing_disagreement_percent_matched": 7.30478589420655,
+      "median_absolute_pitch_difference_st": 0.16600581971150824,
+      "possible_octave_frames": 2,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 14.17910447761194
+    },
+    {
+      "source_id": "yof_02121_00443892123",
+      "speaker_id": "yof_02121",
+      "voicing_disagreement_percent_matched": 15.384615384615385,
+      "median_absolute_pitch_difference_st": 0.24581189037812362,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 1.3745704467353952
+    },
+    {
+      "source_id": "yof_02121_00460996262",
+      "speaker_id": "yof_02121",
+      "voicing_disagreement_percent_matched": 13.924050632911392,
+      "median_absolute_pitch_difference_st": 0.1302438100910993,
+      "possible_octave_frames": 1,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 25.732217573221757
+    },
+    {
+      "source_id": "yof_02121_00907251659",
+      "speaker_id": "yof_02121",
+      "voicing_disagreement_percent_matched": 24.110671936758894,
+      "median_absolute_pitch_difference_st": 0.23340450661893747,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 6.640625
+    },
+    {
+      "source_id": "yof_02121_00930959735",
+      "speaker_id": "yof_02121",
+      "voicing_disagreement_percent_matched": 14.285714285714286,
+      "median_absolute_pitch_difference_st": 0.2198378194939994,
+      "possible_octave_frames": 11,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 21.02102102102102
+    },
+    {
+      "source_id": "yof_02121_00956906502",
+      "speaker_id": "yof_02121",
+      "voicing_disagreement_percent_matched": 8.97887323943662,
+      "median_absolute_pitch_difference_st": 0.13937413743973576,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 12.412587412587413
+    },
+    {
+      "source_id": "yof_02121_01178327964",
+      "speaker_id": "yof_02121",
+      "voicing_disagreement_percent_matched": 25.103734439834025,
+      "median_absolute_pitch_difference_st": 0.17728384026190064,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 10.061601642710473
+    },
+    {
+      "source_id": "yof_02121_01204042551",
+      "speaker_id": "yof_02121",
+      "voicing_disagreement_percent_matched": 13.09823677581864,
+      "median_absolute_pitch_difference_st": 0.16350740801630037,
+      "possible_octave_frames": 4,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 15.17412935323383
+    },
+    {
+      "source_id": "yof_02121_01888276578",
+      "speaker_id": "yof_02121",
+      "voicing_disagreement_percent_matched": 11.570247933884298,
+      "median_absolute_pitch_difference_st": 0.2657524816224591,
+      "possible_octave_frames": 4,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 10.899182561307901
+    },
+    {
+      "source_id": "yof_02121_02015408040",
+      "speaker_id": "yof_02121",
+      "voicing_disagreement_percent_matched": 10.451977401129943,
+      "median_absolute_pitch_difference_st": 0.11713032040122584,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 17.827298050139277
+    },
+    {
+      "source_id": "yof_02436_00053848547",
+      "speaker_id": "yof_02436",
+      "voicing_disagreement_percent_matched": 8.135593220338983,
+      "median_absolute_pitch_difference_st": 0.09150660789433042,
+      "possible_octave_frames": 2,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 36.78929765886288
+    },
+    {
+      "source_id": "yof_02436_00111533593",
+      "speaker_id": "yof_02436",
+      "voicing_disagreement_percent_matched": 7.344632768361582,
+      "median_absolute_pitch_difference_st": 0.12049650943683568,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 33.98328690807799
+    },
+    {
+      "source_id": "yof_02436_00554684236",
+      "speaker_id": "yof_02436",
+      "voicing_disagreement_percent_matched": 6.498194945848375,
+      "median_absolute_pitch_difference_st": 0.08558708496213895,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 27.30496453900709
+    },
+    {
+      "source_id": "yof_02436_00656157829",
+      "speaker_id": "yof_02436",
+      "voicing_disagreement_percent_matched": 8.550185873605948,
+      "median_absolute_pitch_difference_st": 0.20227270700330255,
+      "possible_octave_frames": 5,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 11.678832116788321
+    },
+    {
+      "source_id": "yof_02436_00691876145",
+      "speaker_id": "yof_02436",
+      "voicing_disagreement_percent_matched": 4.743083003952569,
+      "median_absolute_pitch_difference_st": 0.13471294992236607,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 27.34375
+    },
+    {
+      "source_id": "yof_02436_01200814924",
+      "speaker_id": "yof_02436",
+      "voicing_disagreement_percent_matched": 11.11111111111111,
+      "median_absolute_pitch_difference_st": 0.1731016838051761,
+      "possible_octave_frames": 4,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 29.024390243902438
+    },
+    {
+      "source_id": "yof_02436_01208289328",
+      "speaker_id": "yof_02436",
+      "voicing_disagreement_percent_matched": 4.273504273504273,
+      "median_absolute_pitch_difference_st": 0.1730143652557324,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 13.921901528013583
+    },
+    {
+      "source_id": "yof_02436_01809127750",
+      "speaker_id": "yof_02436",
+      "voicing_disagreement_percent_matched": 11.612903225806452,
+      "median_absolute_pitch_difference_st": 0.17776200736401382,
+      "possible_octave_frames": 2,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 26.170212765957448
+    },
+    {
+      "source_id": "yof_02436_02010584865",
+      "speaker_id": "yof_02436",
+      "voicing_disagreement_percent_matched": 11.608961303462321,
+      "median_absolute_pitch_difference_st": 0.1620952478106327,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 34.94949494949495
+    },
+    {
+      "source_id": "yof_02436_02038636916",
+      "speaker_id": "yof_02436",
+      "voicing_disagreement_percent_matched": 2.6548672566371683,
+      "median_absolute_pitch_difference_st": 0.09141920370442594,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 48.05194805194805
+    },
+    {
+      "source_id": "yof_04310_00141945315",
+      "speaker_id": "yof_04310",
+      "voicing_disagreement_percent_matched": 13.65979381443299,
+      "median_absolute_pitch_difference_st": 0.23127144745236017,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 25.699745547073793
+    },
+    {
+      "source_id": "yof_04310_00338359348",
+      "speaker_id": "yof_04310",
+      "voicing_disagreement_percent_matched": 7.428571428571429,
+      "median_absolute_pitch_difference_st": 0.07570621033304475,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 43.888888888888886
+    },
+    {
+      "source_id": "yof_04310_00896135803",
+      "speaker_id": "yof_04310",
+      "voicing_disagreement_percent_matched": 13.875598086124402,
+      "median_absolute_pitch_difference_st": 0.21833932536592454,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 15.42056074766355
+    },
+    {
+      "source_id": "yof_04310_00904609684",
+      "speaker_id": "yof_04310",
+      "voicing_disagreement_percent_matched": 6.137184115523466,
+      "median_absolute_pitch_difference_st": 0.32955706543807906,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 12.76595744680851
+    },
+    {
+      "source_id": "yof_04310_00967300235",
+      "speaker_id": "yof_04310",
+      "voicing_disagreement_percent_matched": 17.142857142857142,
+      "median_absolute_pitch_difference_st": 0.23801931113472366,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 16.11111111111111
+    },
+    {
+      "source_id": "yof_04310_01165246344",
+      "speaker_id": "yof_04310",
+      "voicing_disagreement_percent_matched": 14.589665653495441,
+      "median_absolute_pitch_difference_st": 0.3247792809646215,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 13.813813813813814
+    },
+    {
+      "source_id": "yof_04310_01174196641",
+      "speaker_id": "yof_04310",
+      "voicing_disagreement_percent_matched": 13.541666666666666,
+      "median_absolute_pitch_difference_st": 0.1644410573279439,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 34.51776649746193
+    },
+    {
+      "source_id": "yof_04310_01265456913",
+      "speaker_id": "yof_04310",
+      "voicing_disagreement_percent_matched": 13.617021276595745,
+      "median_absolute_pitch_difference_st": 0.26726812008010037,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 18.410041841004183
+    },
+    {
+      "source_id": "yof_04310_01491615865",
+      "speaker_id": "yof_04310",
+      "voicing_disagreement_percent_matched": 27.876106194690266,
+      "median_absolute_pitch_difference_st": 0.1297272151128159,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 30.303030303030305
+    },
+    {
+      "source_id": "yof_04310_01892910806",
+      "speaker_id": "yof_04310",
+      "voicing_disagreement_percent_matched": 13.636363636363637,
+      "median_absolute_pitch_difference_st": 0.15588660656520023,
+      "possible_octave_frames": 2,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 27.835051546391753
+    },
+    {
+      "source_id": "yof_06136_00616155826",
+      "speaker_id": "yof_06136",
+      "voicing_disagreement_percent_matched": 38.613861386138616,
+      "median_absolute_pitch_difference_st": 0.11754150101893482,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 29.87012987012987
+    },
+    {
+      "source_id": "yof_06136_00877626961",
+      "speaker_id": "yof_06136",
+      "voicing_disagreement_percent_matched": 40.97744360902256,
+      "median_absolute_pitch_difference_st": 0.13169556115927666,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 31.133250311332503
+    },
+    {
+      "source_id": "yof_06136_00931220222",
+      "speaker_id": "yof_06136",
+      "voicing_disagreement_percent_matched": 12.76595744680851,
+      "median_absolute_pitch_difference_st": 0.18065001314676876,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 37.23849372384937
+    },
+    {
+      "source_id": "yof_06136_00981963925",
+      "speaker_id": "yof_06136",
+      "voicing_disagreement_percent_matched": 14.734299516908212,
+      "median_absolute_pitch_difference_st": 0.20247494552384065,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 39.856801909307876
+    },
+    {
+      "source_id": "yof_06136_01063669619",
+      "speaker_id": "yof_06136",
+      "voicing_disagreement_percent_matched": 6.270627062706271,
+      "median_absolute_pitch_difference_st": 0.09429642382712858,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 44.48051948051948
+    },
+    {
+      "source_id": "yof_06136_01085823195",
+      "speaker_id": "yof_06136",
+      "voicing_disagreement_percent_matched": 12.478920741989882,
+      "median_absolute_pitch_difference_st": 0.14413360047952922,
+      "possible_octave_frames": 2,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 34.11371237458194
+    },
+    {
+      "source_id": "yof_06136_01151773106",
+      "speaker_id": "yof_06136",
+      "voicing_disagreement_percent_matched": 13.294797687861271,
+      "median_absolute_pitch_difference_st": 0.1214466977699967,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 52.857142857142854
+    },
+    {
+      "source_id": "yof_06136_01387293319",
+      "speaker_id": "yof_06136",
+      "voicing_disagreement_percent_matched": 17.884130982367758,
+      "median_absolute_pitch_difference_st": 0.179148413929874,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 35.57213930348259
+    },
+    {
+      "source_id": "yof_06136_01760701628",
+      "speaker_id": "yof_06136",
+      "voicing_disagreement_percent_matched": 10.857142857142858,
+      "median_absolute_pitch_difference_st": 0.17094007012779955,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 37.35849056603774
+    },
+    {
+      "source_id": "yof_06136_01956124024",
+      "speaker_id": "yof_06136",
+      "voicing_disagreement_percent_matched": 14.861460957178842,
+      "median_absolute_pitch_difference_st": 0.1666424571744854,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 27.36318407960199
+    },
+    {
+      "source_id": "yof_09697_00041565012",
+      "speaker_id": "yof_09697",
+      "voicing_disagreement_percent_matched": 13.294797687861271,
+      "median_absolute_pitch_difference_st": 0.1199111599022458,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 18,
+      "agreement_screen_percent": 33.142857142857146
+    },
+    {
+      "source_id": "yof_09697_00099367593",
+      "speaker_id": "yof_09697",
+      "voicing_disagreement_percent_matched": 15.501519756838906,
+      "median_absolute_pitch_difference_st": 0.09270087072206581,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 32.432432432432435
+    },
+    {
+      "source_id": "yof_09697_00132648621",
+      "speaker_id": "yof_09697",
+      "voicing_disagreement_percent_matched": 9.619238476953909,
+      "median_absolute_pitch_difference_st": 0.10624017000389256,
+      "possible_octave_frames": 1,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 39.285714285714285
+    },
+    {
+      "source_id": "yof_09697_00498508152",
+      "speaker_id": "yof_09697",
+      "voicing_disagreement_percent_matched": 6.214689265536723,
+      "median_absolute_pitch_difference_st": 0.11716862334629022,
+      "possible_octave_frames": 2,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 22.56267409470752
+    },
+    {
+      "source_id": "yof_09697_00503862354",
+      "speaker_id": "yof_09697",
+      "voicing_disagreement_percent_matched": 11.136363636363637,
+      "median_absolute_pitch_difference_st": 0.08850035778032439,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 36.486486486486484
+    },
+    {
+      "source_id": "yof_09697_00984469114",
+      "speaker_id": "yof_09697",
+      "voicing_disagreement_percent_matched": 8.011869436201781,
+      "median_absolute_pitch_difference_st": 0.10113411932691646,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 37.42690058479532
+    },
+    {
+      "source_id": "yof_09697_01103354325",
+      "speaker_id": "yof_09697",
+      "voicing_disagreement_percent_matched": 11.07011070110701,
+      "median_absolute_pitch_difference_st": 0.09761774488001465,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 34.73491773308958
+    },
+    {
+      "source_id": "yof_09697_01599872597",
+      "speaker_id": "yof_09697",
+      "voicing_disagreement_percent_matched": 19.38534278959811,
+      "median_absolute_pitch_difference_st": 0.13537247341165382,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 31.381733021077284
+    },
+    {
+      "source_id": "yof_09697_01759056954",
+      "speaker_id": "yof_09697",
+      "voicing_disagreement_percent_matched": 9.422492401215806,
+      "median_absolute_pitch_difference_st": 0.1718658378704348,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 21.62162162162162
+    },
+    {
+      "source_id": "yof_09697_01906894462",
+      "speaker_id": "yof_09697",
+      "voicing_disagreement_percent_matched": 9.375,
+      "median_absolute_pitch_difference_st": 0.1162818593196297,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 32.30769230769231
+    },
+    {
+      "source_id": "yom_00295_00169173375",
+      "speaker_id": "yom_00295",
+      "voicing_disagreement_percent_matched": 9.627329192546584,
+      "median_absolute_pitch_difference_st": 0.11880057785770021,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 13.097072419106317
+    },
+    {
+      "source_id": "yom_00295_00263338725",
+      "speaker_id": "yom_00295",
+      "voicing_disagreement_percent_matched": 32.34323432343234,
+      "median_absolute_pitch_difference_st": 0.100125398876178,
+      "possible_octave_frames": 3,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 19.805194805194805
+    },
+    {
+      "source_id": "yom_00295_00358190062",
+      "speaker_id": "yom_00295",
+      "voicing_disagreement_percent_matched": 8.90207715133531,
+      "median_absolute_pitch_difference_st": 0.1982535424032528,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 9.941520467836257
+    },
+    {
+      "source_id": "yom_00295_00999748557",
+      "speaker_id": "yom_00295",
+      "voicing_disagreement_percent_matched": 15.748031496062993,
+      "median_absolute_pitch_difference_st": 0.18684259939619152,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 2.6041666666666665
+    },
+    {
+      "source_id": "yom_00295_01090465200",
+      "speaker_id": "yom_00295",
+      "voicing_disagreement_percent_matched": 11.136363636363637,
+      "median_absolute_pitch_difference_st": 0.10882083182755403,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 24.54954954954955
+    },
+    {
+      "source_id": "yom_00295_01100371474",
+      "speaker_id": "yom_00295",
+      "voicing_disagreement_percent_matched": 9.418837675350701,
+      "median_absolute_pitch_difference_st": 0.18660737471763245,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 10.119047619047619
+    },
+    {
+      "source_id": "yom_00295_01260038205",
+      "speaker_id": "yom_00295",
+      "voicing_disagreement_percent_matched": 13.636363636363637,
+      "median_absolute_pitch_difference_st": 0.2247004248219634,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 8.59106529209622
+    },
+    {
+      "source_id": "yom_00295_01634346315",
+      "speaker_id": "yom_00295",
+      "voicing_disagreement_percent_matched": 15.80547112462006,
+      "median_absolute_pitch_difference_st": 0.21006058907956504,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 4.504504504504505
+    },
+    {
+      "source_id": "yom_00295_01761232169",
+      "speaker_id": "yom_00295",
+      "voicing_disagreement_percent_matched": 37.16814159292036,
+      "median_absolute_pitch_difference_st": 0.21146965612608803,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 5.194805194805195
+    },
+    {
+      "source_id": "yom_00295_01894974080",
+      "speaker_id": "yom_00295",
+      "voicing_disagreement_percent_matched": 7.920792079207921,
+      "median_absolute_pitch_difference_st": 0.10990907717754167,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 22.07792207792208
+    },
+    {
+      "source_id": "yom_01208_00480893374",
+      "speaker_id": "yom_01208",
+      "voicing_disagreement_percent_matched": 5.800464037122969,
+      "median_absolute_pitch_difference_st": 0.14918322125642092,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 21.788990825688074
+    },
+    {
+      "source_id": "yom_01208_00587267142",
+      "speaker_id": "yom_01208",
+      "voicing_disagreement_percent_matched": 10.404624277456648,
+      "median_absolute_pitch_difference_st": 0.1404869561591836,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 10.857142857142858
+    },
+    {
+      "source_id": "yom_01208_00717404914",
+      "speaker_id": "yom_01208",
+      "voicing_disagreement_percent_matched": 12.903225806451612,
+      "median_absolute_pitch_difference_st": 0.16586676412544216,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 19.148936170212767
+    },
+    {
+      "source_id": "yom_01208_00740667051",
+      "speaker_id": "yom_01208",
+      "voicing_disagreement_percent_matched": 12.053571428571429,
+      "median_absolute_pitch_difference_st": 0.13408872535013594,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 18,
+      "agreement_screen_percent": 23.841059602649008
+    },
+    {
+      "source_id": "yom_01208_00784200761",
+      "speaker_id": "yom_01208",
+      "voicing_disagreement_percent_matched": 9.66542750929368,
+      "median_absolute_pitch_difference_st": 0.12332054085050223,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 12,
+      "agreement_screen_percent": 15.693430656934307
+    },
+    {
+      "source_id": "yom_01208_00896307834",
+      "speaker_id": "yom_01208",
+      "voicing_disagreement_percent_matched": 10.037174721189592,
+      "median_absolute_pitch_difference_st": 0.11473352023907055,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 14,
+      "agreement_screen_percent": 28.83211678832117
+    },
+    {
+      "source_id": "yom_01208_01142657335",
+      "speaker_id": "yom_01208",
+      "voicing_disagreement_percent_matched": 25.519287833827892,
+      "median_absolute_pitch_difference_st": 0.1666887364974427,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 22.80701754385965
+    },
+    {
+      "source_id": "yom_01208_01278650394",
+      "speaker_id": "yom_01208",
+      "voicing_disagreement_percent_matched": 15.384615384615385,
+      "median_absolute_pitch_difference_st": 0.15856009117414852,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 27,
+      "agreement_screen_percent": 17.735849056603772
+    },
+    {
+      "source_id": "yom_01208_01404835296",
+      "speaker_id": "yom_01208",
+      "voicing_disagreement_percent_matched": 14.589665653495441,
+      "median_absolute_pitch_difference_st": 0.21070565042885353,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 26,
+      "agreement_screen_percent": 15.015015015015015
+    },
+    {
+      "source_id": "yom_01208_01663739947",
+      "speaker_id": "yom_01208",
+      "voicing_disagreement_percent_matched": 8.035714285714286,
+      "median_absolute_pitch_difference_st": 0.12094853143307438,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 11,
+      "agreement_screen_percent": 22.075055187637968
+    },
+    {
+      "source_id": "yom_01523_00116259153",
+      "speaker_id": "yom_01523",
+      "voicing_disagreement_percent_matched": 13.754646840148698,
+      "median_absolute_pitch_difference_st": 0.136041695876171,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 14,
+      "agreement_screen_percent": 8.394160583941606
+    },
+    {
+      "source_id": "yom_01523_00312896002",
+      "speaker_id": "yom_01523",
+      "voicing_disagreement_percent_matched": 15.617128463476071,
+      "median_absolute_pitch_difference_st": 0.19681609990580984,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 32,
+      "agreement_screen_percent": 14.17910447761194
+    },
+    {
+      "source_id": "yom_01523_00387763688",
+      "speaker_id": "yom_01523",
+      "voicing_disagreement_percent_matched": 16.158940397350992,
+      "median_absolute_pitch_difference_st": 0.16654981389761303,
+      "possible_octave_frames": 7,
+      "pyin_near_floor_frames": 14,
+      "agreement_screen_percent": 14.078947368421053
+    },
+    {
+      "source_id": "yom_01523_00447820718",
+      "speaker_id": "yom_01523",
+      "voicing_disagreement_percent_matched": 13.20754716981132,
+      "median_absolute_pitch_difference_st": 0.13332870790461687,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 9,
+      "agreement_screen_percent": 3.9893617021276597
+    },
+    {
+      "source_id": "yom_01523_00762007073",
+      "speaker_id": "yom_01523",
+      "voicing_disagreement_percent_matched": 18.93408134642356,
+      "median_absolute_pitch_difference_st": 0.16430774525167738,
+      "possible_octave_frames": 2,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 6.4156206415620645
+    },
+    {
+      "source_id": "yom_01523_01346428924",
+      "speaker_id": "yom_01523",
+      "voicing_disagreement_percent_matched": 17.96690307328605,
+      "median_absolute_pitch_difference_st": 0.09328612945437596,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 45,
+      "agreement_screen_percent": 29.508196721311474
+    },
+    {
+      "source_id": "yom_01523_01458350798",
+      "speaker_id": "yom_01523",
+      "voicing_disagreement_percent_matched": 18.49462365591398,
+      "median_absolute_pitch_difference_st": 0.1342676335862738,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 4,
+      "agreement_screen_percent": 6.170212765957447
+    },
+    {
+      "source_id": "yom_01523_01656064431",
+      "speaker_id": "yom_01523",
+      "voicing_disagreement_percent_matched": 23.968565815324165,
+      "median_absolute_pitch_difference_st": 0.19460820436159493,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 18,
+      "agreement_screen_percent": 3.515625
+    },
+    {
+      "source_id": "yom_01523_02042697707",
+      "speaker_id": "yom_01523",
+      "voicing_disagreement_percent_matched": 11.434108527131784,
+      "median_absolute_pitch_difference_st": 0.20039364883178779,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 9.213051823416507
+    },
+    {
+      "source_id": "yom_01523_02091535034",
+      "speaker_id": "yom_01523",
+      "voicing_disagreement_percent_matched": 13.183730715287517,
+      "median_absolute_pitch_difference_st": 0.17497248719814007,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 15,
+      "agreement_screen_percent": 7.810320781032078
+    },
+    {
+      "source_id": "yom_07049_00667014222",
+      "speaker_id": "yom_07049",
+      "voicing_disagreement_percent_matched": 3.864734299516908,
+      "median_absolute_pitch_difference_st": 0.1668370883280228,
+      "possible_octave_frames": 4,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 10.739856801909308
+    },
+    {
+      "source_id": "yom_07049_00676007103",
+      "speaker_id": "yom_07049",
+      "voicing_disagreement_percent_matched": 19.34426229508197,
+      "median_absolute_pitch_difference_st": 0.10110298538989984,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 21.13821138211382
+    },
+    {
+      "source_id": "yom_07049_00727404490",
+      "speaker_id": "yom_07049",
+      "voicing_disagreement_percent_matched": 13.97459165154265,
+      "median_absolute_pitch_difference_st": 0.17392436304294573,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 5,
+      "agreement_screen_percent": 20.72072072072072
+    },
+    {
+      "source_id": "yom_07049_00866136075",
+      "speaker_id": "yom_07049",
+      "voicing_disagreement_percent_matched": 15.705128205128204,
+      "median_absolute_pitch_difference_st": 0.22857327929830595,
+      "possible_octave_frames": 5,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 8.860759493670885
+    },
+    {
+      "source_id": "yom_07049_00939672341",
+      "speaker_id": "yom_07049",
+      "voicing_disagreement_percent_matched": 9.319899244332493,
+      "median_absolute_pitch_difference_st": 0.17857486518807247,
+      "possible_octave_frames": 2,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 3.9800995024875623
+    },
+    {
+      "source_id": "yom_07049_00985777771",
+      "speaker_id": "yom_07049",
+      "voicing_disagreement_percent_matched": 13.689095127610209,
+      "median_absolute_pitch_difference_st": 0.2363064640743202,
+      "possible_octave_frames": 3,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 15.825688073394495
+    },
+    {
+      "source_id": "yom_07049_01002258700",
+      "speaker_id": "yom_07049",
+      "voicing_disagreement_percent_matched": 11.82033096926714,
+      "median_absolute_pitch_difference_st": 0.2663882590565882,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 6.791569086651054
+    },
+    {
+      "source_id": "yom_07049_01135577802",
+      "speaker_id": "yom_07049",
+      "voicing_disagreement_percent_matched": 3.672316384180791,
+      "median_absolute_pitch_difference_st": 0.15957271387299699,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 11.977715877437326
+    },
+    {
+      "source_id": "yom_07049_01273855916",
+      "speaker_id": "yom_07049",
+      "voicing_disagreement_percent_matched": 4.938271604938271,
+      "median_absolute_pitch_difference_st": 0.24312124805350205,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 9.512195121951219
+    },
+    {
+      "source_id": "yom_07049_01994824495",
+      "speaker_id": "yom_07049",
+      "voicing_disagreement_percent_matched": 26.1455525606469,
+      "median_absolute_pitch_difference_st": 0.09490158774242098,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 2,
+      "agreement_screen_percent": 17.02127659574468
+    },
+    {
+      "source_id": "yom_07508_00242160806",
+      "speaker_id": "yom_07508",
+      "voicing_disagreement_percent_matched": 48.226950354609926,
+      "median_absolute_pitch_difference_st": 0.1704853198228457,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 11.643835616438356
+    },
+    {
+      "source_id": "yom_07508_00813365935",
+      "speaker_id": "yom_07508",
+      "voicing_disagreement_percent_matched": 7.818930041152264,
+      "median_absolute_pitch_difference_st": 0.09490101732410366,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 14.516129032258064
+    },
+    {
+      "source_id": "yom_07508_00859742057",
+      "speaker_id": "yom_07508",
+      "voicing_disagreement_percent_matched": 19.753086419753085,
+      "median_absolute_pitch_difference_st": 0.17453423970574358,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 7.661290322580645
+    },
+    {
+      "source_id": "yom_07508_00965345335",
+      "speaker_id": "yom_07508",
+      "voicing_disagreement_percent_matched": 4.975124378109452,
+      "median_absolute_pitch_difference_st": 0.12200431799567965,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 19.024390243902438
+    },
+    {
+      "source_id": "yom_07508_00981058538",
+      "speaker_id": "yom_07508",
+      "voicing_disagreement_percent_matched": 9.787234042553191,
+      "median_absolute_pitch_difference_st": 0.1334509457448838,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 20.0836820083682
+    },
+    {
+      "source_id": "yom_07508_01340339424",
+      "speaker_id": "yom_07508",
+      "voicing_disagreement_percent_matched": 13.768115942028986,
+      "median_absolute_pitch_difference_st": 0.17853349682415565,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 5.250596658711217
+    },
+    {
+      "source_id": "yom_07508_01439327770",
+      "speaker_id": "yom_07508",
+      "voicing_disagreement_percent_matched": 24.161073825503355,
+      "median_absolute_pitch_difference_st": 0.13839086155568636,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 14,
+      "agreement_screen_percent": 16.233766233766232
+    },
+    {
+      "source_id": "yom_07508_01795437934",
+      "speaker_id": "yom_07508",
+      "voicing_disagreement_percent_matched": 13.853904282115868,
+      "median_absolute_pitch_difference_st": 0.18962012352031554,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 4.2288557213930345
+    },
+    {
+      "source_id": "yom_07508_01950161981",
+      "speaker_id": "yom_07508",
+      "voicing_disagreement_percent_matched": 15.436241610738255,
+      "median_absolute_pitch_difference_st": 0.2561566995443322,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 7.792207792207792
+    },
+    {
+      "source_id": "yom_07508_01963431820",
+      "speaker_id": "yom_07508",
+      "voicing_disagreement_percent_matched": 30.62200956937799,
+      "median_absolute_pitch_difference_st": 0.1950015019643085,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 1.4018691588785046
+    },
+    {
+      "source_id": "yom_08421_00307169252",
+      "speaker_id": "yom_08421",
+      "voicing_disagreement_percent_matched": 25.984251968503937,
+      "median_absolute_pitch_difference_st": 0.15448321659076503,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 10.416666666666666
+    },
+    {
+      "source_id": "yom_08421_00321336704",
+      "speaker_id": "yom_08421",
+      "voicing_disagreement_percent_matched": 40.59405940594059,
+      "median_absolute_pitch_difference_st": 0.13060860231391797,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 12.337662337662337
+    },
+    {
+      "source_id": "yom_08421_00493295037",
+      "speaker_id": "yom_08421",
+      "voicing_disagreement_percent_matched": 17.72151898734177,
+      "median_absolute_pitch_difference_st": 0.16009307135107217,
+      "possible_octave_frames": 2,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 16.10878661087866
+    },
+    {
+      "source_id": "yom_08421_00603010627",
+      "speaker_id": "yom_08421",
+      "voicing_disagreement_percent_matched": 25.645756457564577,
+      "median_absolute_pitch_difference_st": 0.1234519931021977,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 21.02376599634369
+    },
+    {
+      "source_id": "yom_08421_01106977022",
+      "speaker_id": "yom_08421",
+      "voicing_disagreement_percent_matched": 17.647058823529413,
+      "median_absolute_pitch_difference_st": 0.13732521634694803,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 15,
+      "agreement_screen_percent": 20.02129925452609
+    },
+    {
+      "source_id": "yom_08421_01180079847",
+      "speaker_id": "yom_08421",
+      "voicing_disagreement_percent_matched": 20.095693779904305,
+      "median_absolute_pitch_difference_st": 0.07337531554724108,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 38.13291139240506
+    },
+    {
+      "source_id": "yom_08421_01191226543",
+      "speaker_id": "yom_08421",
+      "voicing_disagreement_percent_matched": 45.0,
+      "median_absolute_pitch_difference_st": 0.1434642443153743,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 17.23076923076923
+    },
+    {
+      "source_id": "yom_08421_01200800536",
+      "speaker_id": "yom_08421",
+      "voicing_disagreement_percent_matched": 33.25892857142857,
+      "median_absolute_pitch_difference_st": 0.14396684385377045,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 11.258278145695364
+    },
+    {
+      "source_id": "yom_08421_01373096942",
+      "speaker_id": "yom_08421",
+      "voicing_disagreement_percent_matched": 11.160714285714286,
+      "median_absolute_pitch_difference_st": 0.10507180058515582,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 27.1523178807947
+    },
+    {
+      "source_id": "yom_08421_01497838425",
+      "speaker_id": "yom_08421",
+      "voicing_disagreement_percent_matched": 47.8125,
+      "median_absolute_pitch_difference_st": 0.2598262939629865,
+      "possible_octave_frames": 0,
+      "pyin_near_floor_frames": 0,
+      "agreement_screen_percent": 2.769230769230769
+    }
+  ],
+  "praat_native_frame_count": 45548,
+  "praat_native_voiced_percent": 57.47343461842452,
+  "screened_pyin_by_speaker": {
+    "yof_01208": {
+      "n": 775,
+      "min": 130.0,
+      "p05": 176.56241769755178,
+      "p25": 199.33268480704808,
+      "median": 212.40900892134297,
+      "p75": 230.29955496661373,
+      "p95": 269.16888019875813,
+      "max": 307.41302436705854,
+      "sd": 28.653567175264694
+    },
+    "yof_02121": {
+      "n": 556,
+      "min": 142.58724736030138,
+      "p05": 155.49249582586248,
+      "p25": 174.2831142816018,
+      "median": 198.18461302324906,
+      "p75": 226.34314645699226,
+      "p95": 251.14344552045984,
+      "max": 266.0772119191614,
+      "sd": 30.709296175308488
+    },
+    "yof_02436": {
+      "n": 1019,
+      "min": 147.61557577921405,
+      "p05": 159.12696062960518,
+      "p25": 174.53442536143424,
+      "median": 191.43371755306833,
+      "p75": 209.96928336801093,
+      "p95": 228.9731271349986,
+      "max": 280.2753675911423,
+      "sd": 22.739017589285588
+    },
+    "yof_04310": {
+      "n": 587,
+      "min": 144.24403136881983,
+      "p05": 153.9736360135766,
+      "p25": 212.40900892134297,
+      "median": 230.29955496661373,
+      "p75": 242.58857779956992,
+      "p95": 266.0772119191614,
+      "max": 285.17449472060275,
+      "sd": 28.38949974285994
+    },
+    "yof_06136": {
+      "n": 1575,
+      "min": 141.7660052464835,
+      "p05": 172.52972650401387,
+      "p25": 192.54268179725335,
+      "median": 211.18562305262122,
+      "p75": 241.19137040474044,
+      "p95": 298.66157229922914,
+      "max": 349.06885072286843,
+      "sd": 39.36819257145167
+    },
+    "yof_09697": {
+      "n": 1294,
+      "min": 158.21045677717683,
+      "p05": 168.58914210463126,
+      "p25": 185.98397121658357,
+      "median": 209.96928336801093,
+      "p75": 223.42120693201352,
+      "p95": 251.14344552045984,
+      "max": 291.8401325604369,
+      "sd": 24.244888093464983
+    },
+    "yom_00295": {
+      "n": 470,
+      "min": 106.2045044606715,
+      "p05": 113.82716948276507,
+      "p25": 117.16256013940793,
+      "median": 132.65548296646497,
+      "p75": 142.58724736030138,
+      "p95": 168.68933603195313,
+      "max": 176.56241769755178,
+      "sd": 17.639416137780348
+    },
+    "yom_01208": {
+      "n": 728,
+      "min": 106.2045044606715,
+      "p05": 119.45222845895495,
+      "p25": 133.03860595958074,
+      "median": 142.58724736030138,
+      "p75": 153.70651218352927,
+      "p95": 172.52972650401387,
+      "max": 216.12185299712482,
+      "sd": 15.98903189112345
+    },
+    "yom_01523": {
+      "n": 525,
+      "min": 89.82433719790544,
+      "p05": 97.95413429584742,
+      "p25": 112.51975293079859,
+      "median": 125.57172276022992,
+      "p75": 141.7660052464835,
+      "p95": 151.9410423129619,
+      "max": 202.8169587634771,
+      "sd": 19.985284127576925
+    },
+    "yom_07049": {
+      "n": 578,
+      "min": 116.48775344855382,
+      "p05": 120.49149819694051,
+      "p25": 136.14823596668148,
+      "median": 155.49249582586248,
+      "p75": 181.73609144327253,
+      "p95": 227.85215719095038,
+      "max": 291.8401325604369,
+      "sd": 35.097759955113006
+    },
+    "yom_07508": {
+      "n": 238,
+      "min": 97.3899599969843,
+      "p05": 106.11275052051737,
+      "p25": 116.48775344855382,
+      "median": 126.66497412321036,
+      "p75": 154.37432175864762,
+      "p95": 178.6139741695516,
+      "max": 180.68936857950385,
+      "sd": 23.584929717984892
+    },
+    "yom_08421": {
+      "n": 938,
+      "min": 88.28120884877589,
+      "p05": 103.77879022636449,
+      "p25": 123.4144757235675,
+      "median": 134.5844400993791,
+      "p75": 151.06592630451914,
+      "p95": 176.7158400496297,
+      "max": 208.75994928447787,
+      "sd": 21.779842445349253
+    }
+  },
+  "screen_definition": "Both voiced; pYIN probability >=0.5; Praat strength >=0.45; difference <=0.5 semitones; no edge/search-limit flags. Engineering heuristic, not calibrated confidence.",
+  "interpretation": "Screened sensitivity summaries complement, never replace, raw baseline and frames. Selective screening can bias distributions."
+}

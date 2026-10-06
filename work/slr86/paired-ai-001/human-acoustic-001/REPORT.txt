@@ -1,0 +1,89 @@
+EXPLORATORY HUMAN–ACOUSTIC COMPARISON / RUN 001
+
+Validated and joined all 12 reviews to the exact six texts, generation provenance, natural-source IDs, raw measurement artifacts and matching audio SHA256 hashes. Original export preserved byte-for-byte.
+No model training, new generation, final correctness score or composite human metric. Overall naturalness below is the listener’s directly supplied category, never an aggregate of dimensions.
+
+A. HUMAN REVIEW
+lexical_tone_realization: natural/acceptable=0, somewhat unnatural=0, clearly problematic=12, cannot determine=0
+segmental_pronunciation: natural/acceptable=0, somewhat unnatural=1, clearly problematic=11, cannot determine=0
+perceived_nasality: normal=1, somewhat excessive/unusual=3, clearly excessive/unusual=8, cannot determine=0
+prosody_intonation: natural/acceptable=0, somewhat unnatural=0, clearly problematic=12, cannot determine=0
+rhythm_fluency: natural/acceptable=0, somewhat unnatural=0, clearly problematic=12, cannot determine=0
+overall_yoruba_naturalness: natural=0, mostly natural=0, noticeably unnatural=2, very unnatural=10, cannot determine=0
+reviewer_confidence: low=12, medium=0, high=0
+Issue tags: e/ẹ=0, o/ọ=0, s/ṣ=0, lexical tone=3, nasal quality=2, consonant realization=3, vowel realization=3, unusual duration/stretching=3, rhythm=3, intonation/prosody=3, other=0
+Tags selected on only 3 takes. Empty optional tags on the other 9 are not negative findings. No free-text notes or intervals were entered. No new notes/ratings were entered for natural references; earlier transcript QC must not be converted into naturalness ratings.
+All 12 reviewer-confidence values are LOW. This is retained as judgment confidence, not silently reinterpreted as low speech quality. Clarify the scale before collecting a larger comparison.
+
+WITHIN-SENTENCE REPEATS
+p01: perceived_nasality: normal → clearly excessive/unusual
+p02: overall_yoruba_naturalness: noticeably unnatural → very unnatural
+p03: segmental_pronunciation: clearly problematic → somewhat unnatural; perceived_nasality: somewhat excessive/unusual → clearly excessive/unusual
+p04: All rating categories identical across takes.
+p05: All rating categories identical across takes.
+p06: overall_yoruba_naturalness: noticeably unnatural → very unnatural
+
+B. PAIRED MEASUREMENTS
+Columns: sentence / recording | duration s | pYIN median Hz | Praat median Hz | pYIN 5–95% relative width st | voiced % | estimator disagreement st | voiced runs/s
+p01 exact text: Wọ́n na Àdùnní játijàti.
+p01 / natural | 2.304 | 181.74 | 180.18 | 5.61 | 64.94 | 0.127 | 1.302
+p01 / p01_coral_r01 | 3.100 | 214.26 | 210.29 | 7.80 | 78.06 | 0.180 | 2.258
+p01 / p01_coral_r02 | 3.250 | 188.15 | 188.18 | 12.20 | 80.31 | 0.185 | 2.154
+p02 exact text: Àwọn ọmọ ogun orí ilẹ̀ ń bọ̀.
+p02 / natural | 2.304 | 201.65 | 202.84 | 5.23 | 77.06 | 0.091 | 0.434
+p02 / p02_coral_r01 | 4.450 | 191.43 | 192.38 | 10.63 | 78.20 | 0.156 | 1.798
+p02 / p02_coral_r02 | 4.600 | 225.69 | 229.33 | 25.23 | 68.26 | 0.170 | 1.304
+p03 exact text: Kò kúkú sírú ọlọ́run, Ọba tí kò ṣeé pè lẹ́jọ́.
+p03 / natural | 4.864 | 214.88 | 215.25 | 20.40 | 54.21 | 0.177 | 2.262
+p03 / p03_coral_r01 | 6.900 | 155.49 | 163.93 | 19.90 | 65.36 | 0.214 | 2.319
+p03 / p03_coral_r02 | 5.350 | 191.43 | 188.37 | 13.23 | 66.17 | 0.179 | 2.243
+p04 exact text: Ata ni Bọ́láfadé ń tà láti rán ara rẹ̀ lọ sí ilé-ìwé.
+p04 / natural | 5.461 | 203.99 | 200.27 | 5.74 | 75.69 | 0.098 | 0.732
+p04 / p04_coral_r01 | 6.400 | 212.41 | 211.58 | 8.30 | 80.47 | 0.179 | 2.031
+p04 / p04_coral_r02 | 7.150 | 190.33 | 189.90 | 9.50 | 78.46 | 0.198 | 1.678
+p05 exact text: Ẹlẹ́dẹ̀ náà bí ọmọ mẹ́fà péré.
+p05 / natural | 2.901 | 135.36 | 136.32 | 8.76 | 64.95 | 0.225 | 2.413
+p05 / p05_coral_r01 | 3.250 | 189.23 | 190.73 | 11.60 | 80.00 | 0.237 | 1.846
+p05 / p05_coral_r02 | 4.500 | 194.78 | 194.25 | 8.32 | 77.56 | 0.139 | 2.000
+p06 exact text: Ọmọ tí a bí tí ó ń súnkún tọ̀san tòru.
+p06 / natural | 2.475 | 123.41 | 122.73 | 7.59 | 73.79 | 0.175 | 3.233
+p06 / p06_coral_r01 | 4.350 | 221.17 | 215.89 | 14.70 | 70.11 | 0.348 | 2.069
+p06 / p06_coral_r02 | 4.000 | 203.99 | 206.04 | 24.50 | 81.00 | 0.196 | 3.000
+Full min/max/quantiles, relative pitch, voiced/unvoiced runs and flag counts: paired_recording_descriptors.csv and joined_annotation_measurements.json. Six-row wide comparison: sentence_level_paired_comparison.csv.
+
+C. EXPLORATORY ASSOCIATIONS
+Lexical tone, prosody and rhythm have no rating variation (12/12 clearly problematic); no within-dimension predictive relationship can be estimated.
+Segmental pronunciation has only one somewhat-unnatural take (p03_r02) against 11 clearly problematic. A singleton cannot validate a discriminator.
+Overall categories are 2 noticeably unnatural and 10 very unnatural, clustered in 6 sentences. Category summaries below are descriptive and confounded by sentence, duration and tracking reliability. No hypothesis tests/correlations/models were fitted.
+noticeably unnatural (n=2): duration_ratio median=1.845; duration_delta_s median=2.011; voiced_percent_delta_pp median=-1.265; relative_width90_delta_st median=6.255; coarse_relative_contour_difference_st median=2.091; screened_coarse_contour_difference_st median=2.203; voiced_runs_per_second_delta median=0.100; pitch_disagreement_median_st median=0.252; voicing_disagreement_percent median=13.390
+very unnatural (n=10): duration_ratio median=1.378; duration_delta_s median=1.236; voiced_percent_delta_pp median=11.556; relative_width90_delta_st median=2.702; coarse_relative_contour_difference_st median=2.267; screened_coarse_contour_difference_st median=2.301; voiced_runs_per_second_delta median=0.455; pitch_disagreement_median_st median=0.183; voicing_disagreement_percent median=15.374
+All AI recordings are longer than their natural counterpart: 1.10–2.00 times total duration. This includes leading/trailing audio and does not prove segment stretching or incorrect rhythm.
+Counterexample: noticeably-unnatural takes have median duration ratio 1.845, versus 1.378 for very-unnatural takes. Greater duration does not monotonically track worse overall judgment.
+Across all takes, pYIN–Praat median pitch disagreement is 0.139–0.348 semitones despite poor perceptual ratings. Agreement helps assess tracking consistency, not linguistic correctness.
+Coarse relative-pitch difference medians are 2.091 versus 2.267 semitones for noticeably/very unnatural. These overlapping small-sample summaries do not establish separation. Ten normalized-duration bins do not align syllables; speech onset/offset and content timing can dominate differences. Raw common-bin coverage is 6–9/10; screened coverage 4–8/10.
+Within p02 and p06, take 2 is rated very unnatural versus noticeably unnatural for take 1, and its raw relative-pitch distribution is wider. However both take-2 recordings reach the pYIN search floor. This is a candidate for manual tracker/segment inspection, not evidence that greater pitch range caused unnaturalness.
+p04 and p05 have unchanged ratings despite differences in duration and contours. p03 take 2 has less severe segmental rating but a larger coarse contour difference. No single measured distance consistently orders these judgments.
+Voicing differences, run duration/count and contour-change descriptors remain contaminated by pitch detection failures. Unvoiced runs can include consonants or silence; they are not verified pauses, syllable durations, or speaking rate.
+
+D. DIMENSIONS AND FEATURE GAPS
+Lexical tone: needs confirmed tone-bearing units and supervised temporal alignment, reliable local F0 and contextual tone realization. Whole-utterance shape is insufficient; current ratings cannot discriminate severity.
+Segmental pronunciation: current F0/duration statistics are insufficient. Need vowel identity/alignment, formant trajectories and consonant-specific acoustic evidence. One singleton rating contrast is not validation.
+Nasality: perceptual counts only: normal 1, somewhat excessive/unusual 3, clearly excessive/unusual 8. No F0-to-nasality association calculated. Future A1-P0/A1-P1 spectral relationships, F1 bandwidth, spectral tilt, segment durations/trajectories require segment/vowel context and reliability validation; none is an established Yorùbá nasality score here.
+Prosody/intonation: relative contour shape is a plausible candidate, but requires phrase alignment and separation from lexical tones. All ratings currently identical.
+Rhythm/fluency: local segment durations, lengthening and verified pause structure are promising next descriptors; total duration alone is not supported as a discriminator.
+Overall naturalness: preserve direct listener category independently. Multiple perceptual factors and low-confidence, severely imbalanced categories preclude fitting a predictor.
+
+E. REPRODUCIBILITY
+joined_annotation_measurements.json/.csv: complete human/provenance/acoustic join; originals and nulls preserved.
+sentence_level_paired_comparison.csv: six wide rows; paired_recording_descriptors.csv: eighteen recording rows.
+generation_review_summary.csv, review_summary.json, repeat_comparison.json: human summaries.
+exploratory_associations.json: dimension-specific grouped distributions, no fitted relationships.
+human_acoustic_patterns.png, relative_contour_bins.png: exploratory plots.
+analysis_config.json, reproducibility.json, versions/: exact script/config copies, SHA256 hashes, dependencies, git HEAD and input hashes. Working-file snapshots authoritative over git HEAD.
+validation.json: identity/hash checks, preserved source review and no training/new-audio/composite-score flags. Unit checks cover signed differences, missing bins and identical inputs.
+
+F. DECISION
+No feature has yet demonstrated predictive validity. Highest-priority hypotheses: supervised local segment duration/stretching and aligned, speaker-relative F0 trajectories. Estimator disagreement should qualify measurements rather than predict correctness. Raw pitch range and total duration alone are not supported predictors.
+The pilot is operationally sufficient to design a small future comparison with another model, but scientifically insufficient to validate an evaluator or claim that gpt-realtime-2.1 or gpt-live-1 will improve Yorùbá. Neither newer model was queried, checked for availability or generated in this run. Do not scale to both at once on this evidence.
+Next smallest useful experiment: revisit p01–p03 only: 3 natural clips + 6 existing AI takes (9 recordings), with clarified rating/confidence anchors, randomized presentation, and marked intervals for a few salient events. These cover nasal disagreement, overall-category disagreement and segmental disagreement. Confirm whether LOW means uncertainty in the judgment; never recode silently. Rate natural clips as well so positive examples are observed rather than assumed. Then supervise boundaries and inspect local F0/durations at those intervals. A second listener on this small subset would help distinguish reviewer uncertainty from measurement limitations.
+After that check and explicit approval, a single newer model on a few approved sentences with two repeats is a bounded next generation experiment. No new models or audio added now.

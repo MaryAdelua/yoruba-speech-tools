@@ -1,0 +1,8 @@
+{
+  "review_version": 2,
+  "session_id": "natural_qc_review_v2",
+  "status": "awaiting_review",
+  "ratings_initialized": "blank",
+  "sample_source": "qc_sample.json",
+  "sample_sha256": "296662916ccddedada1e86105c17a6db821a6d31c374c20882529fce70976cbe"
+}

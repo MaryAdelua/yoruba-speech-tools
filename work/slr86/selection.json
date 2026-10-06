@@ -1,0 +1,61 @@
+{
+  "seed": 860120,
+  "algorithm": "Python random.Random, sorted pools, six speakers/group, ten clips/speaker sampled without replacement",
+  "exclusions": [
+    "abrupt",
+    "external"
+  ],
+  "selected_speakers": [
+    "yof_01208",
+    "yof_02121",
+    "yof_02436",
+    "yof_04310",
+    "yof_06136",
+    "yof_09697",
+    "yom_00295",
+    "yom_01208",
+    "yom_01523",
+    "yom_07049",
+    "yom_07508",
+    "yom_08421"
+  ],
+  "candidate_summary": {
+    "items": 3583,
+    "speakers": 36,
+    "totals": {
+      "vowel_units": 50589,
+      "explicit_tone_units": 32633,
+      "unmarked_vowel_units": 17956,
+      "conflicting_tone_units": 4,
+      "replacement_characters": 0,
+      "nasal_vowel_spelling_candidates": 5546,
+      "nasal_consonant_spelling_candidates": 6599,
+      "n_letters": 9052,
+      "m_letters": 2970
+    },
+    "vowel_counts": {
+      "ọ": 6205,
+      "a": 12738,
+      "i": 12433,
+      "u": 4050,
+      "ẹ": 4377,
+      "o": 6549,
+      "e": 4231,
+      "ạ": 4,
+      "ụ": 2
+    },
+    "annotation_counts": {
+      "snap": 700,
+      "external": 192,
+      "abrupt": 16,
+      "breath": 395,
+      "hesitation": 4
+    },
+    "non_nfc_items": 0,
+    "no_explicit_tone_items": 0,
+    "explicit_tone_mark_rate": 0.6450611793077546,
+    "interpretation": "Explicit-mark rate is NOT completeness. Unmarked vowels can represent mid tone or missing annotation; no automatic restoration or correctness inference.",
+    "nasal_proxy_limit": "Spelling candidates only; n can mark nasalization or a consonant. Counts do not establish phonetic realization."
+  },
+  "note": "No duration-based selection before audio inspection. No tone restoration. Exclusions favor quieter reference material; other tags retained."
+}

@@ -1,0 +1,146 @@
+{
+  "reviewer": "Mary Adelua",
+  "created_at": "2026-10-03T01:20:09.066Z",
+  "items": [
+    {
+      "source_id": "yof_01208_00712661610",
+      "review_status": "reviewed",
+      "judgment": "transcript matches audio",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "source_id": "yof_01208_01850003899",
+      "review_status": "reviewed",
+      "judgment": "transcript matches audio",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "source_id": "yof_02121_01178327964",
+      "review_status": "reviewed",
+      "judgment": "transcript matches audio",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "source_id": "yof_02436_02038636916",
+      "review_status": "reviewed",
+      "judgment": "transcript matches audio",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "source_id": "yof_04310_00141945315",
+      "review_status": "reviewed",
+      "judgment": "transcript matches audio",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "source_id": "yof_06136_01151773106",
+      "review_status": "reviewed",
+      "judgment": "transcript matches audio",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "source_id": "yof_09697_00099367593",
+      "review_status": "reviewed",
+      "judgment": "mismatch",
+      "confidence": "high",
+      "notes": "Final “jẹ” sounds closer to “je” to me; the speaker appears to realize plain e rather than the expected ẹ vowel. Possible e/ẹ vowel-quality mismatch."
+    },
+    {
+      "source_id": "yof_09697_01103354325",
+      "review_status": "reviewed",
+      "judgment": "transcript matches audio",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "source_id": "yof_09697_01759056954",
+      "review_status": "reviewed",
+      "judgment": "transcript matches audio",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "source_id": "yom_00295_01260038205",
+      "review_status": "reviewed",
+      "judgment": "transcript matches audio",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "source_id": "yom_01208_01404835296",
+      "review_status": "reviewed",
+      "judgment": "transcript matches audio",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "source_id": "yom_01523_01346428924",
+      "review_status": "reviewed",
+      "judgment": "minor uncertainty",
+      "confidence": "medium",
+      "notes": "Source transcript includes [breath], but I do not hear an audible breath or other clear non-speech event before the utterance. Possible source-annotation mismatch."
+    },
+    {
+      "source_id": "yom_01523_01656064431",
+      "review_status": "reviewed",
+      "judgment": "transcript matches audio",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "source_id": "yom_07049_00985777771",
+      "review_status": "reviewed",
+      "judgment": "transcript matches audio",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "source_id": "yom_07049_01002258700",
+      "review_status": "reviewed",
+      "judgment": "transcript matches audio",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "source_id": "yom_07508_00242160806",
+      "review_status": "reviewed",
+      "judgment": "transcript matches audio",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "source_id": "yom_07508_00859742057",
+      "review_status": "reviewed",
+      "judgment": "transcript matches audio",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "source_id": "yom_07508_01795437934",
+      "review_status": "reviewed",
+      "judgment": "transcript matches audio",
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "source_id": "yom_08421_00493295037",
+      "review_status": "reviewed",
+      "judgment": "minor uncertainty",
+      "confidence": "medium",
+      "notes": "Expected dotted consonant ṣ, but the speaker sounds closer to plain s. Possible s/ṣ pronunciation mismatch."
+    },
+    {
+      "source_id": "yom_08421_01106977022",
+      "review_status": "reviewed",
+      "judgment": "transcript matches audio",
+      "confidence": "high",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "scope": "work/slr86 excluding storage.json itself",
+  "logical_bytes": 46625309,
+  "file_count": 151,
+  "audio_bytes": 44209312,
+  "note": "Logical file sizes, not allocated disk blocks; includes cached metadata, reports and range logs."
+}

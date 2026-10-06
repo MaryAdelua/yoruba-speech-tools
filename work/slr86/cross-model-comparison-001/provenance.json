@@ -1,0 +1,289 @@
+{
+  "created_at_utc": "2026-10-04T01:00:59.307746+00:00",
+  "input_hashes": [
+    {
+      "path": "C:\\Users\\adelu\\Downloads\\paired_new_models_001.json",
+      "sha256": "c6ac2947047ea22046c95c764656c5e8d36823aa8d9b4c506ce17704a27ffdbc"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\human-acoustic-v2\\review.original.json",
+      "sha256": "0347f731fc508c5f7895c7e6fa9038474ed4e1328fb637bad7520c95c9aa3961"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\natural-baseline-001\\qc-ingest-v2\\qc_review_joined.json",
+      "sha256": "57d25cb0d1b2d502e9efeb1b7db1df33147749c43d0ab754def8b6f5e15caf45"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\review_form_definition.json",
+      "sha256": "d5f75c57b8c14861866084c36717e734ff84b30025b830cc7241d386bf605725"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\generation_manifest.json",
+      "sha256": "cdddfb03492616941a2d5095e69bca2ec1910c0a48ad45add149943d4e0a1e84"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-new-models-001\\gpt-realtime-2.1\\generation_manifest.json",
+      "sha256": "b06f76225f1d5472d73010257b61f01cc1424e268f8accece639c682a0cef1bd"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\audio\\p01_coral_r01.wav",
+      "sha256": "c710f198219021fa8553b78f58bd5b46a4f72ea371d806e06723fba10530d729"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\measurements\\p01_coral_r01\\raw.json",
+      "sha256": "6ebefa258156f01547de6fcee6caaa7edf3e3b00b9235186017b0d8a5f8d262c"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\audio\\p01_coral_r02.wav",
+      "sha256": "7c6a3cdb9db37d1ae57a6d4eea1ca9883022be17af2b0b0301fc43eb0bf3b721"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\measurements\\p01_coral_r02\\raw.json",
+      "sha256": "59c019ab846be7f00918624d3faee68c945d03dd0cb44c6eadf8f51d9cbe7612"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\audio\\p02_coral_r01.wav",
+      "sha256": "360e87ddac0d1049eb417cfdc621a6173e87224dbd5ff6f0662b62f8a223b1f7"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\measurements\\p02_coral_r01\\raw.json",
+      "sha256": "3b6f343fcda140eedf2e2dc04446d5b69b2898db9911c99d5b6e14ec0718afb1"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\audio\\p02_coral_r02.wav",
+      "sha256": "8cb779a2b0788232a8869b6d48ff1399cac7d694a75826977ff0cf92f775ad2c"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\measurements\\p02_coral_r02\\raw.json",
+      "sha256": "586cb7d1b6843844b36ce7147df6f98cb7643fa1dcf59f7120055dfdad40706d"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\audio\\p03_coral_r01.wav",
+      "sha256": "f64cf11865c71c14c21fc0b282e0d338c63153f5dedd2bb3b326d6995044988d"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\measurements\\p03_coral_r01\\raw.json",
+      "sha256": "22146397848616d535bf85708ed2f1921c85c3261fa4ce1d462d5fab0620b5e8"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\audio\\p03_coral_r02.wav",
+      "sha256": "245c57eb8241bf24426795ddece2f5e8aca6c46ef515180ec76703487f347021"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\measurements\\p03_coral_r02\\raw.json",
+      "sha256": "39f680c48cd3cc59b50f0bf34098d6e860a99f4a5448ca8e51e9e5da899f18ef"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\audio\\p04_coral_r01.wav",
+      "sha256": "f28b56ce9930758850895ec7d8f3bbf59520101ed0b33c31fa06f332561079bc"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\measurements\\p04_coral_r01\\raw.json",
+      "sha256": "2943b201d5692b3d6704c51f79df152aeabe28b66f229ba1e0934746928f371f"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\audio\\p04_coral_r02.wav",
+      "sha256": "c7e5c65b94bd1945d6c26c9b76d4a75cdfd5d5d0815b046d96e3c40d2a5ee01a"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\measurements\\p04_coral_r02\\raw.json",
+      "sha256": "e49c049cc7710eec264ce481d41c79c2d747215b580b4cd7de866d6fbb74814b"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\audio\\p05_coral_r01.wav",
+      "sha256": "4e1019c329598452c507a6d148ffffd15b70718f869b53ac23ba7865eadf5afa"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\measurements\\p05_coral_r01\\raw.json",
+      "sha256": "bc914ef5a4e047de8c8c9c858b07a5bb33a6866b4a9aca0a2aa73c066ffc156a"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\audio\\p05_coral_r02.wav",
+      "sha256": "906fba6d9f86581c917262409890c7f0f833591cc642f37d1920ca8c347c27ac"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\measurements\\p05_coral_r02\\raw.json",
+      "sha256": "0fa6ee90260da1480b437f11d88b5c27f46675fedbbc039f171d843e5ef2e5ba"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\audio\\p06_coral_r01.wav",
+      "sha256": "968341f463a31fb60539b9309b43b040b52e859ec021b7e6014578f074bfa50e"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\measurements\\p06_coral_r01\\raw.json",
+      "sha256": "9e1ce7af39b4f53e905ec11cff52279300eca19f1e6596446295e06bbee09073"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\audio\\p06_coral_r02.wav",
+      "sha256": "b5c9119549599c1bea03f59da2098cb32d3182a9f3d3aeee3cc09b48c506ee5a"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-ai-001\\measurements\\p06_coral_r02\\raw.json",
+      "sha256": "d3353644b7e56250cb255cd7b9bcec6830ef96cbfe4354d69127488bf01e6627"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-new-models-001\\gpt-realtime-2.1\\p01_gpt-realtime-2.1_marin_r01.wav",
+      "sha256": "0db52b587650bfbd708ffd0177bea8ae40af95169c443b8560816d99d87f6645"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-new-models-001\\gpt-realtime-2.1\\measurements\\p01_gpt-realtime-2.1_marin_r01\\raw.json",
+      "sha256": "0d1b26e66b97c3a3f1b4e2a4577f5d2d26f48ecb87de5b78bead23ee08c873ee"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-new-models-001\\gpt-realtime-2.1\\p01_gpt-realtime-2.1_marin_r02.wav",
+      "sha256": "258933deb2f7d5a886995f98149aa2ad78667a1afda91ef16490fc15984ce56a"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-new-models-001\\gpt-realtime-2.1\\measurements\\p01_gpt-realtime-2.1_marin_r02\\raw.json",
+      "sha256": "88ae53d1c1531b4c817f1042a6c97a3dd250e3771ed01a93691069eb8e2cd8f4"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-new-models-001\\gpt-realtime-2.1\\p02_gpt-realtime-2.1_marin_r01.wav",
+      "sha256": "a70d52cfbc4e7cdeb64501ed344343caecb86163bf7fb17242e862619ed562fe"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-new-models-001\\gpt-realtime-2.1\\measurements\\p02_gpt-realtime-2.1_marin_r01\\raw.json",
+      "sha256": "a8ea8bf9f3970b77432217e1c6b7616e80f1517f63e648a85f865e32911f6ab0"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-new-models-001\\gpt-realtime-2.1\\p02_gpt-realtime-2.1_marin_r02.wav",
+      "sha256": "137711337dc9e12824c7fb453d41bbb1007366dd1b1b04e972fc9bdba0e14b61"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-new-models-001\\gpt-realtime-2.1\\measurements\\p02_gpt-realtime-2.1_marin_r02\\raw.json",
+      "sha256": "d6633c0b0c1269341e6704ae8cb0df8fcd1f38535a1cfcddf1333ad85359713a"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-new-models-001\\gpt-realtime-2.1\\p03_gpt-realtime-2.1_marin_r01.wav",
+      "sha256": "b1dc7e49684e8453e41cc3699869a911da0692438aede4e9376e3e596914c190"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-new-models-001\\gpt-realtime-2.1\\measurements\\p03_gpt-realtime-2.1_marin_r01\\raw.json",
+      "sha256": "a83eee4340ee38c8732864ea00cf80f43b9eec0397bac38f181d1efedcf40af4"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-new-models-001\\gpt-realtime-2.1\\p03_gpt-realtime-2.1_marin_r02.wav",
+      "sha256": "f3b47f16945d1ddd81a2c995c63f5191ac1088bfb4ea52067bc2d54c7e53542e"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-new-models-001\\gpt-realtime-2.1\\measurements\\p03_gpt-realtime-2.1_marin_r02\\raw.json",
+      "sha256": "f997b35599fedebe233d9fcc1ed8c13b05b53485225711410434518c58127484"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-new-models-001\\gpt-realtime-2.1\\p04_gpt-realtime-2.1_marin_r01.wav",
+      "sha256": "905daf7660ba2a2e42a9e6d4c0f215f635b4dd018fe73ef6447cb080375e63a8"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-new-models-001\\gpt-realtime-2.1\\measurements\\p04_gpt-realtime-2.1_marin_r01\\raw.json",
+      "sha256": "1e555c2e0900a104bc9f172143d46e06dcf3ab3930c2f37fed91cfe63cd5c36c"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-new-models-001\\gpt-realtime-2.1\\p04_gpt-realtime-2.1_marin_r02.wav",
+      "sha256": "ac022be75db815e1f33ca73fa2b1bc54337004f013cf853a378380b5b108452b"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-new-models-001\\gpt-realtime-2.1\\measurements\\p04_gpt-realtime-2.1_marin_r02\\raw.json",
+      "sha256": "0136eee46ee5cf0424843251242645d534dce59464c313c7531bc7062bc26715"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-new-models-001\\gpt-realtime-2.1\\p05_gpt-realtime-2.1_marin_r01.wav",
+      "sha256": "deddc9d221c12353a82658a14cf74bc1268dc9220910f3f4e2c7a93217e11565"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-new-models-001\\gpt-realtime-2.1\\measurements\\p05_gpt-realtime-2.1_marin_r01\\raw.json",
+      "sha256": "de0df20688e4d74e1bd5ba87e13a67344c6e37200230224cc196dd165c5d5be3"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-new-models-001\\gpt-realtime-2.1\\p05_gpt-realtime-2.1_marin_r02.wav",
+      "sha256": "d650a2ed1e12dfb0e991b44fe3462fdcf443c35db5e45a56580fd8201f763233"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-new-models-001\\gpt-realtime-2.1\\measurements\\p05_gpt-realtime-2.1_marin_r02\\raw.json",
+      "sha256": "1a21f79b49c93f8fa677e4c46dd8ab68e3c3e37f160839b663ce27e47c49f546"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-new-models-001\\gpt-realtime-2.1\\p06_gpt-realtime-2.1_marin_r01.wav",
+      "sha256": "458bbb212b3d52e17daafb3e15808e456595578bba16081f3bcfbaa253110def"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-new-models-001\\gpt-realtime-2.1\\measurements\\p06_gpt-realtime-2.1_marin_r01\\raw.json",
+      "sha256": "704639cf93538ec36f75ebac29a4cc465e1c896dbdf8fb28e2585318d0c37daa"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-new-models-001\\gpt-realtime-2.1\\p06_gpt-realtime-2.1_marin_r02.wav",
+      "sha256": "ed0573a106278325972730eae9944e50f42eccf18178fc0abed12a394bef27a8"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\paired-new-models-001\\gpt-realtime-2.1\\measurements\\p06_gpt-realtime-2.1_marin_r02\\raw.json",
+      "sha256": "a09836415cec19213ba98ee279419965ec4681848749aa9347e8616f060ccb50"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\audio\\yof_01208_01850003899.wav",
+      "sha256": "5cd1b0b28fc48e375f329c778bd909242e8104338691287781ccba23b34f5290"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\natural-baseline-001\\clips\\yof_01208_01850003899\\raw.json",
+      "sha256": "2664e47ce2aadf525dec77142ec4b48b271b1b1111d0788af0df97c946e97362"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\audio\\yof_02436_02038636916.wav",
+      "sha256": "8d4f8c4c3f0c9771b64db80ca437a1a7051821ef0e8ab4e3cf2cb4c37fee02e8"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\natural-baseline-001\\clips\\yof_02436_02038636916\\raw.json",
+      "sha256": "b22575ee9e16282c089d3994cb242a05ecf48e845259773c309cc4997752782c"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\audio\\yof_02121_01178327964.wav",
+      "sha256": "32b32face5d0ad95f248fcbe4cb2b788daf2060c9c11f105c5e7110c7e38d936"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\natural-baseline-001\\clips\\yof_02121_01178327964\\raw.json",
+      "sha256": "cd035f53380265da5a95a7a3e55bc13e674456bd002906f5d90ae63d4c3aff61"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\audio\\yof_09697_01103354325.wav",
+      "sha256": "ba1ecf2019d39770b3240dd81e8ebea138e4af8573075c2464f6f448475fb883"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\natural-baseline-001\\clips\\yof_09697_01103354325\\raw.json",
+      "sha256": "b8375fb6a5f2dc952cb602c1e6970dd2ed8b5d7f50533a78d506000e0836180b"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\audio\\yom_00295_01260038205.wav",
+      "sha256": "974ac2c0ee8c06476c3690e41f61287422fb142fa60dc17e960cf8f555782d41"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\natural-baseline-001\\clips\\yom_00295_01260038205\\raw.json",
+      "sha256": "e93416f680f3b11e23b74c14a468d11bbbfe5c5b8d5eab7f51ac0f19bd89f0cb"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\audio\\yom_07508_00859742057.wav",
+      "sha256": "e28c3a9c10a43b7db082aef37b9662ae40afb144c3c194bb83d847f68f9abbc0"
+    },
+    {
+      "path": "C:\\Users\\adelu\\Documents\\Codex\\2026-10-01\\i\\outputs\\yoruba-speech-tools\\work\\slr86\\natural-baseline-001\\clips\\yom_07508_00859742057\\raw.json",
+      "sha256": "c5df8dd13fb8bc76004f3c376b3a6b8f88333837d2d3786a3e8f09f4b0680147"
+    }
+  ],
+  "source_hashes": {
+    "audit_natural_baseline.py": "a72dd8fc2542dd679240920854b430e9b3683a939d08217f2e3fd0d53899fabc",
+    "build_natural_baseline.py": "6ab778c443b7283092da6ac43fc1174ff40acb3a2ad5952a3892250038527dbf",
+    "compare_speech_models.py": "cb5a9f1b7c6a10cdb3cd6ece976a40468250288718646116d40b777df28cf8f9",
+    "explore_human_acoustics.py": "2361dd02cad10a5f6351bab01093bae7e19e681e8015f3a309802db28ea0ae2e",
+    "report_speech_model_comparison.py": "cdbfbe2a0339e5e78e1d75081d1ca077aaca1fcf9d8bf3fd89e334ec177e7a09",
+    "test_cross_model_descriptors.py": "631e7f6465b89af9ce71614668c4dcbf2b99ba86bbd8535a22b1a1ff9ccbb0e5",
+    "validate_acoustic_measurements.py": "6a14c4e7352888c858ca6708ac6c3f28fcb6f82defb6b0d60b63f30095dca2d9"
+  },
+  "packages": {
+    "numpy": "2.5.3",
+    "soundfile": "0.13.1",
+    "matplotlib": "3.10.7"
+  },
+  "f0_reextraction": false,
+  "new_audio": false,
+  "scores": false,
+  "training": false,
+  "source_audio_unchanged": true,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]"
+}

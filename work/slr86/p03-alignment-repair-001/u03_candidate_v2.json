@@ -1,0 +1,10 @@
+{
+  "segment_id": "u03",
+  "written_unit": "kú",
+  "start_s": 1.375,
+  "end_s": 1.48,
+  "status": "REVISED_PROPOSAL_AWAITING_LISTENING_CHECK",
+  "reason": "Listener reported following s in original cut; shortened endpoint provisionally. Must verify vowel is not truncated.",
+  "processing": "Exact original PCM sample slice",
+  "previous_audio_preserved": "u03_candidate.wav"
+}

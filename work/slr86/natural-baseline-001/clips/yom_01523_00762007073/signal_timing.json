@@ -1,0 +1,99 @@
+{
+  "source_id": "yom_01523_00762007073",
+  "speaker_id": "yom_01523",
+  "duration_s": 7.168,
+  "peak_amplitude": 0.340728759765625,
+  "whole_clip_rms_dbfs": -29.440874176336127,
+  "digital_rail_samples": 0,
+  "all_zero": false,
+  "finite": true,
+  "voiced_runs": [
+    {
+      "start_s": 0,
+      "end_s": 0.615,
+      "duration_s": 0.615
+    },
+    {
+      "start_s": 0.635,
+      "end_s": 1.6050000000000002,
+      "duration_s": 0.9700000000000002
+    },
+    {
+      "start_s": 1.675,
+      "end_s": 2.525,
+      "duration_s": 0.8499999999999999
+    },
+    {
+      "start_s": 2.535,
+      "end_s": 2.7350000000000003,
+      "duration_s": 0.20000000000000018
+    },
+    {
+      "start_s": 2.775,
+      "end_s": 2.935,
+      "duration_s": 0.16000000000000014
+    },
+    {
+      "start_s": 3.125,
+      "end_s": 3.9850000000000003,
+      "duration_s": 0.8600000000000003
+    },
+    {
+      "start_s": 4.015,
+      "end_s": 4.155,
+      "duration_s": 0.14000000000000057
+    },
+    {
+      "start_s": 4.165,
+      "end_s": 4.855,
+      "duration_s": 0.6900000000000004
+    },
+    {
+      "start_s": 4.955,
+      "end_s": 5.165,
+      "duration_s": 0.20999999999999996
+    },
+    {
+      "start_s": 5.195,
+      "end_s": 5.405,
+      "duration_s": 0.20999999999999996
+    },
+    {
+      "start_s": 5.4350000000000005,
+      "end_s": 5.845,
+      "duration_s": 0.40999999999999925
+    },
+    {
+      "start_s": 5.885,
+      "end_s": 6.055,
+      "duration_s": 0.16999999999999993
+    },
+    {
+      "start_s": 6.165,
+      "end_s": 6.755,
+      "duration_s": 0.5899999999999999
+    },
+    {
+      "start_s": 6.765,
+      "end_s": 6.945,
+      "duration_s": 0.1800000000000006
+    },
+    {
+      "start_s": 6.995,
+      "end_s": 7.165,
+      "duration_s": 0.16999999999999993
+    }
+  ],
+  "voiced_run_duration_s": {
+    "n": 15,
+    "min": 0.14000000000000057,
+    "p05": 0.15400000000000028,
+    "p25": 0.17500000000000027,
+    "median": 0.20999999999999996,
+    "p75": 0.6525000000000002,
+    "p95": 0.8930000000000001,
+    "max": 0.9700000000000002,
+    "sd": 0.29269817598034703
+  },
+  "timing_interpretation": "pYIN frame-cell runs, half-hop edges, not syllables or verified speech boundaries. Window 85.33 ms; hop 10 ms."
+}

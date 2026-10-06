@@ -1,0 +1,17 @@
+Exploratory v2 findings
+
+Only the completed natural and paired v2 reviews were used. All six natural references passed transcript matching in natural QC v2. This is not a pronunciation gold standard.
+
+All 12 AI takes were judged clearly problematic for lexical tone, segmental pronunciation, prosody/intonation and rhythm/fluency; all were very unnatural overall, with high confidence. These dimensions have no category variation, so no feature can be validated as predicting differences in these judgments in this sample.
+
+Perceived nasality: 3 normal, 3 somewhat excessive/unusual, 6 clearly excessive/unusual. Repeats differ in nasality for p01, p03 and p06 and agree for p02, p04 and p05. All other rating categories agree within sentence pairs. Nasal-quality tags were selected on 11 takes, including some rated normal; retain both fields without silently reconciling them. No F0-based nasality inference was performed.
+
+All AI files are longer than their natural references (1.10–2.00 times duration). File duration includes silence and is not speaking rate. Coarse relative-contour differences span about 1.16–3.72 semitones; bins are based on fractional file duration, not aligned syllables. These are descriptive differences, not errors. Relative pitch preserves raw F0 and uses the existing own-utterance normalization; it does not remove all speaker, context or timing effects.
+
+AI pYIN/Praat median absolute disagreement on jointly voiced frames spans 0.14–0.35 semitones, while voicing disagreement spans 11.49–23.17 percent. Low median pitch disagreement does not establish reliability of every frame. Large pitch-width differences (notably p02 repeat 2 and p06 repeat 2) need inspection against frame flags and contours before interpretation.
+
+Most useful next measurements: supervised segment/syllable durations and aligned relative-pitch trajectories. No feature is currently shown to predict the listener judgments. Segmental pronunciation needs phonetic boundaries and vowel/consonant spectral features. Nasality needs exploratory A1-P0/A1-P1 relationships, F1 bandwidth, spectral tilt and segment trajectories, with channel/speaker controls and native interval labels. These are not yet validated Yoruba nasality measures.
+
+Decision: the pilot demonstrates a reproducible workflow and motivates a bounded model comparison, but does not validate an automatic evaluator or establish a ranking. Smallest next experiment: supervise boundaries and native problem intervals for one existing sentence with both AI repeats, contrasting it with its natural reference. Then, after approval and verification of model/audio availability, add one requested model at a time on the same six texts. No newer model was added in this run.
+
+All original notes, tags, intervals and confidence are preserved in the joined outputs. No training, combined score, final correctness score, acoustic re-extraction or new audio generation occurred.

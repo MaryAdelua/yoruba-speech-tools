@@ -1,0 +1,14 @@
+{
+  "written_unit": "kúkú",
+  "reference_ids": [
+    "u02",
+    "u03"
+  ],
+  "recording_id": "p03_natural",
+  "start_s": 1.185,
+  "end_s": 1.48,
+  "status": "UNVERIFIED_WORD_PROPOSAL",
+  "end_boundary": "uncertain per listener feedback on u03_candidate_v2.wav",
+  "processing": "Exact PCM slice; original unchanged",
+  "created_at": "2026-10-05T03:37:41.291020+00:00"
+}

@@ -1,0 +1,348 @@
+[
+  {
+    "sentence_id": "p01",
+    "dimension_comparisons": {
+      "lexical_tone_realization": {
+        "generation_1": "clearly problematic",
+        "generation_2": "clearly problematic",
+        "same": true
+      },
+      "segmental_pronunciation": {
+        "generation_1": "clearly problematic",
+        "generation_2": "clearly problematic",
+        "same": true
+      },
+      "perceived_nasality": {
+        "generation_1": "normal",
+        "generation_2": "somewhat excessive/unusual",
+        "same": false
+      },
+      "prosody_intonation": {
+        "generation_1": "clearly problematic",
+        "generation_2": "clearly problematic",
+        "same": true
+      },
+      "rhythm_fluency": {
+        "generation_1": "clearly problematic",
+        "generation_2": "clearly problematic",
+        "same": true
+      },
+      "overall_yoruba_naturalness": {
+        "generation_1": "very unnatural",
+        "generation_2": "very unnatural",
+        "same": true
+      },
+      "reviewer_confidence": {
+        "generation_1": "high",
+        "generation_2": "high",
+        "same": true
+      }
+    },
+    "tags_generation_1": [
+      "lexical tone",
+      "consonant realization",
+      "vowel realization",
+      "unusual duration/stretching",
+      "rhythm",
+      "intonation/prosody"
+    ],
+    "tags_generation_2": [
+      "lexical tone",
+      "nasal quality",
+      "consonant realization",
+      "vowel realization",
+      "unusual duration/stretching",
+      "rhythm",
+      "intonation/prosody"
+    ]
+  },
+  {
+    "sentence_id": "p02",
+    "dimension_comparisons": {
+      "lexical_tone_realization": {
+        "generation_1": "clearly problematic",
+        "generation_2": "clearly problematic",
+        "same": true
+      },
+      "segmental_pronunciation": {
+        "generation_1": "clearly problematic",
+        "generation_2": "clearly problematic",
+        "same": true
+      },
+      "perceived_nasality": {
+        "generation_1": "clearly excessive/unusual",
+        "generation_2": "clearly excessive/unusual",
+        "same": true
+      },
+      "prosody_intonation": {
+        "generation_1": "clearly problematic",
+        "generation_2": "clearly problematic",
+        "same": true
+      },
+      "rhythm_fluency": {
+        "generation_1": "clearly problematic",
+        "generation_2": "clearly problematic",
+        "same": true
+      },
+      "overall_yoruba_naturalness": {
+        "generation_1": "very unnatural",
+        "generation_2": "very unnatural",
+        "same": true
+      },
+      "reviewer_confidence": {
+        "generation_1": "high",
+        "generation_2": "high",
+        "same": true
+      }
+    },
+    "tags_generation_1": [
+      "lexical tone",
+      "nasal quality",
+      "consonant realization",
+      "vowel realization",
+      "unusual duration/stretching",
+      "rhythm",
+      "intonation/prosody"
+    ],
+    "tags_generation_2": [
+      "lexical tone",
+      "nasal quality",
+      "consonant realization",
+      "vowel realization",
+      "unusual duration/stretching",
+      "rhythm",
+      "intonation/prosody"
+    ]
+  },
+  {
+    "sentence_id": "p03",
+    "dimension_comparisons": {
+      "lexical_tone_realization": {
+        "generation_1": "clearly problematic",
+        "generation_2": "clearly problematic",
+        "same": true
+      },
+      "segmental_pronunciation": {
+        "generation_1": "clearly problematic",
+        "generation_2": "clearly problematic",
+        "same": true
+      },
+      "perceived_nasality": {
+        "generation_1": "somewhat excessive/unusual",
+        "generation_2": "clearly excessive/unusual",
+        "same": false
+      },
+      "prosody_intonation": {
+        "generation_1": "clearly problematic",
+        "generation_2": "clearly problematic",
+        "same": true
+      },
+      "rhythm_fluency": {
+        "generation_1": "clearly problematic",
+        "generation_2": "clearly problematic",
+        "same": true
+      },
+      "overall_yoruba_naturalness": {
+        "generation_1": "very unnatural",
+        "generation_2": "very unnatural",
+        "same": true
+      },
+      "reviewer_confidence": {
+        "generation_1": "high",
+        "generation_2": "high",
+        "same": true
+      }
+    },
+    "tags_generation_1": [
+      "lexical tone",
+      "nasal quality",
+      "consonant realization",
+      "vowel realization",
+      "unusual duration/stretching",
+      "rhythm",
+      "intonation/prosody"
+    ],
+    "tags_generation_2": [
+      "lexical tone",
+      "nasal quality",
+      "consonant realization",
+      "vowel realization",
+      "unusual duration/stretching",
+      "rhythm",
+      "intonation/prosody"
+    ]
+  },
+  {
+    "sentence_id": "p04",
+    "dimension_comparisons": {
+      "lexical_tone_realization": {
+        "generation_1": "clearly problematic",
+        "generation_2": "clearly problematic",
+        "same": true
+      },
+      "segmental_pronunciation": {
+        "generation_1": "clearly problematic",
+        "generation_2": "clearly problematic",
+        "same": true
+      },
+      "perceived_nasality": {
+        "generation_1": "clearly excessive/unusual",
+        "generation_2": "clearly excessive/unusual",
+        "same": true
+      },
+      "prosody_intonation": {
+        "generation_1": "clearly problematic",
+        "generation_2": "clearly problematic",
+        "same": true
+      },
+      "rhythm_fluency": {
+        "generation_1": "clearly problematic",
+        "generation_2": "clearly problematic",
+        "same": true
+      },
+      "overall_yoruba_naturalness": {
+        "generation_1": "very unnatural",
+        "generation_2": "very unnatural",
+        "same": true
+      },
+      "reviewer_confidence": {
+        "generation_1": "high",
+        "generation_2": "high",
+        "same": true
+      }
+    },
+    "tags_generation_1": [
+      "lexical tone",
+      "nasal quality",
+      "consonant realization",
+      "vowel realization",
+      "unusual duration/stretching",
+      "rhythm",
+      "intonation/prosody"
+    ],
+    "tags_generation_2": [
+      "lexical tone",
+      "nasal quality",
+      "consonant realization",
+      "vowel realization",
+      "unusual duration/stretching",
+      "rhythm",
+      "intonation/prosody"
+    ]
+  },
+  {
+    "sentence_id": "p05",
+    "dimension_comparisons": {
+      "lexical_tone_realization": {
+        "generation_1": "clearly problematic",
+        "generation_2": "clearly problematic",
+        "same": true
+      },
+      "segmental_pronunciation": {
+        "generation_1": "clearly problematic",
+        "generation_2": "clearly problematic",
+        "same": true
+      },
+      "perceived_nasality": {
+        "generation_1": "normal",
+        "generation_2": "normal",
+        "same": true
+      },
+      "prosody_intonation": {
+        "generation_1": "clearly problematic",
+        "generation_2": "clearly problematic",
+        "same": true
+      },
+      "rhythm_fluency": {
+        "generation_1": "clearly problematic",
+        "generation_2": "clearly problematic",
+        "same": true
+      },
+      "overall_yoruba_naturalness": {
+        "generation_1": "very unnatural",
+        "generation_2": "very unnatural",
+        "same": true
+      },
+      "reviewer_confidence": {
+        "generation_1": "high",
+        "generation_2": "high",
+        "same": true
+      }
+    },
+    "tags_generation_1": [
+      "e/ẹ",
+      "lexical tone",
+      "nasal quality",
+      "consonant realization",
+      "vowel realization",
+      "rhythm",
+      "intonation/prosody"
+    ],
+    "tags_generation_2": [
+      "e/ẹ",
+      "lexical tone",
+      "nasal quality",
+      "consonant realization",
+      "vowel realization",
+      "rhythm",
+      "intonation/prosody"
+    ]
+  },
+  {
+    "sentence_id": "p06",
+    "dimension_comparisons": {
+      "lexical_tone_realization": {
+        "generation_1": "clearly problematic",
+        "generation_2": "clearly problematic",
+        "same": true
+      },
+      "segmental_pronunciation": {
+        "generation_1": "clearly problematic",
+        "generation_2": "clearly problematic",
+        "same": true
+      },
+      "perceived_nasality": {
+        "generation_1": "somewhat excessive/unusual",
+        "generation_2": "clearly excessive/unusual",
+        "same": false
+      },
+      "prosody_intonation": {
+        "generation_1": "clearly problematic",
+        "generation_2": "clearly problematic",
+        "same": true
+      },
+      "rhythm_fluency": {
+        "generation_1": "clearly problematic",
+        "generation_2": "clearly problematic",
+        "same": true
+      },
+      "overall_yoruba_naturalness": {
+        "generation_1": "very unnatural",
+        "generation_2": "very unnatural",
+        "same": true
+      },
+      "reviewer_confidence": {
+        "generation_1": "high",
+        "generation_2": "high",
+        "same": true
+      }
+    },
+    "tags_generation_1": [
+      "lexical tone",
+      "nasal quality",
+      "consonant realization",
+      "vowel realization",
+      "unusual duration/stretching",
+      "rhythm",
+      "intonation/prosody"
+    ],
+    "tags_generation_2": [
+      "lexical tone",
+      "nasal quality",
+      "consonant realization",
+      "vowel realization",
+      "rhythm",
+      "intonation/prosody"
+    ]
+  }
+]

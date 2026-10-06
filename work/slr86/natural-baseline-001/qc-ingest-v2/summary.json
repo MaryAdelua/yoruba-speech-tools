@@ -1,0 +1,21 @@
+{
+  "review_version": 2,
+  "reviewer": "Mary Adelua",
+  "counts": {
+    "cannot determine": 0,
+    "minor uncertainty": 1,
+    "mismatch": 0,
+    "transcript matches audio": 19
+  },
+  "input_sha256": "19aa11fc4827d4e66ffb1bdefbf81b03854f445479a892ec701689e7d8692e00",
+  "notes": [
+    {
+      "source_id": "yom_08421_00493295037",
+      "judgment": "minor uncertainty",
+      "confidence": "high",
+      "verbatim_note": "The \"S\" with the dot isnt pronounced, the speaker pronounced it as \"S\" omitting the real pronunciation"
+    }
+  ],
+  "use_prior_human_reviews": false,
+  "paired_set": "Previously approved six sentence identities retained; reassess eligibility from v2 findings rather than regenerate selections."
+}

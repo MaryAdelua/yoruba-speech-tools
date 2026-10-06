@@ -1,0 +1,110 @@
+[
+  {
+    "generation_id": "p01_gpt-realtime-2.1_marin_r01",
+    "exact_input": "Wọ́n na Àdùnní játijàti.",
+    "provider_transcripts": [
+      "Wọ́n na Àdùnní játijàti."
+    ],
+    "exact_transcript_match": true,
+    "audio_content_status": "REQUIRES_LISTENING_VERIFICATION; transcript is not acoustic proof"
+  },
+  {
+    "generation_id": "p01_gpt-realtime-2.1_marin_r02",
+    "exact_input": "Wọ́n na Àdùnní játijàti.",
+    "provider_transcripts": [
+      "Wọ́n na Àdùnní játijàti."
+    ],
+    "exact_transcript_match": true,
+    "audio_content_status": "REQUIRES_LISTENING_VERIFICATION; transcript is not acoustic proof"
+  },
+  {
+    "generation_id": "p02_gpt-realtime-2.1_marin_r01",
+    "exact_input": "Àwọn ọmọ ogun orí ilẹ̀ ń bọ̀.",
+    "provider_transcripts": [
+      "Àwọn omọ ogun orí ilẹ̀ ń bọ̀."
+    ],
+    "exact_transcript_match": false,
+    "audio_content_status": "REQUIRES_LISTENING_VERIFICATION; transcript is not acoustic proof"
+  },
+  {
+    "generation_id": "p02_gpt-realtime-2.1_marin_r02",
+    "exact_input": "Àwọn ọmọ ogun orí ilẹ̀ ń bọ̀.",
+    "provider_transcripts": [
+      "Àwọn ọmọ ogun orí ilẹ̀ ń bọ̀."
+    ],
+    "exact_transcript_match": true,
+    "audio_content_status": "REQUIRES_LISTENING_VERIFICATION; transcript is not acoustic proof"
+  },
+  {
+    "generation_id": "p03_gpt-realtime-2.1_marin_r01",
+    "exact_input": "Kò kúkú sírú ọlọ́run, Ọba tí kò ṣeé pè lẹ́jọ́.",
+    "provider_transcripts": [
+      "Kò kúkú sírú olọ́run, Ọba tí kò ṣeé pè lẹ́jọ́."
+    ],
+    "exact_transcript_match": false,
+    "audio_content_status": "REQUIRES_LISTENING_VERIFICATION; transcript is not acoustic proof"
+  },
+  {
+    "generation_id": "p03_gpt-realtime-2.1_marin_r02",
+    "exact_input": "Kò kúkú sírú ọlọ́run, Ọba tí kò ṣeé pè lẹ́jọ́.",
+    "provider_transcripts": [
+      "Kò kúkú sírú ọlọ́run, Ọba tí kò ṣeé pè lẹ́jọ́."
+    ],
+    "exact_transcript_match": true,
+    "audio_content_status": "REQUIRES_LISTENING_VERIFICATION; transcript is not acoustic proof"
+  },
+  {
+    "generation_id": "p04_gpt-realtime-2.1_marin_r01",
+    "exact_input": "Ata ni Bọ́láfadé ń tà láti rán ara rẹ̀ lọ sí ilé-ìwé.",
+    "provider_transcripts": [
+      "Ata ni Bọ́láfadé ń tà láti rán ara rẹ̀ lọ sí ilé-ìwé."
+    ],
+    "exact_transcript_match": true,
+    "audio_content_status": "REQUIRES_LISTENING_VERIFICATION; transcript is not acoustic proof"
+  },
+  {
+    "generation_id": "p04_gpt-realtime-2.1_marin_r02",
+    "exact_input": "Ata ni Bọ́láfadé ń tà láti rán ara rẹ̀ lọ sí ilé-ìwé.",
+    "provider_transcripts": [
+      "Ata ni Bọ́láfadé ń tà láti rán ara rẹ̀ lọ sí ilé-ìwé."
+    ],
+    "exact_transcript_match": true,
+    "audio_content_status": "REQUIRES_LISTENING_VERIFICATION; transcript is not acoustic proof"
+  },
+  {
+    "generation_id": "p05_gpt-realtime-2.1_marin_r01",
+    "exact_input": "Ẹlẹ́dẹ̀ náà bí ọmọ mẹ́fà péré.",
+    "provider_transcripts": [
+      "Ẹlẹ́dẹ̀ náà bí ọmọ mẹ́fà péré."
+    ],
+    "exact_transcript_match": true,
+    "audio_content_status": "REQUIRES_LISTENING_VERIFICATION; transcript is not acoustic proof"
+  },
+  {
+    "generation_id": "p05_gpt-realtime-2.1_marin_r02",
+    "exact_input": "Ẹlẹ́dẹ̀ náà bí ọmọ mẹ́fà péré.",
+    "provider_transcripts": [
+      "Ẹlẹ́dẹ̀ náà bí ọmọ mẹ́fà péré."
+    ],
+    "exact_transcript_match": true,
+    "audio_content_status": "REQUIRES_LISTENING_VERIFICATION; transcript is not acoustic proof"
+  },
+  {
+    "generation_id": "p06_gpt-realtime-2.1_marin_r01",
+    "exact_input": "Ọmọ tí a bí tí ó ń súnkún tọ̀san tòru.",
+    "provider_transcripts": [
+      "Ọmọ tí a bí tí ó ń súnkún tọ̀san tòru."
+    ],
+    "exact_transcript_match": true,
+    "audio_content_status": "REQUIRES_LISTENING_VERIFICATION; transcript is not acoustic proof"
+  },
+  {
+    "generation_id": "p06_gpt-realtime-2.1_marin_r02",
+    "exact_input": "Ọmọ tí a bí tí ó ń súnkún tọ̀san tòru.",
+    "provider_transcripts": [
+      "Ọmọ tí a bí tí ó ń súnkún tọ̀san tòru."
+    ],
+    "exact_transcript_match": true,
+    "audio_content_status": "REQUIRES_LISTENING_VERIFICATION; transcript is not acoustic proof"
+  }
+]

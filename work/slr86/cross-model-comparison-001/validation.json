@@ -1,0 +1,13 @@
+{
+  "validated_ai_annotations": 24,
+  "natural_reference_recordings": 6,
+  "exact_text_ids_models_voices_audio_hashes_checked": true,
+  "old_975_files_unchanged": true,
+  "RMS_matches_existing_natural_signal_measurements": true,
+  "synthetic_gain_and_silence_padding_test": "PASS",
+  "input_exports_preserved_verbatim": true,
+  "models_trained": 0,
+  "audio_generated": 0,
+  "F0_extraction_rerun": false,
+  "combined_scores_created": 0
+}
