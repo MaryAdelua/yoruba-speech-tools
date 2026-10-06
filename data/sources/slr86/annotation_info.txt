@@ -1,0 +1,35 @@
+﻿Annotation information:                                                            
+  The recordings contain annotations in the script which include disfluencies   
+  such as audible breathing, hesitations, external audio and abrupt stops. The  
+  additional annotations are denoted by square brackets []. In total, the          
+  scripts contain 1306 annotations, 682 for the female recordings and 625 for   
+  the male recordings.                                                             
+                                                                                   
+Annotations:                                                                       
+  [abrupt]:                                                                        
+  The audio stops abruptly at the end of the recording, possibly cutting off the 
+  end of the audio.                                                                
+                                                                                   
+  [breath]:                                                                        
+  Audible breathing or a sniff was heard in the recording.                         
+                                                                                   
+  [external]                                                                       
+  External audio can be heard in the recordings.                                   
+                                                                                   
+  [hesitation]                                                                     
+  Hesitation in the reading of the text.                                           
+                                                                                   
+  [snap]                                                                           
+  A minor snap of the tongue, lip movement  preceding, during (or sometimes        
+  following) a line recording.                                                     
+                                                                                   
+The annotations can be at the start, end or anywhere in the line. Some lines       
+contain more than one annotation.                                                  
+                                                                                   
+Examples:                                                                          
+  Ohùn wa ti há. [external]                                                        
+  [breath] Ṣé o fẹ́ràn aṣọ tí ẹ̀gbọ́n rẹ fi ránṣẹ́ láti òkè òkun? [external]           
+                                                                                   
+  In the first example, external sounds were heard at the end of the recording. 
+  In the second example breathing was heard at the start of the recording, as   
+  well as an external sounds being noticed at the end of the recordings. 

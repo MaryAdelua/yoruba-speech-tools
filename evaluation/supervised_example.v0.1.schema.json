@@ -1,0 +1,444 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:yoruba-speech-tools:supervised-example:0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "0.1"
+    },
+    "example_id": {
+      "type": "string"
+    },
+    "audio": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "path": {
+          "type": "string"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "duration_s": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      },
+      "required": [
+        "path",
+        "sha256",
+        "duration_s"
+      ]
+    },
+    "reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "text": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string"
+        },
+        "role": {
+          "const": "intended_lexical_reference_not_verified_realization"
+        }
+      },
+      "required": [
+        "text",
+        "source",
+        "role"
+      ]
+    },
+    "human_annotations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "revision": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "annotator_id": {
+            "type": "string"
+          },
+          "native_speaker_self_report": {
+            "type": "boolean"
+          },
+          "evidence_type": {
+            "const": "human_perception_not_acoustic_diagnosis"
+          },
+          "scope": {
+            "enum": [
+              "utterance",
+              "interval"
+            ]
+          },
+          "intervals": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "start_s": {
+                      "type": "number",
+                      "minimum": 0
+                    },
+                    "end_s": {
+                      "type": "number",
+                      "exclusiveMinimum": 0
+                    },
+                    "basis": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "start_s",
+                    "end_s",
+                    "basis"
+                  ]
+                }
+              }
+            ]
+          },
+          "confidence": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "value": {
+                "enum": [
+                  null,
+                  "low",
+                  "medium",
+                  "high"
+                ]
+              },
+              "source": {
+                "enum": [
+                  "not_provided",
+                  "annotator_reported"
+                ]
+              }
+            },
+            "required": [
+              "value",
+              "source"
+            ]
+          },
+          "observations": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "utterance_naturalness": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "perceived_nasality": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "lexical_tone_errors": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "segmental_pronunciation_errors": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "prosodic_intonational_naturalness": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "rhythm_fluency": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "semantic_content": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "utterance_naturalness",
+              "perceived_nasality",
+              "lexical_tone_errors",
+              "segmental_pronunciation_errors",
+              "prosodic_intonational_naturalness",
+              "rhythm_fluency",
+              "semantic_content"
+            ]
+          },
+          "source_statement": {
+            "type": "string"
+          },
+          "supersedes": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "revision",
+          "annotator_id",
+          "native_speaker_self_report",
+          "evidence_type",
+          "scope",
+          "intervals",
+          "confidence",
+          "observations",
+          "source_statement",
+          "supersedes"
+        ],
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "scope": {
+                  "const": "interval"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "intervals": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "start_s": {
+                        "type": "number",
+                        "minimum": 0
+                      },
+                      "end_s": {
+                        "type": "number",
+                        "exclusiveMinimum": 0
+                      },
+                      "basis": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "start_s",
+                      "end_s",
+                      "basis"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "confidence": {
+                  "properties": {
+                    "source": {
+                      "const": "not_provided"
+                    }
+                  }
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "confidence": {
+                  "properties": {
+                    "value": {
+                      "type": "null"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "annotation_history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "status": {
+            "const": "superseded"
+          },
+          "statement": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "statement"
+        ]
+      }
+    },
+    "assessments": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "lexical_tone_accuracy": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "status": {
+              "const": "UNSCORED"
+            },
+            "score": {
+              "type": "null"
+            },
+            "note": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "status",
+            "score",
+            "note"
+          ]
+        },
+        "segmental_pronunciation": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "status": {
+              "const": "UNSCORED"
+            },
+            "score": {
+              "type": "null"
+            },
+            "note": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "status",
+            "score",
+            "note"
+          ]
+        },
+        "prosody_intonation": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "status": {
+              "const": "UNSCORED"
+            },
+            "score": {
+              "type": "null"
+            },
+            "note": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "status",
+            "score",
+            "note"
+          ]
+        },
+        "fluency_rhythm": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "status": {
+              "const": "UNSCORED"
+            },
+            "score": {
+              "type": "null"
+            },
+            "note": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "status",
+            "score",
+            "note"
+          ]
+        },
+        "semantic_content_correctness": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "status": {
+              "const": "UNSCORED"
+            },
+            "score": {
+              "type": "null"
+            },
+            "note": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "status",
+            "score",
+            "note"
+          ]
+        }
+      },
+      "required": [
+        "lexical_tone_accuracy",
+        "segmental_pronunciation",
+        "prosody_intonation",
+        "fluency_rhythm",
+        "semantic_content_correctness"
+      ]
+    },
+    "measurement_artifacts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "alignment_artifact": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema_version",
+    "example_id",
+    "audio",
+    "reference",
+    "human_annotations",
+    "annotation_history",
+    "assessments",
+    "measurement_artifacts",
+    "alignment_artifact"
+  ]
+}

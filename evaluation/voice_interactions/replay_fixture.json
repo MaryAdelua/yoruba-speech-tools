@@ -1,0 +1,15 @@
+{
+  "purpose": "Hand-authored transport/report fixture ONLY. These are not measured model scores.",
+  "user": "Mo ní ọsàn mẹ́ta, mo sì ra méjì sí i. Ọsàn mélòó ni mo ní lápapọ̀? Dá mi lóhùn ní èdè Yorùbá nínú gbólóhùn kan.",
+  "assistant": "O ní ọsàn márùn-ún lápapọ̀.",
+  "judgment": {
+    "request_match": "matches",
+    "request_match_reason": "Fixture input is the draft reference request.",
+    "dimensions": {
+      "semantic_correctness": {"status": "scored", "score": 4, "evidence": "márùn-ún", "reason": "Fixture label: three plus two is five."},
+      "task_completion": {"status": "scored", "score": 4, "evidence": "O ní ọsàn márùn-ún lápapọ̀.", "reason": "Fixture label: gives the requested count in one sentence."},
+      "language_adherence": {"status": "scored", "score": 4, "evidence": "O ní ọsàn márùn-ún lápapọ̀.", "reason": "Fixture label: the response is in Yoruba."}
+    },
+    "uncertainties": []
+  }
+}

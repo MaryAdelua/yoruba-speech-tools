@@ -1,0 +1,37 @@
+[
+  {
+    "name": "LICENSE",
+    "url": "https://openslr.trmal.net/resources/86/LICENSE",
+    "sha256": "bae5ccc863235f984a52c07d011e48a86c0c12f923be2dedd8624c7abdc22c6c",
+    "bytes": 20132,
+    "headers_if_newly_fetched": {}
+  },
+  {
+    "name": "about.html",
+    "url": "https://openslr.trmal.net/resources/86/about.html",
+    "sha256": "0bf6432a5152fab2441a7c182b5c5c6e303bdfa6169881de0fbd355fbd17a140",
+    "bytes": 1388,
+    "headers_if_newly_fetched": {}
+  },
+  {
+    "name": "line_index_female.tsv",
+    "url": "https://openslr.trmal.net/resources/86/line_index_female.tsv",
+    "sha256": "d729f6b7d748e6aa81454fb3111433fb9c6f3c5f38ff8f5fb5407565ad2beeb0",
+    "bytes": 149920,
+    "headers_if_newly_fetched": {}
+  },
+  {
+    "name": "line_index_male.tsv",
+    "url": "https://openslr.trmal.net/resources/86/line_index_male.tsv",
+    "sha256": "6948e31498d017c8875d34a962f19a611611c4842383b52e1cea823e889aa2a8",
+    "bytes": 134722,
+    "headers_if_newly_fetched": {}
+  },
+  {
+    "name": "annotation_info.txt",
+    "url": "https://openslr.trmal.net/resources/86/annotation_info.txt",
+    "sha256": "b6959c7bcf6d84e8ad270c1f60ffde9c8eae11302f5389d65532ad3311ac7c42",
+    "bytes": 2952,
+    "headers_if_newly_fetched": {}
+  }
+]

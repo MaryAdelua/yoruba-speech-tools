@@ -1,0 +1,19 @@
+{
+  "reference_text": "ó ní ọ̀sán márùn-ún",
+  "reference_source": "User-supplied intended lexical form; not a claim of correct acoustic realization",
+  "observed_transcript_status": "Native listener recognizes the intended utterance; exact segmental and tonal realization is not certified",
+  "human_annotation": "As a native Yorùbá speaker, I perceive the entire AI-generated utterance as unnatural. The entire utterance has an unusually nasal/nasalized quality, not merely the final word. The tonal/melodic realization sounds unnatural for Yorùbá. Some consonant/nasal portions appear unusually prominent or lengthened. Although the lexical content is recognizable, recognizable/correct text must NOT be treated as evidence of correct pronunciation.",
+  "human_annotation_scope": "Entire utterance; native-listener perception, not an acoustically proven diagnosis. Specific time intervals and annotator confidence have not been supplied.",
+  "human_annotation_history": [{"status": "superseded_by_scope_clarification", "text": "Native listener reports unnatural tonal/melodic realization and unusually prominent/lengthened n-like or nasal realization.", "scope": "Earlier summary emphasized o ni and márùn-ún; do not interpret as limiting the observation to those portions."}],
+  "boundary_status": "PROPOSED_REQUIRES_NATIVE_REVIEW",
+  "boundary_method": "Existing unverified local CTC token events plus waveform/spectral envelope; events are anchors, not phoneme boundaries. No duration normalization.",
+  "reference_units": [
+    {"word": "ó", "syllable": "ó", "start_s": 0.80, "end_s": 0.94, "basis": "Provisional speech onset; existing o event at 0.84 s; n event at 0.94 s"},
+    {"word": "ní", "syllable": "ní", "start_s": 0.94, "end_s": 1.12, "basis": "Existing n/i events at 0.94/1.00 s; next o event at 1.12 s"},
+    {"word": "ọ̀sán", "syllable": "ọ̀", "start_s": 1.12, "end_s": 1.22, "basis": "Existing o event at 1.12 s and s event at 1.22 s"},
+    {"word": "ọ̀sán", "syllable": "sán", "start_s": 1.22, "end_s": 1.46, "basis": "Existing s/a/n events at 1.22/1.30/1.36 s; m event at 1.46 s; nasal duration not isolated"},
+    {"word": "márùn-ún", "syllable": "má", "start_s": 1.46, "end_s": 1.64, "basis": "Existing m/a events at 1.46/1.54 s; r event at 1.64 s"},
+    {"word": "márùn-ún", "syllable": "rùn", "start_s": 1.64, "end_s": 1.78, "basis": "r/u events at 1.64/1.72 s; end at 1.78 s is a review placeholder, not a detected syllable boundary", "special_flag": "FINAL_NASAL_SEQUENCE_UNRESOLVED"},
+    {"word": "márùn-ún", "syllable": "ún", "start_s": 1.78, "end_s": 1.90, "basis": "Start at 1.78 s is a review placeholder; n event at 1.82 s does not prove a separate consonant or vowel nucleus; end from speech envelope", "special_flag": "FINAL_NASAL_SEQUENCE_UNRESOLVED"}
+  ]
+}

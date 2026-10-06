@@ -1,0 +1,20 @@
+{
+  "purpose": "Draft judge-validation responses for the SAME single interaction, not additional test cases. Native-speaker validation pending.",
+  "variants": [
+    {
+      "id": "correct_yoruba",
+      "assistant": "O ní ọsàn márùn-ún lápapọ̀.",
+      "expected_ranges": {"semantic_correctness": [3, 4], "task_completion": [3, 4], "language_adherence": [3, 4]}
+    },
+    {
+      "id": "wrong_number",
+      "assistant": "O ní ọsàn mẹ́fà lápapọ̀.",
+      "expected_ranges": {"semantic_correctness": [0, 1], "task_completion": [0, 2], "language_adherence": [3, 4]}
+    },
+    {
+      "id": "correct_english",
+      "assistant": "You have five oranges in total.",
+      "expected_ranges": {"semantic_correctness": [3, 4], "task_completion": [3, 4], "language_adherence": [0, 1]}
+    }
+  ]
+}

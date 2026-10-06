@@ -1,0 +1,15 @@
+{
+  "schema_version": "0.1",
+  "case_id": "yo-interaction-001",
+  "task_type": "conversational_reply",
+  "reference_reviewed": false,
+  "reference_user_text": "Mo ní ọsàn mẹ́ta, mo sì ra méjì sí i. Ọsàn mélòó ni mo ní lápapọ̀? Dá mi lóhùn ní èdè Yorùbá nínú gbólóhùn kan.",
+  "expected_intent": "The user has three oranges, buys two more, and asks how many oranges they now have. They request one sentence in Yoruba.",
+  "expected_language": "yo",
+  "acceptance_criteria": [
+    "State that the user now has five oranges; accept equivalent Yoruba phrasing and either a number word or digit.",
+    "Answer in one sentence without an unrelated explanation, question, or change of task."
+  ],
+  "example_acceptable_response": "O ní ọsàn márùn-ún lápapọ̀.",
+  "review_note": "Draft recording script. A fluent speaker must confirm wording and intended meaning before reference_reviewed is set true. This is one development interaction, not a benchmark."
+}

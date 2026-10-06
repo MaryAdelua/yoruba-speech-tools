@@ -1,0 +1,159 @@
+{
+  "schema_version": "0.2",
+  "example_id": "assistant-001",
+  "sample_type": "ai_generated",
+  "audio": {
+    "path": "work/voice_eval/incoming/assistant.wav",
+    "sha256": "a25a12c361c861f3795d8378ecdfcf0d8c2bbc4b6e6e96b8bdbc58a28927845b",
+    "duration_s": 8.2
+  },
+  "speech_domain": "conversational_assistant_reply",
+  "provenance": {
+    "source_url": null,
+    "source_revision": null,
+    "parent_record_ids": [
+      "Yoruba_test_001.m4a.m4a"
+    ],
+    "processing_history": [
+      "Combined capture decoded to mono 24 kHz PCM and partitioned at 12.6 s; no gain normalization, denoising or silence removal."
+    ],
+    "capture_notes": "User-supplied combined recording; capture path/device unknown."
+  },
+  "transcript": {
+    "text": "O ni osan marun.",
+    "source": "gpt-4o-transcribe",
+    "status": "asr_unverified",
+    "tone_marked_text": null,
+    "tone_mark_status": "unavailable"
+  },
+  "acoustic_measurements": [
+    {
+      "family": "lexical_tone",
+      "path": "work/voice_eval/measurement-validation-002/validation.json",
+      "status": "descriptive_only",
+      "source_audio_sha256": "a25a12c361c861f3795d8378ecdfcf0d8c2bbc4b6e6e96b8bdbc58a28927845b"
+    }
+  ],
+  "speaker_normalized_measurements": [
+    {
+      "family": "pitch",
+      "artifact_path": "work/voice_eval/measurement-validation-002/comparison_frames.csv",
+      "equation": "12*log2(F0/estimator_full_clip_voiced_median)",
+      "baseline_scope": "same utterance, provisional; voice identity unknown",
+      "baseline_reference_ids": [
+        "assistant-001"
+      ],
+      "status": "provisional"
+    }
+  ],
+  "human_annotations": [
+    {
+      "id": "native-listener-001-r2",
+      "revision": 2,
+      "annotator_id": "user-native-listener-001",
+      "native_speaker_self_report": true,
+      "evidence_type": "human_perception_not_acoustic_diagnosis",
+      "scope": "utterance",
+      "intervals": null,
+      "confidence": {
+        "value": null,
+        "source": "not_provided"
+      },
+      "observations": {
+        "utterance_naturalness": "Entire utterance perceived as unnatural.",
+        "perceived_nasality": "Entire utterance has an unusually nasal/nasalized quality, not merely the final word.",
+        "lexical_tone_errors": null,
+        "segmental_pronunciation_errors": "Some consonant/nasal portions appear unusually prominent or lengthened; not acoustically established.",
+        "prosodic_intonational_naturalness": "Tonal/melodic realization perceived as unnatural; specific lexical-tone errors not localized.",
+        "rhythm_fluency": null,
+        "semantic_content": "Intended lexical content recognizable; this does not certify pronunciation or independent semantic correctness."
+      },
+      "source_statement": "As a native Yorùbá speaker, I perceive the entire AI-generated utterance as unnatural. The entire utterance has an unusually nasal/nasalized quality, not merely the final word. The tonal/melodic realization sounds unnatural for Yorùbá. Some consonant/nasal portions appear unusually prominent or lengthened. Although the lexical content is recognizable, recognizable/correct text must NOT be treated as evidence of correct pronunciation.",
+      "supersedes": "native-listener-001-r1"
+    }
+  ],
+  "annotation_history": [
+    {
+      "id": "native-listener-001-r1",
+      "status": "superseded",
+      "statement": "Native listener reports unnatural tonal/melodic realization and unusually prominent/lengthened n-like or nasal realization."
+    }
+  ],
+  "assessment_targets": {
+    "lexical_tone_accuracy": {
+      "status": "UNSCORED",
+      "score": null,
+      "note": "Independent research target; no inference from human perception or another dimension."
+    },
+    "segmental_pronunciation": {
+      "status": "UNSCORED",
+      "score": null,
+      "note": "Independent research target; no inference from human perception or another dimension."
+    },
+    "nasality_realization": {
+      "status": "UNSCORED",
+      "score": null,
+      "note": "Independent research target; no inference from human perception or another dimension."
+    },
+    "prosody_intonation": {
+      "status": "UNSCORED",
+      "score": null,
+      "note": "Independent research target; no inference from human perception or another dimension."
+    },
+    "fluency_rhythm": {
+      "status": "UNSCORED",
+      "score": null,
+      "note": "Independent research target; no inference from human perception or another dimension."
+    },
+    "semantic_content_correctness": {
+      "status": "UNSCORED",
+      "score": null,
+      "note": "Independent research target; no inference from human perception or another dimension."
+    },
+    "overall_perceived_naturalness": {
+      "status": "UNSCORED",
+      "score": null,
+      "note": "Independent research target; no inference from human perception or another dimension."
+    }
+  },
+  "analysis_design": {
+    "mode": "unpaired",
+    "paired_natural_example_ids": [],
+    "reference_cohort_id": null,
+    "text_match_status": "not_applicable"
+  },
+  "alignment_artifacts": [
+    "work/voice_eval/supervised-alignment-001/alignment.json"
+  ],
+  "lexical_tone_baseline": {
+    "method_id": null,
+    "paper_url": null,
+    "implementation_version": null,
+    "status": "not_run"
+  },
+  "development_status": "development_only",
+  "generation": {
+    "provider": "OpenAI",
+    "model": "ChatGPT Voice",
+    "model_version": null,
+    "voice": null,
+    "voice_version": null,
+    "prompt": {
+      "text": "Mo ní ọsàn mẹ́ta, mo sì ra méjì sí i. Ọsàn mélòó ni mo ní lápapọ̀? Dá mi lóhùn ní èdè Yorùbá nínú gbólóhùn kan.",
+      "source": "Original test case, intended prompt; actual user ASR uncertain",
+      "status": "intended_reference_only",
+      "tone_marked_text": "Mo ní ọsàn mẹ́ta, mo sì ra méjì sí i. Ọsàn mélòó ni mo ní lápapọ̀? Dá mi lóhùn ní èdè Yorùbá nínú gbólóhùn kan.",
+      "tone_mark_status": "source_preserved"
+    },
+    "intended_response": {
+      "text": "ó ní ọ̀sán márùn-ún",
+      "source": "Native listener supplied intended lexical form; not a phonetic transcript",
+      "status": "intended_reference_only",
+      "tone_marked_text": "ó ní ọ̀sán márùn-ún",
+      "tone_mark_status": "source_preserved"
+    },
+    "generated_at": null,
+    "settings": {},
+    "metadata_notes": "Model/voice version and generation settings unknown; do not infer from evaluator API models."
+  }
+}

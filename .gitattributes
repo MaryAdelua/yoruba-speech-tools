@@ -1,0 +1,2 @@
+# Preserve downloaded source bytes for provenance checksums.
+data/sources/slr86/* -text

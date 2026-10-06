@@ -1,0 +1,47 @@
+Yoruba voice evaluation: code recovery checkpoint
+
+This branch extends the existing project; earlier Yoruba work is preserved.
+Scope: automated semantic evaluation, descriptive pYIN/Praat acoustics,
+SLR86 natural-reference import/baseline, paired AI review, and p03 word alignment.
+No final tone/pronunciation/nasality/prosody/overall scorer and no predictor training.
+
+Recoverable from Git: source, schemas, tests, dependency specifications, source
+license/provenance documents and this checkpoint. See evaluation documentation.
+Not included: work/slr86, work/voice_eval, WAV/M4A recordings, human review
+exports, acoustic results, model weights, virtual environments or credentials.
+Those require a separate private backup. A clone alone cannot resume the study.
+
+Review checkpoint (2026-10-05): all 50 p03 word playback cuts accepted as usable.
+Three natural cuts use p03-three-cut-revision-001 revisions. Word-cut acceptance
+is not exact phonetic alignment or pronunciation correctness. Natural word review
+completed: nine current cuts directly rated; opening Ko carried forward from an
+earlier slightly different interval, explicitly documented in local annotation.
+Next: mini-TTS take 1, opening Ko. No AI word linguistic judgment recorded yet.
+Earlier full-sentence v2 reviews remain authoritative; v1 exports superseded.
+
+Critical private artifacts to back up, preserving their directory layout:
+work/slr86 (excluding reproducible model caches only if separately documented)
+work/voice_eval
+Original exported human-review JSON files in Downloads, where not already copied.
+Current resume checkpoint: work/slr86/p03-mms-alignment-001/resume_checkpoint.json
+Current word judgments: work/slr86/p03-mms-alignment-001/voice_linguistic_review.json
+Cut manifests: accepted_word_cuts.json, alignment.json and revision.json in
+respective p03-mms-alignment-001 and p03-three-cut-revision-001 folders.
+
+Alignment: scripts/align_p03_mms.py uses pinned torch/torchaudio 2.8 CPU,
+pretrained MMS_FA, local inference only. Original tone-marked text is retained;
+lossy ASCII adapter is only for timing. Word probabilities are not correctness.
+All original audio is preserved. Existing acoustic features are reused.
+Version-specific scripts can regenerate pages and proposals but may overwrite
+reviewed proposal outputs: run only in a separate restored copy when reproducing.
+Generated per-word conversational review pages currently live in private work
+outputs; restore them from backup rather than assuming all are script-generated.
+
+Validation: a clean-machine end-to-end restore has NOT been performed. Package
+versions, scripts and source hashes support reproducibility but do not guarantee
+identical results on a new environment. Future backup must be recovery-tested.
+
+Snapshot validation: unittest discovery ran 68 entries: 67 passed, one existing
+Condition B test module could not import because pytest is absent from this
+acoustic environment. Both p03 and paired-review JavaScript checks passed.
+Downloaded source files retain original whitespace/bytes for provenance.

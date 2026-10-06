@@ -1,0 +1,78 @@
+{
+  "schema_version": "0.1",
+  "example_id": "assistant-001",
+  "audio": {
+    "path": "work/voice_eval/incoming/assistant.wav",
+    "sha256": "a25a12c361c861f3795d8378ecdfcf0d8c2bbc4b6e6e96b8bdbc58a28927845b",
+    "duration_s": 8.2
+  },
+  "reference": {
+    "text": "ó ní ọ̀sán márùn-ún",
+    "source": "User-provided intended lexical form",
+    "role": "intended_lexical_reference_not_verified_realization"
+  },
+  "human_annotations": [
+    {
+      "id": "native-listener-001-r2",
+      "revision": 2,
+      "annotator_id": "user-native-listener-001",
+      "native_speaker_self_report": true,
+      "evidence_type": "human_perception_not_acoustic_diagnosis",
+      "scope": "utterance",
+      "intervals": null,
+      "confidence": {
+        "value": null,
+        "source": "not_provided"
+      },
+      "observations": {
+        "utterance_naturalness": "Entire utterance perceived as unnatural.",
+        "perceived_nasality": "Entire utterance has an unusually nasal/nasalized quality, not merely the final word.",
+        "lexical_tone_errors": null,
+        "segmental_pronunciation_errors": "Some consonant/nasal portions appear unusually prominent or lengthened; not acoustically established.",
+        "prosodic_intonational_naturalness": "Tonal/melodic realization perceived as unnatural; specific lexical-tone errors not localized.",
+        "rhythm_fluency": null,
+        "semantic_content": "Intended lexical content recognizable; this does not certify pronunciation or independent semantic correctness."
+      },
+      "source_statement": "As a native Yorùbá speaker, I perceive the entire AI-generated utterance as unnatural. The entire utterance has an unusually nasal/nasalized quality, not merely the final word. The tonal/melodic realization sounds unnatural for Yorùbá. Some consonant/nasal portions appear unusually prominent or lengthened. Although the lexical content is recognizable, recognizable/correct text must NOT be treated as evidence of correct pronunciation.",
+      "supersedes": "native-listener-001-r1"
+    }
+  ],
+  "annotation_history": [
+    {
+      "id": "native-listener-001-r1",
+      "status": "superseded",
+      "statement": "Native listener reports unnatural tonal/melodic realization and unusually prominent/lengthened n-like or nasal realization."
+    }
+  ],
+  "assessments": {
+    "lexical_tone_accuracy": {
+      "status": "UNSCORED",
+      "score": null,
+      "note": "Independent dimension; no automatic correctness finding from human perception or other dimensions."
+    },
+    "segmental_pronunciation": {
+      "status": "UNSCORED",
+      "score": null,
+      "note": "Independent dimension; no automatic correctness finding from human perception or other dimensions."
+    },
+    "prosody_intonation": {
+      "status": "UNSCORED",
+      "score": null,
+      "note": "Independent dimension; no automatic correctness finding from human perception or other dimensions."
+    },
+    "fluency_rhythm": {
+      "status": "UNSCORED",
+      "score": null,
+      "note": "Independent dimension; no automatic correctness finding from human perception or other dimensions."
+    },
+    "semantic_content_correctness": {
+      "status": "UNSCORED",
+      "score": null,
+      "note": "Independent dimension; no automatic correctness finding from human perception or other dimensions."
+    }
+  },
+  "measurement_artifacts": [
+    "work/voice_eval/measurement-validation-002/validation.json"
+  ],
+  "alignment_artifact": "work/voice_eval/supervised-alignment-001/alignment.json"
+}

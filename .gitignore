@@ -46,3 +46,10 @@ work/vits-interface/
 # Private release candidates contain participant audio. Keep them local until
 # the signed release and dataset license gates are complete.
 release_candidates/
+
+# Local voice-evaluation recordings, transcripts, reports, and credentials.
+work/voice_eval/
+.env
+.env.*
+.venv-acoustics/
+work/slr86/
