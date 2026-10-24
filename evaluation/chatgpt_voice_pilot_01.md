@@ -46,7 +46,7 @@ Mo kọ́ ẹ̀kọ́ tuntun lónìí.
 5. In the Capture panel, start recording. Ensure system audio is included.
 6. Play or request the ChatGPT spoken response.
 7. Let all ten sentences finish, then stop recording.
-8. Upload the resulting video file to Codex. Codex will extract the audio, split the ten sentences, standardize the files, and run the benchmark checks.
+8. Pass the resulting video file to the authorized local analysis workflow to extract the audio, split the ten sentences, standardize the files, and run the benchmark checks.
 
 Do not use a microphone recording of the computer speaker unless system-audio capture is unavailable; that would mix room acoustics and microphone noise into the model evaluation.
 

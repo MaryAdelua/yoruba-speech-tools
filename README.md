@@ -1,109 +1,76 @@
-# Yoruba pronunciation resource and integration research
+# Yoruba Speech Tools: Evaluation and Pronunciation Research
 
-This repository develops a training-ready Yoruba pronunciation resource and a model-independent methodology for improving Yoruba pronunciation in existing multilingual speech-generation systems.
+Research by Mary Adelua on meaning-preserving Yoruba speech generation. This repository contains **two connected phases of one research programme**: an earlier evaluation and tone-prompt study, followed by a pronunciation-resource and model-adaptation continuation.
 
-## Research question
+The continuation asks whether verified data and controlled model integration can address limitations observed in the earlier study. It does not replace the earlier results or establish that adaptation improves Yoruba speech.
 
-Can verified Yoruba speech, pronunciation representations, and—when required—explicit tone supervision measurably improve held-out Yoruba pronunciation in an existing multilingual speech model without reducing intelligibility or naturalness?
+## Start here
 
-## Current checkpoint
+| Phase | Question and contribution | Evidence and status |
+| --- | --- | --- |
+| **1. Speech evaluation and tone-prompt study** | Measure transcript, tone, meaning and naturalness separately; test concise tone guidance in existing voice systems. | [Benchmark](benchmark/README.md), [evaluation protocol](evaluation/EVALUATION_PROTOCOL.md), [cross-system pilot](evaluation/results/pilot_03_cross_system_comparison.md), [tone-prompt report](intervention/TONE_AWARE_INTERVENTION_REPORT.md). Completed diagnostic pilot; the null result is retained. |
+| **2. Pronunciation resource and model-adaptation continuation** | Build verified pronunciation/alignment resources, portable metadata and model-independent adapters; investigate a controlled MMS-TTS adaptation experiment. | [Verified dataset card](dataset/VERIFIED_ALIGNMENT_DATASET_CARD.md), [integration toolkit](integration/README.md), [Condition A report](experiment_01/CONDITION_A_IMPLEMENTATION_REPORT.md), [pause handoff](PAUSE_HANDOFF.md). Paused as of 19 July 2026; full Condition B and Condition C have not started. |
 
-- 120 controlled single-speaker Yoruba recordings collected;
-- audio quality checked and standardized locally;
-- Unicode-safe orthographic H/M/L tone annotations generated;
-- frame-level pYIN F0 tracks and utterance contours extracted;
-- 17 meaning-relevant contrast groups defined;
-- utterance-level alignment completed;
-- all 120 recordings listening-verified by the fluent speaker;
-- one trailing-noise correction completed (`0205`), with no re-recordings required;
-- matched ChatGPT Voice and Microsoft Copilot Voice baselines evaluated;
-- a concise functional-load tone-prompt intervention implemented and tested;
-- prompt-level tone guidance produced **no aggregate improvement** over the matched ChatGPT baseline: exact transcript accuracy, tone correctness, and naturalness were unchanged, while strict meaning recovery decreased from 33.3% to 22.2% on nine valid pairs.
+This overview was reconciled on 24 October 2026 against the dated records below. Existing folders and research artifacts remain in place.
 
-The prompt intervention is retained as a reproducible null result. It shows that prompt wording alone did not repair pronunciation. Future experiments will therefore compare verified data adaptation, a pronunciation-aware frontend, and optional auxiliary supervision in that order.
+## Phase 1 — evaluation and the null prompting result
 
-## Pronunciation resource package
+The earlier work assembled 120 controlled single-speaker Yoruba recordings, audio-quality checks, Unicode-safe orthographic H/M/L tone annotations, frame-level pYIN F0 tracks, utterance contours and 17 meaning-relevant contrast groups. The recordings were listening-verified by the fluent speaker; this is not independent multi-rater validation.
 
-The next phase is organized around a portable dataset and method rather than a standalone voice model:
+Matched ChatGPT Voice and Microsoft Copilot Voice pilots evaluated speech quality. A concise functional-load tone cue then tested whether prompting could improve the matched ChatGPT baseline.
 
-- `dataset/` contains the resource specification, annotation guide, split/leakage policy, dataset card, release gates, schema, and metadata-only manifest;
-- `method/` contains the staged integration guide, optional auxiliary-loss specification, and controlled proof-of-concept protocol;
-- an open-source TTS model will be used only after authorization as a proof-of-concept test bed.
+Across **nine valid matched pairs**, exact transcript accuracy, tone correctness and naturalness were unchanged; strict meaning recovery decreased from **33.3% to 22.2%**. The [intervention report](intervention/TONE_AWARE_INTERVENTION_REPORT.md) retains individual improvements and regressions, unusable-trial exclusions and the null aggregate finding.
 
-The current collection is a verified single-speaker calibration seed, not yet a publicly releasable or population-representative training corpus. See `dataset/PRONUNCIATION_RESOURCE_SPEC.md` for readiness levels and remaining gates.
+These are small, single-rater, non-blinded diagnostic results. They are not provider rankings, population estimates or proof that a proposed training method will work.
 
-The current readiness decision and exact blockers are recorded in `dataset/TRAINING_READINESS_REPORT.md`. The 120 previously evaluated prompts are marked diagnostic and benchmark-excluded in schema version 0.2 so they cannot accidentally be used as unbiased training evidence.
+## Phase 2 — a continuation through verified resources and controlled adaptation
 
-The 29-recording human-verified alignment batch can now be assembled as a
-private portable release candidate with `scripts/build_portable_release.py` and
-checked offline with `scripts/validate_portable_release.py`. The generated
-audio package remains local and non-redistributable until the signed release
-and license gates are complete. See `dataset/PORTABLE_RELEASE.md`.
+### Resource and alignment work
 
-An architecture-independent integration dry run is available through
-`scripts/build_integration_dry_run.py`. It produces canonical model-neutral
-records plus text-sequence and aligned-acoustic-sequence adapters while
-preserving exact Yoruba Unicode and enforcing provenance-aware loss masks. No
-model is loaded or trained in this phase.
+A separate 30-item collection produced **29 verified recordings**, with one excluded item and one corrected transcript. The [verified dataset card](dataset/VERIFIED_ALIGNMENT_DATASET_CARD.md) records 178 verified word boundaries and 321 verified syllable boundaries. Automatic estimates, corrections and the human-verified layer remain separate.
 
-## Experiment 1
+**Boundary annotation is not model evaluation:** human alignment review establishes where words and syllables occur in reference recordings. It does not show that synthesized speech improved. Orthographic tone labels are also not complete surface-tone measurements, and automatic phoneme candidates are not verified phoneme labels.
 
-Phase 1 selected Meta MMS-TTS Yoruba as the first non-commercial research
-test bed. The interface-only audit covered all 29 canonical records with zero
-unknown tokenizer symbols and complete mapping of every annotated tone-bearing
-syllable. No model weights were loaded or changed, and training has not begun.
+The continuation includes:
 
-See `experiment_01/PHASE_1_MODEL_SELECTION.md` for the candidate comparison,
-decision constraints, model-adapter design, and gates before Condition A.
+- [Resource specification](dataset/PRONUNCIATION_RESOURCE_SPEC.md), [split/leakage policy](dataset/SPLIT_AND_LEAKAGE_POLICY.md) and [portable release guidance](dataset/PORTABLE_RELEASE.md).
+- [Model-independent integration adapters](integration/README.md), Unicode-safe text processing and provenance-aware loss masks.
+- [Model-selection audit](experiment_01/PHASE_1_MODEL_SELECTION.md) and a frozen controlled experiment using Meta MMS-TTS Yoruba.
 
-Condition A now contains reproducible unmodified-model outputs for the three
-leakage-safe test items. Generation and packaging passed, model weights were
-unchanged, and a byte-identical offline rerun succeeded. Primary fluent-listener
-ratings are complete as a three-item single-rater pilot: pronunciation, tone,
-intelligibility, and meaning were correct; naturalness was partial. See
-`experiment_01/CONDITION_A_IMPLEMENTATION_REPORT.md`.
+The earlier 120 diagnostic prompts are benchmark-excluded for unbiased adaptation evidence. The verified batch is a single-speaker proof-of-concept seed, not a general-purpose Yoruba corpus.
 
-Condition B has now started at preflight. The protected split, audio, hashes,
-and MMS tokenizer contract pass, and no weights have been updated. The local
-runtime has no CUDA device. See `experiment_01/CONDITION_B_PREFLIGHT.md`.
+### Model experiment: dated status
 
-The complete Condition B recipe is now frozen but not approved for execution.
-It uses Meta's original trainable MMS/VITS generator and discriminator, a
-conservative small-data update policy, development-only early stopping, and a
-12 GB minimum NVIDIA GPU. See `experiment_01/CONDITION_B_TRAINING_RECIPE.md`.
+The [19 July 2026 pause handoff](PAUSE_HANDOFF.md) is the current status reference. Earlier preflight and implementation reports retain their historical gates; they do not override the later handoff.
 
-The reviewed execution target is a RunPod RTX A5000 24 GB Pod, currently the
-lowest-cost practical reproducible option in the provider comparison. A pinned
-Linux/CUDA container and fail-closed environment preflight are available in
-`execution/condition_b/`; neither can start training while approval is pending.
-See `experiment_01/CONDITION_B_EXECUTION_REVIEW.md`.
+| Stage | What is supported by the record | What is not established |
+| --- | --- | --- |
+| **Condition A: unmodified baseline** | Three held-out items generated; unchanged model weights; byte-identical offline rerun; human ratings complete. See [implementation report](experiment_01/CONDITION_A_IMPLEMENTATION_REPORT.md). | A three-item, single-rater, non-blinded pilot cannot establish population performance. Naturalness was partial; pronunciation-related ratings had a ceiling effect. |
+| **Condition B: technical validation** | Zero-update GPU preflight and separately approved **10 optimizer updates** completed. The handoff records no perceived regression and small perceived improvements on the three comparison items. | Ten updates are technical validation, not the full Condition B result or a validated improvement claim. |
+| **Condition B: full feasibility run** | Frozen approval allows at most 300 updates; [approval record](execution/condition_b/full_training_approval.json) retained. | **Not started.** Project remains paused; a new continuation decision is required. |
+| **Condition C** | A possible later research condition. | **Not started and not approved** in the Condition B record. |
 
-A strict implementation audit now confirms that the approval-gated original-
-VITS/MMS runner is implemented and its synthetic orchestration test passes.
-Real GPU execution remains blocked on data-transfer approval, verified
-checkpoint acquisition, the approved Linux/CUDA preflight, and a ten-update
-technical validation counted within the frozen budget. See
-`experiment_01/CONDITION_B_IMPLEMENTATION_AUDIT.md`.
+The historical local CUDA/checkpoint blockers were resolved for technical validation. The handoff records a later managed-environment restriction on initiating external private-audio processing; it is not a claim that the code or GPU validation failed. No training or external audio processing is initiated by these documentation changes.
 
-## Repository scope
+## Code and lightweight checks
 
-The repository tracks code, manifests, reports, recording sheets, and reproducible research metadata. Participant audio and generated ZIP archives are intentionally excluded from Git until a signed voice/data release and distribution plan are complete.
+Python tools cover text/tone representations, alignment review, portable metadata validation, integration adapters and approval-gated experiment runners. The code also contains tests; recorded GPU validation is separate from local text checks.
 
-## Important limitation
+For a dependency-free check of the Unicode/tone and pronunciation components, from the repository root:
 
-An Omnilingual ASR CTC acoustic alignment layer is now available for the new
-30-item pronunciation batch. It preserves the authoritative NFC Yoruba text,
-records token-derived word and syllable estimates with transparent confidence,
-and keeps automatic, manual, and verified layers separate. These estimates are
-not training-authoritative until a fluent reviewer exports and imports the
-human-verified corrections through the local alignment review tool. See
-`alignment/OMNILINGUAL_CTC_ALIGNMENT.md`.
+```bash
+git clone https://github.com/MaryAdelua/yoruba-speech-tools.git
+cd yoruba-speech-tools
+python3 -m unittest discover -s tests -p 'test_tone_parser.py' -v
+python3 -m unittest discover -s tests -p 'test_yoruba_pronunciation.py' -v
+```
 
-The project does not report lexical Tone Error Rate until the relevant acoustic
-units have completed this manual boundary review.
+Use Python 3.10 or newer. These commands do not load model weights, read private audio or start training. They cover only those two test modules, not the complete integration or GPU workflow. Other scripts have data, dependency and approval requirements described in their own guides.
 
-The current voice-system and intervention results are single-rater diagnostic findings from a small, non-blinded pilot. They are not population-level estimates or provider rankings.
+## Evidence, limitations and data access
 
-## Data and consent
-
-The speaker authorized research and commercial use in the project conversation. A signed release is still required before public redistribution or commercial dataset publication. See the consent status inside the local benchmark package.
+- **Demonstrated:** reproducible diagnostic comparisons, a preserved null prompting result, verified reference alignment, portable metadata and adapters, an unmodified-model baseline and limited technical training validation.
+- **Not yet demonstrated:** full Condition B/C outcomes, generalizable adaptation gains, independent blinded multi-rater evaluation, a finished validated speech model or a publicly releasable voice dataset.
+- Participant audio, private bundles and checkpoints must remain outside Git. A public code repository does not authorize redistribution of voice recordings. Signed release, dataset-license and other gates remain in the [release checklist](dataset/RELEASE_CHECKLIST.md).
+- [Human evaluation](experiment_01/CONDITION_A_IMPLEMENTATION_REPORT.md), [alignment authority](dataset/VERIFIED_ALIGNMENT_DATASET_CARD.md) and [technical execution status](PAUSE_HANDOFF.md) answer different questions; none substitutes for the others.
+- Results, frozen splits, recipes, hashes and original research records are preserved. No experiment was rerun or result changed for this overview.

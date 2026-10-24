@@ -13,7 +13,7 @@ This test applies the exact ChatGPT Pilot 3 prompts and evaluation criteria to M
 5. Wait silently for five seconds before submitting the next prompt.
 6. Do not speak during the recording.
 7. Do not correct or retry errors; preserve them as benchmark evidence.
-8. Upload the completed MP4 to Codex.
+8. Pass the completed MP4 to the authorized local analysis workflow.
 
 ## Prompts
 

@@ -12,7 +12,7 @@ Pilot 3 tests ten new sentences, emphasizing meaning-changing Yoruba tones. It u
 4. Wait silently for five seconds before submitting the next prompt.
 5. Do not speak during the recording.
 6. If ChatGPT makes an error or adds speech, do not restart; preserve it as test evidence.
-7. Upload the completed MP4 to Codex.
+7. Pass the completed MP4 to the authorized local analysis workflow.
 
 ## Prompts
 

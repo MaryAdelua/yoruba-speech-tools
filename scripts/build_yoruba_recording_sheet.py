@@ -145,7 +145,7 @@ steps = [
     ("Step 3 - Select the microphone", "If needed, open Windows Settings > System > Sound > Input and choose the microphone you want to use. Keep your mouth about 15-20 cm from it."),
     ("Step 4 - Make one file per sentence", "Press Record, wait one second, read one sentence naturally, wait one second, and stop. Do not exaggerate the tones."),
     ("Step 5 - Rename the recording", "Use the filename shown beside the sentence. Your computer may save M4A instead of WAV; that is acceptable for this first calibration."),
-    ("Step 6 - Send the recordings", "Put all 20 recordings in one folder, compress the folder to a ZIP file, and attach the ZIP to the Codex task."),
+    ("Step 6 - Send the recordings", "Put all 20 recordings in one folder, compress the folder to a ZIP file, and provide the ZIP through the authorized local review workflow."),
 ]
 for label, body in steps:
     p = doc.add_paragraph()
@@ -192,7 +192,7 @@ table.rows[0]._tr.get_or_add_trPr().append(OxmlElement("w:tblHeader"))
 doc.add_heading("When you finish", level=1)
 p = doc.add_paragraph()
 p.add_run("Attach one ZIP containing the 20 audio files. ").bold = True
-p.add_run("Codex will check sound quality, clipping, background noise, file matching, and whether the setup is suitable for the full study.")
+p.add_run("The local review workflow checks sound quality, clipping, background noise, file matching, and whether the setup is suitable for the full study.")
 
 for section in doc.sections:
     footer = section.footer.paragraphs[0]

@@ -11,7 +11,7 @@ This is the guided condition in a matched A/B test. Use the same ChatGPT voice u
 3. Paste each complete guided prompt separately.
 4. Wait until the voice finishes, then wait silently for five seconds.
 5. Do not speak, correct errors, or retry outputs.
-6. Upload the resulting MP4 to Codex.
+6. Pass the resulting MP4 to the authorized local analysis workflow.
 
 ## Guided prompts
 

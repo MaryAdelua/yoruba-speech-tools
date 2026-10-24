@@ -11,7 +11,7 @@ The first sentence-wide guide caused truncation. This version changes only one v
 3. Paste each complete prompt separately.
 4. Let the response finish, then wait silently for five seconds.
 5. Do not speak, correct, or retry an output.
-6. Upload the resulting MP4 to Codex.
+6. Pass the resulting MP4 to the authorized local analysis workflow.
 
 ## Concise guided prompts
 

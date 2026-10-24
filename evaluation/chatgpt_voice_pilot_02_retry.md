@@ -28,7 +28,7 @@ Keep the same voice and mode for all ten sentences.
 6. Paste **Prompt 2**, let it finish, and wait another five seconds.
 7. Continue until Prompt 10 is complete.
 8. Stop the Game Bar recording.
-9. Upload the single resulting MP4 file to Codex.
+9. Pass the single resulting MP4 file to the authorized local analysis workflow.
 
 Do not speak during ChatGPT's responses. If ChatGPT adds an explanation, do not restart; keep recording so the failure is preserved in the test.
 
@@ -74,7 +74,7 @@ Read aloud exactly the Yoruba sentence between the quotation marks. Say nothing 
 
 Read aloud exactly the Yoruba sentence between the quotation marks. Say nothing before or after it. “Ọmọ náà jẹ ẹ̀kọ ní òwúrọ̀.”
 
-## What Codex will do after upload
+## Local analysis after recording
 
 1. Extract the system audio from the MP4.
 2. Split the ten responses using the five-second gaps.

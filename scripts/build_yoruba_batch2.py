@@ -142,7 +142,7 @@ lead = doc.add_paragraph()
 lead.paragraph_format.space_after = Pt(8)
 r = lead.add_run("Review first: ")
 set_font(r, 11, bold=True)
-r = lead.add_run("Read the Yoruba and English silently. If any sentence does not sound natural to you, do not record it yet; tell Codex the filename and your correction.")
+r = lead.add_run("Read the Yoruba and English silently. If any sentence does not sound natural to you, do not record it yet; tell the project reviewer the filename and your correction.")
 set_font(r, 11)
 
 instructions = [
